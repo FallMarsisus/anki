@@ -210,19 +210,95 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 4699788870651128615,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -609312040398699555,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Généralités (deux sens)",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{Recto}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1070246671905232687,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Recto}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{Recto}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 9019573097784884380,
+                    "name": "Carte 2",
+                    "ord": 1,
+                    "qfmt": "{{Verso}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "Dataa",
-                "ototo"
-            ],
-            "guid": "ONOALlvfj0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
         {
             "__type__": "Note",
             "fields": [
@@ -930,6 +1006,268 @@
             "tags": [
                 "Dérivées"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos (a+b)\\)",
+                "\\(\\cos a \\cos b - \\sin a \\sin b \\)"
+            ],
+            "guid": "Mdf*yCPhTo",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos (a-b)\\)",
+                "\\(\\cos a \\cos b + \\sin a \\sin b\\)"
+            ],
+            "guid": "Fm{kjJEAbU",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos 2a\\)&nbsp;(3 formules)",
+                "\\(\\cos^2a - \\sin^2a = 2\\cos^2a - 1 = 1 - 2\\sin^2a\\)&nbsp;"
+            ],
+            "guid": "D=^>Wk}NOp",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos^2a\\)",
+                "\\(\\frac {1 + \\cos 2a} {2}\\)"
+            ],
+            "guid": "B&`031-CWK",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin (a+b)\\)",
+                "\\(\\sin a \\cos b + \\cos a \\sin b\\)"
+            ],
+            "guid": "AGB&yrlEXl",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin (a-b)\\)",
+                "\\(\\sin a \\cos b - \\cos a \\sin b\\)"
+            ],
+            "guid": "O<AF8,o#1;",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin 2a\\)",
+                "\\(2\\sin a \\cos a\\)"
+            ],
+            "guid": "C4_T8>UoRX",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin^2a\\)",
+                "\\(\\frac {1 - \\cos 2a} 2\\)"
+            ],
+            "guid": "GVj1.Ij3#j",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan (a + b)\\)",
+                "\\(\\frac {\\tan a + \\tan b} {1 - \\tan a \\tan b}\\)"
+            ],
+            "guid": "yO2][.TK@y",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan (a-b)\\)",
+                "\\(\\frac {\\tan a - \\tan b} {1 + \\tan a \\tan b}\\)"
+            ],
+            "guid": "k|g4e-N,IN",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan 2a\\)",
+                "\\(\\frac {2\\tan a} {1 - \\tan^2 a}\\)"
+            ],
+            "guid": "Pes,9~M6&F",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan^2 a\\)",
+                "\\(\\frac {1 - \\cos 2a} {1 + \\cos 2a}\\)"
+            ],
+            "guid": "L(D;`;K~X&",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos a\\)&nbsp;avec&nbsp;\\(t = \\tan \\frac a 2\\)",
+                "\\(\\frac {1 - t^2} {1 + t^2}\\)&nbsp;avec&nbsp;\\(t = \\tan \\frac a 2\\)"
+            ],
+            "guid": "J67?Cn1q:~",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin a\\)&nbsp;avec&nbsp;\\(t = \\tan \\frac a 2\\)",
+                "\\(\\frac {2t} {1 + t^2}\\)avec&nbsp;\\(t = \\tan \\frac a 2\\)"
+            ],
+            "guid": "O5>if<<q$V",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan a\\)&nbsp;avec&nbsp;\\(t = \\tan \\frac a 2\\)",
+                "\\(\\frac {2t} {1 - t^2}\\)&nbsp;avec&nbsp;\\(t = \\tan \\frac a 2\\)"
+            ],
+            "guid": "ILX(kGN/hB",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos p + \\cos q\\)",
+                "\\(2 \\cos \\frac {p + q} {2} \\cos \\frac {p - q} {2} \\)"
+            ],
+            "guid": "z)!P6}-D8Z",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\cos p - \\cos q\\)",
+                "\\(-2 \\sin \\frac {p + q} {2} \\sin \\frac {p - q} {2}\\)"
+            ],
+            "guid": "g|Lh.B.3ql",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin p + \\sin q\\)",
+                "\\(2 \\sin \\frac {p + q} {2} \\cos \\frac {p - q} {2}\\)"
+            ],
+            "guid": "KW,;!J+P.6",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\sin p - \\sin q\\)",
+                "\\(2  \\cos \\frac {p + q} {2} \\sin \\frac {p - q} {2}\\)"
+            ],
+            "guid": "QkyEj!O1@b",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan p + \\tan q\\)",
+                "\\(\\frac {\\sin (p+q)} {\\cos p \\cos q}\\)"
+            ],
+            "guid": "cVXct`>ga)",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\tan p - \\tan q\\)",
+                "\\(\\frac {\\sin (p-q)} {\\cos p \\cos q}\\)"
+            ],
+            "guid": "CdK8~,|EFH",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Trigo"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dataa",
+                "ototo"
+            ],
+            "guid": "ONOALlvfj0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
         },
         {
             "__type__": "Note",
