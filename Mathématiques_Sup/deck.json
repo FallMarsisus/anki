@@ -216,6 +216,16 @@
         {
             "__type__": "Note",
             "fields": [
+                "Dataa",
+                "ototo"
+            ],
+            "guid": "ONOALlvfj0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "Primitive de&nbsp;\\(x^n\\)",
                 "\\(\\frac{x^{n+1}} {n+1}\\)sur&nbsp;\\(\\mathbb  N\\)"
             ],
@@ -919,6 +929,54 @@
             "note_model_uuid": "4846446b-0c00-11f0-a48b-505a65e9873c",
             "tags": [
                 "Dérivées"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\tan x \\)",
+                "\\(\\tan x  = _{x \\rightarrow 0} x + \\frac 1 3 x^3 + \\frac 2 {15}x ^5 + o(x^5)\\)"
+            ],
+            "guid": "Qm]bWBfK@;",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\ln\\)",
+                "\\(\\ln (1+x) = _ {x \\rightarrow 0} x - \\frac {x^2} 2 + \\frac { x ^3 } 3 + ... + (-1)^{(n+1)}\\frac {x^n}n + o(x ^n) \\)"
+            ],
+            "guid": "fq7BE;.8MD",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\arctan x \\)",
+                "\\(\\arctan x =_{x \\rightarrow 0} x - \\frac {x ^3} 3 + \\frac {x ^5 } 5 + ... + (-1) ^n \\frac {x ^{2n +1} }{2n +1} + o(x ^{2n +1})\\)"
+            ],
+            "guid": "H.rKHdD)vI",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\arcsin x\\)",
+                "\\(\\arcsin x =_{x \\rightarrow 0} x \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
+            ],
+            "guid": "Knc*o^!45E",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
             ]
         }
     ],
