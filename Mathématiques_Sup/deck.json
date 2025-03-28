@@ -216,16 +216,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Dataa",
-                "ototo"
-            ],
-            "guid": "ONOALlvfj0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Primitive de&nbsp;\\(x^n\\)",
                 "\\(\\frac{x^{n+1}} {n+1}\\)sur&nbsp;\\(\\mathbb  N\\)"
             ],
