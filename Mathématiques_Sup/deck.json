@@ -1,26 +1,18 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "48464446-0c00-11f0-babe-505a65e9873c",
-    "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+    "crowdanki_uuid": "bf5710c2-0bff-11f0-9706-00163ec6fa00",
+    "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desiredRetention": 0.9,
             "dyn": false,
-            "easyDaysPercentages": [
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
+            "easyDaysPercentages": [],
             "fsrsParams5": [],
             "fsrsWeights": [],
             "ignoreRevlogsBeforeDate": "",
@@ -42,14 +34,14 @@
                     1.0,
                     10.0
                 ],
-                "initialFactor": 2500,
+                "initialFactor": 1500,
                 "ints": [
                     1,
                     4,
                     0
                 ],
                 "order": 1,
-                "perDay": 20
+                "perDay": 200
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -59,10 +51,10 @@
             "replayq": true,
             "rev": {
                 "bury": false,
-                "ease4": 1.3,
+                "ease4": 1.2,
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
-                "maxIvl": 36500,
+                "maxIvl": 3,
                 "perDay": 200
             },
             "reviewOrder": 0,
@@ -70,8 +62,8 @@
             "secondsToShowQuestion": 0.0,
             "sm2Retention": 0.9,
             "stopTimerOnAnswer": false,
-            "timer": 0,
-            "waitForAudio": true,
+            "timer": 1,
+            "waitForAudio": false,
             "weightSearch": ""
         }
     ],
@@ -123,7 +115,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+",
+            "name": "Basique+-830ae",
             "originalId": 1694377041160,
             "originalStockKind": 1,
             "req": [
@@ -191,7 +183,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique",
+            "name": "Basique-275c7",
             "originalStockKind": 1,
             "req": [
                 [
@@ -221,6 +213,16 @@
         }
     ],
     "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dataa",
+                "ototo"
+            ],
+            "guid": "ONOALlvfj0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
         {
             "__type__": "Note",
             "fields": [
