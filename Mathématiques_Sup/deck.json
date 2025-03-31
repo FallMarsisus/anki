@@ -1264,16 +1264,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Dataa",
-                "ototo"
-            ],
-            "guid": "ONOALlvfj0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "DL de&nbsp;\\(\\tan x \\)",
                 "\\(\\tan x  = _{x \\rightarrow 0} x + \\frac 1 3 x^3 + \\frac 2 {15}x ^5 + o(x^5)\\)"
             ],
