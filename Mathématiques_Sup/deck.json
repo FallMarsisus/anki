@@ -71,7 +71,9 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "paste-c7640184a7fced93ccf379b52a31da73bab0441a.jpg"
+    ],
     "name": "Mathématiques Sup",
     "newLimit": null,
     "newLimitToday": null,
@@ -1315,6 +1317,366 @@
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
                 "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Une série complexe&nbsp;\\(\\sum z_k\\)&nbsp;converge ssi [...] et sa somme vaut [...]",
+                "\\(\\sum \\text {Re} (z_k)\\)&nbsp;et&nbsp;\\(\\sum \\text {Im} (z_k)\\)&nbsp;convergent<br>-------------------------------------------------<br>\\(\\sum _{k=0}^{+ \\infty} z_k = \\sum _{k=0}^{+ \\infty} \\text {Re} (z_k) + i \\sum _{k=0}^{+ \\infty} \\text {Im} (z_k)\\)"
+            ],
+            "guid": "QB73[y8_q1",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Une série&nbsp;\\(\\sum u_k\\)&nbsp;diverge grossièrement si [...]",
+                "[...] la suite&nbsp;\\((u_k)\\)&nbsp;ne tend pas vers 0."
+            ],
+            "guid": "ru[;>?<cgQ",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de la série géométrique de raison&nbsp;\\(q \\in \\mathbb C\\)",
+                "\\(\\sum q^k\\)"
+            ],
+            "guid": "tS31G18/_$",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "La série géométrique de raison&nbsp;\\(q \\in \\mathbb C\\)&nbsp;converge ssi [...] et sa somme vaut alors [...]",
+                "\\(|q| &lt; 1\\)&nbsp;<br>------------------------------------<br>\\(\\sum _{k=0}^{+ \\infty} q^k = \\frac {1} {1 - q}\\)"
+            ],
+            "guid": "ez.aC$GCRI",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de la série de Riemann d'exposant&nbsp;\\(\\alpha \\in \\mathbb R\\)",
+                "\\(\\sum \\frac {1} {k^\\alpha}\\)"
+            ],
+            "guid": "f/%+QHVEtw",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "La série de Riemann d'exposant&nbsp;\\(\\alpha \\in \\mathbb R\\)&nbsp;converge ssi [...]",
+                "[...]&nbsp;\\(\\alpha &gt; 1\\)."
+            ],
+            "guid": "Q:0AKpN`7C",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comparaison série-intégrale / Méthode des rectangles",
+                "<img src=\"paste-c7640184a7fced93ccf379b52a31da73bab0441a.jpg\">"
+            ],
+            "guid": "Az*BSQd/p+",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de la série de Bertrand d'exposants&nbsp;\\((\\alpha, \\beta) \\in \\mathbb R^2\\)",
+                "\\(\\sum \\frac {1} {k^\\alpha(\\ln k)^\\beta}\\)"
+            ],
+            "guid": "fPR_?f]53B",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "La série de Bertrand d'exposants&nbsp;\\((\\alpha, \\beta) \\in \\mathbb R^2\\)&nbsp;converge ssi [...]&nbsp;",
+                "[...]&nbsp;\\((\\alpha, \\beta) \\succ (1,1)\\)&nbsp;où&nbsp;\\(\\succ\\)&nbsp;représente l'ordre lexicographique strict."
+            ],
+            "guid": "o+nO68f`F",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCSTP (théorème de comparaison des séries à termes positifs)",
+                "Soient&nbsp;\\(\\sum u_k\\)&nbsp;et&nbsp;\\(\\sum v_k\\)&nbsp;deux séries réelles positives telles que&nbsp;\\(0 \\leq u_k \\leq v_k\\)&nbsp; APCR&nbsp;\\((k)\\).<br><br>- Si&nbsp;\\(\\sum v_k\\)&nbsp;converge alors&nbsp;\\(\\sum u_k\\)&nbsp;converge<br>- Si&nbsp;\\(\\sum u_k\\)&nbsp;diverge alors&nbsp;\\(\\sum v_k\\)&nbsp;diverge"
+            ],
+            "guid": "iq~3DzjlQ:",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCSTP par&nbsp;\\(o\\)&nbsp;ou&nbsp;\\(O\\)",
+                "Soient&nbsp;\\(\\sum u_k\\)&nbsp;et&nbsp;\\(\\sum v_k\\)&nbsp;deux séries positives telles que&nbsp;\\(u_k =_{k \\rightarrow+\\infty} o(v_k)\\)ou&nbsp;\\(u_k =_{k \\rightarrow+\\infty} O(v_k)\\).<br>Si&nbsp;\\(\\sum v_k\\)&nbsp;converge,&nbsp;\\(\\sum u_k\\)&nbsp;converge aussi&nbsp;&nbsp;"
+            ],
+            "guid": "u:NeAz-|{z",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Règle de d'Alembert (avec&nbsp;\\(\\sum u_k\\)&nbsp;une série positive qui APCR ne s'annule pas, et on suppose que la suite&nbsp;\\(\\left( \\frac {u_{k+1}} {u_k} \\right)\\)&nbsp;converge).",
+                "- Si&nbsp;\\(\\lim _{k \\rightarrow + \\infty} \\frac {u_{k+1}} {u_k} &lt; 1\\),&nbsp;\\(\\sum u_k\\)&nbsp;converge<br><br>- Si&nbsp;\\(\\lim _{k \\rightarrow + \\infty} \\frac {u_{k+1}} {u_k} &gt; 1\\),&nbsp;\\(\\sum u_k\\)&nbsp;diverge<br><br>- Si&nbsp;\\(\\lim _{k \\rightarrow + \\infty} \\frac {u_{k+1}} {u_k} = 1\\), on ne peut à priori rien dire de la nature de&nbsp;\\(\\sum u_k\\)"
+            ],
+            "guid": "rX_5dMC;VI",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Méthode de&nbsp;\\(k^\\alpha u_k\\)&nbsp;(avec&nbsp;\\(\\sum u_k\\)&nbsp;une série positive)",
+                "- S'il existe&nbsp;\\(\\alpha &gt; 1 \\)&nbsp;tel que la suite&nbsp;\\((k^\\alpha u_k)\\)&nbsp;est majorée (par exemple si elle converge),&nbsp;\\(\\sum u_k\\)&nbsp;converge<br><br>- Si la suite&nbsp;\\((ku_k)\\)&nbsp;est minorée par une constante strictement positive APCR (par exemple si elle converge vers une limite non nulle),&nbsp;\\(\\sum u_k\\)&nbsp;diverge"
+            ],
+            "guid": "H0Z8`]C$Qv",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCSTP par équivalence (avec&nbsp;\\(\\sum u_k\\)&nbsp;et&nbsp;\\(\\sum v_k\\)&nbsp;deux séries réelles positives)",
+                "Si&nbsp;\\(u_k \\sim_{k\\rightarrow+\\infty} v_k\\),&nbsp;\\(\\sum u_k\\)&nbsp;et&nbsp;\\(\\sum v_k\\)&nbsp;ont la même nature."
+            ],
+            "guid": "t2lZKm[^Q~",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'une série absolument convergente",
+                "\\(\\sum u_k\\)&nbsp;(série réelle ou complexe) est absolument convergent si&nbsp;\\(\\sum |u_k|\\)&nbsp;converge."
+            ],
+            "guid": "GW$%/{LI|`",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nature d'une série absolument convergente (et inégalité sur sa somme). Réciproque vraie ?",
+                "Toute série&nbsp;\\(\\sum u_k\\)&nbsp;absolument convergente est convergente, et on a alors&nbsp;\\(|\\sum_{k=0}^{+\\infty} u_k| \\leq \\sum_{k=0}^{+\\infty} |u_k| \\).<br><br>La réciproque est fausse.<br>Si une série n'est pas absolument convergente, one ne peut rien conclure."
+            ],
+            "guid": "FrWK7ae)5?",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'une série semi-convergente",
+                "Une série est semi-convergente lorsqu'elle est convergente sans être absolument convergente."
+            ],
+            "guid": "pdY7Q=`bg?",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSSA (critère spécial des séries alternées)",
+                "Si&nbsp;\\((a_k)\\)&nbsp;est une suite réelle, positive, décroissante, et de limite nulle, la série alternée&nbsp;\\(\\sum (-1)^ka_k\\)&nbsp;converge.&nbsp;"
+            ],
+            "guid": "r(*G85)2:i",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de la série de Riemann alternée d'exposant&nbsp;\\(\\alpha \\in \\mathbb R\\)",
+                "\\(\\sum \\frac {(-1)^{k-1}} {k^\\alpha}\\)"
+            ],
+            "guid": "v8->hC-kMH",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nature de la série de Riemann alternée d'exposant&nbsp;\\(\\alpha \\in \\mathbb R\\)&nbsp;en fonction de&nbsp;\\(\\alpha\\)",
+                "- Si&nbsp;\\(\\alpha \\leq 0\\),&nbsp;\\(\\sum \\frac {(-1)^{k-1}} {k^\\alpha}\\)&nbsp;diverge grossièrement<br><br>- Si&nbsp;\\(\\alpha &gt; 1\\),&nbsp;\\(\\sum \\frac {(-1)^{k-1}} {k^\\alpha}\\)&nbsp;est absolument convergente<br><br>- Si&nbsp;\\(0 &lt; \\alpha \\leq 1\\),&nbsp;\\(\\sum \\frac {(-1)^{k-1}} {k^\\alpha}\\)&nbsp;ne converge pas absolument mais d'après le CSSA elle converge. Elle est donc semi-convergente."
+            ],
+            "guid": "s%h*}#]}se",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Propriétés sur la convergence commutative",
+                "- Si une série est absolument convergente, on peut modifier l'ordre des termes sans changer ni la nature ni la somme de cette série.<br>Autrement dit :<br>Si&nbsp;\\(\\sum u_k\\)&nbsp;est absolument convergente de somme&nbsp;\\(S\\), pour toute bijection&nbsp;\\(\\sigma : \\mathbb N \\rightarrow \\mathbb N\\),&nbsp;\\(\\sum u_{\\sigma(k)}\\)&nbsp;est convergente de somme&nbsp;\\(S\\).<br><br>- Si une série réelle est semi-convergente une modification de l'ordre des termes permet de changer la nature et la valeur de la somme comme on le souhaite.<br>Autrement dit :<br>Si&nbsp;\\(\\sum u_k\\)&nbsp;est une série réelle et semi-convergente, il existe une bijection&nbsp;\\(\\rho : \\mathbb N \\rightarrow \\mathbb N\\)&nbsp;telle que&nbsp;\\(\\sum u_{\\rho(k)}\\)&nbsp;diverge et, pour tout&nbsp;\\(S \\in \\mathbb R\\),&nbsp;il existe une bijection&nbsp;\\(\\sigma : \\mathbb N \\rightarrow \\mathbb N \\)&nbsp;telle que&nbsp;\\(\\sum u_{\\sigma(k)}\\)&nbsp;converge et sa somme vaut&nbsp;\\(S\\)&nbsp;"
+            ],
+            "guid": "fNSRAfNt$e",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nature d'une série télescopique&nbsp;\\(\\sum (a_k - a_{k-1})\\)&nbsp;en fonction de&nbsp;\\((a_n)_{n \\geq 0}\\), valeur de la somme lorsqu'elle converge",
+                "\\(\\sum (a_k - a_{k-1})\\)&nbsp;converge ssi&nbsp;\\((a_n)_{n \\geq 0 }\\)&nbsp;converge (vers une limite&nbsp;\\(l\\)). Sa somme vaut alors&nbsp;\\(\\sum_{k=1}^{+\\infty} (a_k - a_{k-1}) = l - a_0\\)."
+            ],
+            "guid": "Jt-eP:$B{X",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pour&nbsp;\\((a_n)_{n\\geq0}\\)&nbsp;donnée, expression de la série des écarts, et propriété associée",
+                "\\(u_0 = a_0\\)&nbsp;et&nbsp;\\(\\forall k \\geq 1, u_k = a_k - a_{k-1}\\)<br>----------------------------------------------<br>\\(\\forall n \\in \\mathbb N, a_n = \\sum_{k=0}^{n} u_k\\)&nbsp;donc&nbsp;\\((a_n)_{n\\geq0}\\)&nbsp;a le même comportement asymptotique que&nbsp;\\(\\sum u_k\\)"
+            ],
+            "guid": "MiN.#oF^zi",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(x \\in \\mathbb R\\), expression de la&nbsp;\\(k\\)-ième décimale de&nbsp;\\(x\\)",
+                "\\(a_k = \\lfloor 10^kx \\rfloor - 10 \\lfloor 10^{k-1}x \\rfloor\\)"
+            ],
+            "guid": "y(`;;HeyB!",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Développement décimal propre de&nbsp;\\(x \\in \\mathbb R\\)",
+                "\\(x = \\lfloor x \\rfloor + \\sum_{k=1}^{+\\infty} \\frac {a_k} {10^k}\\)<br>avec&nbsp;\\((a_k)_{k\\geq1}\\)&nbsp;la suite des décimales de&nbsp;\\(x\\). Cette suite est alors unique."
+            ],
+            "guid": "P7*{]#K%)7",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de la sériée géométrique dérivée&nbsp;\\(m\\)-ième",
+                "\\(\\sum k(k-1)...(k-m+1)q^{k-m}\\)"
+            ],
+            "guid": "N;wQ(o^U>]",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "La série géométrique dérivée&nbsp;\\(m\\)-ième converge ssi [...] et sa somme vaut alors [...]",
+                "[...]&nbsp;\\(|q| &lt; 1\\)<br>--------------------------------<br>\\(\\sum_{k=m}^{+\\infty} k(k-1)...(k-m+1)q^{k-m} = \\frac {m!} {(1-q)^{m+1}}\\)"
+            ],
+            "guid": "BOwQU$xPcP",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Série exponentielle",
+                "\\(e^x = \\sum_{k=0}^{+\\infty} \\frac {x^k} {k!}\\)"
+            ],
+            "guid": "Fy=(J:/!b.",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Série logarithmique pour tout&nbsp;\\(x \\in ]-1; 1]\\)",
+                "\\(\\ln (1+x) = \\sum_{k = 1}^{+\\infty} \\frac {(-1)^{k-1}x^k} {k}\\)"
+            ],
+            "guid": "sFY}k]-ILO",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fonction&nbsp;\\(\\zeta\\)&nbsp;de Riemann (ensemble de définition et expression)",
+                "\\(\\forall x \\in ]1; +\\infty[, \\ \\zeta(x) = \\sum_{k=1}^{+\\infty} \\frac {1} {k^x}\\)"
+            ],
+            "guid": "n49t%w+4DU",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Séries"
             ]
         }
     ],
