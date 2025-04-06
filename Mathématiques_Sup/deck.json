@@ -338,7 +338,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Texte à trous",
+            "name": "Texte à trous-ad5d3",
             "originalStockKind": 5,
             "req": [
                 [
@@ -1147,102 +1147,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "DL de&nbsp;\\(\\tan x \\)",
-                "\\(\\tan x  = _{x \\rightarrow 0} x + \\frac 1 3 x^3 + \\frac 2 {15}x ^5 + o(x^5)\\)"
-            ],
-            "guid": "Qm]bWBfK@;",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "DL"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "DL de&nbsp;\\(\\ln\\)",
-                "\\(\\ln (1+x) = _ {x \\rightarrow 0} x - \\frac {x^2} 2 + \\frac { x ^3 } 3 + ... + (-1)^{(n+1)}\\frac {x^n}n + o(x ^n) \\)"
-            ],
-            "guid": "fq7BE;.8MD",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "DL"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "DL de&nbsp;\\(\\arctan x \\)",
-                "\\(\\arctan x =_{x \\rightarrow 0} x - \\frac {x ^3} 3 + \\frac {x ^5 } 5 + ... + (-1) ^n \\frac {x ^{2n +1} }{2n +1} + o(x ^{2n +1})\\)"
-            ],
-            "guid": "H.rKHdD)vI",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "DL"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "DL de&nbsp;\\(\\arcsin x\\)",
-                "\\(\\arcsin x =_{x \\rightarrow 0} x \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
-            ],
-            "guid": "Knc*o^!45E",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "DL"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Somme des termes d'une suite géométrique",
-                "\\(\\sum ^n _ {k = m} u_k= u_p \\frac {1- q^{n-p +1}} {1-q}\\)"
-            ],
-            "guid": "mo2?N5zvqX",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Suites"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Somme des termes d'une suite arithmétique",
-                "\\(\\sum ^n _{k =p} u _k = (n - p +1) \\times \\frac {u_p + u_n} 2\\)"
-            ],
-            "guid": "eQf#U5k=-i",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Suites"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Règles de Bioche",
-                "\\(\\begin{array}{c c}\n  \\text{Transformation} &amp; \\text{Changement de variable} \\\\\n  \\hline\n  t \\to -t &amp; u = \\cos t \\\\\n  t \\to \\pi - t &amp; u = \\sin t \\\\\n  t \\to t + \\pi &amp; u = \\tan t \\\\\n  \\text{Sinon} &amp; u = \\tan \\frac{t}{2} \\\\\n\\end{array}\\)"
-            ],
-            "guid": "zY1S*17#fP",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Intégrales"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Primitive d'une fraction rationnelle",
-                ""
-            ],
-            "guid": "CBz>AV-%85",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Intégrales"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "\\(\\cos (a+b)\\)",
                 "\\(\\cos a \\cos b - \\sin a \\sin b \\)"
             ],
@@ -1495,269 +1399,49 @@
         {
             "__type__": "Note",
             "fields": [
-                "Soit&nbsp;\\(f \\)&nbsp;une application linéaire.<br>Donner une condition sur l'injectivité de f",
-                "\\(f \\)&nbsp;est injective ssi&nbsp;\\(\\ker f  = \\{ 0_E\\}\\)"
+                "DL de&nbsp;\\(\\tan x \\)",
+                "\\(\\tan x  = _{x \\rightarrow 0} x + \\frac 1 3 x^3 + \\frac 2 {15}x ^5 + o(x^5)\\)"
             ],
-            "guid": "QMlaP&Vs4",
+            "guid": "Qm]bWBfK@;",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "Applications::Linéaires"
+                "DL"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Soit&nbsp;\\(f : E \\rightarrow F\\)&nbsp;une application linéaire.&nbsp;<br>Donner une condition sur la surjectivité de \\(f\\)",
-                "\\(f\\)&nbsp;est surjective ssi&nbsp;\\(\\text{Im f = F}\\)"
+                "DL de&nbsp;\\(\\ln\\)",
+                "\\(\\ln (1+x) = _ {x \\rightarrow 0} x - \\frac {x^2} 2 + \\frac { x ^3 } 3 + ... + (-1)^{(n+1)}\\frac {x^n}n + o(x ^n) \\)"
             ],
-            "guid": "NY1TxDp#|P",
+            "guid": "fq7BE;.8MD",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "Applications::Linéaires"
+                "DL"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Soit&nbsp;\\(f \\in \\mathcal L(E, F)\\)&nbsp;et&nbsp;\\(E'\\)&nbsp;un sous-espace de&nbsp;\\(E\\)<br>\\(\\text{Ker}f|_{E'}  =\\)",
-                "\\(\\text{Ker } f\\space  \\cap E'\\)&nbsp;"
+                "DL de&nbsp;\\(\\arctan x \\)",
+                "\\(\\arctan x =_{x \\rightarrow 0} x - \\frac {x ^3} 3 + \\frac {x ^5 } 5 + ... + (-1) ^n \\frac {x ^{2n +1} }{2n +1} + o(x ^{2n +1})\\)"
             ],
-            "guid": "GPX/Mhp3DN",
+            "guid": "H.rKHdD)vI",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "Applications::Linéaires"
+                "DL"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Théorème géométrique du rang.",
-                "\\(f \\in \\mathcal L(E, F)\\),&nbsp;\\(E = S ⊕\\text{Ker }f\\)<br>\\(f|_S^{\\text{Im }f}\\)&nbsp;est un isomorphisme"
+                "DL de&nbsp;\\(\\arcsin x\\)",
+                "\\(\\arcsin x =_{x \\rightarrow 0} x \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
             ],
-            "guid": "y/J2:VrD9>",
+            "guid": "Knc*o^!45E",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est-ce qu'une homotétie vectorielle ?",
-                "\\(h_{\\lambda}(x) = \\lambda x\\)"
-            ],
-            "guid": "f3*MQHkGAK",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Caractérisation des homotéthies",
-                "\\(f\\in \\mathcal H(E) \\Leftrightarrow (\\forall x \\in E, \\exists \\lambda \\in \\mathbb K, f(x) = \\lambda x)\\)"
-            ],
-            "guid": "IRSEPUYGXj",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est-ce qu'une projection vectorielle ?",
-                "\\(p\\left\\{E = F\\oplus G \\rightarrow E \\atop x = x_F +  x_G \\rightarrow p(x) = x_F \\right.\\)"
-            ],
-            "guid": "O>U@SD-w>O",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(E = F\\oplus G \\),&nbsp;\\(p\\)&nbsp;une projection sur&nbsp;\\(F\\)&nbsp;dans la direction de&nbsp;\\(G\\),<br><b>Donner :</b><br><ul><li>le noyau de&nbsp;\\(p\\),&nbsp;</li><li>l'image de&nbsp;\\(p\\),</li><li>\\(E \\)&nbsp;en fonction de&nbsp;\\(\\text{Ker } p\\)&nbsp;et&nbsp;\\(\\text{Im }  p\\)&nbsp;</li></ul>",
-                "<ul><li>\\(\\text{Ker }p = G\\)<br></li><li>\\(\\text{Im } p = F = \\text{Ker }(\\text{Id}_E - p)\\)</li><li>\\(\\text{Im } p \\oplus \\text{Ker } p = E\\)</li></ul>"
-            ],
-            "guid": "gKt<&N])_D",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un endomorphisme&nbsp;\\(p \\)&nbsp;d'un&nbsp;\\(\\mathbb K\\)-esppace vectoriel&nbsp;\\(E\\)&nbsp;est une&nbsp;{{c1::projection}} ssi&nbsp;{{c2::\\(p² = p\\)}}",
-                ""
-            ],
-            "guid": "gBP4V(=NJ?",
-            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est-ce qu'une symétrie vectorielle ?",
-                "\\(s \\left\\{ E = F \\oplus G \\rightarrow E\\atop x= x_F + x_G\\rightarrow x_F-x_G\\right.\\)"
-            ],
-            "guid": "t7Yg!A[.?>",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(p\\)&nbsp;une projection vectorielle sur&nbsp;\\(F\\)&nbsp;en direction de&nbsp;\\(G\\)<br>L'endomorphisme&nbsp;\\(s\\)&nbsp;est la {{c1::symétrie vectorielle par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G \\)}}&nbsp;ssi&nbsp;{{c2::\\(s = 2p - \\text {Id } E\\)}}",
-                ""
-            ],
-            "guid": "NS_&@2<IqX",
-            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(s \\)&nbsp;la symétrie par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G\\).&nbsp;<br><b>Donner :</b>&nbsp;<br><ul><li>\\(\\text{Ker }(\\text{Id}_E -s )\\)<br></li><li>\\(\\text{Ker } (\\text{Id}_E + s)\\)</li><li>La relation entre E et ces deux éléments.&nbsp;</li></ul>",
-                "<ul><li>\\(\\text{Ker }(\\text{Id} _E - s) = F\\)<br></li><li>\\(\\text{Ker }(\\text{Id}_E + s ) = G\\)</li><li>\\(\\text{Ker} (\\text {Id}_E -s ) \\oplus \\text{Ker }(\\text{Id}_E + s) = E\\)<br></li></ul>"
-            ],
-            "guid": "H&eye+4)J0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un endomorphisme&nbsp;\\(s\\)&nbsp;d'un&nbsp;\\(\\mathbb K \\)-ev&nbsp;\\(E\\)&nbsp;est&nbsp;{{c1::une symétrie}} ssi&nbsp;{{c2::\\(s^2 = \\text{Id}_E\\)}}",
-                ""
-            ],
-            "guid": "cSP<t#^cy8",
-            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(f(\\text{Vect}(x_i)_{i\\in I}) =\\)",
-                "=&nbsp;\\(\\text{Vect} (f(x_i))_{i \\in I}\\)"
-            ],
-            "guid": "L}bezvJw1^",
-            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Par quoi est déterminée entièrement une application linéaire",
-                "L'image d'une base"
-            ],
-            "guid": "ov[3zLV@Ej",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Théorème de l'image d'une base",
-                "<ul><li>\\(f \\)&nbsp;est injective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est libre<br></li><li>\\(f \\)&nbsp;est surjective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est génératrice<br></li><li>\\(f \\)&nbsp;est un isomorphisme ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est une base<br></li></ul>"
-            ],
-            "guid": "q)?yATqkv)",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(\\text{dim } \\mathcal L(E, F) =\\)",
-                "\\(\\text {dim } E \\times \\text{dim } F\\)"
-            ],
-            "guid": "d}X7e@-dt+",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(\\text{rg}(f) = \\)",
-                "\\(\\text{dim(Im }f)\\)"
-            ],
-            "guid": "lc,4Y&Z3j|",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Caractérisation du rang de&nbsp;\\(f : E\\rightarrow F\\)&nbsp;(dimensions)",
-                "\\(\\text{rg } f \\le \\min (\\dim E, \\dim F)\\)"
-            ],
-            "guid": "ucRZMH$Au#",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Théorème(s) du rang (avec&nbsp;\\(E \\)&nbsp;de dim FINIE, et&nbsp;\\(f:E \\rightarrow F\\))",
-                "\\(\\dim \\text{Ker } f + \\text{rg } f = \\dim E \\)<br><br>En <span style=\"color: rgb(255, 0, 0);\">même dimension finie</span> :<br>\\((f\\text{ injective }) \\Leftrightarrow (f\\text{ surjective }) \\Leftrightarrow(f\\text{ bijective }) \\)"
-            ],
-            "guid": "CIG={+YiQ#",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "L'inverse d'une matrice triangulaire supérieure est",
-                "une matrice triangulaire supérieure"
-            ],
-            "guid": "I_.LYNU<$i",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(rg(g\\circ f)\\)&nbsp;comparé aux rangs de&nbsp;\\(g \\)&nbsp;et&nbsp;\\(f\\)",
-                "\\(\\text{rg } (g \\circ f) \\le \\min (\\text{rg }f, \\text{rg } g)\\)"
-            ],
-            "guid": "dm`8(>%mUj",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition d'un hyperplan",
-                "&nbsp;Tout noyau d'une forme linaire <span style=\"color: rgb(255, 0, 0);\">non nulle</span>."
-            ],
-            "guid": "Lz[h>AX(k0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
+                "DL"
             ]
         },
         {
@@ -2118,6 +1802,322 @@
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
                 "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Somme des termes d'une suite géométrique",
+                "\\(\\sum ^n _ {k = m} u_k= u_p \\frac {1- q^{n-p +1}} {1-q}\\)"
+            ],
+            "guid": "mo2?N5zvqX",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Suites"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Somme des termes d'une suite arithmétique",
+                "\\(\\sum ^n _{k =p} u _k = (n - p +1) \\times \\frac {u_p + u_n} 2\\)"
+            ],
+            "guid": "eQf#U5k=-i",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Suites"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Règles de Bioche",
+                "\\(\\begin{array}{c c}\n  \\text{Transformation} &amp; \\text{Changement de variable} \\\\\n  \\hline\n  t \\to -t &amp; u = \\cos t \\\\\n  t \\to \\pi - t &amp; u = \\sin t \\\\\n  t \\to t + \\pi &amp; u = \\tan t \\\\\n  \\text{Sinon} &amp; u = \\tan \\frac{t}{2} \\\\\n\\end{array}\\)"
+            ],
+            "guid": "zY1S*17#fP",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Intégrales"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Primitive d'une fraction rationnelle",
+                ""
+            ],
+            "guid": "CBz>AV-%85",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Intégrales"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(f \\)&nbsp;une application linéaire.<br>Donner une condition sur l'injectivité de f",
+                "\\(f \\)&nbsp;est injective ssi&nbsp;\\(\\ker f  = \\{ 0_E\\}\\)"
+            ],
+            "guid": "QMlaP&Vs4",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(f : E \\rightarrow F\\)&nbsp;une application linéaire.&nbsp;<br>Donner une condition sur la surjectivité de \\(f\\)",
+                "\\(f\\)&nbsp;est surjective ssi&nbsp;\\(\\text{Im f = F}\\)"
+            ],
+            "guid": "NY1TxDp#|P",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(f \\in \\mathcal L(E, F)\\)&nbsp;et&nbsp;\\(E'\\)&nbsp;un sous-espace de&nbsp;\\(E\\)<br>\\(\\text{Ker}f|_{E'}  =\\)",
+                "\\(\\text{Ker } f\\space  \\cap E'\\)&nbsp;"
+            ],
+            "guid": "GPX/Mhp3DN",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème géométrique du rang.",
+                "\\(f \\in \\mathcal L(E, F)\\),&nbsp;\\(E = S ⊕\\text{Ker }f\\)<br>\\(f|_S^{\\text{Im }f}\\)&nbsp;est un isomorphisme"
+            ],
+            "guid": "y/J2:VrD9>",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une homotétie vectorielle ?",
+                "\\(h_{\\lambda}(x) = \\lambda x\\)"
+            ],
+            "guid": "f3*MQHkGAK",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Caractérisation des homotéthies",
+                "\\(f\\in \\mathcal H(E) \\Leftrightarrow (\\forall x \\in E, \\exists \\lambda \\in \\mathbb K, f(x) = \\lambda x)\\)"
+            ],
+            "guid": "IRSEPUYGXj",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une projection vectorielle ?",
+                "\\(p\\left\\{E = F\\oplus G \\rightarrow E \\atop x = x_F +  x_G \\rightarrow p(x) = x_F \\right.\\)"
+            ],
+            "guid": "O>U@SD-w>O",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(E = F\\oplus G \\),&nbsp;\\(p\\)&nbsp;une projection sur&nbsp;\\(F\\)&nbsp;dans la direction de&nbsp;\\(G\\),<br><b>Donner :</b><br><ul><li>le noyau de&nbsp;\\(p\\),&nbsp;</li><li>l'image de&nbsp;\\(p\\),</li><li>\\(E \\)&nbsp;en fonction de&nbsp;\\(\\text{Ker } p\\)&nbsp;et&nbsp;\\(\\text{Im }  p\\)&nbsp;</li></ul>",
+                "<ul><li>\\(\\text{Ker }p = G\\)<br></li><li>\\(\\text{Im } p = F = \\text{Ker }(\\text{Id}_E - p)\\)</li><li>\\(\\text{Im } p \\oplus \\text{Ker } p = E\\)</li></ul>"
+            ],
+            "guid": "gKt<&N])_D",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un endomorphisme&nbsp;\\(p \\)&nbsp;d'un&nbsp;\\(\\mathbb K\\)-esppace vectoriel&nbsp;\\(E\\)&nbsp;est une&nbsp;{{c1::projection}} ssi&nbsp;{{c2::\\(p² = p\\)}}",
+                ""
+            ],
+            "guid": "gBP4V(=NJ?",
+            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une symétrie vectorielle ?",
+                "\\(s \\left\\{ E = F \\oplus G \\rightarrow E\\atop x= x_F + x_G\\rightarrow x_F-x_G\\right.\\)"
+            ],
+            "guid": "t7Yg!A[.?>",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(p\\)&nbsp;une projection vectorielle sur&nbsp;\\(F\\)&nbsp;en direction de&nbsp;\\(G\\)<br>L'endomorphisme&nbsp;\\(s\\)&nbsp;est la {{c1::symétrie vectorielle par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G \\)}}&nbsp;ssi&nbsp;{{c2::\\(s = 2p - \\text {Id } E\\)}}",
+                ""
+            ],
+            "guid": "NS_&@2<IqX",
+            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(s \\)&nbsp;la symétrie par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G\\).&nbsp;<br><b>Donner :</b>&nbsp;<br><ul><li>\\(\\text{Ker }(\\text{Id}_E -s )\\)<br></li><li>\\(\\text{Ker } (\\text{Id}_E + s)\\)</li><li>La relation entre E et ces deux éléments.&nbsp;</li></ul>",
+                "<ul><li>\\(\\text{Ker }(\\text{Id} _E - s) = F\\)<br></li><li>\\(\\text{Ker }(\\text{Id}_E + s ) = G\\)</li><li>\\(\\text{Ker} (\\text {Id}_E -s ) \\oplus \\text{Ker }(\\text{Id}_E + s) = E\\)<br></li></ul>"
+            ],
+            "guid": "H&eye+4)J0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un endomorphisme&nbsp;\\(s\\)&nbsp;d'un&nbsp;\\(\\mathbb K \\)-ev&nbsp;\\(E\\)&nbsp;est&nbsp;{{c1::une symétrie}} ssi&nbsp;{{c2::\\(s^2 = \\text{Id}_E\\)}}",
+                ""
+            ],
+            "guid": "cSP<t#^cy8",
+            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(f(\\text{Vect}(x_i)_{i\\in I}) =\\)",
+                "=&nbsp;\\(\\text{Vect} (f(x_i))_{i \\in I}\\)"
+            ],
+            "guid": "L}bezvJw1^",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Par quoi est déterminée entièrement une application linéaire",
+                "L'image d'une base"
+            ],
+            "guid": "ov[3zLV@Ej",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème de l'image d'une base",
+                "<ul><li>\\(f \\)&nbsp;est injective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est libre<br></li><li>\\(f \\)&nbsp;est surjective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est génératrice<br></li><li>\\(f \\)&nbsp;est un isomorphisme ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est une base<br></li></ul>"
+            ],
+            "guid": "q)?yATqkv)",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\text{dim } \\mathcal L(E, F) =\\)",
+                "\\(\\text {dim } E \\times \\text{dim } F\\)"
+            ],
+            "guid": "d}X7e@-dt+",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\text{rg}(f) = \\)",
+                "\\(\\text{dim(Im }f)\\)"
+            ],
+            "guid": "lc,4Y&Z3j|",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Caractérisation du rang de&nbsp;\\(f : E\\rightarrow F\\)&nbsp;(dimensions)",
+                "\\(\\text{rg } f \\le \\min (\\dim E, \\dim F)\\)"
+            ],
+            "guid": "ucRZMH$Au#",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème(s) du rang (avec&nbsp;\\(E \\)&nbsp;de dim FINIE, et&nbsp;\\(f:E \\rightarrow F\\))",
+                "\\(\\dim \\text{Ker } f + \\text{rg } f = \\dim E \\)<br><br>En <span style=\"color: rgb(255, 0, 0);\">même dimension finie</span> :<br>\\((f\\text{ injective }) \\Leftrightarrow (f\\text{ surjective }) \\Leftrightarrow(f\\text{ bijective }) \\)"
+            ],
+            "guid": "CIG={+YiQ#",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "L'inverse d'une matrice triangulaire supérieure est",
+                "une matrice triangulaire supérieure"
+            ],
+            "guid": "I_.LYNU<$i",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(rg(g\\circ f)\\)&nbsp;comparé aux rangs de&nbsp;\\(g \\)&nbsp;et&nbsp;\\(f\\)",
+                "\\(\\text{rg } (g \\circ f) \\le \\min (\\text{rg }f, \\text{rg } g)\\)"
+            ],
+            "guid": "dm`8(>%mUj",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'un hyperplan",
+                "&nbsp;Tout noyau d'une forme linaire <span style=\"color: rgb(255, 0, 0);\">non nulle</span>."
+            ],
+            "guid": "Lz[h>AX(k0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
             ]
         },
         {
@@ -5595,6 +5595,583 @@
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
                 "équations::différentielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition du reste de&nbsp;\\(\\int_a^b f\\)&nbsp;.<br>(avec&nbsp;\\(f \\in \\mathcal C^0 ([a;b[)\\),&nbsp;\\(-\\infty &lt; a &lt; b \\leq +\\infty\\)&nbsp;et&nbsp;\\(\\int_a^b f\\)&nbsp;convergente)",
+                "\\(x \\in [a;b[ \\mapsto \\int_x^b f\\)<br>Tend vers 0 lorsque&nbsp;\\(x\\)&nbsp;tend vers&nbsp;\\(b^-\\)."
+            ],
+            "guid": "y5&zhmyS&L",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(f \\in \\mathcal C^0(]a;b[)\\),&nbsp;\\(-\\infty \\leq a &lt; b \\leq +\\infty\\)<br>\\(\\int_a^b f\\)&nbsp;convergente lorsque [...]",
+                "[...] pour tout&nbsp;\\(c \\in ]a;b[\\),&nbsp;\\(\\int_a^c f\\)&nbsp;et&nbsp;\\(\\int_c^b f\\)&nbsp;convergentes."
+            ],
+            "guid": "fr}i9l0uC@",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(f \\in \\mathcal C^0([a;c[ \\cup ]c;b])\\),&nbsp;\\(-\\infty &lt; a &lt; c &lt;b &lt; + \\infty\\)<br>\\(\\int_a^b f\\)&nbsp;convergente lorsque [...]",
+                "[...]&nbsp;\\(\\int_a^c f\\)&nbsp;et&nbsp;\\(\\int_c^b f\\)&nbsp;convergentes."
+            ],
+            "guid": "sS{(p!,n]~",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "- convergente + convergente = ____<br>- convergente + divergente = ____<br>- divergente + divergente = ____<br>(séries / intégrales impropres)",
+                "- convergente<br>- divergente<br>- tout peut arriver"
+            ],
+            "guid": "jLTRF_(To^",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres",
+                "Séries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Validité pour intégrales impropres de :<br>- relation de Chasles<br>- positivité<br>- croissance<br>- inégalité triangulaire<br>- théorème aux quatre hypothèses",
+                "- oui<br>- oui (avec réciproque fausse)<br>- oui (avec réciproque fausse)<br>- oui (en supposant que l'intégrale de la valeur absolue de la fonction converge)&nbsp;<br>- oui"
+            ],
+            "guid": "feg6_<7dB0",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IPPI",
+                "Si&nbsp;\\([u(t)v(t)]_a^b = \\lim_b uv - \\lim_a uv\\)&nbsp;est fini,&nbsp;<br>\\(\\int_a^bu'v\\)&nbsp;et&nbsp;\\(\\int_a^b uv'\\)&nbsp;sont de même nature.<br><br>En cas de convergence :<br>\\(\\int_a^b u'(t)v(t)dt = [u(t)v(t)]_a^b - \\int_a^b u(t)v'(t)dt\\)"
+            ],
+            "guid": "k/|(tUA%O8",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Changement de variable impropre",
+                "\\(f \\in \\mathcal C^0(][a;b][)\\),&nbsp;\\(- \\infty \\leq a &lt; b \\leq + \\infty\\)<br>\\(\\varphi : I \\rightarrow \\mathbb R \\in \\mathcal C^1(I)\\)&nbsp;strictement monotone sur&nbsp;\\(I \\subset \\mathbb R\\)&nbsp;et&nbsp;\\(\\varphi (I) = ][a;b][\\)<br><br>\\(\\int_a^b f\\)&nbsp;et&nbsp;\\(\\int_{\\varphi^{-1}(a)}^{\\varphi^{-1}(b)} (f \\circ \\varphi)\\varphi'\\)&nbsp;sont de même nature<br><br>(avec&nbsp;\\(\\varphi^{-1}(a) = \\lim_{t \\rightarrow a}\\varphi^{-1}(t)\\)&nbsp;et&nbsp;\\(\\varphi^{-1}(b) = \\lim_{t \\rightarrow b}\\varphi^{-1}(b)\\))<br><br>En cas de convergence :<br>\\(\\int_a^b f(t)dt = \\int_{\\varphi^{-1}(a)}^{\\varphi^{-1}(b)} f(\\varphi(u))\\varphi'(u)du\\)"
+            ],
+            "guid": "lal596JU%A",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Intégrale impropre d'une fonction paire ou impaire",
+                "\\(f \\in \\mathcal C^0(]-a;a[), \\ 0 &lt; a \\leq +\\infty\\)&nbsp;tq&nbsp;\\(\\int_{-a}^a f\\)&nbsp;converge<br><br>&nbsp;-&nbsp;\\(f\\)&nbsp;paire&nbsp;\\(\\implies \\int_{-a}^a f = 2\\int_0^a f\\)<br><br>-&nbsp;\\(f\\)&nbsp;impaire&nbsp;\\(\\implies \\int_{-a}^a f = 0\\)"
+            ],
+            "guid": "eiX?~ce&}z",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Intégrale faussement impropre",
+                "\\(a,b \\in \\mathbb R\\)<br>\\(\\int_a^b f\\)&nbsp;faussement impropre en b si&nbsp;\\(f\\)&nbsp;se prolonge par continuité en&nbsp;\\(b\\)&nbsp;(dans ce cas là c'est l'intégrale callsique du prolongement)"
+            ],
+            "guid": "A1hC(^y*rC",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Divergence grossière pour les intégrales impropres ?",
+                "Non (contre-exemple : fonction peigne)"
+            ],
+            "guid": "sfPrf$r=d/",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression et nature de l'intégrale de Riemann en&nbsp;\\(0\\)&nbsp;et en&nbsp;\\(+\\infty\\)d'exposant&nbsp;\\(\\alpha \\in \\mathbb R\\)",
+                "- Intégrale de Riemann en&nbsp;\\(0\\)&nbsp;:<br>\\(\\int_0^b \\frac {dt} {t^\\alpha}, \\ (b &gt;0)\\)<br>Converge ssi&nbsp;\\(\\alpha &lt; 1\\)<br><br>- Intégrale de Riemann en&nbsp;\\(+\\infty\\)&nbsp;:<br>\\(\\int_a^{+\\infty} \\frac {dt} {t^\\alpha}, \\ (a &gt; 0)\\)<br>Converge ssi&nbsp;\\(\\alpha &gt; 1\\)"
+            ],
+            "guid": "KG.&oD/^FE",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCIFP (théorème de comparaison des intégrales de fonctions positives)",
+                "\\(- \\infty &lt; a &lt; b \\leq + \\infty, \\ f,g \\in \\mathcal C^0([a;b[) \\)<br>\\(f\\)&nbsp;et&nbsp;\\(g\\)&nbsp;positives sur&nbsp;\\([a;b[\\)&nbsp;et&nbsp;\\(0 \\leq f \\leq g\\)<br><br>- Si\\(\\int_a^bg\\)&nbsp;converge alors&nbsp;\\(\\int_a^b f\\)&nbsp;converge<br><br>- Si&nbsp;\\(\\int_a^b f\\)&nbsp;diverge alors&nbsp;\\(\\int_a^b g\\)&nbsp;diverge"
+            ],
+            "guid": "d)s+vSWe5O",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCIFP par&nbsp;\\(o\\)&nbsp;ou&nbsp;\\(O\\)",
+                "\\(- \\infty &lt; a &lt; b \\leq +\\infty, \\ f,g \\in \\mathcal C^0([a;b[), \\ f,g \\geq 0\\)<br>\\(f = o_b(g)\\)&nbsp;ou&nbsp;\\(f = O_b(g)\\)<br><br>Si&nbsp;\\(\\int_a^bg\\)&nbsp;converge alors&nbsp;\\(\\int_a^b f\\)&nbsp;converge"
+            ],
+            "guid": "Pkm.T`D4/t",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCIFP par équivalence",
+                "\\(- \\infty &lt; a &lt; b \\leq + \\infty, \\ f,g\\in \\mathcal C^0 ([a;b[), \\ f,g \\geq 0\\)<br><br>\\(f \\thicksim_b g\\)<br><br>\\(\\int_a^b f\\)&nbsp;et&nbsp;\\(\\int_a^b g\\)&nbsp;sont de même nature."
+            ],
+            "guid": "x~[1`;wCMI",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Convergence absolue pour une intégrale impropre",
+                "\\(\\int_a^b f\\)&nbsp;absolument convergente si&nbsp;\\(\\int_a^b |f|\\)&nbsp;converge.&nbsp;\\(f\\)&nbsp;est alors dite intégrable sur son domaine d'intégration.<br><br>Toute intégrale absolument convergente est convergente, et la réciproque est fausse.<br><br>Si&nbsp;\\(\\int_a^b f\\)&nbsp;absolument convergente :&nbsp;\\(\\left| \\int_a^b f \\right| \\leq \\int_a^b |f|\\)"
+            ],
+            "guid": "th|:/Y@-7N",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition de la semi-convergence pour une intégrale impropre",
+                "Une intégrale impropre est semi-convergente si elle est convergente sans être absolument convergente."
+            ],
+            "guid": "HIKoa^aiW;",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fonction&nbsp;\\(\\Gamma\\)&nbsp;d'Euler",
+                "\\(\\Gamma : x \\mapsto \\int_0^{+\\infty} t^{x-1}e^{-t}dt\\), définie sur&nbsp;\\(\\mathbb R^+\\)"
+            ],
+            "guid": "uCBHOS#)w^",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Équations satisfaites par la fonction&nbsp;\\(\\Gamma\\)&nbsp;d'Euler",
+                "\\(\\forall x &gt; 0, \\ \\Gamma(x+1) = x\\Gamma(x)\\)<br><br>En particulier,<br>\\(\\forall n \\in \\mathbb N^*, \\Gamma(n) = (n-1)!\\)"
+            ],
+            "guid": "Efs*0PX78)",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression du moment de Gauss&nbsp;\\(G_n\\)&nbsp;d'ordre&nbsp;\\(n \\in \\mathbb N\\)&nbsp;et valeur de&nbsp;\\(G_0\\)",
+                "\\(G_n = \\int_{-\\infty}^{+\\infty} t^ne^{-t^2/2}dt\\), convergente<br><br>\\(G_0 = \\int_{-\\infty}^{+\\infty}e^{-t^2/2}dt = \\sqrt {2\\pi}\\)"
+            ],
+            "guid": "H/]b;b[Kt7",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression, nature et valeur de l'intégrale de Dirichlet",
+                "\\(D = \\int_0^{+\\infty} \\frac {\\sin t} {t} dt = \\frac \\pi 2\\)<br>Semi-convergente."
+            ],
+            "guid": "q6r|g@aZ^Y",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Intégrales_impropres"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition de l'ordre de&nbsp;\\(G\\)&nbsp;(\\((G,*)\\)&nbsp;groupe fini)",
+                "Cardinal de&nbsp;\\(G\\), noté&nbsp;\\(|G|\\)"
+            ],
+            "guid": "q!ob#VQt@?",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème de Lagrange (hors programme ????)",
+                "\\((G, *)\\)&nbsp;groupe fini.<br>Si&nbsp;\\(H\\)&nbsp;sous-groupe de&nbsp;\\(G\\), alors&nbsp;\\(|H|\\)&nbsp;divise&nbsp;\\(|G|\\)."
+            ],
+            "guid": "O.jK~pE>VM",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\((G, *)\\)&nbsp;groupe fini et&nbsp;\\(A\\)&nbsp;partie de&nbsp;\\(G\\)<br>Définition(s) et notation(s) du sous-groupe engendré par&nbsp;\\(A\\)&nbsp;dans&nbsp;\\(G\\)",
+                "Définitions :<br>- Plus petit sous-groupe de&nbsp;\\(G\\)&nbsp;qui contient&nbsp;\\(A\\)<br>- Intersection de tous les sous-groupes de&nbsp;\\(G\\)&nbsp;qui contiennent&nbsp;\\(A\\)<br><br>Notations :<br>- Cas général :&nbsp;\\(\\text {Gr} (A)\\)<br>- Si&nbsp;\\(A\\)&nbsp;est un singleton&nbsp;\\(\\{ g \\}\\), alors&nbsp;\\(\\text {Gr} (\\{g\\}) = \\langle g \\rangle\\)"
+            ],
+            "guid": "OdX7OFv`-a",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de&nbsp;\\(\\text {Gr} (A)\\)&nbsp;en fonction des éléments de&nbsp;\\(A\\)",
+                "\\(\\text {Gr} (A)\\)&nbsp;est l'ensemble des produits finis d'éléments de&nbsp;\\(A\\)&nbsp;ou de leurs symétriques.&nbsp;<br>\\(\\text {Gr} (A) = \\{ a_1^{\\epsilon_1}*a_2^{\\epsilon_2}*...*a_n^{\\epsilon_n} \\ | \\ n \\in \\mathbb N, \\ a_1,...,a_n \\in A, \\ \\epsilon_1,...,\\epsilon_n \\in \\{ -1; 1 \\} \\}\\)(ps : j'ai dû retaper trois fois cette formule :) )"
+            ],
+            "guid": "Lw6]Z)C2Vs",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'un groupe monogène (et du générateur d'un groupe monogène)",
+                "\\(G\\)&nbsp;monogène s'il existe&nbsp;\\(g \\in G\\)&nbsp;tq&nbsp;\\(G = \\langle g \\rangle\\)<br>Autrement dit&nbsp;\\(G = \\{g^k \\ | \\ k \\in \\mathbb Z \\}\\)&nbsp;(ou&nbsp;\\(G = \\{ kg \\ | \\ k \\in \\mathbb Z \\}\\)&nbsp;si groupe additif)<br>\\(g\\)&nbsp;est alors le générateur de&nbsp;\\(G\\)."
+            ],
+            "guid": "GAF`v9?;z>",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'un groupe cyclique",
+                "Groupe monogène fini"
+            ],
+            "guid": "FIXr#tMOUR",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\((G,*)\\)&nbsp;groupe fini et&nbsp;\\(g \\in G\\)<br>Définition de l'ordre de&nbsp;\\(g\\),&nbsp;(\\(\\omega (g)\\)), différence entre ordre fini et infini",
+                "\\(e_G\\)&nbsp;neutre de&nbsp;\\(G\\)<br>S'il existe&nbsp;\\(k \\in \\mathbb N^*\\)&nbsp;tq&nbsp;\\(g^k = e_G\\)&nbsp;alors&nbsp;\\(g\\)&nbsp;est d'ordre fini dans&nbsp;\\(G\\)&nbsp;et&nbsp;\\(\\omega (g) = k\\). Sinon&nbsp;\\(g\\)&nbsp;est d'ordre infini dans&nbsp;\\(G\\)&nbsp;et&nbsp;\\(\\omega (g) = +\\infty\\)."
+            ],
+            "guid": "B_-b-YVH{H",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\((G, *)\\)&nbsp;groupe fini,&nbsp;\\(g \\in G\\)&nbsp;d'ordre fini dans&nbsp;\\(G\\)&nbsp;et&nbsp;\\(m \\in \\mathbb Z\\)<br>\\(g^m = e_G\\)&nbsp;ssi [...]",
+                "[...]&nbsp;\\(\\omega (g) \\ | \\ m\\)."
+            ],
+            "guid": "Hm)O)GMWJO",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\((G,*)\\)&nbsp;groupe,&nbsp;\\(g \\in G\\)&nbsp;et&nbsp;\\(m \\in \\mathbb N^*\\)<br>\\(g\\)&nbsp;d'ordre fini&nbsp;\\(m\\)&nbsp;ssi [...]",
+                "[...]&nbsp;\\(\\langle g \\rangle\\)&nbsp;groupe cyclique d'ordre&nbsp;\\(m\\), autrement dit&nbsp;:&nbsp;<br>\\(\\langle g \\rangle = \\{ e_G, g, g^2, ... , g^{m-1}\\}\\)"
+            ],
+            "guid": "A!R&ONIa2_",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lien entre ordre d'un groupe fini et ordre de ses éléments",
+                "L'ordre d'un groupe fini&nbsp;\\(G\\)&nbsp;est un multiple de n'importe lequel de ses éléments.<br>En particulier,&nbsp;\\(\\forall g \\in G, g^{|G|} = e_G\\)"
+            ],
+            "guid": "t@3]8?|f2I",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition et notation de l'ensemble des permutations de&nbsp;\\([\\![ 1; n ]\\!]\\)",
+                "\\(\\mathfrak S_n\\)&nbsp;est l'ensemble des bijections de&nbsp;\\([\\![1;n]\\!]\\)&nbsp;dans&nbsp;\\([\\![1;n]\\!]\\)"
+            ],
+            "guid": "kVaRU7SyxU",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'un point fixe et du support d'une permutation<br>Notation de l'ensemble des points fixes<br>Notation du support",
+                "\\(\\sigma \\in \\mathfrak S_n\\)<br>Un point fixe de&nbsp;\\(\\sigma\\)&nbsp;est un élément&nbsp;\\(i \\in [\\![1;n]\\!]\\)&nbsp;tq&nbsp;\\(\\sigma(i) = i\\)<br>L'ensemble des points fixes est noté&nbsp;\\(\\text {Fix} (\\sigma)\\)<br>Le support de&nbsp;\\(\\sigma\\),&nbsp;\\(\\text {Supp} (\\sigma)\\)&nbsp;est l'ensemble des points non fixes de&nbsp;\\(\\sigma\\)"
+            ],
+            "guid": "nX!m,usN,N",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition et ordre du groupe symétrique d'incide&nbsp;\\(n\\)<br>Définition du produit de 2 permutations et de l'inverse d'une permutation",
+                "\\((\\mathfrak S_n, \\circ)\\)&nbsp;est le groupe symétrique d'indice&nbsp;\\(n\\), d'ordre&nbsp;\\(n!\\).<br>Le produit de deux permutations est la composée de deux permutations<br>L'inverse d'une permutation est sa réciproque"
+            ],
+            "guid": "I@B{/AwYN_",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deux permutations disjointes [...]",
+                "[...] commutent."
+            ],
+            "guid": "Bmn{@QhBG9",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition et notation de l'ordre de&nbsp;\\(\\sigma \\in \\mathfrak S_n\\)",
+                "\\(\\omega(\\sigma)\\)&nbsp;est le plus petit entier&nbsp;\\(k \\in \\mathbb N^*\\)&nbsp;tq&nbsp;\\(\\sigma^k = \\text {Id}\\)"
+            ],
+            "guid": "i)]bXK0#mn",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Relation de conjugaison sur&nbsp;\\(\\mathfrak S_n\\)",
+                "\\(\\sigma_1, \\sigma_2 \\in \\mathfrak S_n\\)&nbsp;sont conjuguées s'il existe&nbsp;\\(\\rho \\in [\\![1;n]\\!]\\)&nbsp;tq&nbsp;\\(\\sigma_1 = \\rho \\sigma \\rho^{-1}\\).<br>Relation d'équivalence."
+            ],
+            "guid": "y)U}Y79o6V",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'un automorhpisme intérieur de&nbsp;\\(\\mathfrak S_n\\)",
+                "Pour toute permutation&nbsp;\\(\\rho \\in \\mathfrak S_n\\), on pose<br>\\(i_\\rho : \\sigma \\mapsto \\rho\\sigma\\rho^{-1}\\)"
+            ],
+            "guid": "ig}nH*qsgq",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition, notation, ordre, inverse d'une transposition de&nbsp;\\([\\![ 1;n ]\\!]\\)",
+                "Une transposition de&nbsp;\\([\\![ 1;n ]\\!]\\)&nbsp;est une permutation qui échange deux éléments distincts&nbsp;\\(i\\)&nbsp;et&nbsp;\\(j\\)&nbsp;distincts et laisse fixe les autres<br>On la note&nbsp;\\((i,j)_n\\)&nbsp;(\\(n\\)&nbsp;facultatif si pas d'ambiguïté)<br>Une transposition est d'ordre 2, c'est une involution (son propre inverse)"
+            ],
+            "guid": "CR03>JS[nF",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Décomposition en transpositions",
+                "Toute permutation de&nbsp;\\([\\![ 1;n ]\\!]\\)&nbsp;est décomposable en un produit de transpositions (mais pas d'unicité)"
+            ],
+            "guid": "vA@C3;B|hb",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition et notation d'un&nbsp;\\(p\\)-cycle",
+                "Permutation&nbsp;\\(\\gamma\\)&nbsp;de&nbsp;\\([\\![ 1;n ]\\!]\\)&nbsp;telle qu'il existe&nbsp;\\(p \\in [\\![ 2;n ]\\!]\\)&nbsp;et&nbsp;\\(a_1, ..., a_p \\in [\\![ 1;p ]\\!]\\)&nbsp;2 à 2 distincts tq :<br>-&nbsp;\\(\\forall i \\in [\\![ 1;p-1 ]\\!], \\ \\gamma(a_i) = a_{i+1}\\)<br>-&nbsp;\\(\\gamma(a_p) = a_1\\)<br>-&nbsp;\\(\\forall l \\in [\\![ 1;n ]\\!]\\backslash\\{ a1,...,a_p \\}, \\ \\gamma(l) = l\\)<br>On le note&nbsp;\\(\\gamma = (a_1,...,a_p)_n\\)"
+            ],
+            "guid": "FY6[[WhgQ+",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Support, ordre, inverse d'un&nbsp;\\(p\\)-cycle&nbsp;\\((a_1,...a_p)\\)",
+                "-&nbsp;\\(\\text {Supp}((a_1,...,a_p)) = \\{ a_1,...,a_p \\}\\)<br>-&nbsp;\\(\\omega((a_1,...,a_p)) = p\\)<br>-&nbsp;\\((a_1,...,a_p)^{-1} = (a_p,a_{p-1},...,a_1)\\)"
+            ],
+            "guid": "C+Y)>6IwDD",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formule de conjugaison pour un&nbsp;\\(p\\)-cycle&nbsp;\\((a_1,...,a_p)\\)",
+                "\\(\\forall \\sigma \\in \\mathfrak S_n, \\ \\sigma (a_1,...,a_p)\\sigma^{-1} = (\\sigma(a_1),\\sigma(a_2),...,\\sigma(a_p))\\)"
+            ],
+            "guid": "Kz)fkBVSd1",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deux&nbsp;\\(p\\)-cycles de&nbsp;\\([\\![1;n]\\!]\\)&nbsp;sont [...]",
+                "[...] toujours conjugués dans&nbsp;\\(\\mathfrak S_n\\)"
+            ],
+            "guid": "P4O,DqA$#T",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Décomposition en cycles disjoints",
+                "Toute permutation de&nbsp;\\([\\![1;n]\\!]\\)&nbsp;est décomposable en un produit de cycles à support 2 à 2 disjoints (donc ils commutent 2 à 2).<br>Décomposition unique, à l'ordre des cycles près."
+            ],
+            "guid": "F/#JnGfFpj",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Signature :<br>- de l'inverse d'une permutation<br>- de deux permutations conjuguées<br>- d'un&nbsp;\\(p\\)-cycle<br>- d'une transposition",
+                "-&nbsp;\\(\\forall \\sigma \\in \\mathfrak S_n, \\ \\varepsilon (\\sigma^{-1}) = \\varepsilon (\\sigma)\\)<br>-&nbsp;\\(\\forall \\sigma, \\rho \\in \\mathfrak S_n, \\varepsilon (\\rho^{-1}\\sigma\\rho) = \\varepsilon (\\sigma)\\)<br>-&nbsp;\\((-1)^{p-1}\\)<br>-&nbsp;\\(-1\\)"
+            ],
+            "guid": "O@NS^/Vy]a",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Propriétés de la signature (pas définition)<br>Définitions d'une permutation paire et impaire",
+                "La signature&nbsp;\\(\\varepsilon \\)&nbsp;est un morphisme de groupes de&nbsp;\\((\\mathfrak S_n, \\circ)\\)&nbsp;dans&nbsp;\\((\\{ -1; 1 \\}, \\times)\\)<br>Donc la signature d'un produit de permutations est le produit des signatures<br>Une permutation est paire si elle est de signature&nbsp;\\(1\\)<br>Une permutation est impaire si elle est de signature&nbsp;\\(-1\\)"
+            ],
+            "guid": "BK-G.AFFb0",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition(s), notation et ordre du groupe alterné de&nbsp;\\(\\mathfrak S_n\\)",
+                "Le groupe alterné de&nbsp;\\(\\mathfrak S_n\\)&nbsp;est l'ensemble des permutations paires de&nbsp;\\(\\mathfrak S_n\\), c'est-à-dire le noyau de la signature<br>Il est noté&nbsp;\\(\\mathfrak U_n\\).<br>Si&nbsp;\\(n \\geq 2\\),&nbsp;\\(\\mathfrak U_n\\)&nbsp;est d'ordre&nbsp;\\(n!/2\\)."
+            ],
+            "guid": "st#GWzGH(E",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation et ensemble valeurs possibles de la signature d'une permutation",
+                "\\(\\sigma \\in \\mathfrak S_n\\)<br>La signature de&nbsp;\\(\\sigma\\)&nbsp;se note&nbsp;\\(\\varepsilon (\\sigma)\\)&nbsp;et peut valoir&nbsp;\\(-1\\)&nbsp;ou&nbsp;\\(1\\)"
+            ],
+            "guid": "uZi,6Zsl@@",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Groupe_symétrique"
             ]
         }
     ],
