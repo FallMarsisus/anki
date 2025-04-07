@@ -1,0 +1,508 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c4ff9756-13c5-11f0-8d6b-00163ec6fa00",
+    "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 200
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.2,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 10,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 1,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Physique Sup",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -3568197255527884728,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -8792581457391807817,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-b1fb7",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -7066904010460991323,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Travail fourni au système {fluide + piston} ou {gaz + paroi}",
+                "\\(\\delta W = -P_{ext} dV\\)"
+            ],
+            "guid": "wU|k@IPW)=",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Trois modes de transfert thermique",
+                "- Conduction<br>- Convection&nbsp;<br>- Rayonnement"
+            ],
+            "guid": "Q)[i}Np-i:",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition adiabatique",
+                "Transformation au cours de laquelle le système n'a aucun échange d'énergie par transfert thermique&nbsp;\\(Q = 0\\)"
+            ],
+            "guid": "ukSXUIQl)K",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Une transformation rapide peut être considérée comme...",
+                "... adiabatique"
+            ],
+            "guid": "IlDe[`L8:d",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition Thermostat",
+                "Système thermo dont la température&nbsp;\\(T_0\\)&nbsp;ne varie pas, même en cas d'échange d'énergie"
+            ],
+            "guid": "y6E$|L(v>7",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition et formule flux thermique",
+                "Le flux thermique&nbsp;\\(\\phi\\)&nbsp;est la puissance thermique recue par un système (en W)<br>On a&nbsp;\\(\\delta Q= \\phi dt\\)"
+            ],
+            "guid": "Hr9&c3{XR-",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dans quel sens vont les échanges thermiques",
+                "\\(T_{chaud}\\)&nbsp;vers&nbsp;\\(T_{froid}\\)"
+            ],
+            "guid": "i]lvAL!3+$",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Def et formule résistance thhermique",
+                "Plus la résistance thermique est forte, plus le système s'oppose au passage du flux thermique.&nbsp;<br>Isolant = forte résistance thermique<br><br>\\(R_N = \\frac {\\Delta T } \\phi\\)"
+            ],
+            "guid": "C/`0lY+;tn",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Loi Phénoménologique de Newton",
+                "Transfert thermique proportionnel à la différence de température,&nbsp; surface de l'interface, et durée de l\"échange<br><br>\\(\\delta Q = hS\\Delta T \\)&nbsp;ou&nbsp;\\(\\phi  = hS\\Delta T\\)&nbsp;avec&nbsp;\\(h\\)&nbsp;le facteur de proportionnalité."
+            ],
+            "guid": "qTV!?RP^dN",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Energie totale d'un système",
+                "\\(E = U + E_c + E_{p, ext}\\)"
+            ],
+            "guid": "OVx:*>slVV",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Premier principe de la thermo",
+                "\\(\\Delta E = W + Q\\)&nbsp;(système FERME)<br>\\(\\Delta U + \\Delta E_c = \\delta W + \\delta Q\\)&nbsp;(car pas d'énergie potentielle exterieure)"
+            ],
+            "guid": "iRGH%Gq%W7",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transformation thermodynamique",
+                "Le passage d'un système d'un état d'équilibre intial à un état d'équilibre final. Au moins une des valeurs varie (T, P, V)"
+            ],
+            "guid": "goW5AlG:i8",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transformation Isochore",
+                "Volume Constant"
+            ],
+            "guid": "AV%yY]:.<Q",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transformation Isobare",
+                "Pression constante"
+            ],
+            "guid": "jAY@V9$4>P",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transformation Monobare",
+                "Pression exterieure constante (\\(P_{ext} = P_0\\))"
+            ],
+            "guid": "/S#F?u}6&",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transformation Isotherme",
+                "Température constante"
+            ],
+            "guid": "hv!xh*mkJ9",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transformation Monotherme",
+                "Température exterieure constante&nbsp;\\(T_{ext} = T_0\\)"
+            ],
+            "guid": "D!YS2#p>F@",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Travail forces de pression transformation isochore",
+                "NUL"
+            ],
+            "guid": "h1#d!y&~8B",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Travail des forces de pression transformation monobare",
+                "\\(W = -P_0\\Delta V\\)"
+            ],
+            "guid": "nDt[&0g!);",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Approximation des états quasi-stationnaires",
+                "Si les parois se déplacent à une vitesse&nbsp;\\(&lt;&lt; \\)&nbsp;vitesse du son dans le gaz, on peut considérer que la pression est uniforme à chaque instant"
+            ],
+            "guid": "fD@88@z@=(",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Transfo mécaniquement réversible, travail des forces de pression",
+                "\\(W = - \\int^f_i PdV\\)"
+            ],
+            "guid": "n,sD/r^MB|",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition Enthalpie",
+                "\\(H = U + PV\\)&nbsp;<br>\\(H\\)&nbsp;fonction d'état, en Joule, grandeur extensive"
+            ],
+            "guid": "ePP5ct&p]h",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Seconde loi de Joule",
+                "Enthalpie ne dépend que de température"
+            ],
+            "guid": "s(h+(8A3Sr",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Premier principe pour une transformation monobare avec équilibre.",
+                "Transformation monobare avec équilibre mécanique dans l'état initial et état final<br><br>\\(\\Delta H + \\Delta E_c = W_{autre} +Q\\)&nbsp;<br>\\(W_{autre} \\)étant le travail des forces autres que celles de pression.<br>On a donc si aucun autre travail que forces de pression<br>\\(Q = \\Delta H\\)"
+            ],
+            "guid": "Yc;JETdKg",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Enthalpie gaz parfait",
+                "\\(H_m = H_m(T)\\)&nbsp;avec&nbsp;\\(H_m\\)&nbsp;l'enthalpie molaire d'un gaz parfait&nbsp;"
+            ],
+            "guid": "LF<U]n7zTq",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Capacité thermique à pression constante molaire gaz parfait",
+                "\\(C_{P_m} = \\frac {dH_m} {dT}\\)"
+            ],
+            "guid": "v)7D9_EN)Y",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Relation de Mayer (qqch = R)",
+                "\\(C_{P_m} - C_{V_m} = R\\)"
+            ],
+            "guid": "Cm!V8K}^=^",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rapport des capacités thermiques",
+                "\\(\\gamma = \\frac {C_{P_m}}{C_{V_m}}\\)"
+            ],
+            "guid": "D|p>bJX|>S",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Capacités thermiques molaires (relations de mayer + rapport capa molaires)<br>",
+                "\\(C_{V_m} = \\frac R {\\gamma - 1}\\)&nbsp;et&nbsp;\\(C_{P_m} = \\frac {R\\gamma} {\\gamma - 1}\\)"
+            ],
+            "guid": "JKY#VKLrh-",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "thermodynamique:bilan:d'énergie"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
