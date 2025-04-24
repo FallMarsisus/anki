@@ -49,7 +49,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 200
+                "perDay": 120
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -63,7 +63,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 10,
-                "perDay": 200
+                "perDay": 120
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
@@ -85,8 +85,8 @@
     "name": "Mathématiques Sup",
     "newLimit": null,
     "newLimitToday": {
-        "limit": 210,
-        "today": 573
+        "limit": 150,
+        "today": 590
     },
     "note_models": [
         {
@@ -1311,6 +1311,102 @@
         {
             "__type__": "Note",
             "fields": [
+                "DL de&nbsp;\\(\\tan x \\)",
+                "\\(\\tan x  = _{x \\rightarrow 0} x + \\frac 1 3 x^3 + \\frac 2 {15}x ^5 + o(x^5)\\)"
+            ],
+            "guid": "Qm]bWBfK@;",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\ln\\)",
+                "\\(\\ln (1+x) = _ {x \\rightarrow 0} x - \\frac {x^2} 2 + \\frac { x ^3 } 3 + ... + (-1)^{(n+1)}\\frac {x^n}n + o(x ^n) \\)"
+            ],
+            "guid": "fq7BE;.8MD",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\arctan x \\)",
+                "\\(\\arctan x =_{x \\rightarrow 0} x - \\frac {x ^3} 3 + \\frac {x ^5 } 5 + ... + (-1) ^n \\frac {x ^{2n +1} }{2n +1} + o(x ^{2n +1})\\)"
+            ],
+            "guid": "H.rKHdD)vI",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DL de&nbsp;\\(\\arcsin x\\)",
+                "\\(\\arcsin x =_{x \\rightarrow 0} x \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
+            ],
+            "guid": "Knc*o^!45E",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "DL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Somme des termes d'une suite géométrique",
+                "\\(\\sum ^n _ {k = m} u_k= u_p \\frac {1- q^{n-p +1}} {1-q}\\)"
+            ],
+            "guid": "mo2?N5zvqX",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Suites"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Somme des termes d'une suite arithmétique",
+                "\\(\\sum ^n _{k =p} u _k = (n - p +1) \\times \\frac {u_p + u_n} 2\\)"
+            ],
+            "guid": "eQf#U5k=-i",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Suites"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Règles de Bioche",
+                "\\(\\begin{array}{c c}\n  \\text{Transformation} &amp; \\text{Changement de variable} \\\\\n  \\hline\n  t \\to -t &amp; u = \\cos t \\\\\n  t \\to \\pi - t &amp; u = \\sin t \\\\\n  t \\to t + \\pi &amp; u = \\tan t \\\\\n  \\text{Sinon} &amp; u = \\tan \\frac{t}{2} \\\\\n\\end{array}\\)"
+            ],
+            "guid": "zY1S*17#fP",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Intégrales"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Primitive d'une fraction rationnelle",
+                ""
+            ],
+            "guid": "CBz>AV-%85",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Intégrales"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "\\(\\cos (a+b)\\)",
                 "\\(\\cos a \\cos b - \\sin a \\sin b \\)"
             ],
@@ -1563,49 +1659,269 @@
         {
             "__type__": "Note",
             "fields": [
-                "DL de&nbsp;\\(\\tan x \\)",
-                "\\(\\tan x  = _{x \\rightarrow 0} x + \\frac 1 3 x^3 + \\frac 2 {15}x ^5 + o(x^5)\\)"
+                "Soit&nbsp;\\(f \\)&nbsp;une application linéaire.<br>Donner une condition sur l'injectivité de f",
+                "\\(f \\)&nbsp;est injective ssi&nbsp;\\(\\ker f  = \\{ 0_E\\}\\)"
             ],
-            "guid": "Qm]bWBfK@;",
+            "guid": "QMlaP&Vs4",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "DL"
+                "Applications::Linéaires"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "DL de&nbsp;\\(\\ln\\)",
-                "\\(\\ln (1+x) = _ {x \\rightarrow 0} x - \\frac {x^2} 2 + \\frac { x ^3 } 3 + ... + (-1)^{(n+1)}\\frac {x^n}n + o(x ^n) \\)"
+                "Soit&nbsp;\\(f : E \\rightarrow F\\)&nbsp;une application linéaire.&nbsp;<br>Donner une condition sur la surjectivité de \\(f\\)",
+                "\\(f\\)&nbsp;est surjective ssi&nbsp;\\(\\text{Im f = F}\\)"
             ],
-            "guid": "fq7BE;.8MD",
+            "guid": "NY1TxDp#|P",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "DL"
+                "Applications::Linéaires"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "DL de&nbsp;\\(\\arctan x \\)",
-                "\\(\\arctan x =_{x \\rightarrow 0} x - \\frac {x ^3} 3 + \\frac {x ^5 } 5 + ... + (-1) ^n \\frac {x ^{2n +1} }{2n +1} + o(x ^{2n +1})\\)"
+                "Soit&nbsp;\\(f \\in \\mathcal L(E, F)\\)&nbsp;et&nbsp;\\(E'\\)&nbsp;un sous-espace de&nbsp;\\(E\\)<br>\\(\\text{Ker}f|_{E'}  =\\)",
+                "\\(\\text{Ker } f\\space  \\cap E'\\)&nbsp;"
             ],
-            "guid": "H.rKHdD)vI",
+            "guid": "GPX/Mhp3DN",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "DL"
+                "Applications::Linéaires"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "DL de&nbsp;\\(\\arcsin x\\)",
-                "\\(\\arcsin x =_{x \\rightarrow 0} x \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
+                "Théorème géométrique du rang.",
+                "\\(f \\in \\mathcal L(E, F)\\),&nbsp;\\(E = S ⊕\\text{Ker }f\\)<br>\\(f|_S^{\\text{Im }f}\\)&nbsp;est un isomorphisme"
             ],
-            "guid": "Knc*o^!45E",
+            "guid": "y/J2:VrD9>",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
             "tags": [
-                "DL"
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une homotétie vectorielle ?",
+                "\\(h_{\\lambda}(x) = \\lambda x\\)"
+            ],
+            "guid": "f3*MQHkGAK",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Caractérisation des homotéthies",
+                "\\(f\\in \\mathcal H(E) \\Leftrightarrow (\\forall x \\in E, \\exists \\lambda \\in \\mathbb K, f(x) = \\lambda x)\\)"
+            ],
+            "guid": "IRSEPUYGXj",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une projection vectorielle ?",
+                "\\(p\\left\\{E = F\\oplus G \\rightarrow E \\atop x = x_F +  x_G \\rightarrow p(x) = x_F \\right.\\)"
+            ],
+            "guid": "O>U@SD-w>O",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(E = F\\oplus G \\),&nbsp;\\(p\\)&nbsp;une projection sur&nbsp;\\(F\\)&nbsp;dans la direction de&nbsp;\\(G\\),<br><b>Donner :</b><br><ul><li>le noyau de&nbsp;\\(p\\),&nbsp;</li><li>l'image de&nbsp;\\(p\\),</li><li>\\(E \\)&nbsp;en fonction de&nbsp;\\(\\text{Ker } p\\)&nbsp;et&nbsp;\\(\\text{Im }  p\\)&nbsp;</li></ul>",
+                "<ul><li>\\(\\text{Ker }p = G\\)<br></li><li>\\(\\text{Im } p = F = \\text{Ker }(\\text{Id}_E - p)\\)</li><li>\\(\\text{Im } p \\oplus \\text{Ker } p = E\\)</li></ul>"
+            ],
+            "guid": "gKt<&N])_D",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un endomorphisme&nbsp;\\(p \\)&nbsp;d'un&nbsp;\\(\\mathbb K\\)-esppace vectoriel&nbsp;\\(E\\)&nbsp;est une&nbsp;{{c1::projection}} ssi&nbsp;{{c2::\\(p² = p\\)}}",
+                ""
+            ],
+            "guid": "gBP4V(=NJ?",
+            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une symétrie vectorielle ?",
+                "\\(s \\left\\{ E = F \\oplus G \\rightarrow E\\atop x= x_F + x_G\\rightarrow x_F-x_G\\right.\\)"
+            ],
+            "guid": "t7Yg!A[.?>",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(p\\)&nbsp;une projection vectorielle sur&nbsp;\\(F\\)&nbsp;en direction de&nbsp;\\(G\\)<br>L'endomorphisme&nbsp;\\(s\\)&nbsp;est la {{c1::symétrie vectorielle par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G \\)}}&nbsp;ssi&nbsp;{{c2::\\(s = 2p - \\text {Id } E\\)}}",
+                ""
+            ],
+            "guid": "NS_&@2<IqX",
+            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(s \\)&nbsp;la symétrie par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G\\).&nbsp;<br><b>Donner :</b>&nbsp;<br><ul><li>\\(\\text{Ker }(\\text{Id}_E -s )\\)<br></li><li>\\(\\text{Ker } (\\text{Id}_E + s)\\)</li><li>La relation entre E et ces deux éléments.&nbsp;</li></ul>",
+                "<ul><li>\\(\\text{Ker }(\\text{Id} _E - s) = F\\)<br></li><li>\\(\\text{Ker }(\\text{Id}_E + s ) = G\\)</li><li>\\(\\text{Ker} (\\text {Id}_E -s ) \\oplus \\text{Ker }(\\text{Id}_E + s) = E\\)<br></li></ul>"
+            ],
+            "guid": "H&eye+4)J0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un endomorphisme&nbsp;\\(s\\)&nbsp;d'un&nbsp;\\(\\mathbb K \\)-ev&nbsp;\\(E\\)&nbsp;est&nbsp;{{c1::une symétrie}} ssi&nbsp;{{c2::\\(s^2 = \\text{Id}_E\\)}}",
+                ""
+            ],
+            "guid": "cSP<t#^cy8",
+            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(f(\\text{Vect}(x_i)_{i\\in I}) =\\)",
+                "=&nbsp;\\(\\text{Vect} (f(x_i))_{i \\in I}\\)"
+            ],
+            "guid": "L}bezvJw1^",
+            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Par quoi est déterminée entièrement une application linéaire",
+                "L'image d'une base"
+            ],
+            "guid": "ov[3zLV@Ej",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème de l'image d'une base",
+                "<ul><li>\\(f \\)&nbsp;est injective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est libre<br></li><li>\\(f \\)&nbsp;est surjective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est génératrice<br></li><li>\\(f \\)&nbsp;est un isomorphisme ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est une base<br></li></ul>"
+            ],
+            "guid": "q)?yATqkv)",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\text{dim } \\mathcal L(E, F) =\\)",
+                "\\(\\text {dim } E \\times \\text{dim } F\\)"
+            ],
+            "guid": "d}X7e@-dt+",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\text{rg}(f) = \\)",
+                "\\(\\text{dim(Im }f)\\)"
+            ],
+            "guid": "lc,4Y&Z3j|",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Caractérisation du rang de&nbsp;\\(f : E\\rightarrow F\\)&nbsp;(dimensions)",
+                "\\(\\text{rg } f \\le \\min (\\dim E, \\dim F)\\)"
+            ],
+            "guid": "ucRZMH$Au#",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème(s) du rang (avec&nbsp;\\(E \\)&nbsp;de dim FINIE, et&nbsp;\\(f:E \\rightarrow F\\))",
+                "\\(\\dim \\text{Ker } f + \\text{rg } f = \\dim E \\)<br><br>En <span style=\"color: rgb(255, 0, 0);\">même dimension finie</span> :<br>\\((f\\text{ injective }) \\Leftrightarrow (f\\text{ surjective }) \\Leftrightarrow(f\\text{ bijective }) \\)"
+            ],
+            "guid": "CIG={+YiQ#",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "L'inverse d'une matrice triangulaire supérieure est",
+                "une matrice triangulaire supérieure"
+            ],
+            "guid": "I_.LYNU<$i",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(rg(g\\circ f)\\)&nbsp;comparé aux rangs de&nbsp;\\(g \\)&nbsp;et&nbsp;\\(f\\)",
+                "\\(\\text{rg } (g \\circ f) \\le \\min (\\text{rg }f, \\text{rg } g)\\)"
+            ],
+            "guid": "dm`8(>%mUj",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition d'un hyperplan",
+                "&nbsp;Tout noyau d'une forme linaire <span style=\"color: rgb(255, 0, 0);\">non nulle</span>."
+            ],
+            "guid": "Lz[h>AX(k0",
+            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
+            "tags": [
+                "Applications::Linéaires"
             ]
         },
         {
@@ -1971,341 +2287,12 @@
         {
             "__type__": "Note",
             "fields": [
-                "Somme des termes d'une suite géométrique",
-                "\\(\\sum ^n _ {k = m} u_k= u_p \\frac {1- q^{n-p +1}} {1-q}\\)"
-            ],
-            "guid": "mo2?N5zvqX",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Suites"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Somme des termes d'une suite arithmétique",
-                "\\(\\sum ^n _{k =p} u _k = (n - p +1) \\times \\frac {u_p + u_n} 2\\)"
-            ],
-            "guid": "eQf#U5k=-i",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Suites"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Règles de Bioche",
-                "\\(\\begin{array}{c c}\n  \\text{Transformation} &amp; \\text{Changement de variable} \\\\\n  \\hline\n  t \\to -t &amp; u = \\cos t \\\\\n  t \\to \\pi - t &amp; u = \\sin t \\\\\n  t \\to t + \\pi &amp; u = \\tan t \\\\\n  \\text{Sinon} &amp; u = \\tan \\frac{t}{2} \\\\\n\\end{array}\\)"
-            ],
-            "guid": "zY1S*17#fP",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Intégrales"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Primitive d'une fraction rationnelle",
-                ""
-            ],
-            "guid": "CBz>AV-%85",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Intégrales"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(f \\)&nbsp;une application linéaire.<br>Donner une condition sur l'injectivité de f",
-                "\\(f \\)&nbsp;est injective ssi&nbsp;\\(\\ker f  = \\{ 0_E\\}\\)"
-            ],
-            "guid": "QMlaP&Vs4",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(f : E \\rightarrow F\\)&nbsp;une application linéaire.&nbsp;<br>Donner une condition sur la surjectivité de \\(f\\)",
-                "\\(f\\)&nbsp;est surjective ssi&nbsp;\\(\\text{Im f = F}\\)"
-            ],
-            "guid": "NY1TxDp#|P",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(f \\in \\mathcal L(E, F)\\)&nbsp;et&nbsp;\\(E'\\)&nbsp;un sous-espace de&nbsp;\\(E\\)<br>\\(\\text{Ker}f|_{E'}  =\\)",
-                "\\(\\text{Ker } f\\space  \\cap E'\\)&nbsp;"
-            ],
-            "guid": "GPX/Mhp3DN",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Théorème géométrique du rang.",
-                "\\(f \\in \\mathcal L(E, F)\\),&nbsp;\\(E = S ⊕\\text{Ker }f\\)<br>\\(f|_S^{\\text{Im }f}\\)&nbsp;est un isomorphisme"
-            ],
-            "guid": "y/J2:VrD9>",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est-ce qu'une homotétie vectorielle ?",
-                "\\(h_{\\lambda}(x) = \\lambda x\\)"
-            ],
-            "guid": "f3*MQHkGAK",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Caractérisation des homotéthies",
-                "\\(f\\in \\mathcal H(E) \\Leftrightarrow (\\forall x \\in E, \\exists \\lambda \\in \\mathbb K, f(x) = \\lambda x)\\)"
-            ],
-            "guid": "IRSEPUYGXj",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est-ce qu'une projection vectorielle ?",
-                "\\(p\\left\\{E = F\\oplus G \\rightarrow E \\atop x = x_F +  x_G \\rightarrow p(x) = x_F \\right.\\)"
-            ],
-            "guid": "O>U@SD-w>O",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(E = F\\oplus G \\),&nbsp;\\(p\\)&nbsp;une projection sur&nbsp;\\(F\\)&nbsp;dans la direction de&nbsp;\\(G\\),<br><b>Donner :</b><br><ul><li>le noyau de&nbsp;\\(p\\),&nbsp;</li><li>l'image de&nbsp;\\(p\\),</li><li>\\(E \\)&nbsp;en fonction de&nbsp;\\(\\text{Ker } p\\)&nbsp;et&nbsp;\\(\\text{Im }  p\\)&nbsp;</li></ul>",
-                "<ul><li>\\(\\text{Ker }p = G\\)<br></li><li>\\(\\text{Im } p = F = \\text{Ker }(\\text{Id}_E - p)\\)</li><li>\\(\\text{Im } p \\oplus \\text{Ker } p = E\\)</li></ul>"
-            ],
-            "guid": "gKt<&N])_D",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un endomorphisme&nbsp;\\(p \\)&nbsp;d'un&nbsp;\\(\\mathbb K\\)-esppace vectoriel&nbsp;\\(E\\)&nbsp;est une&nbsp;{{c1::projection}} ssi&nbsp;{{c2::\\(p² = p\\)}}",
-                ""
-            ],
-            "guid": "gBP4V(=NJ?",
-            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est-ce qu'une symétrie vectorielle ?",
-                "\\(s \\left\\{ E = F \\oplus G \\rightarrow E\\atop x= x_F + x_G\\rightarrow x_F-x_G\\right.\\)"
-            ],
-            "guid": "t7Yg!A[.?>",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(p\\)&nbsp;une projection vectorielle sur&nbsp;\\(F\\)&nbsp;en direction de&nbsp;\\(G\\)<br>L'endomorphisme&nbsp;\\(s\\)&nbsp;est la {{c1::symétrie vectorielle par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G \\)}}&nbsp;ssi&nbsp;{{c2::\\(s = 2p - \\text {Id } E\\)}}",
-                ""
-            ],
-            "guid": "NS_&@2<IqX",
-            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Soit&nbsp;\\(E\\)&nbsp;un&nbsp;\\(\\mathbb K\\)-ev,&nbsp;\\(E = F \\oplus G\\),&nbsp;\\(s \\)&nbsp;la symétrie par rapport à&nbsp;\\(F \\)&nbsp;dans la direction de&nbsp;\\(G\\).&nbsp;<br><b>Donner :</b>&nbsp;<br><ul><li>\\(\\text{Ker }(\\text{Id}_E -s )\\)<br></li><li>\\(\\text{Ker } (\\text{Id}_E + s)\\)</li><li>La relation entre E et ces deux éléments.&nbsp;</li></ul>",
-                "<ul><li>\\(\\text{Ker }(\\text{Id} _E - s) = F\\)<br></li><li>\\(\\text{Ker }(\\text{Id}_E + s ) = G\\)</li><li>\\(\\text{Ker} (\\text {Id}_E -s ) \\oplus \\text{Ker }(\\text{Id}_E + s) = E\\)<br></li></ul>"
-            ],
-            "guid": "H&eye+4)J0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un endomorphisme&nbsp;\\(s\\)&nbsp;d'un&nbsp;\\(\\mathbb K \\)-ev&nbsp;\\(E\\)&nbsp;est&nbsp;{{c1::une symétrie}} ssi&nbsp;{{c2::\\(s^2 = \\text{Id}_E\\)}}",
-                ""
-            ],
-            "guid": "cSP<t#^cy8",
-            "note_model_uuid": "5a6e78aa-0e50-11f0-80d3-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(f(\\text{Vect}(x_i)_{i\\in I}) =\\)",
-                "=&nbsp;\\(\\text{Vect} (f(x_i))_{i \\in I}\\)"
-            ],
-            "guid": "L}bezvJw1^",
-            "note_model_uuid": "d237865c-0c08-11f0-bc75-505a65e9873c",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Par quoi est déterminée entièrement une application linéaire",
-                "L'image d'une base"
-            ],
-            "guid": "ov[3zLV@Ej",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Théorème de l'image d'une base",
-                "<ul><li>\\(f \\)&nbsp;est injective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est libre<br></li><li>\\(f \\)&nbsp;est surjective ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est génératrice<br></li><li>\\(f \\)&nbsp;est un isomorphisme ssi&nbsp;\\((f(e_i))_{i \\in I}\\)&nbsp;est une base<br></li></ul>"
-            ],
-            "guid": "q)?yATqkv)",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(\\text{dim } \\mathcal L(E, F) =\\)",
-                "\\(\\text {dim } E \\times \\text{dim } F\\)"
-            ],
-            "guid": "d}X7e@-dt+",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(\\text{rg}(f) = \\)",
-                "\\(\\text{dim(Im }f)\\)"
-            ],
-            "guid": "lc,4Y&Z3j|",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Caractérisation du rang de&nbsp;\\(f : E\\rightarrow F\\)&nbsp;(dimensions)",
-                "\\(\\text{rg } f \\le \\min (\\dim E, \\dim F)\\)"
-            ],
-            "guid": "ucRZMH$Au#",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Théorème(s) du rang (avec&nbsp;\\(E \\)&nbsp;de dim FINIE, et&nbsp;\\(f:E \\rightarrow F\\))",
-                "\\(\\dim \\text{Ker } f + \\text{rg } f = \\dim E \\)<br><br>En <span style=\"color: rgb(255, 0, 0);\">même dimension finie</span> :<br>\\((f\\text{ injective }) \\Leftrightarrow (f\\text{ surjective }) \\Leftrightarrow(f\\text{ bijective }) \\)"
-            ],
-            "guid": "CIG={+YiQ#",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "L'inverse d'une matrice triangulaire supérieure est",
-                "une matrice triangulaire supérieure"
-            ],
-            "guid": "I_.LYNU<$i",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(rg(g\\circ f)\\)&nbsp;comparé aux rangs de&nbsp;\\(g \\)&nbsp;et&nbsp;\\(f\\)",
-                "\\(\\text{rg } (g \\circ f) \\le \\min (\\text{rg }f, \\text{rg } g)\\)"
-            ],
-            "guid": "dm`8(>%mUj",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition d'un hyperplan",
-                "&nbsp;Tout noyau d'une forme linaire <span style=\"color: rgb(255, 0, 0);\">non nulle</span>."
-            ],
-            "guid": "Lz[h>AX(k0",
-            "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
-            "tags": [
-                "Applications::Linéaires"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "formule du multinôme",
                 "\\[\\left(\\sum_{k=1}^p{a_k}\\right)^n= \\sum_{\\substack{0 \\le k_1,..., k_p \\le n \\\\ k_1+....+k_p=n}}{\\frac{n!}{k_1!....k_p!}a_1^{k_1}....a_p^{k_p}}\\]"
             ],
             "guid": "sMk>WUD^uL",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
-                "sommes::et::produits"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
-                "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
-            ],
-            "guid": "m]e_emLY_A",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "marked",
                 "sommes::et::produits"
             ]
         },
@@ -5392,7 +5379,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "limite simple",
+                "def convergence simple",
                 "\\((f_n)_{n\\ge0}\\)&nbsp;converge simplement sur D vers f lorsque<br>\\[\\forall x \\in D, \\forall \\epsilon &gt; 0, \\exists N \\in \\mathbb{N}, \\forall n \\ge N, |f_n(x) - f(x)| \\le \\epsilon\\]\\[\\forall x \\in D, \\lim_{n\\to+\\infty}{f_n(x) = f(x)}\\]<br>"
             ],
             "guid": "e.=!:0DC$0",
@@ -5759,6 +5746,19 @@
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
                 "équations::différentielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
+                "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
+            ],
+            "guid": "m]e_emLY_A",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "marked",
+                "sommes::et::produits"
             ]
         },
         {
@@ -6781,11 +6781,179 @@
             "tags": [
                 "Diagonalisation"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\det (\\lambda A) =\\)",
+                "\\(\\lambda^n\\det A\\)"
+            ],
+            "guid": "0~~3rd^7#",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Si on échange deux colonnes de A, alors",
+                "\\(\\det A\\)&nbsp;change de signe"
+            ],
+            "guid": "tq)QIE/z=W",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "si on applique la permutation&nbsp;\\(\\sigma\\)&nbsp;sur les numéros des colonnes de A, alors",
+                "\\(\\det A\\)&nbsp;est multiplié par&nbsp;\\(\\epsilon (\\sigma)\\)"
+            ],
+            "guid": "t(A^@AvvA}",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "si&nbsp;\\((x_1, ..., x_n)\\)&nbsp;est une famille de n vecteurs de E dont A est la matrice des coordonnées dans une base B, alors",
+                "\\(\\det A = \\det_\\mathfrak B(x_1, …, x_n)\\)"
+            ],
+            "guid": "i{z1X7{&D]",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Si u est un endomorphisme de E dont A est la matrice dans une base B, alors",
+                "\\(\\det A = \\det u\\)"
+            ],
+            "guid": "uAO6P#CJ!l",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\det AB =\\)",
+                "\\(\\det A \\det B\\)"
+            ],
+            "guid": "i)CYV7Ey:u",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\det A^T\\)&nbsp;=&nbsp;",
+                "\\(\\det A\\)"
+            ],
+            "guid": "NCaQnf~?-P",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "si&nbsp;\\(A = \\left( \\frac {B\\ | \\ D}{ \\mathbb O \\ | \\ C }\\right)\\), on a&nbsp;",
+                "\\(\\det A = \\det B \\times \\det C\\)"
+            ],
+            "guid": "OJ2K(xQ#>|",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition Cofacteur",
+                "\\(A_{i, j} = (-1)^{i+j} \\Delta_{i, j}\\)&nbsp;avec&nbsp;<br><br>\\(\\Delta_{i, j} \\)&nbsp;désigne le déterminant d’ordre n−1 obtenu en supprimant la i-ième ligne et la j-ième colonne\nde A (aka le <b>mineur</b> de A d'indices i,j)"
+            ],
+            "guid": "B+wM1O9XOV",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Développement de&nbsp;\\(\\det A\\)&nbsp;par rapport à sa j-ième colonne ou sa j-ème ligne",
+                "\\(\\det A  = \\sum_{i =1} ^n a_{i, j}A_{i, j}\\)"
+            ],
+            "guid": "wyDPMC3we*",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Déterminant de Vandermonde",
+                "Soient&nbsp;\\(x_0, ... , x_n \\)&nbsp;des éléments de&nbsp;\\(\\mathbb K\\),&nbsp;&nbsp;<br>\\(V(x_0, x_1, \\cdots, x_n) =\n\\begin{vmatrix}\n1 &amp; 1 &amp; 1 &amp; \\cdots &amp; 1 \\\\\nx_0 &amp; x_1 &amp; x_2 &amp; \\cdots &amp; x_n \\\\\nx_0^2 &amp; x_1^2 &amp; x_2^2 &amp; \\cdots &amp; x_n^2 \\\\\n\\vdots &amp; \\vdots &amp; \\vdots &amp; \\ddots &amp; \\vdots \\\\\nx_0^n &amp; x_1^n &amp; x_2^n &amp; \\cdots &amp; x_n^n\n\\end{vmatrix}\\)D'où&nbsp;\\(V(x_0, ...x_n) = \\prod_{0 \\le i &lt;j \\le n } (x_j - x_i)\\)"
+            ],
+            "guid": "o`]SWS>D2C",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition comatrice de A",
+                "\\(\\operatorname{Com} A = \n\\begin{pmatrix}\nA_{1,1} &amp; \\cdots &amp; A_{1,n} \\\\\n\\vdots &amp; \\ddots &amp; \\vdots \\\\\nA_{n,1} &amp; \\cdots &amp; A_{n,n}\n\\end{pmatrix}\\)"
+            ],
+            "guid": "$~r,Q}%Nt",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formules comatrice de A déteminant transpose (jpeux pas donner plus d'indices mdr) et formule d'inversion",
+                "\\((\\operatorname{Com} A)^T A = (\\det A)I_n = A(\\operatorname {Com} A)^T\\)<br>Si&nbsp;\\(\\det A \\not = 0_{\\mathbb K}\\),&nbsp;<b>formule d'inversion&nbsp;<br></b>\\(A^{-1} = (\\det A)^{-1} (\\operatorname {Com } A) ^T\\)"
+            ],
+            "guid": "cH)CY7d(@y",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formules de Cramer",
+                "\\(\\forall j \\in [1;n], \\quad \nx_j = \\frac{\n\\begin{vmatrix}\na_{1,1} &amp; \\cdots &amp; \\overset{\\text{ $j$-ème colonne}}{y_1} &amp; \\cdots &amp; a_{1,n} \\\\\n\\vdots  &amp;        &amp; \\vdots  &amp;        &amp; \\vdots \\\\\na_{n,1} &amp; \\cdots &amp; y_n     &amp; \\cdots &amp; a_{n,n}\n\\end{vmatrix}\n}{\n\\begin{vmatrix}\na_{1,1} &amp; \\cdots &amp; a_{1,n} \\\\\n\\vdots  &amp; \\ddots &amp; \\vdots \\\\\na_{n,1} &amp; \\cdots &amp; a_{n,n}\n\\end{vmatrix}\n}\\)"
+            ],
+            "guid": "MDGJ_{#IF5",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Déterminant"
+            ]
         }
     ],
     "reviewLimit": null,
     "reviewLimitToday": {
-        "limit": 250,
-        "today": 574
+        "limit": 170,
+        "today": 590
     }
 }
