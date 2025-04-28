@@ -42,14 +42,14 @@
                     1.0,
                     10.0
                 ],
-                "initialFactor": 1500,
+                "initialFactor": 1400,
                 "ints": [
                     1,
                     4,
                     0
                 ],
                 "order": 1,
-                "perDay": 120
+                "perDay": 100
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -60,16 +60,16 @@
             "rev": {
                 "bury": false,
                 "ease4": 1.2,
-                "hardFactor": 1.2,
+                "hardFactor": 1.1,
                 "ivlFct": 1.0,
-                "maxIvl": 10,
-                "perDay": 120
+                "maxIvl": 12,
+                "perDay": 130
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
             "secondsToShowQuestion": 0.0,
             "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
+            "stopTimerOnAnswer": true,
             "timer": 1,
             "waitForAudio": false,
             "weightSearch": ""
@@ -801,7 +801,8 @@
             "guid": "I`Z8^lIyqy",
             "note_model_uuid": "4846446b-0c00-11f0-a48b-505a65e9873c",
             "tags": [
-                "Dérivées"
+                "Dérivées",
+                "leech"
             ]
         },
         {
@@ -1072,7 +1073,7 @@
             "__type__": "Note",
             "fields": [
                 "Dérivée de&nbsp;\\(tan \\ x\\)",
-                "\\(1 \\ + \\ tan \\ x^2 = \\frac 1 {cos^2 \\ x}\\), dérivable sur&nbsp;\\(\\mathbb R \\text{ \\ } \\{ \\frac \\pi 2 + k\\pi \\ | k \\in \\mathbb Z \\} \\)"
+                "\\(1 \\ + \\ tan^2 \\ x = \\frac 1 {cos^2 \\ x}\\), dérivable sur&nbsp;\\(\\mathbb R \\text{ \\ } \\{ \\frac \\pi 2 + k\\pi \\ | k \\in \\mathbb Z \\} \\)"
             ],
             "guid": "FYatDq.8DG",
             "note_model_uuid": "4846446b-0c00-11f0-a48b-505a65e9873c",
@@ -1168,7 +1169,7 @@
             "__type__": "Note",
             "fields": [
                 "Dérivée de&nbsp;\\((f \\circ g)\\)",
-                "\\(u' \\times (f' \\circ u)\\)"
+                "\\(g' \\times (f' \\circ g)\\)"
             ],
             "guid": "C9ZT)pZzs/",
             "note_model_uuid": "4846446b-0c00-11f0-a48b-505a65e9873c",
@@ -2564,7 +2565,7 @@
             "__type__": "Note",
             "fields": [
                 "sous groupes de&nbsp;\\(\\mathbb{R}\\)",
-                "G non&nbsp; réduit à {0} et&nbsp;\\(\\alpha = inf(G_+^*)\\)<br><br>1. si&nbsp;\\(\\alpha &gt; 0\\), G = a\\mathbb{Z}<br>2. si&nbsp;\\(\\alpha = 0\\), G dense dans \\mathbb{R}"
+                "G non&nbsp; réduit à {0} et&nbsp;\\(\\alpha = inf(G_+^*)\\)<br><br>1. si&nbsp;\\(\\alpha &gt; 0\\), G = a\\(\\mathbb{Z}\\)<br>2. si&nbsp;\\(\\alpha = 0\\), G dense dans \\(\\mathbb{R}\\)"
             ],
             "guid": "kIY{yge%Ia",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -5679,7 +5680,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "solutions de l'équation homogène",
+                "solutions de l'équation homogène (degré 1)",
                 "\\[\\forall t \\in I, y_H(t) = \\lambda\\exp\\left\\{-\\int^tb(u)du \\right\\}\\]la seule solution de&nbsp;\\(E_H^*\\)&nbsp;qui s'annule est la fonction nulle. les solutions homo sont continues donc elles ne changent pas de signe<br>Deux solutions distinctes ne sont jamais égales en un point"
             ],
             "guid": "k2rPmRi4ms",
@@ -5757,7 +5758,6 @@
             "guid": "m]e_emLY_A",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
-                "marked",
                 "sommes::et::produits"
             ]
         },
@@ -6017,7 +6017,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Théorème de Lagrange (hors programme ????)",
+                "Théorème de Lagrange (hors programme ????) (clairement hors programme)",
                 "\\((G, *)\\)&nbsp;groupe fini.<br>Si&nbsp;\\(H\\)&nbsp;sous-groupe de&nbsp;\\(G\\), alors&nbsp;\\(|H|\\)&nbsp;divise&nbsp;\\(|G|\\)."
             ],
             "guid": "O.jK~pE>VM",
@@ -6042,7 +6042,7 @@
             "__type__": "Note",
             "fields": [
                 "Expression de&nbsp;\\(\\text {Gr} (A)\\)&nbsp;en fonction des éléments de&nbsp;\\(A\\)",
-                "\\(\\text {Gr} (A)\\)&nbsp;est l'ensemble des produits finis d'éléments de&nbsp;\\(A\\)&nbsp;ou de leurs symétriques.&nbsp;<br>\\(\\text {Gr} (A) = \\{ a_1^{\\epsilon_1}*a_2^{\\epsilon_2}*...*a_n^{\\epsilon_n} \\ | \\ n \\in \\mathbb N, \\ a_1,...,a_n \\in A, \\ \\epsilon_1,...,\\epsilon_n \\in \\{ -1; 1 \\} \\}\\)(ps : j'ai dû retaper trois fois cette formule :) )"
+                "\\(\\text {Gr} (A)\\)&nbsp;est l'ensemble des produits finis d'éléments de&nbsp;\\(A\\)&nbsp;ou de leurs symétriques.&nbsp;<br>\\(\\text {Gr} (A) = \\{ a_1^{\\epsilon_1}*a_2^{\\epsilon_2}*...*a_n^{\\epsilon_n} \\ | \\ n \\in \\mathbb N, \\ a_1,...,a_n \\in A, \\ \\epsilon_1,...,\\epsilon_n \\in \\{ -1; 1 \\} \\}\\)<br>(ps : j'ai dû retaper trois fois cette formule :) ) (surout que ca m'a l'air sacrément hors programme mdr)"
             ],
             "guid": "Lw6]Z)C2Vs",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -6425,7 +6425,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "\\(\\det _\\mathcal B(u(\\mathcal F) \\)",
+                "\\(\\det _\\mathcal B(u(\\mathcal F) )\\)",
                 "\\(\\det (u)\\det _\\mathcal B (\\mathcal F)\\)"
             ],
             "guid": "s!TmVxuE5*",
@@ -6948,6 +6948,210 @@
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
                 "Déterminant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un produit scalaire ?",
+                "Forme bilinaire symétrique définie positive."
+            ],
+            "guid": "OI#JzER.7)",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'un Espace Préhilbertien Réel ?",
+                "\\((E, \\langle ..., ...\\rangle )\\)&nbsp;avec E un&nbsp;\\(\\mathbb R \\)-ev"
+            ],
+            "guid": "PGUTQU(R{w",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Produit scalaire canonique de&nbsp;\\(\\mathbb R ^n\\)",
+                "\\(\\langle (x_1, ..., x_n), (y_1,...y_n)\\rangle = \\sum _{k =1} ^n x_k y_k \\)<br>ou encore,&nbsp;\\(\\langle X, Y\\rangle = X^T Y\\)"
+            ],
+            "guid": "d>i>#)?Vs)",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Produit scalaire canonique de&nbsp;\\(\\mathcal M_{n, m} (\\mathbb R)\\)",
+                "\\(\\langle A, B\\rangle = \\text{tr}(A^TB) \\)<br><br><i>NB: le produit scalaire matriciel sur&nbsp;</i>\\(\\mathcal M_{n, m}(\\mathbb R)\\)<i>&nbsp;n'est rien d'autre que le produit scalaire canonique sur&nbsp;</i>\\(\\mathbb R^{nm}\\)"
+            ],
+            "guid": "QCv^!)/FIQ",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Produit scalaire canonique de&nbsp;\\(\\mathcal C ^0([a, b], \\mathbb R)\\)",
+                "\\(\\langle f, g\\rangle  = \\int _a ^bbf(t)g(t) dt\\)"
+            ],
+            "guid": "g~iGv1X<jz",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Produit scalaire canonique sur&nbsp;\\(\\mathbb R[X]\\)",
+                "\\(\\left\\langle \\sum _{j \\ge 0}a_jX^j, \\sum _{j \\ge 0} b_jX^j \\right\\rangle = \\sum _{j \\ge0}a_jb_j\\)"
+            ],
+            "guid": "Bvk|wt0jX*",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce que la norme euclidienne ?",
+                "\\(\\Vert \\cdot \\Vert \\left\\{ E \\rightarrow \\mathbb R^+ \\atop x \\rightarrow \\Vert x\\Vert = \\sqrt {\\langle x, x\\rangle }\\right.\\)"
+            ],
+            "guid": "f-[:VZj6{q",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Identités remarquables euclidiennes",
+                "les mêmes que sur&nbsp;\\(\\mathbb R\\)&nbsp;lol"
+            ],
+            "guid": "Q`[QBLb27F",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Identité du parallélogramme",
+                "\\(\\Vert x + y \\Vert ^2 + \\Vert x - y \\Vert ^2 = 2 (\\Vert x \\Vert ^2 + \\Vert y \\Vert ^2)\\)<br>Ou encore :&nbsp;<i>\"la somme des carrés des quatre côtés d'un parralélogrgamme est égale à la somme des carrés des deux diagonales\".</i>"
+            ],
+            "guid": "NqD|t!)^B_",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Identités de polarisation",
+                "\\(\\langle x, y\\rangle  = \\frac 1 2 (\\Vert x +  y \\Vert ^2 - \\Vert x \\Vert ^2 - \\Vert y\\Vert ^2) \\)<br><br>\\(\\langle x, y\\rangle  = \\frac 1 2 (\\Vert x\\Vert ^2 + \\Vert y\\Vert ^2 - \\Vert x  - y \\Vert ^2)\\)<br><br>\\(\\langle x, y\\rangle  = \\frac 1 4 (\\Vert x + y\\Vert ^2 - \\Vert x - y\\Vert ^2)\\)"
+            ],
+            "guid": "FjYv<,yD/w",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inégalité de Cauchy-Schwarz (espaces euclidiens)",
+                "\\(\\vert \\langle x, y \\rangle \\vert \\le \\Vert x\\Vert \\Vert y \\Vert\\)"
+            ],
+            "guid": "zQ%#zM]l&.",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cas d'égalité dans Cauchy-Schwarz (espaces euclidiens)",
+                "Egalité ssi x et y colinéaires"
+            ],
+            "guid": "zP7uJ3Mk.O",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'un angle non orienté&nbsp;\\((\\widehat{x, y})\\)",
+                "\\((\\widehat{x, y}) = \\arccos \\frac{\\langle x, y \\rangle }{\\Vert x\\Vert\\Vert y\\Vert}\\)&nbsp;avec&nbsp;\\(x  \\ \\&amp; \\ y\\)&nbsp;deux vecteurs <span style=\"color: rgb(255, 0, 0);\">NON NULS</span>"
+            ],
+            "guid": "M.JA(%_BGe",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inégalité de Minkkowski",
+                "\\(\\Vert x + y \\Vert \\le \\Vert x \\Vert + \\Vert y\\Vert\\)"
+            ],
+            "guid": "QFBI?.m8je",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cas d'égalité dans l'inégalité de Minkowski",
+                "égalité ssi&nbsp;\\(x \\ \\&amp; \\ y \\)&nbsp;colinéaires et de même sens"
+            ],
+            "guid": "h?$kv.qqiB",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inégalité triangulaire totale (espaces préhilbertiens)",
+                "\\(\\vert \\Vert x \\Vert - \\Vert y\\Vert \\vert \\le \\Vert x + y \\Vert  \\le \\Vert x \\Vert + \\Vert y\\Vert\\)"
+            ],
+            "guid": "BM0uI~&T1z",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce que la distance eucllidienne associée au produit scalaire ? + Caractéristiques",
+                "\\(d \\left\\{ E^2 \\rightarrow \\mathbb R ^+ \\atop (x, y) \\rightarrow d(x, y) = \\Vert x - y \\Vert \\right.\\)<br><br>- positivité<br>- symétrie<br>- séparation<br>- inégalité triangulaire"
+            ],
+            "guid": "inw/$=x<mI",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
             ]
         }
     ],
