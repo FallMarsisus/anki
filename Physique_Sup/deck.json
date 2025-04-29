@@ -79,7 +79,10 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "paste-81bfa3346071106be7bfa4a0c499fbe0962af7b8.jpg",
+        "paste-ea50590dbdcf2322062e58a969e1322024ac1fd1.jpg"
+    ],
     "name": "Physique Sup",
     "newLimit": null,
     "newLimitToday": null,
@@ -154,6 +157,74 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
             "flds": [
@@ -221,282 +292,6 @@
         }
     ],
     "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "Les 3 échelles",
-                "- microscopique = taille d'un atome&nbsp;\\(\\approx 10^{-10} m\\)<br>- macroscopique (cm / m)<br>- mésoscopique, intermédiaire&nbsp;\\(\\approx 10^{-6}\\)"
-            ],
-            "guid": "A#i>Y]88:",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition libre parcours moyen",
-                "distance moyenne parcourue par une particule entre 2 chocs"
-            ],
-            "guid": "et{d,Px6la",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "OG libre parcours moyen (liquide et gaz)",
-                "- liquide :&nbsp;\\(10^{-10}m\\)<br>- gaz :&nbsp;\\(10^{-10}m\\)"
-            ],
-            "guid": "Eq->6y%XtJ",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Caractéristiques d'un gaz parfait",
-                "- pas d'énergie potentielle d'intéraction (mais quand même des chocs pour définit température)<br>- particules ponctuelles et identiques"
-            ],
-            "guid": "KbE<Dk78*4",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "OG volume molaire d'un gaz parfait",
-                "\\(22,4 \\ L \\cdot mol^{-1}\\)"
-            ],
-            "guid": "e&DCfJt,I5",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Constante d'Avogadro",
-                "\\(6,022 \\times 10^{23} \\ mol^{-1}\\)"
-            ],
-            "guid": "h)i<:7!ut+",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition de la vitesse quadratique moyenne",
-                "\\(u = \\sqrt{\\langle v^2 \\rangle}\\)"
-            ],
-            "guid": "c,ew/)nekJ",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Pression cinétique du gaz parfait",
-                "\\(P = \\frac 1 3 nmu^2\\)"
-            ],
-            "guid": "jUy>14GK2^",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Énergie cinétique moyenne",
-                "\\(\\langle E_C \\rangle = \\frac 3 2 k_BT = \\frac 1 2 mu^2\\)<br>(car 3 degrés de liberté sur le mouvement)<br>(n'est-ce pas Simon)"
-            ],
-            "guid": "K#xK).>.x-",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition système thermodynamique",
-                "Système avec un très grand nombre de particules"
-            ],
-            "guid": "lBRbiWx?xO",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition variables d'état + exemples, définition grandeurs extensives et intensives",
-                "variables microscopique qui permettent de définir l'état d'un système (no shit sherlock)<br>pour un corps pur, sous une phase : P, V, T, n<br><br>- grandeurs extensives : dépendent de la taille du système (ex : V, n)<br>- grandeurs intensives : indépendantes de la taille du système (ex : P, T,&nbsp;\\(\\rho\\))"
-            ],
-            "guid": "vll/m!_[-6",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition de l'équilibre thermodynamique, et 3 types d'équilibres",
-                "Un système est à l'équilibre thermodynamique lorsque ses propriétés macroscopiques n'évoluent plus dans le temps<br>(même s'il existe des fluctuations à cause de l'agitation thermique)<br><br>Trois types d'équilibres :<br>- équilibre mécanique<br>- équilibre thermique<br>- équilibre chimique (pas étudié ici)"
-            ],
-            "guid": "K7DYgSq5]{",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition équation d'état",
-                "équation qui relie les variables d'état à l'équilibre<br>si une seule phase :&nbsp;\\(f(P,V,T,n) = 0\\)"
-            ],
-            "guid": "O}.cuODgXX",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Équation d'état du gaz parfait",
-                "\\(PV = nRT\\)"
-            ],
-            "guid": "o2rAH?CE)v",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Symbole, valeur, dimension de la constante de Boltzmann<br>Pareil + expression pour constante du gaz parfait",
-                "-&nbsp;\\(k_B = 1,38 \\times 10 ^{-23} \\ J \\cdot K^{-1}\\)<br>-&nbsp;\\(R = k_B \\mathcal N_A = 8,314 \\ J \\cdot K^{-1} \\cdot mol^{-1}\\)"
-            ],
-            "guid": "Ava|~OlzI;",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition phase condensée indilatable incompressible",
-                "- phase condensée = liquide ou gaz<br>- indilatable : volume ne varie pas avec température<br>- incompressible : volume ne varie pas avec pression"
-            ],
-            "guid": "t+X)(x:2In",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Masse volumique de l'eau et de l'air",
-                "-&nbsp;\\(\\rho_{eau} = 10^3 \\ kg \\cdot m^{-3}\\)<br>-&nbsp;\\(\\rho_{air} = 1,23 \\ kg \\cdot m^{-3}\\)"
-            ],
-            "guid": "y?42LS%O9L",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition énergie interne d'un système",
-                "\\(U = e_C + \\sum_{i \\not= j}V_{i,j}\\)<br>avec :<br>-&nbsp;\\(e_C = \\sum_{i = 1}^{N} \\frac 1 2 m v_i^2\\)&nbsp;l'énergie cintéique microscopique pour N particules<br>- les interactions valant 0 pour un gaz parfait"
-            ],
-            "guid": "x9x-I-iL,l",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule + dimension capacité thermique<br>déf capacité thermique molaire &amp; massique",
-                "à V constant, variation de température de dT :<br>\\(dU = C_V dT\\)<br>en&nbsp;\\(J \\cdot K^{-1}\\)<br><br>Cas général :<br>\\(dU = \\frac {\\partial U} {\\partial T} /_V dt + \\frac {\\partial U} {\\partial V} /_T dt\\)<br><br>Capacité thermique molaire (\\(J \\cdot K^{-1} \\cdot mol ^{-1} \\)) :<br>\\(C_{Vm} = \\frac {C_V} {n}\\)<br><br>Capacité thermique massique (\\(J \\cdot K^{-1} \\cdot kg^{-1}\\)) :<br>\\(c_V = \\frac {C_V} {m} = \\frac {C_{Vm}} {M}\\)"
-            ],
-            "guid": "tWX=tg)}rI",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "U pour un gaz parfait monoatomique et diatomique<br>\\(C_{Vm}\\)&nbsp;pour un gaz parfait monoatomique et diatomique",
-                "monoatomique :<br>-&nbsp;&nbsp;\\(U = \\frac 3 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 3 2 R\\)<br>diatomique :&nbsp;<br>-&nbsp;\\(U = \\frac 5 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 5 2 R\\)"
-            ],
-            "guid": "I-@mc>@a|)",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "1ère loi de Joule",
-                "Pour un gaz parfait, U ne dépend que de T"
-            ],
-            "guid": "Ik:Sv[edv(",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Diagramme d'Anagat (+ ce qu'on a fait dessus, vite fait)",
-                "Diagramme (PV,P)<br>Permet de voir l'écart au gaz parfait (car PV n'est pas une constante)<br>Mais à basse pression un gaz se comporte comme un gaz parfait"
-            ],
-            "guid": "FRiDQ*sG@7",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "diagramme de Clapeyron (+ en gros ce qu'il montre)",
-                "Diagramme (P,V)<br>Partie verticale : incompressibilité d'un liquide<br>Partie horizontale :&nbsp;\\(P_{sat}\\)&nbsp;pour une température donnée, équilibre liquide/gaz<br>Troisième partie : gaz,&nbsp;\\(\\approx \\frac 1 V\\)&nbsp;(gaz parfait)<br><br>Diagramme&nbsp;\\((P_{sat}, T)\\)&nbsp;= diagramme de phase&nbsp;"
-            ],
-            "guid": "QjQ=?0}C6k",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
         {
             "__type__": "Note",
             "fields": [
@@ -843,6 +638,390 @@
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
                 "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Les 3 échelles",
+                "- microscopique = taille d'un atome&nbsp;\\(\\approx 10^{-10} m\\)<br>- macroscopique (cm / m)<br>- mésoscopique, intermédiaire&nbsp;\\(\\approx 10^{-6}\\)"
+            ],
+            "guid": "A#i>Y]88:",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition libre parcours moyen",
+                "distance moyenne parcourue par une particule entre 2 chocs"
+            ],
+            "guid": "et{d,Px6la",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "OG libre parcours moyen (liquide et gaz)",
+                "- liquide :&nbsp;\\(10^{-10}m\\)<br>- gaz :&nbsp;\\(10^{-10}m\\)"
+            ],
+            "guid": "Eq->6y%XtJ",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Caractéristiques d'un gaz parfait",
+                "- pas d'énergie potentielle d'intéraction (mais quand même des chocs pour définit température)<br>- particules ponctuelles et identiques"
+            ],
+            "guid": "KbE<Dk78*4",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "OG volume molaire d'un gaz parfait",
+                "\\(22,4 \\ L \\cdot mol^{-1}\\)"
+            ],
+            "guid": "e&DCfJt,I5",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Constante d'Avogadro",
+                "\\(6,022 \\times 10^{23} \\ mol^{-1}\\)"
+            ],
+            "guid": "h)i<:7!ut+",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition de la vitesse quadratique moyenne",
+                "\\(u = \\sqrt{\\langle v^2 \\rangle}\\)"
+            ],
+            "guid": "c,ew/)nekJ",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pression cinétique du gaz parfait",
+                "\\(P = \\frac 1 3 nmu^2\\)"
+            ],
+            "guid": "jUy>14GK2^",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Énergie cinétique moyenne",
+                "\\(\\langle E_C \\rangle = \\frac 3 2 k_BT = \\frac 1 2 mu^2\\)<br>(car 3 degrés de liberté sur le mouvement)<br>(n'est-ce pas Simon)"
+            ],
+            "guid": "K#xK).>.x-",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition système thermodynamique",
+                "Système avec un très grand nombre de particules"
+            ],
+            "guid": "lBRbiWx?xO",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition variables d'état + exemples, définition grandeurs extensives et intensives",
+                "variables microscopique qui permettent de définir l'état d'un système (no shit sherlock)<br>pour un corps pur, sous une phase : P, V, T, n<br><br>- grandeurs extensives : dépendent de la taille du système (ex : V, n)<br>- grandeurs intensives : indépendantes de la taille du système (ex : P, T,&nbsp;\\(\\rho\\))"
+            ],
+            "guid": "vll/m!_[-6",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition de l'équilibre thermodynamique, et 3 types d'équilibres",
+                "Un système est à l'équilibre thermodynamique lorsque ses propriétés macroscopiques n'évoluent plus dans le temps<br>(même s'il existe des fluctuations à cause de l'agitation thermique)<br><br>Trois types d'équilibres :<br>- équilibre mécanique<br>- équilibre thermique<br>- équilibre chimique (pas étudié ici)"
+            ],
+            "guid": "K7DYgSq5]{",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition équation d'état",
+                "équation qui relie les variables d'état à l'équilibre<br>si une seule phase :&nbsp;\\(f(P,V,T,n) = 0\\)"
+            ],
+            "guid": "O}.cuODgXX",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Équation d'état du gaz parfait",
+                "\\(PV = nRT\\)"
+            ],
+            "guid": "o2rAH?CE)v",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Symbole, valeur, dimension de la constante de Boltzmann<br>Pareil + expression pour constante du gaz parfait",
+                "-&nbsp;\\(k_B = 1,38 \\times 10 ^{-23} \\ J \\cdot K^{-1}\\)<br>-&nbsp;\\(R = k_B \\mathcal N_A = 8,314 \\ J \\cdot K^{-1} \\cdot mol^{-1}\\)"
+            ],
+            "guid": "Ava|~OlzI;",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition phase condensée indilatable incompressible",
+                "- phase condensée = liquide ou gaz<br>- indilatable : volume ne varie pas avec température<br>- incompressible : volume ne varie pas avec pression"
+            ],
+            "guid": "t+X)(x:2In",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Masse volumique de l'eau et de l'air",
+                "-&nbsp;\\(\\rho_{eau} = 10^3 \\ kg \\cdot m^{-3}\\)<br>-&nbsp;\\(\\rho_{air} = 1,23 \\ kg \\cdot m^{-3}\\)"
+            ],
+            "guid": "y?42LS%O9L",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition énergie interne d'un système",
+                "\\(U = e_C + \\sum_{i \\not= j}V_{i,j}\\)<br>avec :<br>-&nbsp;\\(e_C = \\sum_{i = 1}^{N} \\frac 1 2 m v_i^2\\)&nbsp;l'énergie cintéique microscopique pour N particules<br>- les interactions valant 0 pour un gaz parfait"
+            ],
+            "guid": "x9x-I-iL,l",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formule + dimension capacité thermique<br>déf capacité thermique molaire &amp; massique",
+                "à V constant, variation de température de dT :<br>\\(dU = C_V dT\\)<br>en&nbsp;\\(J \\cdot K^{-1}\\)<br><br>Cas général :<br>\\(dU = \\frac {\\partial U} {\\partial T} /_V dt + \\frac {\\partial U} {\\partial V} /_T dt\\)<br><br>Capacité thermique molaire (\\(J \\cdot K^{-1} \\cdot mol ^{-1} \\)) :<br>\\(C_{Vm} = \\frac {C_V} {n}\\)<br><br>Capacité thermique massique (\\(J \\cdot K^{-1} \\cdot kg^{-1}\\)) :<br>\\(c_V = \\frac {C_V} {m} = \\frac {C_{Vm}} {M}\\)"
+            ],
+            "guid": "tWX=tg)}rI",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "U pour un gaz parfait monoatomique et diatomique<br>\\(C_{Vm}\\)&nbsp;pour un gaz parfait monoatomique et diatomique",
+                "monoatomique :<br>-&nbsp;&nbsp;\\(U = \\frac 3 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 3 2 R\\)<br>diatomique :&nbsp;<br>-&nbsp;\\(U = \\frac 5 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 5 2 R\\)"
+            ],
+            "guid": "I-@mc>@a|)",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1ère loi de Joule",
+                "Pour un gaz parfait, U ne dépend que de T"
+            ],
+            "guid": "Ik:Sv[edv(",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Diagramme d'Anagat (+ ce qu'on a fait dessus, vite fait)",
+                "Diagramme (PV,P)<br>Permet de voir l'écart au gaz parfait (car PV n'est pas une constante)<br>Mais à basse pression un gaz se comporte comme un gaz parfait"
+            ],
+            "guid": "FRiDQ*sG@7",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "diagramme de Clapeyron (+ en gros ce qu'il montre)",
+                "Diagramme (P,V)<br>Partie verticale : incompressibilité d'un liquide<br>Partie horizontale :&nbsp;\\(P_{sat}\\)&nbsp;pour une température donnée, équilibre liquide/gaz<br>Troisième partie : gaz,&nbsp;\\(\\approx \\frac 1 V\\)&nbsp;(gaz parfait)<br><br>Diagramme&nbsp;\\((P_{sat}, T)\\)&nbsp;= diagramme de phase&nbsp;"
+            ],
+            "guid": "QjQ=?0}C6k",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Thermo1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notion d'irréversibilité",
+                "Evolution qui peut se faire que dans un sens -&gt; transformation inverse ne se produit jamais&nbsp;<br><br><br>par exemple : un pingouin qui respire par les fesses. le pingouin s'assoit. il meurt. On peut pas revenir en arrière."
+            ],
+            "guid": "IxeeL&,e%4",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Une transformation thermodynamique d'un système est réversible si",
+                "- les contraintes varient continuement et lentement. (processus quasi-statique)<br>- on peut inverser le sens de la transformartion par un changement infinitésimal de ses contraîntes.."
+            ],
+            "guid": "F4~R?T%^*7",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formule de Boltzmann",
+                "\\(S = k_b \\ln \\Omega \\)&nbsp;<br>avec&nbsp;\\(\\Omega \\)&nbsp;le \"nombre de configurations\" (huh ?)"
+            ],
+            "guid": "Gsb;S);PrU",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Système d'autant plus désordonné que&nbsp;{{c1::\\(\\Omega \\)&nbsp;est grand (entropie élevée)}} -&gt;&nbsp; L'{{c1::entropie}} mesure le {{c2::désordre}} d'un système.<br>Un système isolé évolue donc spontanément de&nbsp;{{c2::l'ordre}} vers {{c2::le désordre}}",
+                ""
+            ],
+            "guid": "v8#l=<58^e",
+            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(S(T, P) \\),&nbsp;\\(S_m(T, P)\\),&nbsp;\\(s(T, P)\\)",
+                "On note&nbsp;\\(S_0\\)&nbsp;l'endropie dans l'état d'origine :&nbsp;\\( S(T, P) = C_P \\ln (\\frac T {T_0}) - n R \\ln (\\frac T {T_0}) + S_0  \\)\\(S_m(T, P) = C_{P_m}\\ln (\\frac T {T_0}) - R \\ln (\\frac P {P_0}) + S_{m_0}\\)\\(s(T, P) = c_P\\ln \\frac T {T_0} - \\frac R M \\ln \\frac P {P_0} + S_0\\)"
+            ],
+            "guid": "FJXr`b;IV@",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(S(T, V), \\ S_m(T, V), \\ s(T, V)\\)",
+                "<img src=\"paste-81bfa3346071106be7bfa4a0c499fbe0962af7b8.jpg\">"
+            ],
+            "guid": "Jpjh|W@ejC",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(S(P, V), S_m(P, V), \\ s(P, V)\\)",
+                "<img src=\"paste-ea50590dbdcf2322062e58a969e1322024ac1fd1.jpg\">"
+            ],
+            "guid": "E=eMEWe`gv",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Loi de Laplace",
+                "Pour un GP, avec&nbsp;\\(\\frac {C_P} {C_V}  = \\gamma\\)&nbsp;ne dépend pas de&nbsp;\\(T\\), transfo adiabatique réversible, on a&nbsp;<br><br>\\(PV^\\gamma = P_iV_i^\\gamma  = P_fV_f^\\gamma\\)<br>\\(T^\\gamma P^{1 -\\gamma} = T_iP_i^{1 - \\gamma} = T_f^\\gamma P_f^{1 - \\gamma}\\)<br>\\(TV^{\\gamma - 1} = T_iV_i^{\\gamma - 1}= T_f V_f^{\\gamma - 1}\\)"
+            ],
+            "guid": "hw||(n{aRY",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de&nbsp;\\( S\\)&nbsp;dans une phase condensée de masse m",
+                "\\(S = mc \\ln \\frac {T}{T_0} + S_0\\)&nbsp;<br><br>avec&nbsp;\\(S_0 = S(T_0)\\), avec&nbsp;\\(c\\)&nbsp;la capacité thermique massique de la phase condensée&nbsp;"
+            ],
+            "guid": "HOYz&4F1MP",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Deuxième_Principe"
             ]
         },
         {

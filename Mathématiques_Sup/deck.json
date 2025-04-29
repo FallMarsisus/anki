@@ -597,6 +597,74 @@
                 }
             ],
             "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
@@ -7150,6 +7218,102 @@
             ],
             "guid": "inw/$=x<mI",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inégalité triangulaire avec les distances.&nbsp;",
+                "\\(\\vert d(x, y) - d(y, z) \\vert  \\le d(x, z) \\le d(x, y ) + d(y, z)\\)"
+            ],
+            "guid": "C[C*4ysE9B",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition orthogonalité",
+                "\\(x \\perp y \\Leftrightarrow \\langle x, y \\rangle  = 0\\)"
+            ],
+            "guid": "Js2KOG-,ik",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\((x \\perp y ) \\Leftrightarrow \\)",
+                "\\(\\Leftrightarrow ( \\Vert x  + y \\Vert ^ 2= \\Vert x \\Vert ^2  + \\Vert y \\Vert ^2)\\)"
+            ],
+            "guid": "w#Xc~4_7Rs",
+            "note_model_uuid": "cb9d5f08-16cc-11f0-a047-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une famille de vecteurs orghogonale, orthonormale",
+                "<b>Orthogonale&nbsp;</b>:&nbsp;\\(\\forall i, j \\in I ,  (i \\not  = j ) \\Rightarrow (\\langle x_i, x_j\\rangle  = 0)\\)<br><b>Orthonormale</b>&nbsp;:&nbsp;\\(\\forall i, j \\in I , \\langle x_i , x_j\\rangle = \\delta _{i, j}\\)"
+            ],
+            "guid": "xWaJaBY^1b",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vecteur nul dans une famille orthonormale, orthogonale ?",
+                "Le vecteur nul a tout à fait le droit d'apparaître dans une famille orthogonale puisqu'il est orthogonal à tout autre vecteur. <i>Il ne peut pas être dans une famille orthonormale</i>."
+            ],
+            "guid": "kM58S0JBy?",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Relation de Pythagore",
+                "\\(\\left\\Vert \\sum _ {i = 1} ^p x_i \\right\\Vert ^2 = \\sum _{i = 1} ^p \\Vert x_i\\Vert ^2 \\)"
+            ],
+            "guid": "d]Ek=An#C?",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Une famille orhogonale, dont aucun des vecteurs n'est nul&nbsp;{{c1::est libre}}",
+                "NE PAS OUBLIER LA NON NULLITÉ"
+            ],
+            "guid": "Ipias]G_hk",
+            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Orthographe de&nbsp;<i>Gr.. - S......</i>",
+                "<b>Gram-Schmidt</b>"
+            ],
+            "guid": "m+Q,N-S<fH",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
             "tags": [
                 "Espaces_euclidiens"
             ]
