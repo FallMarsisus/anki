@@ -42,14 +42,14 @@
                     1.0,
                     10.0
                 ],
-                "initialFactor": 1500,
+                "initialFactor": 1400,
                 "ints": [
                     1,
                     4,
                     0
                 ],
                 "order": 1,
-                "perDay": 200
+                "perDay": 100
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -60,16 +60,16 @@
             "rev": {
                 "bury": false,
                 "ease4": 1.2,
-                "hardFactor": 1.2,
+                "hardFactor": 1.1,
                 "ivlFct": 1.0,
-                "maxIvl": 10,
-                "perDay": 200
+                "maxIvl": 12,
+                "perDay": 130
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
             "secondsToShowQuestion": 0.0,
             "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
+            "stopTimerOnAnswer": true,
             "timer": 1,
             "waitForAudio": false,
             "weightSearch": ""
@@ -151,6 +151,73 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 917761237776734798,
+                    "name": "Texte",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": true,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 0
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2795282707234633529,
+                    "name": "Verso Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 1
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Texte à trous",
+            "originalStockKind": 5,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Texte}}<br>\n{{Verso Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1362982061134984816,
+                    "name": "Texte à trous",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Texte}}"
+                }
+            ],
+            "type": 1
         }
     ],
     "notes": [
@@ -776,6 +843,90 @@
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": [
                 "thermodynamique:bilan:d'énergie"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un processus quasi-statique permet de supposer que [...]",
+                "[...] il y a a tout moment équilibre thermodynamique (mais ça n'exclut pas un gain d'entropie)."
+            ],
+            "guid": "Nb<F`QH=$y",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "S'il y a gain d'entropie dans un processus quasi statique, il est {{c1::non réversible}}. Sinon il est {{c1::réversible}}.<br>Tout processus {{c1::réversible}} est donc quasi statique mais pas l'inverse.",
+                ""
+            ],
+            "guid": "G>A>JUK={x",
+            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "L'entropie est une grandeur qui caractérise [...]",
+                "[...] la capacité d'un système physique à subir des transformations spontanées : plus l'entropie est grande, moins le système à la capacité de se transformer."
+            ],
+            "guid": "JBk3c,StD/",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deuxième principe de la thermodynamique",
+                "\\(\\Delta S = S_f - S_i = S_{éch} + S_{créée}\\)<br><br>\\(S_{éch} = \\frac Q {T_S}\\)&nbsp;est le terme d'échange, avec&nbsp;\\(T_S\\)&nbsp;la température de la surface du système traversée par le transfert (si le système est en contact avec un thermostat,&nbsp;\\(T_S\\)&nbsp;est la température du thermostat)<br><br>\\(S_{créée}\\)&nbsp;est le terme de création tel que&nbsp;\\(S_{créée} \\geq 0\\).<br>Si la transformation est irréversible,&nbsp;\\(S_{créée} &gt; 0\\).<br>Si elle est réversible,&nbsp;\\(S_{créée} = 0\\)."
+            ],
+            "guid": ":xW>It<UM",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deuxième principe appliqué à un système isolé (échangeant ni énergie ni matière avec l'extérieur)",
+                "\\(S_{éch} = 0\\)&nbsp;car&nbsp;\\(Q = 0\\)&nbsp;donc&nbsp;\\(\\Delta S = S_{créée} \\ge 0\\)"
+            ],
+            "guid": "o_y3!e8*5!",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "L'état d'équilibre d'un système isolé est celui dans lequel son entropie est [...]",
+                "[...] maximale."
+            ],
+            "guid": "Qn6/KY`L]S",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": [
+                "Deuxième_Principe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\Delta S\\)&nbsp;dépend {{c1::uniquement de l'état initial et de l'état final}}.<br>\\(S_{éch}\\)&nbsp;et&nbsp;\\(S_{créée}\\)&nbsp;dépendent {{c1::du chemin suivi entre les deux états}}.",
+                ""
+            ],
+            "guid": "z1NLB6$QXg",
+            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "tags": [
+                "Deuxième_Principe"
             ]
         }
     ],
