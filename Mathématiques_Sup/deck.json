@@ -49,7 +49,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 100
+                "perDay": 30
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -7070,7 +7070,7 @@
             "__type__": "Note",
             "fields": [
                 "Produit scalaire canonique de&nbsp;\\(\\mathcal C ^0([a, b], \\mathbb R)\\)",
-                "\\(\\langle f, g\\rangle  = \\int _a ^bbf(t)g(t) dt\\)"
+                "\\(\\langle f, g\\rangle  = \\int _a ^bf(t)g(t) dt\\)"
             ],
             "guid": "g~iGv1X<jz",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
