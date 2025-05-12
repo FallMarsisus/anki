@@ -49,7 +49,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 100
+                "perDay": 30
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -824,7 +824,7 @@
             "__type__": "Note",
             "fields": [
                 "Définition phase condensée indilatable incompressible",
-                "- phase condensée = liquide ou gaz<br>- indilatable : volume ne varie pas avec température<br>- incompressible : volume ne varie pas avec pression"
+                "- phase condensée = liquide ou SOLIDE<br>- indilatable : volume ne varie pas avec température<br>- incompressible : volume ne varie pas avec pression"
             ],
             "guid": "t+X)(x:2In",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -955,7 +955,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Système d'autant plus désordonné que&nbsp;{{c1::\\(\\Omega \\)&nbsp;est grand (entropie élevée)}} -&gt;&nbsp; L'{{c1::entropie}} mesure le {{c2::désordre}} d'un système.<br>Un système isolé évolue donc spontanément de&nbsp;{{c2::l'ordre}} vers {{c2::le désordre}}",
+                "Système d'autant plus désordonné que&nbsp;{{c1::\\(\\Omega \\)&nbsp;est grand (entropie élevée)}} -&gt;&nbsp; L'{{c1::entropie}} mesure le {{c2::désordre}} d'un système.<br>Un système isolé évolue donc spontanément de&nbsp;{{c2::l'ordre}} vers {{c2::le désordre}} {{c3::proutte}} {{c4::caca}}",
                 ""
             ],
             "guid": "v8#l=<58^e",
@@ -968,7 +968,7 @@
             "__type__": "Note",
             "fields": [
                 "\\(S(T, P) \\),&nbsp;\\(S_m(T, P)\\),&nbsp;\\(s(T, P)\\)",
-                "On note&nbsp;\\(S_0\\)&nbsp;l'endropie dans l'état d'origine :&nbsp;\\( S(T, P) = C_P \\ln (\\frac T {T_0}) - n R \\ln (\\frac T {T_0}) + S_0  \\)\\(S_m(T, P) = C_{P_m}\\ln (\\frac T {T_0}) - R \\ln (\\frac P {P_0}) + S_{m_0}\\)\\(s(T, P) = c_P\\ln \\frac T {T_0} - \\frac R M \\ln \\frac P {P_0} + S_0\\)"
+                "On note&nbsp;\\(S_0\\)&nbsp;l'endropie dans l'état d'origine :&nbsp;\\( S(T, P) = C_P \\ln (\\frac T {T_0}) - n R \\ln (\\frac P {P_0}) + S_0  \\)\\(S_m(T, P) = C_{P_m}\\ln (\\frac T {T_0}) - R \\ln (\\frac P {P_0}) + S_{m_0}\\)\\(s(T, P) = c_P\\ln \\frac T {T_0} - \\frac R M \\ln \\frac P {P_0} + S_0\\)"
             ],
             "guid": "FJXr`b;IV@",
             "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",

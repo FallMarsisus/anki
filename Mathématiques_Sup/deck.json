@@ -1417,7 +1417,7 @@
             "__type__": "Note",
             "fields": [
                 "DL de&nbsp;\\(\\arcsin x\\)",
-                "\\(\\arcsin x =_{x \\rightarrow 0} x \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
+                "\\(\\arcsin x =_{x \\rightarrow 0} x + \\frac 1 2 \\frac {x^ 3} 3 + \\frac 3 8 \\frac {x^5} 5 + ... + \\frac {(2n)!} {2^{2n}(n!)^2}\\frac{x^{2n +1}}{2n + 1} + o(x^{2n })\\)"
             ],
             "guid": "Knc*o^!45E",
             "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
@@ -7316,6 +7316,510 @@
             "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
             "tags": [
                 "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Orthonormalisation selon <i>Gram-Schmidt</i>",
+                "\\((v_1, ..., v_m)\\)&nbsp;: famille libre de vecteurs de E<br><br><br><b>Orghogonalisation :</b><br>\\(e_1 = v_1\\), ou n'importe quel vecteur non nul colinéaire à&nbsp;\\(e_1\\)<br><br>\\(e_2 = v_2 - \\lambda e_1\\), avec&nbsp;\\(\\lambda \\)&nbsp;tel que&nbsp;\\(e_2 \\perp e_1\\).<br><br>Alors&nbsp;<br>\\((e_2 \\perp e_1) \\Leftrightarrow (\\langle v_2 - \\lambda e_1, e_1 \\rangle  = 0) \\Leftrightarrow \\left( \\lambda = \\frac {\\langle v_2, e_1\\rangle }{\\Vert e_1\\Vert ^2} \\right)\\)<br><br>On obtient :&nbsp;\\(e_2 = v_2 - \\frac {\\langle v_2, e_1\\rangle}{\\Vert e_1\\Vert ^2}e_1\\)<br><br>A la kième étape :&nbsp;\\(e_k = v_k - (\\lambda _ 1 e_ 1 + ...+ \\lambda {k-1}e_{k-1})\\)&nbsp;et tout doit être orthogonall.<br><br><br><b>Normalisation :<br></b>On remplace les \\(e_k\\)&nbsp;par des&nbsp;\\(\\frac {e_k} {\\Vert e_k \\Vert}\\)"
+            ],
+            "guid": "krj+sqc@@?",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Si&nbsp;\\(F \\)&nbsp;et&nbsp;\\(G\\)&nbsp;sont orghogonaux, alors ils sont en&nbsp;{{c1::somme directe}}. Dans ce cas là on note&nbsp;{{c1::&nbsp;\\(F + G\\)}} comme&nbsp;{{c1::\\(F \\overset{\\perp}{\\oplus} G\\)}}, et on dit que&nbsp;\\(F \\)&nbsp;et&nbsp;\\(G\\)&nbsp;sont en&nbsp;{{c2::Somme directe Orthogonale}}",
+                ""
+            ],
+            "guid": "PmuW+/}:rz",
+            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Supplémentaires Orthogonaux dans E :&nbsp;",
+                "\\(F \\overset{\\perp}{\\oplus} G\n = E\\)"
+            ],
+            "guid": "hXG*gMxSYB",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\((F_i) _{i \\in I}\\)&nbsp;famille de sev-E<br>Si&nbsp;\\(F_i \\)&nbsp;deux à deux orthogonaux...",
+                "ils sont en somme directe (orthogonale)"
+            ],
+            "guid": "eYbeJg[5+9",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Orthogonal d'une partie",
+                "\\(A^\\perp = \\{a' \\in E \\ \\vert \\ \\forall a  \\in A, \\langle a', a \\rangle = 0 \\}\\)"
+            ],
+            "guid": "Pbd(G%y]8_",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A partie de E<br>\\(A^\\perp \\)&nbsp;est un ...",
+                "sous-espace vectoriel de E"
+            ],
+            "guid": "Av.yRU~D|o",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Passage à l'orthogonal&nbsp;",
+                "Application décroissante (si on a&nbsp;\\(A\\subset B,\\)&nbsp;alors&nbsp;\\(B^\\perp \\subset A^\\perp\\))"
+            ],
+            "guid": "FAW<~CL1$g",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A une partie de E<br>\\(A^\\perp = \\)",
+                "\\((\\text{Vect }(A)) ^\\perp\\)"
+            ],
+            "guid": "C=m]r}V0K$",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Biorthogonal de A, et relation entre&nbsp;\\(A\\)&nbsp;et&nbsp;\\((A^\\perp) ^\\perp\\)",
+                "<u>Biorthogonal </u>:&nbsp;\\(A^{\\perp \\perp} = (A^\\perp ) ^\\perp\\)<br><u>Relation</u>&nbsp;:&nbsp;\\(A \\subset A ^{\\perp \\perp}\\)&nbsp;"
+            ],
+            "guid": "K{o!{MSb@o",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'un&nbsp;<b>espace eucllidien&nbsp;</b>?",
+                "Espace préhilbertien réel de dim finie&nbsp;"
+            ],
+            "guid": "G60>Pw,<7<",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème base orthonormale",
+                "Tout espace euclidien possède au moins une base orthonormale.&nbsp;"
+            ],
+            "guid": "N,80B1W3R$",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème de la base orthonormale incomplète",
+                "On peut compléter une famille orthonormale en une base orthonormale.&nbsp;"
+            ],
+            "guid": "J7#ZQSLYZl",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(x, y \\)&nbsp;deux vecteurs de coordonnées&nbsp;\\((x_1, ...., x_n), (y_1, ..., y_n )\\), base orthonormale&nbsp;\\(\\mathcal B \\),&nbsp;&nbsp;\\(X = \\text{Mat}_{\\mathcal B}(x), \\ Y = \\text{Mat}_\\mathcal B (y)\\)&nbsp;<br><br>Donner&nbsp;\\(\\langle x, y\\rangle , \\Vert x\\Vert \\), matriciellement et \"scalairement\"",
+                "\\(\\langle x, y\\rangle = x_1y_1 + ... x_ny_n = X^TY\\)<br>\\(\\Vert x \\Vert = \\sqrt{x_1^2 + ... + x_n ^2} = \\sqrt{X^TX}\\)"
+            ],
+            "guid": "QWT.}8--kj",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Décomposition de&nbsp;\\(x \\)&nbsp;sur la base&nbsp;\\(\\mathcal B\\)&nbsp;(espaces eucllidiens)",
+                "\\(x = \\sum _{k = 1} ^n \\langle x, e_k\\rangle e_k\\)"
+            ],
+            "guid": "g6h>@V=!|Y",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce que <u>le</u>&nbsp;supplémentaire orthogonal ?",
+                "\\(F\\)&nbsp;un <span style=\"color: rgb(255, 0, 0);\">sev </span>de E, de <span style=\"color: rgb(255, 0, 0);\">dim finie</span> :<br>on a alors&nbsp;\\(F \\overset{\\perp}{\\oplus} F ^\\perp = E\\)"
+            ],
+            "guid": "P&rJRF[<Hf",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cas particulier du biorthogonal.",
+                "\\(F\\)&nbsp;sev de E,&nbsp;\\(F\\)&nbsp;de dim finie, alors&nbsp;\\(F^{\\perp \\perp} = F\\)"
+            ],
+            "guid": "zmxOyekSu]",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Projection et symétries orthogonales sur F",
+                "\\(p_F (x) = \\sum _{k = 1} ^p \\langle f_k, x \\rangle f_k, \\ \\ s_F (x) =2 \\sum _{k = 1} ^p \\langle f_k , x \\rangle f_k - x\\)"
+            ],
+            "guid": "b=n)MA6IHC",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce que la&nbsp;<b>distance de x à A&nbsp;</b>?",
+                "\\(d(x, A) = \\inf \\{\\Vert x - a\\Vert \\ \\vert a \\in A\\} \\)"
+            ],
+            "guid": "tL9Vb)Q3Fc",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formule distance de&nbsp;\\(x \\)&nbsp;à&nbsp;\\(A\\)&nbsp;avec projections",
+                "\\(d(x, A) = \\Vert x - p_A(x) \\Vert\\)"
+            ],
+            "guid": "GDLB!~D8^t",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Théorème de Riesz",
+                "<i>Pour toute forme linéaire&nbsp;</i>\\(l \\in E^*\\), il existe un unique vecteur&nbsp;\\(a \\in E\\)&nbsp;tel que&nbsp;<br>\\(\\forall x  \\in E , \\ l(x) = \\langle x , a \\rangle \\)"
+            ],
+            "guid": "G3<QbpGBT1",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Espaces_euclidiens"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'une&nbsp;<b>isométrie vectorielle</b>&nbsp;?",
+                "Isométrie vectorielle lorsque u conserve le produit scalaire :&nbsp;<br><br>\\(\\langle u(x); u(y) \\rangle =  \\langle x , y \\rangle \\)"
+            ],
+            "guid": "r&%t2xE#+c",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Isométrie vectorielle et norme",
+                "Conserve la norme"
+            ],
+            "guid": "iTSH.:#:~K",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Toute isométrie vectorielle est [...]",
+                "injective"
+            ],
+            "guid": "C75Z*S1-}m",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "u isométrie vectorielle ssi",
+                "ssi&nbsp;\\(u(\\mathcal B) \\)&nbsp;est une base orthonormale de E"
+            ],
+            "guid": "ewn]odW92d",
+            "note_model_uuid": "cb9d5f08-16cc-11f0-a047-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une matrice orthogonale ?",
+                "\\(A^T A = I_n \\ \\&amp; \\ A A^T = I_n  \\)"
+            ],
+            "guid": "b8@t}B*-yA",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\mathcal B \\)&nbsp;base <span style=\"color: rgb(255, 0, 0);\">orthonormale </span>de E,&nbsp;\\(A = \\text{Mat}_{\\mathcal B } (u)\\),&nbsp;<br>\\(u \\)&nbsp;isométrrie ssi&nbsp;",
+                "A matrice orthogonale"
+            ],
+            "guid": "QkhWv!iq+z",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Equivalence entre&nbsp;<br>{{c1::A matrice orthogonale}}<br>{{c2::Les colonnes de A forment une base orthonormale de&nbsp;\\(\\mathcal M_{n, 1}(\\mathbb R)\\)}}<br>{{c2::Les lignes de A forment une base orthonormale de&nbsp;\\(\\mathcal M_{1, n }(\\mathbb R )\\)}}",
+                ""
+            ],
+            "guid": "Mh))rums~y",
+            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition isométrie positive/négative",
+                "Déterminant de l'isométrie : 1 ou -1"
+            ],
+            "guid": "h3=~F;+ho3",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que le&nbsp;<b>groupe spécial orthogonal</b>&nbsp;de E",
+                "\\(SO(E)\\)&nbsp;: ensemble des isométries positives de E"
+            ],
+            "guid": "czshVd%}^s",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\mathcal B', \\mathcal B \\)&nbsp;deux bases de E,&nbsp;<br>Définition orientation.",
+                "De même orientation quand&nbsp;\\(\\det _{\\mathcal B'} (\\mathcal B )&gt; 0\\).<br>Orienter l'epace : choisir une classe d'équivalencce dont les éléments sont des \"<b>bases directes</b>\", les autres sont des \"<b>bases indirectes</b>\"&nbsp;"
+            ],
+            "guid": "e<##r`(fXp",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quand est-ce que u conserve l'orientation",
+                "Quand&nbsp;\\(\\det u  &gt; 0\\)"
+            ],
+            "guid": "nB|}*W=N`B",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deux bases orthonormales de E ont la même orientation ssi&nbsp;",
+                "la matrice de passage&nbsp;\\(\\in SO (E)\\)"
+            ],
+            "guid": "j%sV~KQ&HJ",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment interpréter le produit mixte ?",
+                "Hypervolume orienté du parallélotioe construit sur la famille en question (gloups)"
+            ],
+            "guid": "QTIe[i!>Cb",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\([u(x_1), ..., u(x_n)] = \\)",
+                "\\(\\det u \\times [x_1, ..., x_n]\\)"
+            ],
+            "guid": "kc_tpEDff[",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Définition du produit vectoriel à partir du produit mixte",
+                "\\([ \\vec u, \\vec v , \\vec w ] = \\langle \\vec u \\wedge \\vec v , \\vec w \\rangle \\)"
+            ],
+            "guid": "i4,Dh$THO^",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Caractérisation du produit vectoriel (3)",
+                "\\(\\vec u  \\wedge \\vec v \\)&nbsp;orthogonal à&nbsp;\\(\\vec u \\)&nbsp;et&nbsp;\\(\\vec  v\\)<br><br>\\((\\vec u , \\vec v , \\vec u \\wedge \\vec v )\\)&nbsp;est une base directe&nbsp;<br><br>\\(\\Vert \\vec u \\wedge \\vec v \\Vert = \\Vert \\vec u \\Vert \\Vert \\vec v \\Vert \\sin (\\widehat{\\vec u , \\vec v })\\)"
+            ],
+            "guid": "l4k^XD)Jwk",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formule du double produit vectoriel",
+                "\\(\\forall \\vec a , \\vec b , \\vec c \\in E_3 , \\ \\ \\vec a \\wedge (\\vec b  \\wedge \\vec c ) = \\vec  b \\langle \\vec a , \\vec c \\rangle  - \\vec c \\langle \\vec a , \\vec b\\rangle \\)"
+            ],
+            "guid": "p}YpyDc!/>",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Forme des matrices orthogonales 2x2",
+                "\\(R(\\theta ) = \\left( \\cos \\theta \\ -\\sin \\theta\\atop \\sin \\theta \\ \\ \\  \\ \\cos \\theta \\right)\\)&nbsp;et&nbsp;\\(S (\\theta ) = \\left( \\cos \\theta \\ \\ \\ \\sin \\theta \\atop \\sin \\theta  \\ \\ -\\cos \\theta \\right )\\)"
+            ],
+            "guid": "uy3RGc=Uom",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Relation de Chasles vecteurs en dimension 2",
+                "\\((\\vec u , \\vec w)  \\equiv (\\vec u, \\vec v) + (\\vec v, \\vec w) [2 \\pi ]\\)"
+            ],
+            "guid": "tC]l;n%2T3",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Si&nbsp;\\(r\\)&nbsp;est une rotation,&nbsp;\\((r(\\vec u ), r(\\vec v))\\)",
+                "\\(\\equiv(\\vec u , \\vec v ) [2 \\pi]\\)"
+            ],
+            "guid": "mfs3SU)a,b",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Si&nbsp;\\(s\\)&nbsp;et&nbsp;\\(s'\\)&nbsp;sont deux réflexionns dont les axes sont respectivement dirigés par&nbsp;\\(\\vec u \\)&nbsp;et&nbsp;\\(\\vec u ' \\), alors&nbsp;",
+                "\\(s's\\)&nbsp;est la rotation d'angle&nbsp;\\(2(\\vec u , \\vec u')\\)"
+            ],
+            "guid": "A}h0,d+@sL",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Les réflexions changent [...]",
+                "[...] le signe des angles orientés de vecteurs."
+            ],
+            "guid": "IRphPk/#!!",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Isométries:Vectorielles"
             ]
         }
     ],
