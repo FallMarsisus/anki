@@ -217,7 +217,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Un lien / Une relation",
+                "un lien / une relation",
                 "un vínculo"
             ],
             "guid": "wk1XBUxJ(Q",
@@ -1437,8 +1437,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "rehen",
-                "otage"
+                "otage",
+                "rehen"
             ],
             "guid": "K._Wz=7qg|",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1941,6 +1941,216 @@
                 "invertir dinero"
             ],
             "guid": "FZ?zVv~dFi",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "prendre de la force (au fur et à mesure) / Prendre de plus en plus d'importance",
+                "cobrar fuerza, ir cobrando fuerza / cobrar protagonismo"
+            ],
+            "guid": "jD_nFwpS@}",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "cacher",
+                "ocultar / tapar"
+            ],
+            "guid": "jPT=dMx2f5",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Arrière-fond / Arrière-plan",
+                "Trasfondo"
+            ],
+            "guid": "p4dVSr=e>$",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "laisser à découvert",
+                "dejar al descubierto"
+            ],
+            "guid": "pTq,ok@>x(",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "protéger (au niveau instituionnel, type protéger le gouvernement)",
+                "arropar"
+            ],
+            "guid": "o7t}iMP<Ki",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "le massacre",
+                "la masacre"
+            ],
+            "guid": "Nk|QHtENpW",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "raser (raser une ville)",
+                "arrasar"
+            ],
+            "guid": "H&[;p5sAUx",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "un évènement",
+                "acontecimiento / evento"
+            ],
+            "guid": "slfj]D:xk+",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "édit (du roi)",
+                "una pragmática"
+            ],
+            "guid": "smg/.e{bR(",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "droits&nbsp; d'auteur",
+                "derechos de autor"
+            ],
+            "guid": "wH=y*i<m0u",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "restent en suspens / non résolus",
+                "siguen pendientes"
+            ],
+            "guid": "Q6fCqk^%E4",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "les élèves (collectif)",
+                "el alumnado"
+            ],
+            "guid": "j5`*8Q-5u#",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "professeur",
+                "professor / docente"
+            ],
+            "guid": "isQVJ|!8GS",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "une matière (scolaire)",
+                "una asignutra / (una materia)"
+            ],
+            "guid": "vNN}_2GO=/",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "réussir un examen",
+                "aprobar un examen"
+            ],
+            "guid": "Dl(]r4dF2B",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rater une matière",
+                "tener una asignatura pendiente"
+            ],
+            "guid": "e4.|0_0T?E",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "redoubler",
+                "repetir"
+            ],
+            "guid": "IM|Cpqm2U~",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "prêter attention",
+                "dediacr atención"
+            ],
+            "guid": "IPdNW`U!2b",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "le bac",
+                "el bachillerato"
+            ],
+            "guid": "zP#9yktD(Y",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rédiger un CV",
+                "redactar un historial"
+            ],
+            "guid": "k$weE3Z+:_",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "faire un stage",
+                "hacer prácticas / hacer pasantías"
+            ],
+            "guid": "Idu-e*+A4W",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": []
         }
