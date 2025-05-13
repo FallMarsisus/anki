@@ -1,6 +1,880 @@
 {
     "__type__": "Deck",
-    "children": [],
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "021c8197-2fd3-11f0-a26a-c0d273f65878",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-81bfa3346071106be7bfa4a0c499fbe0962af7b8.jpg",
+                "paste-ea50590dbdcf2322062e58a969e1322024ac1fd1.jpg"
+            ],
+            "name": "Deuxième Principe",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Un processus quasi-statique permet de supposer que [...]",
+                        "[...] il y a a tout moment équilibre thermodynamique (mais ça n'exclut pas un gain d'entropie)."
+                    ],
+                    "guid": "Nb<F`QH=$y",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "S'il y a gain d'entropie dans un processus quasi statique, il est {{c1::non réversible}}. Sinon il est {{c1::réversible}}.<br>Tout processus {{c1::réversible}} est donc quasi statique mais pas l'inverse.",
+                        ""
+                    ],
+                    "guid": "G>A>JUK={x",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'entropie est une grandeur qui caractérise [...]",
+                        "[...] la capacité d'un système physique à subir des transformations spontanées : plus l'entropie est grande, moins le système à la capacité de se transformer."
+                    ],
+                    "guid": "JBk3c,StD/",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deuxième principe de la thermodynamique",
+                        "\\(\\Delta S = S_f - S_i = S_{éch} + S_{créée}\\)<br><br>\\(S_{éch} = \\frac Q {T_S}\\)&nbsp;est le terme d'échange, avec&nbsp;\\(T_S\\)&nbsp;la température de la surface du système traversée par le transfert (si le système est en contact avec un thermostat,&nbsp;\\(T_S\\)&nbsp;est la température du thermostat)<br><br>\\(S_{créée}\\)&nbsp;est le terme de création tel que&nbsp;\\(S_{créée} \\geq 0\\).<br>Si la transformation est irréversible,&nbsp;\\(S_{créée} &gt; 0\\).<br>Si elle est réversible,&nbsp;\\(S_{créée} = 0\\)."
+                    ],
+                    "guid": ":xW>It<UM",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deuxième principe appliqué à un système isolé (échangeant ni énergie ni matière avec l'extérieur)",
+                        "\\(S_{éch} = 0\\)&nbsp;car&nbsp;\\(Q = 0\\)&nbsp;donc&nbsp;\\(\\Delta S = S_{créée} \\ge 0\\)"
+                    ],
+                    "guid": "o_y3!e8*5!",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'état d'équilibre d'un système isolé est celui dans lequel son entropie est [...]",
+                        "[...] maximale."
+                    ],
+                    "guid": "Qn6/KY`L]S",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\Delta S\\)&nbsp;dépend {{c1::uniquement de l'état initial et de l'état final}}.<br>\\(S_{éch}\\)&nbsp;et&nbsp;\\(S_{créée}\\)&nbsp;dépendent {{c1::du chemin suivi entre les deux états}}.",
+                        ""
+                    ],
+                    "guid": "z1NLB6$QXg",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Notion d'irréversibilité",
+                        "Evolution qui peut se faire que dans un sens -&gt; transformation inverse ne se produit jamais&nbsp;<br><br><br>par exemple : un pingouin qui respire par les fesses. le pingouin s'assoit. il meurt. On peut pas revenir en arrière."
+                    ],
+                    "guid": "IxeeL&,e%4",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une transformation thermodynamique d'un système est réversible si",
+                        "- les contraintes varient continuement et lentement. (processus quasi-statique)<br>- on peut inverser le sens de la transformartion par un changement infinitésimal de ses contraîntes.."
+                    ],
+                    "guid": "F4~R?T%^*7",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de Boltzmann",
+                        "\\(S = k_b \\ln \\Omega \\)&nbsp;<br>avec&nbsp;\\(\\Omega \\)&nbsp;le \"nombre de configurations\" (huh ?)"
+                    ],
+                    "guid": "Gsb;S);PrU",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Système d'autant plus désordonné que&nbsp;{{c1::\\(\\Omega \\)&nbsp;est grand (entropie élevée)}} -&gt;&nbsp; L'{{c1::entropie}} mesure le {{c2::désordre}} d'un système.<br>Un système isolé évolue donc spontanément de&nbsp;{{c2::l'ordre}} vers {{c2::le désordre}} {{c3::proutte}} {{c4::caca}}",
+                        ""
+                    ],
+                    "guid": "v8#l=<58^e",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(S(T, P) \\),&nbsp;\\(S_m(T, P)\\),&nbsp;\\(s(T, P)\\)",
+                        "On note&nbsp;\\(S_0\\)&nbsp;l'endropie dans l'état d'origine :&nbsp;\\( S(T, P) = C_P \\ln (\\frac T {T_0}) - n R \\ln (\\frac P {P_0}) + S_0  \\)\\(S_m(T, P) = C_{P_m}\\ln (\\frac T {T_0}) - R \\ln (\\frac P {P_0}) + S_{m_0}\\)\\(s(T, P) = c_P\\ln \\frac T {T_0} - \\frac R M \\ln \\frac P {P_0} + S_0\\)"
+                    ],
+                    "guid": "FJXr`b;IV@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(S(T, V), \\ S_m(T, V), \\ s(T, V)\\)",
+                        "<img src=\"paste-81bfa3346071106be7bfa4a0c499fbe0962af7b8.jpg\">"
+                    ],
+                    "guid": "Jpjh|W@ejC",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(S(P, V), S_m(P, V), \\ s(P, V)\\)",
+                        "<img src=\"paste-ea50590dbdcf2322062e58a969e1322024ac1fd1.jpg\">"
+                    ],
+                    "guid": "E=eMEWe`gv",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi de Laplace",
+                        "Pour un GP, avec&nbsp;\\(\\frac {C_P} {C_V}  = \\gamma\\)&nbsp;ne dépend pas de&nbsp;\\(T\\), transfo adiabatique réversible, on a&nbsp;<br><br>\\(PV^\\gamma = P_iV_i^\\gamma  = P_fV_f^\\gamma\\)<br>\\(T^\\gamma P^{1 -\\gamma} = T_iP_i^{1 - \\gamma} = T_f^\\gamma P_f^{1 - \\gamma}\\)<br>\\(TV^{\\gamma - 1} = T_iV_i^{\\gamma - 1}= T_f V_f^{\\gamma - 1}\\)"
+                    ],
+                    "guid": "hw||(n{aRY",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression de&nbsp;\\( S\\)&nbsp;dans une phase condensée de masse m",
+                        "\\(S = mc \\ln \\frac {T}{T_0} + S_0\\)&nbsp;<br><br>avec&nbsp;\\(S_0 = S(T_0)\\), avec&nbsp;\\(c\\)&nbsp;la capacité thermique massique de la phase condensée&nbsp;"
+                    ],
+                    "guid": "HOYz&4F1MP",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "021bb1e2-2fd3-11f0-bb94-c0d273f65878",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Premier Principe",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Travail fourni au système {fluide + piston} ou {gaz + paroi}",
+                        "\\(\\delta W = -P_{ext} dV\\)"
+                    ],
+                    "guid": "wU|k@IPW)=",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Trois modes de transfert thermique",
+                        "- Conduction<br>- Convection&nbsp;<br>- Rayonnement"
+                    ],
+                    "guid": "Q)[i}Np-i:",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition adiabatique",
+                        "Transformation au cours de laquelle le système n'a aucun échange d'énergie par transfert thermique&nbsp;\\(Q = 0\\)"
+                    ],
+                    "guid": "ukSXUIQl)K",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une transformation rapide peut être considérée comme...",
+                        "... adiabatique"
+                    ],
+                    "guid": "IlDe[`L8:d",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition Thermostat",
+                        "Système thermo dont la température&nbsp;\\(T_0\\)&nbsp;ne varie pas, même en cas d'échange d'énergie"
+                    ],
+                    "guid": "y6E$|L(v>7",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition et formule flux thermique",
+                        "Le flux thermique&nbsp;\\(\\phi\\)&nbsp;est la puissance thermique recue par un système (en W)<br>On a&nbsp;\\(\\delta Q= \\phi dt\\)"
+                    ],
+                    "guid": "Hr9&c3{XR-",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Dans quel sens vont les échanges thermiques",
+                        "\\(T_{chaud}\\)&nbsp;vers&nbsp;\\(T_{froid}\\)"
+                    ],
+                    "guid": "i]lvAL!3+$",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def et formule résistance thhermique",
+                        "Plus la résistance thermique est forte, plus le système s'oppose au passage du flux thermique.&nbsp;<br>Isolant = forte résistance thermique<br><br>\\(R_N = \\frac {\\Delta T } \\phi\\)"
+                    ],
+                    "guid": "C/`0lY+;tn",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi Phénoménologique de Newton",
+                        "Transfert thermique proportionnel à la différence de température,&nbsp; surface de l'interface, et durée de l\"échange<br><br>\\(\\delta Q = hS\\Delta T \\)&nbsp;ou&nbsp;\\(\\phi  = hS\\Delta T\\)&nbsp;avec&nbsp;\\(h\\)&nbsp;le facteur de proportionnalité."
+                    ],
+                    "guid": "qTV!?RP^dN",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Energie totale d'un système",
+                        "\\(E = U + E_c + E_{p, ext}\\)"
+                    ],
+                    "guid": "OVx:*>slVV",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Premier principe de la thermo",
+                        "\\(\\Delta E = W + Q\\)&nbsp;(système FERME)<br>\\(\\Delta U + \\Delta E_c = \\delta W + \\delta Q\\)&nbsp;(car pas d'énergie potentielle exterieure)"
+                    ],
+                    "guid": "iRGH%Gq%W7",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transformation thermodynamique",
+                        "Le passage d'un système d'un état d'équilibre intial à un état d'équilibre final. Au moins une des valeurs varie (T, P, V)"
+                    ],
+                    "guid": "goW5AlG:i8",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transformation Isochore",
+                        "Volume Constant"
+                    ],
+                    "guid": "AV%yY]:.<Q",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transformation Isobare",
+                        "Pression constante"
+                    ],
+                    "guid": "jAY@V9$4>P",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transformation Monobare",
+                        "Pression exterieure constante (\\(P_{ext} = P_0\\))"
+                    ],
+                    "guid": "/S#F?u}6&",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transformation Isotherme",
+                        "Température constante"
+                    ],
+                    "guid": "hv!xh*mkJ9",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transformation Monotherme",
+                        "Température exterieure constante&nbsp;\\(T_{ext} = T_0\\)"
+                    ],
+                    "guid": "D!YS2#p>F@",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Travail forces de pression transformation isochore",
+                        "NUL"
+                    ],
+                    "guid": "h1#d!y&~8B",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Travail des forces de pression transformation monobare",
+                        "\\(W = -P_0\\Delta V\\)"
+                    ],
+                    "guid": "nDt[&0g!);",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Approximation des états quasi-stationnaires",
+                        "Si les parois se déplacent à une vitesse&nbsp;\\(&lt;&lt; \\)&nbsp;vitesse du son dans le gaz, on peut considérer que la pression est uniforme à chaque instant"
+                    ],
+                    "guid": "fD@88@z@=(",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transfo mécaniquement réversible, travail des forces de pression",
+                        "\\(W = - \\int^f_i PdV\\)"
+                    ],
+                    "guid": "n,sD/r^MB|",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition Enthalpie",
+                        "\\(H = U + PV\\)&nbsp;<br>\\(H\\)&nbsp;fonction d'état, en Joule, grandeur extensive"
+                    ],
+                    "guid": "ePP5ct&p]h",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Seconde loi de Joule",
+                        "Enthalpie ne dépend que de température"
+                    ],
+                    "guid": "s(h+(8A3Sr",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Premier principe pour une transformation monobare avec équilibre.",
+                        "Transformation monobare avec équilibre mécanique dans l'état initial et état final<br><br>\\(\\Delta H + \\Delta E_c = W_{autre} +Q\\)&nbsp;<br>\\(W_{autre} \\)étant le travail des forces autres que celles de pression.<br>On a donc si aucun autre travail que forces de pression<br>\\(Q = \\Delta H\\)"
+                    ],
+                    "guid": "Yc;JETdKg",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Enthalpie gaz parfait",
+                        "\\(H_m = H_m(T)\\)&nbsp;avec&nbsp;\\(H_m\\)&nbsp;l'enthalpie molaire d'un gaz parfait&nbsp;"
+                    ],
+                    "guid": "LF<U]n7zTq",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Capacité thermique à pression constante molaire gaz parfait",
+                        "\\(C_{P_m} = \\frac {dH_m} {dT}\\)"
+                    ],
+                    "guid": "v)7D9_EN)Y",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Relation de Mayer (qqch = R)",
+                        "\\(C_{P_m} - C_{V_m} = R\\)"
+                    ],
+                    "guid": "Cm!V8K}^=^",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Rapport des capacités thermiques",
+                        "\\(\\gamma = \\frac {C_{P_m}}{C_{V_m}}\\)"
+                    ],
+                    "guid": "D|p>bJX|>S",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Capacités thermiques molaires (relations de mayer + rapport capa molaires)<br>",
+                        "\\(C_{V_m} = \\frac R {\\gamma - 1}\\)&nbsp;et&nbsp;\\(C_{P_m} = \\frac {R\\gamma} {\\gamma - 1}\\)"
+                    ],
+                    "guid": "JKY#VKLrh-",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "thermodynamique:bilan:d'énergie"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "021bb199-2fd3-11f0-ade6-c0d273f65878",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Thermo1",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Les 3 échelles",
+                        "- microscopique = taille d'un atome&nbsp;\\(\\approx 10^{-10} m\\)<br>- macroscopique (cm / m)<br>- mésoscopique, intermédiaire&nbsp;\\(\\approx 10^{-6}\\)"
+                    ],
+                    "guid": "A#i>Y]88:",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition libre parcours moyen",
+                        "distance moyenne parcourue par une particule entre 2 chocs"
+                    ],
+                    "guid": "et{d,Px6la",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "OG libre parcours moyen (liquide et gaz)",
+                        "- liquide :&nbsp;\\(10^{-10}m\\)<br>- gaz :&nbsp;\\(10^{-10}m\\)"
+                    ],
+                    "guid": "Eq->6y%XtJ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques d'un gaz parfait",
+                        "- pas d'énergie potentielle d'intéraction (mais quand même des chocs pour définit température)<br>- particules ponctuelles et identiques"
+                    ],
+                    "guid": "KbE<Dk78*4",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "OG volume molaire d'un gaz parfait",
+                        "\\(22,4 \\ L \\cdot mol^{-1}\\)"
+                    ],
+                    "guid": "e&DCfJt,I5",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Constante d'Avogadro",
+                        "\\(6,022 \\times 10^{23} \\ mol^{-1}\\)"
+                    ],
+                    "guid": "h)i<:7!ut+",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition de la vitesse quadratique moyenne",
+                        "\\(u = \\sqrt{\\langle v^2 \\rangle}\\)"
+                    ],
+                    "guid": "c,ew/)nekJ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pression cinétique du gaz parfait",
+                        "\\(P = \\frac 1 3 nmu^2\\)"
+                    ],
+                    "guid": "jUy>14GK2^",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Énergie cinétique moyenne",
+                        "\\(\\langle E_C \\rangle = \\frac 3 2 k_BT = \\frac 1 2 mu^2\\)<br>(car 3 degrés de liberté sur le mouvement)<br>(n'est-ce pas Simon)"
+                    ],
+                    "guid": "K#xK).>.x-",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition système thermodynamique",
+                        "Système avec un très grand nombre de particules"
+                    ],
+                    "guid": "lBRbiWx?xO",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition variables d'état + exemples, définition grandeurs extensives et intensives",
+                        "variables microscopique qui permettent de définir l'état d'un système (no shit sherlock)<br>pour un corps pur, sous une phase : P, V, T, n<br><br>- grandeurs extensives : dépendent de la taille du système (ex : V, n)<br>- grandeurs intensives : indépendantes de la taille du système (ex : P, T,&nbsp;\\(\\rho\\))"
+                    ],
+                    "guid": "vll/m!_[-6",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition de l'équilibre thermodynamique, et 3 types d'équilibres",
+                        "Un système est à l'équilibre thermodynamique lorsque ses propriétés macroscopiques n'évoluent plus dans le temps<br>(même s'il existe des fluctuations à cause de l'agitation thermique)<br><br>Trois types d'équilibres :<br>- équilibre mécanique<br>- équilibre thermique<br>- équilibre chimique (pas étudié ici)"
+                    ],
+                    "guid": "K7DYgSq5]{",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition équation d'état",
+                        "équation qui relie les variables d'état à l'équilibre<br>si une seule phase :&nbsp;\\(f(P,V,T,n) = 0\\)"
+                    ],
+                    "guid": "O}.cuODgXX",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Équation d'état du gaz parfait",
+                        "\\(PV = nRT\\)"
+                    ],
+                    "guid": "o2rAH?CE)v",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Symbole, valeur, dimension de la constante de Boltzmann<br>Pareil + expression pour constante du gaz parfait",
+                        "-&nbsp;\\(k_B = 1,38 \\times 10 ^{-23} \\ J \\cdot K^{-1}\\)<br>-&nbsp;\\(R = k_B \\mathcal N_A = 8,314 \\ J \\cdot K^{-1} \\cdot mol^{-1}\\)"
+                    ],
+                    "guid": "Ava|~OlzI;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition phase condensée indilatable incompressible",
+                        "- phase condensée = liquide ou SOLIDE<br>- indilatable : volume ne varie pas avec température<br>- incompressible : volume ne varie pas avec pression"
+                    ],
+                    "guid": "t+X)(x:2In",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Masse volumique de l'eau et de l'air",
+                        "-&nbsp;\\(\\rho_{eau} = 10^3 \\ kg \\cdot m^{-3}\\)<br>-&nbsp;\\(\\rho_{air} = 1,23 \\ kg \\cdot m^{-3}\\)"
+                    ],
+                    "guid": "y?42LS%O9L",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition énergie interne d'un système",
+                        "\\(U = e_C + \\sum_{i \\not= j}V_{i,j}\\)<br>avec :<br>-&nbsp;\\(e_C = \\sum_{i = 1}^{N} \\frac 1 2 m v_i^2\\)&nbsp;l'énergie cintéique microscopique pour N particules<br>- les interactions valant 0 pour un gaz parfait"
+                    ],
+                    "guid": "x9x-I-iL,l",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule + dimension capacité thermique<br>déf capacité thermique molaire &amp; massique",
+                        "à V constant, variation de température de dT :<br>\\(dU = C_V dT\\)<br>en&nbsp;\\(J \\cdot K^{-1}\\)<br><br>Cas général :<br>\\(dU = \\frac {\\partial U} {\\partial T} /_V dt + \\frac {\\partial U} {\\partial V} /_T dt\\)<br><br>Capacité thermique molaire (\\(J \\cdot K^{-1} \\cdot mol ^{-1} \\)) :<br>\\(C_{Vm} = \\frac {C_V} {n}\\)<br><br>Capacité thermique massique (\\(J \\cdot K^{-1} \\cdot kg^{-1}\\)) :<br>\\(c_V = \\frac {C_V} {m} = \\frac {C_{Vm}} {M}\\)"
+                    ],
+                    "guid": "tWX=tg)}rI",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "U pour un gaz parfait monoatomique et diatomique<br>\\(C_{Vm}\\)&nbsp;pour un gaz parfait monoatomique et diatomique",
+                        "monoatomique :<br>-&nbsp;&nbsp;\\(U = \\frac 3 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 3 2 R\\)<br>diatomique :&nbsp;<br>-&nbsp;\\(U = \\frac 5 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 5 2 R\\)"
+                    ],
+                    "guid": "I-@mc>@a|)",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "1ère loi de Joule",
+                        "Pour un gaz parfait, U ne dépend que de T"
+                    ],
+                    "guid": "Ik:Sv[edv(",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Diagramme d'Anagat (+ ce qu'on a fait dessus, vite fait)",
+                        "Diagramme (PV,P)<br>Permet de voir l'écart au gaz parfait (car PV n'est pas une constante)<br>Mais à basse pression un gaz se comporte comme un gaz parfait"
+                    ],
+                    "guid": "FRiDQ*sG@7",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "diagramme de Clapeyron (+ en gros ce qu'il montre)",
+                        "Diagramme (P,V)<br>Partie verticale : incompressibilité d'un liquide<br>Partie horizontale :&nbsp;\\(P_{sat}\\)&nbsp;pour une température donnée, équilibre liquide/gaz<br>Troisième partie : gaz,&nbsp;\\(\\approx \\frac 1 V\\)&nbsp;(gaz parfait)<br><br>Diagramme&nbsp;\\((P_{sat}, T)\\)&nbsp;= diagramme de phase&nbsp;"
+                    ],
+                    "guid": "QjQ=?0}C6k",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Thermo1"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        }
+    ],
     "crowdanki_uuid": "c4ff9756-13c5-11f0-8d6b-00163ec6fa00",
     "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
     "deck_configurations": [
@@ -49,7 +923,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 30
+                "perDay": 20
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -73,16 +947,83 @@
             "timer": 1,
             "waitForAudio": false,
             "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
         }
     ],
     "desc": "",
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [
-        "paste-81bfa3346071106be7bfa4a0c499fbe0962af7b8.jpg",
-        "paste-ea50590dbdcf2322062e58a969e1322024ac1fd1.jpg"
-    ],
+    "media_files": [],
     "name": "Physique Sup",
     "newLimit": null,
     "newLimitToday": null,
@@ -157,6 +1098,73 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 917761237776734798,
+                    "name": "Texte",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": true,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 0
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2795282707234633529,
+                    "name": "Verso Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 1
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Texte à trous",
+            "originalStockKind": 5,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Texte}}<br>\n{{Verso Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1362982061134984816,
+                    "name": "Texte à trous",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Texte}}"
+                }
+            ],
+            "type": 1
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -222,893 +1230,9 @@
                 }
             ],
             "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": 917761237776734798,
-                    "name": "Texte",
-                    "ord": 0,
-                    "plainText": false,
-                    "preventDeletion": true,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": 0
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": 2795282707234633529,
-                    "name": "Verso Extra",
-                    "ord": 1,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": 1
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Texte à trous",
-            "originalStockKind": 5,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{cloze:Texte}}<br>\n{{Verso Extra}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": -1362982061134984816,
-                    "name": "Texte à trous",
-                    "ord": 0,
-                    "qfmt": "{{cloze:Texte}}"
-                }
-            ],
-            "type": 1
         }
     ],
-    "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "Travail fourni au système {fluide + piston} ou {gaz + paroi}",
-                "\\(\\delta W = -P_{ext} dV\\)"
-            ],
-            "guid": "wU|k@IPW)=",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Trois modes de transfert thermique",
-                "- Conduction<br>- Convection&nbsp;<br>- Rayonnement"
-            ],
-            "guid": "Q)[i}Np-i:",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition adiabatique",
-                "Transformation au cours de laquelle le système n'a aucun échange d'énergie par transfert thermique&nbsp;\\(Q = 0\\)"
-            ],
-            "guid": "ukSXUIQl)K",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Une transformation rapide peut être considérée comme...",
-                "... adiabatique"
-            ],
-            "guid": "IlDe[`L8:d",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition Thermostat",
-                "Système thermo dont la température&nbsp;\\(T_0\\)&nbsp;ne varie pas, même en cas d'échange d'énergie"
-            ],
-            "guid": "y6E$|L(v>7",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition et formule flux thermique",
-                "Le flux thermique&nbsp;\\(\\phi\\)&nbsp;est la puissance thermique recue par un système (en W)<br>On a&nbsp;\\(\\delta Q= \\phi dt\\)"
-            ],
-            "guid": "Hr9&c3{XR-",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Dans quel sens vont les échanges thermiques",
-                "\\(T_{chaud}\\)&nbsp;vers&nbsp;\\(T_{froid}\\)"
-            ],
-            "guid": "i]lvAL!3+$",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Def et formule résistance thhermique",
-                "Plus la résistance thermique est forte, plus le système s'oppose au passage du flux thermique.&nbsp;<br>Isolant = forte résistance thermique<br><br>\\(R_N = \\frac {\\Delta T } \\phi\\)"
-            ],
-            "guid": "C/`0lY+;tn",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Loi Phénoménologique de Newton",
-                "Transfert thermique proportionnel à la différence de température,&nbsp; surface de l'interface, et durée de l\"échange<br><br>\\(\\delta Q = hS\\Delta T \\)&nbsp;ou&nbsp;\\(\\phi  = hS\\Delta T\\)&nbsp;avec&nbsp;\\(h\\)&nbsp;le facteur de proportionnalité."
-            ],
-            "guid": "qTV!?RP^dN",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Energie totale d'un système",
-                "\\(E = U + E_c + E_{p, ext}\\)"
-            ],
-            "guid": "OVx:*>slVV",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Premier principe de la thermo",
-                "\\(\\Delta E = W + Q\\)&nbsp;(système FERME)<br>\\(\\Delta U + \\Delta E_c = \\delta W + \\delta Q\\)&nbsp;(car pas d'énergie potentielle exterieure)"
-            ],
-            "guid": "iRGH%Gq%W7",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transformation thermodynamique",
-                "Le passage d'un système d'un état d'équilibre intial à un état d'équilibre final. Au moins une des valeurs varie (T, P, V)"
-            ],
-            "guid": "goW5AlG:i8",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transformation Isochore",
-                "Volume Constant"
-            ],
-            "guid": "AV%yY]:.<Q",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transformation Isobare",
-                "Pression constante"
-            ],
-            "guid": "jAY@V9$4>P",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transformation Monobare",
-                "Pression exterieure constante (\\(P_{ext} = P_0\\))"
-            ],
-            "guid": "/S#F?u}6&",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transformation Isotherme",
-                "Température constante"
-            ],
-            "guid": "hv!xh*mkJ9",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transformation Monotherme",
-                "Température exterieure constante&nbsp;\\(T_{ext} = T_0\\)"
-            ],
-            "guid": "D!YS2#p>F@",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Travail forces de pression transformation isochore",
-                "NUL"
-            ],
-            "guid": "h1#d!y&~8B",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Travail des forces de pression transformation monobare",
-                "\\(W = -P_0\\Delta V\\)"
-            ],
-            "guid": "nDt[&0g!);",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Approximation des états quasi-stationnaires",
-                "Si les parois se déplacent à une vitesse&nbsp;\\(&lt;&lt; \\)&nbsp;vitesse du son dans le gaz, on peut considérer que la pression est uniforme à chaque instant"
-            ],
-            "guid": "fD@88@z@=(",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Transfo mécaniquement réversible, travail des forces de pression",
-                "\\(W = - \\int^f_i PdV\\)"
-            ],
-            "guid": "n,sD/r^MB|",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition Enthalpie",
-                "\\(H = U + PV\\)&nbsp;<br>\\(H\\)&nbsp;fonction d'état, en Joule, grandeur extensive"
-            ],
-            "guid": "ePP5ct&p]h",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Seconde loi de Joule",
-                "Enthalpie ne dépend que de température"
-            ],
-            "guid": "s(h+(8A3Sr",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Premier principe pour une transformation monobare avec équilibre.",
-                "Transformation monobare avec équilibre mécanique dans l'état initial et état final<br><br>\\(\\Delta H + \\Delta E_c = W_{autre} +Q\\)&nbsp;<br>\\(W_{autre} \\)étant le travail des forces autres que celles de pression.<br>On a donc si aucun autre travail que forces de pression<br>\\(Q = \\Delta H\\)"
-            ],
-            "guid": "Yc;JETdKg",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Enthalpie gaz parfait",
-                "\\(H_m = H_m(T)\\)&nbsp;avec&nbsp;\\(H_m\\)&nbsp;l'enthalpie molaire d'un gaz parfait&nbsp;"
-            ],
-            "guid": "LF<U]n7zTq",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Capacité thermique à pression constante molaire gaz parfait",
-                "\\(C_{P_m} = \\frac {dH_m} {dT}\\)"
-            ],
-            "guid": "v)7D9_EN)Y",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Relation de Mayer (qqch = R)",
-                "\\(C_{P_m} - C_{V_m} = R\\)"
-            ],
-            "guid": "Cm!V8K}^=^",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Rapport des capacités thermiques",
-                "\\(\\gamma = \\frac {C_{P_m}}{C_{V_m}}\\)"
-            ],
-            "guid": "D|p>bJX|>S",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Capacités thermiques molaires (relations de mayer + rapport capa molaires)<br>",
-                "\\(C_{V_m} = \\frac R {\\gamma - 1}\\)&nbsp;et&nbsp;\\(C_{P_m} = \\frac {R\\gamma} {\\gamma - 1}\\)"
-            ],
-            "guid": "JKY#VKLrh-",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "thermodynamique:bilan:d'énergie"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Les 3 échelles",
-                "- microscopique = taille d'un atome&nbsp;\\(\\approx 10^{-10} m\\)<br>- macroscopique (cm / m)<br>- mésoscopique, intermédiaire&nbsp;\\(\\approx 10^{-6}\\)"
-            ],
-            "guid": "A#i>Y]88:",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition libre parcours moyen",
-                "distance moyenne parcourue par une particule entre 2 chocs"
-            ],
-            "guid": "et{d,Px6la",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "OG libre parcours moyen (liquide et gaz)",
-                "- liquide :&nbsp;\\(10^{-10}m\\)<br>- gaz :&nbsp;\\(10^{-10}m\\)"
-            ],
-            "guid": "Eq->6y%XtJ",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Caractéristiques d'un gaz parfait",
-                "- pas d'énergie potentielle d'intéraction (mais quand même des chocs pour définit température)<br>- particules ponctuelles et identiques"
-            ],
-            "guid": "KbE<Dk78*4",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "OG volume molaire d'un gaz parfait",
-                "\\(22,4 \\ L \\cdot mol^{-1}\\)"
-            ],
-            "guid": "e&DCfJt,I5",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Constante d'Avogadro",
-                "\\(6,022 \\times 10^{23} \\ mol^{-1}\\)"
-            ],
-            "guid": "h)i<:7!ut+",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition de la vitesse quadratique moyenne",
-                "\\(u = \\sqrt{\\langle v^2 \\rangle}\\)"
-            ],
-            "guid": "c,ew/)nekJ",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Pression cinétique du gaz parfait",
-                "\\(P = \\frac 1 3 nmu^2\\)"
-            ],
-            "guid": "jUy>14GK2^",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Énergie cinétique moyenne",
-                "\\(\\langle E_C \\rangle = \\frac 3 2 k_BT = \\frac 1 2 mu^2\\)<br>(car 3 degrés de liberté sur le mouvement)<br>(n'est-ce pas Simon)"
-            ],
-            "guid": "K#xK).>.x-",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition système thermodynamique",
-                "Système avec un très grand nombre de particules"
-            ],
-            "guid": "lBRbiWx?xO",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition variables d'état + exemples, définition grandeurs extensives et intensives",
-                "variables microscopique qui permettent de définir l'état d'un système (no shit sherlock)<br>pour un corps pur, sous une phase : P, V, T, n<br><br>- grandeurs extensives : dépendent de la taille du système (ex : V, n)<br>- grandeurs intensives : indépendantes de la taille du système (ex : P, T,&nbsp;\\(\\rho\\))"
-            ],
-            "guid": "vll/m!_[-6",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition de l'équilibre thermodynamique, et 3 types d'équilibres",
-                "Un système est à l'équilibre thermodynamique lorsque ses propriétés macroscopiques n'évoluent plus dans le temps<br>(même s'il existe des fluctuations à cause de l'agitation thermique)<br><br>Trois types d'équilibres :<br>- équilibre mécanique<br>- équilibre thermique<br>- équilibre chimique (pas étudié ici)"
-            ],
-            "guid": "K7DYgSq5]{",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition équation d'état",
-                "équation qui relie les variables d'état à l'équilibre<br>si une seule phase :&nbsp;\\(f(P,V,T,n) = 0\\)"
-            ],
-            "guid": "O}.cuODgXX",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Équation d'état du gaz parfait",
-                "\\(PV = nRT\\)"
-            ],
-            "guid": "o2rAH?CE)v",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Symbole, valeur, dimension de la constante de Boltzmann<br>Pareil + expression pour constante du gaz parfait",
-                "-&nbsp;\\(k_B = 1,38 \\times 10 ^{-23} \\ J \\cdot K^{-1}\\)<br>-&nbsp;\\(R = k_B \\mathcal N_A = 8,314 \\ J \\cdot K^{-1} \\cdot mol^{-1}\\)"
-            ],
-            "guid": "Ava|~OlzI;",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition phase condensée indilatable incompressible",
-                "- phase condensée = liquide ou SOLIDE<br>- indilatable : volume ne varie pas avec température<br>- incompressible : volume ne varie pas avec pression"
-            ],
-            "guid": "t+X)(x:2In",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Masse volumique de l'eau et de l'air",
-                "-&nbsp;\\(\\rho_{eau} = 10^3 \\ kg \\cdot m^{-3}\\)<br>-&nbsp;\\(\\rho_{air} = 1,23 \\ kg \\cdot m^{-3}\\)"
-            ],
-            "guid": "y?42LS%O9L",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Définition énergie interne d'un système",
-                "\\(U = e_C + \\sum_{i \\not= j}V_{i,j}\\)<br>avec :<br>-&nbsp;\\(e_C = \\sum_{i = 1}^{N} \\frac 1 2 m v_i^2\\)&nbsp;l'énergie cintéique microscopique pour N particules<br>- les interactions valant 0 pour un gaz parfait"
-            ],
-            "guid": "x9x-I-iL,l",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule + dimension capacité thermique<br>déf capacité thermique molaire &amp; massique",
-                "à V constant, variation de température de dT :<br>\\(dU = C_V dT\\)<br>en&nbsp;\\(J \\cdot K^{-1}\\)<br><br>Cas général :<br>\\(dU = \\frac {\\partial U} {\\partial T} /_V dt + \\frac {\\partial U} {\\partial V} /_T dt\\)<br><br>Capacité thermique molaire (\\(J \\cdot K^{-1} \\cdot mol ^{-1} \\)) :<br>\\(C_{Vm} = \\frac {C_V} {n}\\)<br><br>Capacité thermique massique (\\(J \\cdot K^{-1} \\cdot kg^{-1}\\)) :<br>\\(c_V = \\frac {C_V} {m} = \\frac {C_{Vm}} {M}\\)"
-            ],
-            "guid": "tWX=tg)}rI",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "U pour un gaz parfait monoatomique et diatomique<br>\\(C_{Vm}\\)&nbsp;pour un gaz parfait monoatomique et diatomique",
-                "monoatomique :<br>-&nbsp;&nbsp;\\(U = \\frac 3 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 3 2 R\\)<br>diatomique :&nbsp;<br>-&nbsp;\\(U = \\frac 5 2 nRT\\)<br>-&nbsp;\\(C_{Vm} = \\frac 5 2 R\\)"
-            ],
-            "guid": "I-@mc>@a|)",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "1ère loi de Joule",
-                "Pour un gaz parfait, U ne dépend que de T"
-            ],
-            "guid": "Ik:Sv[edv(",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Diagramme d'Anagat (+ ce qu'on a fait dessus, vite fait)",
-                "Diagramme (PV,P)<br>Permet de voir l'écart au gaz parfait (car PV n'est pas une constante)<br>Mais à basse pression un gaz se comporte comme un gaz parfait"
-            ],
-            "guid": "FRiDQ*sG@7",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "diagramme de Clapeyron (+ en gros ce qu'il montre)",
-                "Diagramme (P,V)<br>Partie verticale : incompressibilité d'un liquide<br>Partie horizontale :&nbsp;\\(P_{sat}\\)&nbsp;pour une température donnée, équilibre liquide/gaz<br>Troisième partie : gaz,&nbsp;\\(\\approx \\frac 1 V\\)&nbsp;(gaz parfait)<br><br>Diagramme&nbsp;\\((P_{sat}, T)\\)&nbsp;= diagramme de phase&nbsp;"
-            ],
-            "guid": "QjQ=?0}C6k",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Thermo1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Notion d'irréversibilité",
-                "Evolution qui peut se faire que dans un sens -&gt; transformation inverse ne se produit jamais&nbsp;<br><br><br>par exemple : un pingouin qui respire par les fesses. le pingouin s'assoit. il meurt. On peut pas revenir en arrière."
-            ],
-            "guid": "IxeeL&,e%4",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Une transformation thermodynamique d'un système est réversible si",
-                "- les contraintes varient continuement et lentement. (processus quasi-statique)<br>- on peut inverser le sens de la transformartion par un changement infinitésimal de ses contraîntes.."
-            ],
-            "guid": "F4~R?T%^*7",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule de Boltzmann",
-                "\\(S = k_b \\ln \\Omega \\)&nbsp;<br>avec&nbsp;\\(\\Omega \\)&nbsp;le \"nombre de configurations\" (huh ?)"
-            ],
-            "guid": "Gsb;S);PrU",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Système d'autant plus désordonné que&nbsp;{{c1::\\(\\Omega \\)&nbsp;est grand (entropie élevée)}} -&gt;&nbsp; L'{{c1::entropie}} mesure le {{c2::désordre}} d'un système.<br>Un système isolé évolue donc spontanément de&nbsp;{{c2::l'ordre}} vers {{c2::le désordre}} {{c3::proutte}} {{c4::caca}}",
-                ""
-            ],
-            "guid": "v8#l=<58^e",
-            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(S(T, P) \\),&nbsp;\\(S_m(T, P)\\),&nbsp;\\(s(T, P)\\)",
-                "On note&nbsp;\\(S_0\\)&nbsp;l'endropie dans l'état d'origine :&nbsp;\\( S(T, P) = C_P \\ln (\\frac T {T_0}) - n R \\ln (\\frac P {P_0}) + S_0  \\)\\(S_m(T, P) = C_{P_m}\\ln (\\frac T {T_0}) - R \\ln (\\frac P {P_0}) + S_{m_0}\\)\\(s(T, P) = c_P\\ln \\frac T {T_0} - \\frac R M \\ln \\frac P {P_0} + S_0\\)"
-            ],
-            "guid": "FJXr`b;IV@",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(S(T, V), \\ S_m(T, V), \\ s(T, V)\\)",
-                "<img src=\"paste-81bfa3346071106be7bfa4a0c499fbe0962af7b8.jpg\">"
-            ],
-            "guid": "Jpjh|W@ejC",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(S(P, V), S_m(P, V), \\ s(P, V)\\)",
-                "<img src=\"paste-ea50590dbdcf2322062e58a969e1322024ac1fd1.jpg\">"
-            ],
-            "guid": "E=eMEWe`gv",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Loi de Laplace",
-                "Pour un GP, avec&nbsp;\\(\\frac {C_P} {C_V}  = \\gamma\\)&nbsp;ne dépend pas de&nbsp;\\(T\\), transfo adiabatique réversible, on a&nbsp;<br><br>\\(PV^\\gamma = P_iV_i^\\gamma  = P_fV_f^\\gamma\\)<br>\\(T^\\gamma P^{1 -\\gamma} = T_iP_i^{1 - \\gamma} = T_f^\\gamma P_f^{1 - \\gamma}\\)<br>\\(TV^{\\gamma - 1} = T_iV_i^{\\gamma - 1}= T_f V_f^{\\gamma - 1}\\)"
-            ],
-            "guid": "hw||(n{aRY",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Expression de&nbsp;\\( S\\)&nbsp;dans une phase condensée de masse m",
-                "\\(S = mc \\ln \\frac {T}{T_0} + S_0\\)&nbsp;<br><br>avec&nbsp;\\(S_0 = S(T_0)\\), avec&nbsp;\\(c\\)&nbsp;la capacité thermique massique de la phase condensée&nbsp;"
-            ],
-            "guid": "HOYz&4F1MP",
-            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un processus quasi-statique permet de supposer que [...]",
-                "[...] il y a a tout moment équilibre thermodynamique (mais ça n'exclut pas un gain d'entropie)."
-            ],
-            "guid": "Nb<F`QH=$y",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "S'il y a gain d'entropie dans un processus quasi statique, il est {{c1::non réversible}}. Sinon il est {{c1::réversible}}.<br>Tout processus {{c1::réversible}} est donc quasi statique mais pas l'inverse.",
-                ""
-            ],
-            "guid": "G>A>JUK={x",
-            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "L'entropie est une grandeur qui caractérise [...]",
-                "[...] la capacité d'un système physique à subir des transformations spontanées : plus l'entropie est grande, moins le système à la capacité de se transformer."
-            ],
-            "guid": "JBk3c,StD/",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Deuxième principe de la thermodynamique",
-                "\\(\\Delta S = S_f - S_i = S_{éch} + S_{créée}\\)<br><br>\\(S_{éch} = \\frac Q {T_S}\\)&nbsp;est le terme d'échange, avec&nbsp;\\(T_S\\)&nbsp;la température de la surface du système traversée par le transfert (si le système est en contact avec un thermostat,&nbsp;\\(T_S\\)&nbsp;est la température du thermostat)<br><br>\\(S_{créée}\\)&nbsp;est le terme de création tel que&nbsp;\\(S_{créée} \\geq 0\\).<br>Si la transformation est irréversible,&nbsp;\\(S_{créée} &gt; 0\\).<br>Si elle est réversible,&nbsp;\\(S_{créée} = 0\\)."
-            ],
-            "guid": ":xW>It<UM",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Deuxième principe appliqué à un système isolé (échangeant ni énergie ni matière avec l'extérieur)",
-                "\\(S_{éch} = 0\\)&nbsp;car&nbsp;\\(Q = 0\\)&nbsp;donc&nbsp;\\(\\Delta S = S_{créée} \\ge 0\\)"
-            ],
-            "guid": "o_y3!e8*5!",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "L'état d'équilibre d'un système isolé est celui dans lequel son entropie est [...]",
-                "[...] maximale."
-            ],
-            "guid": "Qn6/KY`L]S",
-            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\(\\Delta S\\)&nbsp;dépend {{c1::uniquement de l'état initial et de l'état final}}.<br>\\(S_{éch}\\)&nbsp;et&nbsp;\\(S_{créée}\\)&nbsp;dépendent {{c1::du chemin suivi entre les deux états}}.",
-                ""
-            ],
-            "guid": "z1NLB6$QXg",
-            "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-            "tags": [
-                "Deuxième_Principe"
-            ]
-        }
-    ],
+    "notes": [],
     "reviewLimit": null,
     "reviewLimitToday": null
 }
