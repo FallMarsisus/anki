@@ -5928,6 +5928,224 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "5c161098-34d0-11f0-96b9-c0d273f65878",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Probabilités finies",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition univers d'une expérience aléatoire",
+                        "Ensemble qui contient les résultats possibles de l'expérience"
+                    ],
+                    "guid": "J>,zfND}xu",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition d'un clan&nbsp;\\(\\mathcal T\\)&nbsp;de l'univers&nbsp;\\(\\Omega\\)",
+                        "Sous-ensemble de&nbsp;\\(\\mathcal P (\\Omega)\\)&nbsp;tq :<br>\\(\\bullet \\ \\Omega \\in \\mathcal T\\)&nbsp;et&nbsp;\\(\\varnothing \\in \\mathcal T\\)<br>\\(\\bullet \\ \\forall A \\in \\mathcal T, \\ \\overline A \\in \\mathcal T \\)<br>\\(\\bullet \\ \\forall A,B \\in \\mathcal T, \\ A \\cup B \\in \\mathcal T\\)&nbsp;et&nbsp;\\(A \\cap B \\in \\mathcal T\\)"
+                    ],
+                    "guid": "i0JT/Xx6OS",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(A\\),&nbsp;\\(B\\)&nbsp;deux évènements<br>- {{c2::\\(\\overline A\\)&nbsp;}}est l'évènement {{c1::contraire de&nbsp;\\(A\\)}}<br>-&nbsp;{{c2::\\(A \\cup B\\)}}&nbsp;est l'évènement {{c1::\"A ou B\"}}<br>-&nbsp;{{c2::\\(A \\cap B\\)}}&nbsp;est l'évènement {{c1::\"A et B\"}}<br>-&nbsp;{{c2::\\(A \\backslash B\\)}}&nbsp;est l'évènement {{c1::\"A mais pas B\"}}<br>- {{c2::A implique B}} lorsque {{c1::\\(A \\subset B\\)}}&nbsp;<br>- {{c2::A et B sont incompatibles}} lorsque {{c1::\\(A \\cap B = \\varnothing\\)}}",
+                        ""
+                    ],
+                    "guid": "WkmbqEa-_",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une famille&nbsp;\\((E_1, ... E_n)\\)&nbsp;d'évènements est un système complet d'évènements lorsque :",
+                        "\\(E_1 \\sqcup ... \\sqcup E_n = \\Omega\\)"
+                    ],
+                    "guid": "OKlh>V-.J#",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition (mesure de) probabilité",
+                        "\\(P : \\mathcal T \\rightarrow \\mathbb R\\)&nbsp;tq<br>Pour tout évènement A,&nbsp;\\(P(A) \\in [0;1]\\)<br>\\(P(\\Omega) = 1\\)&nbsp;et&nbsp;\\(P(\\varnothing) = 0\\)<br>Pour tous A et B incompatibles,&nbsp;\\(P(A \\sqcup B) = P(A) + P(B)\\)"
+                    ],
+                    "guid": "ve:bKE~~U<",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Probabilité uniforme sur&nbsp;\\(\\Omega\\)",
+                        "Probabilité définie pour tout A dans&nbsp;\\(\\mathcal P (\\Omega)\\)&nbsp;tq<br>\\(P(A) = \\frac {\\text{Card} \\ A} {\\text{Card} \\ \\Omega}\\)"
+                    ],
+                    "guid": "bh!B{vXkK2",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(P(\\overline A) =\\)&nbsp;...*<br>\\(P( B \\backslash A) =\\)&nbsp;...",
+                        "...&nbsp;\\(1 - P(A)\\)<br>...&nbsp;\\(P(B) - P(B \\cap A)\\)"
+                    ],
+                    "guid": "it`Iel$tN;",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de Poincaré (proba) :",
+                        "\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)"
+                    ],
+                    "guid": "Zm:^-LeZs",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule du crible (proba) :",
+                        "\\(P(A_1 \\cup ... \\cup A_n) = \\sum_{k = 1}^{n} (-1)^{k-1} \\sum_{1 \\leq i_1 &lt; ... &lt; i_k \\leq n} P(A_{i_1} \\cap ... \\cap A_{i_k})\\)"
+                    ],
+                    "guid": "Lcgs6p$D@c",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de construction des probabilités finies",
+                        "\\(\\Omega = \\{ \\omega_1, ... , \\omega_n \\}\\)&nbsp;univers fini et&nbsp;\\(p_1, ..., p_n\\)&nbsp;réels<br>Il exiiiiiiste sur&nbsp;\\((\\Omega, P(\\Omega))\\)&nbsp;une unique probabilité P vérifiant&nbsp;\\(\\forall k \\in [\\![1;n]\\!], P(\\omega_k) = p_k\\)&nbsp;ssi les&nbsp;\\(p_k\\)&nbsp;sont positifs ou nuls et leur somme vaut 1"
+                    ],
+                    "guid": "LCB9(t6[lm",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Probabilité conditionnelle de A sachant E",
+                        "Si&nbsp;\\(P(E) \\neq 0\\)&nbsp;:<br>\\(P(A \\ | \\ E) = \\frac {P(E \\cap A)} {P(E)}\\)<br>c'est une nouvelle loi de probabilité"
+                    ],
+                    "guid": "f3-p8]K=[A",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition&nbsp;\\(A\\)&nbsp;et&nbsp;\\(B\\)&nbsp;indépendants",
+                        "A et B indépendants si&nbsp;\\(P(A)P(B) = P(A \\cap B)\\)<br>Si ces expressions ont du sens on a aussi :<br>\\(P(A \\ | \\ B) = P(A)\\)<br>\\(P ( B \\ | \\ A) = P(B)\\)"
+                    ],
+                    "guid": "A}Hbr}K4C9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "A et B indépendants sachant E (avec E de probabilité non nulle)",
+                        "si&nbsp;\\(P(A \\cap B \\ | \\ E) = P(A \\ | \\ E)P(B \\ | \\ E)\\)"
+                    ],
+                    "guid": "G82BYH7[nL",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\((A_1, ... ,A_n)\\)&nbsp;mutuellement indépendants",
+                        "si pour toute sous-famille&nbsp;\\((A_{i_1},..., A_{i_k})\\)&nbsp;:<br>\\(P(A_{i_1} \\cap ... \\cap A_{i_k}) = P(A_{i_1}) \\times ... \\times P(A_{i_k})\\)"
+                    ],
+                    "guid": "qvP4%KAZ|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemme des coalitions",
+                        "\\((A_1, ... , A_n)\\)&nbsp;famille d'évènements<br>\\(I_1, ... I_k\\)&nbsp;parties <b>disjointes de&nbsp;</b>\\([\\![1;n]\\!]\\)&nbsp;avec&nbsp;\\(k \\in [\\![2;n]\\!]\\)<br>Pour tout&nbsp;\\(j \\in [\\![1;k]\\!]\\)&nbsp;on note&nbsp;\\(B_j\\)&nbsp;un évènement consititué à partir des évènements de&nbsp;\\((A_i)_{i \\in I_j}\\)&nbsp;en utilisant réunions, intersection et contraire.<br><br>Si&nbsp;\\(A_1,...,A_n\\)&nbsp;mutuellement indépendants alors&nbsp;\\(B_1, ... B_k\\)&nbsp;le sont aussi"
+                    ],
+                    "guid": "rPZ/l:|%]0",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de conditionnement",
+                        "E de probabilité non nulle<br>\\(P(E \\cap A) = P(E) P(E \\ | \\ A)\\)"
+                    ],
+                    "guid": "he+=d[tZ!F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule des probabilités composées",
+                        "\\((A_1, ... A_n)\\)&nbsp;famille d'évènements tq&nbsp;\\(P(A_1 \\cap ... \\cap A_{n-1}) \\neq 0\\)<br>\\(P(A_1 \\cap ... \\cap A_n) = P(A_1) \\times P(A_2 \\ | \\ A_1) \\times P(A_3 \\ | \\ A_1 \\cap A_2) \\times ... \\times P(A_n \\ | \\ A_1 \\cap ... \\cap A_{n-1})\\)"
+                    ],
+                    "guid": "INI{K[JqoF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de filtration",
+                        "\\((E_1, ... , E_n)\\)&nbsp;système complets d'évènements<br>\\(P(A) = \\sum_{k=1}^{n} P(E_k \\cap A)\\)"
+                    ],
+                    "guid": "e/4X[vSG8[",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule des probabilités totales",
+                        "\\(A \\)&nbsp;évènement et&nbsp;\\((E_1, ..., E_n)\\)&nbsp;système complet d'évènements tq les&nbsp;\\(E_k\\)&nbsp;soient tous de proba non nulle<br><br>\\(P(A) = \\sum_{k=1}^{n} P(E_k) P(A \\ | \\ E_k)\\)"
+                    ],
+                    "guid": "ox-A=j$n0H",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Petite et grande formule de Bayes",
+                        "\\(A\\)&nbsp;évènement et&nbsp;\\((E_1, ... E_n)\\)&nbsp;système complet d'évènements, avec tous de probabilités non nulles<br>\\(i \\in [\\![1;n]\\!]\\)<br>Petite formule de Bayes :<br>\\(P(E_i \\ | \\ A) = \\frac {P(E_i) P(A \\ | \\ E_i)} {P(A)}\\)<br>Grande formule de Bayes :<br>\\(P(E_i \\ | \\ A) = \\frac {P(E_i) P(A \\ | \\ E_i)} {\\sum_{k=1}^n P(E_k) P(A \\ | \\ E_k)}\\)"
+                    ],
+                    "guid": "b0pj>z@E}z",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "0d81c6d1-2fd8-11f0-a1f8-c0d273f65878",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
