@@ -2153,6 +2153,116 @@
             "guid": "Idu-e*+A4W",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "parcourir, parcours",
+                "recorrer, recorrida"
+            ],
+            "guid": "uJf%;HH{4>",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "à travers de",
+                "a través de"
+            ],
+            "guid": "oapTko:623",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "baillon, baillonner",
+                "moradaza, amordazar"
+            ],
+            "guid": "P)_jt|!Xm3",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "royauté",
+                "realeza"
+            ],
+            "guid": "mBZ@#<]yUt",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\"... et quelques\"",
+                "... y pico"
+            ],
+            "guid": "K#Pu?RZU,;",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "plafond de verre",
+                "techo de cristal"
+            ],
+            "guid": "G|;r2M`35",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "juridictions",
+                "juzgados"
+            ],
+            "guid": "eg5rPh8X1o",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bourreau",
+                "verdugo"
+            ],
+            "guid": "GS2RkV{8fK",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bracelet électronique",
+                "pulsera electronica"
+            ],
+            "guid": "bp;?}K~|~A",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "couple",
+                "pareja"
+            ],
+            "guid": "sZ*{DW}>v&",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "foyer",
+                "hogar"
+            ],
+            "guid": "tA)k/]:$t_",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
         }
     ],
     "reviewLimit": null,
