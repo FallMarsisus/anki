@@ -2263,6 +2263,96 @@
             "guid": "tA)k/]:$t_",
             "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "poursuivi",
+                "perseguido"
+            ],
+            "guid": "vSf@&s*0E{",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "raid (de police)",
+                "redada"
+            ],
+            "guid": "]Fc<PayI@",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ordonner (donner un ordre)",
+                "mandar"
+            ],
+            "guid": "M||_uZQkzZ",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "date de péremption",
+                "fecha de caducidad"
+            ],
+            "guid": "I-<o~C9-YY",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nébuleuse (politique)",
+                "limbo"
+            ],
+            "guid": "mS}l@3H5]$",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tomber par terre, s'effondrer",
+                "venirse abajo"
+            ],
+            "guid": "v5+0|L?cZy",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "empêcher de",
+                "impedir que"
+            ],
+            "guid": "L_&1zQRzt/",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "avocat (métier)",
+                "abogado"
+            ],
+            "guid": "v+9y;|;!M%",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "plainte",
+                "queja"
+            ],
+            "guid": "e7?&f4@JL^",
+            "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "tags": []
         }
     ],
     "reviewLimit": null,
