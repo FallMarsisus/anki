@@ -6370,18 +6370,6 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
-                    ],
-                    "guid": "m]e_emLY_A",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "sommes::et::produits"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "sommes des k",
                         "\\[\\frac{n(n+1)}{2}\\]"
                     ],
@@ -6470,6 +6458,18 @@
                         "\\[(a+b)^n = \\sum_{k=0}^{n}{\\binom{n}{k}a^kb^{n-k}}\\]"
                     ],
                     "guid": "rk),tt>QDJ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "sommes::et::produits"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
+                    ],
+                    "guid": "m]e_emLY_A",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
                     "tags": [
                         "sommes::et::produits"
@@ -7805,224 +7805,284 @@
         {
             "__type__": "Deck",
             "children": [],
-            "crowdanki_uuid": "83269b47-3af1-11f0-b9e6-c0d273f65878",
-            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "crowdanki_uuid": "9f6305a4-3ad6-11f0-97e2-00163ec6fa00",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "Vecteurs aléatoires finis",
+            "name": "Variables aléatoires finies",
             "newLimit": null,
             "newLimitToday": null,
             "notes": [
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X, Y) couples de variables aléatoires finies<br>Système complet d'évènements associé à (X,Y)",
-                        "\\(((X = x, Y = y))_{(x,y) \\in (X,Y)(\\Omega)}\\)"
+                        "Qu'est ce qu'une variable aléatoire finie ?",
+                        "Application&nbsp;\\(X: \\Omega \\rightarrow E\\)"
                     ],
-                    "guid": "m}lXW,d;Hv",
+                    "guid": "yc[C/#k)aV",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Loi conjointe ou densité (singulière) du couple de variables aléatoires finies (X,Y)",
-                        "\\(f_{(X,Y)} : \\left\\{ (X,Y)(\\Omega) \\longrightarrow [0;1] \\atop (x,y) \\longmapsto P(X = x, Y = y)  \\right.\\)"
+                        "Qu'est ce que le système complet d'évènements associé à&nbsp;\\(X\\)&nbsp;?",
+                        "Famille :&nbsp;\\(((X = x ))_{x \\in X(\\Omega)}\\)"
                     ],
-                    "guid": "yfEzNF+1U{",
+                    "guid": "k7C!{xKa>z",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Construction de probabilités avec un esnemble de couples",
-                        "E ensemble fini de couples,&nbsp;\\(f : E \\rightarrow \\mathbb R\\)&nbsp;une application<br>Si&nbsp;\\(f\\)&nbsp;à valeurs positives et&nbsp;\\(\\sum_{(x,y) \\in E} f(x,y) = 1\\), alors il existe un espace probabilisé&nbsp;\\((\\Omega, \\mathcal T, P)\\)&nbsp;et un couple de variables aléatoires&nbsp;\\((X,Y)\\)&nbsp;sur&nbsp;\\((\\Omega, \\mathcal T)\\)&nbsp;tq l'on ait&nbsp;\\((X,Y)(\\Omega) = E\\)&nbsp;et&nbsp;\\(\\forall (x,y) \\in E, P(X = x, Y = y) = f(x,y)\\)<br><br>(autrement dit&nbsp;\\(f\\)&nbsp;est une loi de probabilité, c'est quand même vachement plus simple)"
+                        "Qu'est ce qu'une loi de probabilité ?",
+                        "Application&nbsp;<br>\\(P_X \\left\\{ \\mathcal P(X(\\Omega)) \\rightarrow [0; 1] \\atop A \\rightarrow P(X\\in A )\\right.\\)"
                     ],
-                    "guid": "BDHi8R.-J^",
+                    "guid": "H$;_V-o_$2",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires finies<br>Lois marginales de X et Y",
-                        "\\(f_X \\left\\{ X(\\Omega) \\rightarrow [0;1] \\atop x \\mapsto \\sum_{y \\in Y(\\Omega)} P(X= x, Y = y) \\right.\\)<br><br>\\(f_Y \\left\\{ Y(\\Omega) \\rightarrow [0;1] \\atop y \\mapsto \\sum_{x \\in X(\\Omega)} P(X= x, Y = y) \\right.\\)"
+                        "Qu'est ce que la densité de probabilité ?",
+                        "\\(f_X : \\left\\{ X(\\Omega) \\rightarrow [0; 1] \\atop x \\rightarrow P(X= x)\\right.\\)"
                     ],
-                    "guid": "OkHq<NY]zs",
+                    "guid": "qa|b/:3?P",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires finies<br>Loi conditionnelle de X sachant (Y = y)",
-                        "\\(f_{(X | Y = y)} \\left\\{ X(\\Omega) \\rightarrow [0;1] \\atop x \\mapsto P(X = x | Y = y) = \\frac {P(X=x, Y=y)} {P(Y=y)} \\right.\\)"
+                        "Qu'est-ce qu'une fonction de répartition ?",
+                        "\\(F_X : \\left\\{ \\mathbb R \\rightarrow [0; 1] \\atop x \\rightarrow P(X\\le x)\\right.\\)"
                     ],
-                    "guid": "MXt@U]E68H",
+                    "guid": "p:Z,mx{JHd",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires finies, g fonction de 2 variables<br>Loi conjointe de g(X,Y)",
-                        "\\(f_{g(X,Y)} \\left\\{ g(X,Y)(\\Omega) \\rightarrow [0;1] \\atop z \\mapsto \\sum_{(x,y) \\in (X,Y)(\\Omega), g(x,y) = z} P(X = x, Y = y) \\right.\\)"
+                        "Fonction de répartition de g\\((X)\\)",
+                        "\\(f_{g(X)} : \\left\\{ g(X)(\\Omega) \\rightarrow [0;1] \\atop y \\rightarrow \\sum_{x\\in X(\\Omega); g(x) = y} P(X = x) \\right.\\)"
                     ],
-                    "guid": "D6K~Fw/~WU",
+                    "guid": "y8K|BN^wId",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires finies<br>On dit que X et Y sont indépendantes lorsque (2 manières) :",
-                        "pour toutes parties&nbsp;\\(A \\subset X(\\Omega)\\)&nbsp;et&nbsp;\\(B \\subset Y(\\Omega)\\)&nbsp;:<br>\\(P(X \\in A, Y \\in B) = P(X \\in A) P (Y \\in B)\\)<br>équivaut à<br>\\(\\forall x \\in X(\\Omega), \\forall y \\in Y(\\Omega), P(X = x, Y = y) = P(X = x) P(Y = y)\\)"
+                        "Espérance de X",
+                        "\\(E(X) = \\sum_ {k = 1}^n x_kP(X= x_k) = \\sum_{s \\in X(\\Omega)}xP(X=x)\\)"
                     ],
-                    "guid": "gK!l%&@gD`",
+                    "guid": "hY*DO.*rbQ",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Toute sous-famille d'une famille de variables aléatoires mutuellement indépendantes ...",
-                        "est constituée de variables mutuellement indépendantes"
+                        "Formule d'atomisation",
+                        "\\(E(X) = \\sum _{\\omega \\in \\Omega} X(\\omega) P(\\omega) \\)"
                     ],
-                    "guid": "OfzHZ%kr[,",
+                    "guid": "M)ckN~/+%_",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "\\((X_1, X_2, ..., X_n)\\)&nbsp;vecteur aléatoire fini,&nbsp;\\(k \\in [\\![2;n]\\!]\\)<br>Si&nbsp;\\(X_1, ... X_n\\)&nbsp;mutuellement indépendantes, pour tous entier&nbsp;\\(1 \\leq p_1 &lt; ... &lt; p_{k-1} \\leq n-1\\)&nbsp;et toutes fonctions&nbsp;\\(g_1, ..., g_k\\)&nbsp;définies respectivement sur&nbsp;\\((X_1,..., X_{p1})(\\Omega),...,(X_{p_{k-1}+1},..., X_n)(\\Omega)\\)&nbsp;:",
-                        "Les variables\\(g_1(X_1, ..., X_{p1}), g_2(X_{p_1 +1},..., X_{p2}),...,g_k(X_{p_{k-1}+1},...,X_n)\\)&nbsp;sont mutuellement indépendantes<br><br>ceci est un appel à l'aide on me retient contre ma volonté pour taper ces formules de con aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                        "Si X est positive et centrée...",
+                        "alors X est presque sûrement nulle."
                     ],
-                    "guid": "vx8b5n[qSQ",
+                    "guid": "F2{+De8c2A",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "\\((X_1,...,X_n)\\)&nbsp;échantillon de loi&nbsp;\\(\\mathcal B (p)\\)&nbsp;(càd variables aléatoires indépendantes identiquement distribuées sur la loi&nbsp;\\(\\mathcal B(p)\\))<br>{{c1::\\(S_n = X_1 + ... + X_n\\)}} suit la loi&nbsp;{{c2::\\(\\mathcal B(n,p)\\)}}",
-                        ""
+                        "Espérance d'une composée",
+                        "\\(E(g(X)) = \\sum_{k  = 1} ^n g(x_k) P(X= x_k) = \\sum _{x \\in X(\\Omega)} g(x)P(X = x)\\)"
                     ],
-                    "guid": "F;VSBdBG?s",
-                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Formule de transfert pour un couple de variables aléatoires finies",
-                        "\\(\\forall g:(X,Y)(\\Omega) \\rightarrow \\mathbb R, \\ \\ \\ E(g(X,Y)) = \\sum_{(x,y) \\in (X,Y)(\\Omega)} g(x,y)P(X = x, Y = y)\\)"
-                    ],
-                    "guid": "w89S(gyxA)",
+                    "guid": "F,!9mUL5{x",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Définition covariance et formule de Koenig-Huygens",
-                        "\\(\\text{Cov}(X,Y) = E[(X - E(X))(Y - E(Y))] = E(XY) - E(X)E(Y)\\)"
+                        "Moment d'ordre k de X, et moment centré d'ordre k",
+                        "\\(E(X^k)\\), et&nbsp;\\(E[(X - E(X))^k)]\\)"
                     ],
-                    "guid": "lyl8A3nQjt",
+                    "guid": "P*-nJ$pGA4",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Propriétés covariance (linéarité ? symétrie ? positivité ? etc.)",
-                        "linéarité à gauche et à droite<br>symétrie<br>positivité<br><br>grosse flemme de taper les vraies formules là"
+                        "Variance de X + Koenig-Huygens",
+                        "\\(V(X) = E[(X - E(X))^2]\\)<br>\\(V(X) = E(X^2) - E(X) ^2\\)"
                     ],
-                    "guid": "GPe>&>@Ql:",
+                    "guid": "hPoBMKNa?u",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires réelles finies<br>\\(V (X+Y) = ...\\)",
-                        "\\(... = V(X) + 2\\text{Cov}(X,Y) + V(Y)\\)"
+                        "\\(V(\\lambda X)\\)",
+                        "\\(\\lambda^2 V(X)\\)"
                     ],
-                    "guid": "M8x#71]fU;",
+                    "guid": "J>%pFFa@a)",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires finies<br>Effet de l'indépendance sur covariance, espérance, variance",
-                        "Si X et Y sont indépendantes :<br>\\(\\text{Cov}(X,Y) = 0\\)<br>\\(E(XY) = E(X)E(Y)\\)<br>\\(V(X + Y) = V(X) + V(Y)\\)"
+                        "Si X est une variable aléatoire réelle finie d'espérance m et de variance nulle alors...",
+                        "X est presque sûrement égale à son espérance"
                     ],
-                    "guid": "i~bZ4v_};5",
+                    "guid": "lJdd7SJ-Ry",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "(X,Y) couple de variables aléatoires finies, écarts types non nuls<br>Coefficient de corrélation de X et de Y<br>Définition corrélées et décorrélées",
-                        "\\(\\rho (X,Y) = \\frac {\\text{Cov}(X,Y)} {\\sigma(X)\\sigma(Y)}\\)<br>X et Y corrélées lorsque&nbsp;\\(\\rho(X,Y) \\neq 0\\), décorrélées sinon"
+                        "Définition d'écart-type",
+                        "\\(\\sigma (X) = \\sqrt {V(X)}\\)"
                     ],
-                    "guid": "P37.amdU}r",
+                    "guid": "jWKMw0sozE",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Valeurs possibles pour le coefficient de corrélation et valeurs remarquables",
-                        "\\(\\rho (X,Y) \\in [-1;1]\\)<br>\\(\\rho (X,Y) = \\pm 1 \\Longleftrightarrow \\exists \\lambda, \\mu \\in \\mathbb R, Y = \\lambda X + \\mu \\)&nbsp;presque sûrement<br>X et Y indépendantes&nbsp;\\(\\implies \\rho (X,Y) = 0\\)"
+                        "Inégalité de Markov",
+                        "X variable aléatoire finie <span style=\"color: rgb(255, 0, 0);\">positive</span><br>\\(P(X \\ge a) \\le \\frac {E(X)} a\\)"
                     ],
-                    "guid": "Ns>yl(p1=x",
+                    "guid": "hhD{H-UKOo",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Loi faible des grands nombres",
-                        "\\((X_n)_{n \\geq 1}\\)&nbsp;suite de variables alétoires réelles finies indépendantes et de même loi (v. a. i. i. d.)<br>\\(m\\)&nbsp;espérance commune des&nbsp;\\(X_i\\)<br>Pour tout&nbsp;\\(\\epsilon &gt; 0\\),<br>\\(\\lim_{n \\rightarrow + \\infty} P \\left( \\left| \\frac {X_1 + ... + X_n} {n} - m \\right| \\geq \\epsilon \\right) = 0\\)"
+                        "inégalité de Bienaymé-Tchebychev",
+                        "\\(P(\\vert X - m \\vert \\ge d) \\le \\frac {\\sigma ^2} {d^2}\\)"
                     ],
-                    "guid": "MPXJ@==}H0",
+                    "guid": "ojJzuLt_R*",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "X variable aléatoire à valeur dans&nbsp;\\(\\mathbb N\\)<br>Fonction génératrice de X, et loi de X en fonction de cette fonction",
-                        "\\(G_X  \\left\\{ [0;1] \\rightarrow \\mathbb R \\atop t \\mapsto E(t^X) = \\sum_{k \\geq 0} P(X = k) t^k \\right.\\)<br><br>\\(P(X = k) = \\frac {G_X^{(k)} (0)} {k!}\\)"
+                        "Espérance et variance de la loi certaine&nbsp;",
+                        "\\(E(X) = m \\)<br>\\(V(X) = 0\\)"
                     ],
-                    "guid": "wkn};(^`hS",
+                    "guid": "M!|L._M1[8",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Valeurs remarquables de la fonction génératrice (d'une variable aléatoire à valeur dans&nbsp;\\(\\mathbb N\\))",
-                        "\\(\\forall m \\in \\mathbb N^*, \\ G_X^{(m)} (1) = E(X(X-1)...(X-m+1))\\)<br>En particulier,&nbsp;<br>\\(G_X(1) = 1\\)<br>\\(G'_X (1) = E(X)\\)<br>\\(G''_X (1) = E(X(X-1))\\)"
+                        "Définition loi uniforme sur&nbsp;\\(X(\\Omega)\\)",
+                        "Tous les évènements sont équiprobables :&nbsp;<br>\\(P(X= x_k ) = \\frac 1 n\\)"
                     ],
-                    "guid": "M=CP~c,Sqi",
+                    "guid": "EC<kylFQ_j",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 },
                 {
                     "__type__": "Note",
                     "fields": [
-                        "\\(X_1,...,X_n\\)&nbsp;variables aléatoires indépendantes à valeur dans&nbsp;\\(\\mathbb N\\)<br>\\(G_{X_1 + ... + X_n} = ...\\)",
-                        "\\(... = G_{X_1} \\times ... \\times G_{X_n}\\)"
+                        "Espérance et variance loi uniforme",
+                        "\\(E(X) = \\frac{x_1 + ... + x_n} n \\)<br>\\(V(X) = \\frac {x_1^2 +... +x_n ^2} n - \\left(\\frac {x_1 + ... + x_n} n \\right)^2\\)"
                     ],
-                    "guid": "C?)Q3lN(gc",
+                    "guid": "Fyn,U^-x#R",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "X suit la loi de Bernoulli de paramètre p quand :",
+                        "\\(X(\\Omega) = \\{0, 1\\}\\),&nbsp;\\(P(X = 1) = p , \\ P(X = 0 ) = 1-p\\)"
+                    ],
+                    "guid": "CJi>3{|+{9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Espérance et variance Loi de Bernouilli",
+                        "\\(E(X) = p \\)<br>\\(V(X) = pq\\)"
+                    ],
+                    "guid": "Fy?f930@?5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition Loi binomiale de paramètres np",
+                        "\\(\\left\\{ X(\\Omega ) = [| 0; n |] \\atop \\forall k \\in [|0 ; n |], \\ P(X = k) = \\left(k\\atop n\\right) p ^k q^{n - k} \\ \\ \\text{où } q = 1 - p \\right.\\)"
+                    ],
+                    "guid": "xPGK(%M>wT",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Espérance et variance loi binomiale",
+                        "\\(E(X) = np\\)<br>\\(V(X) = npq\\)"
+                    ],
+                    "guid": "ludYr=G.E2",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition loi hypergéométrique de paramètres N, n et p",
+                        "\\(\\left\\{ X(\\Omega) = [| 0, n|] \\atop \\forall k \\in [|0; n |], \\ P(X= k) = \\frac {\\left(Np \\atop k \\right) \\left( Nq \\atop n-k\\right) } {\\left(N \\atop n \\right) }, \\ \\text{où } q = 1 - p \\right.\\)"
+                    ],
+                    "guid": "p]TtSE*TOb",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Espérance et variance loi hypergéométrique",
+                        "\\(E(X) = np\\)<br>\\(V(X) = npq \\frac{N - n} {N - 1}\\)"
+                    ],
+                    "guid": "na]}E}hEUb",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Approximation loi hypergéométrique",
+                        "\\(\\frac{\\left(Np\\atop k\\right)\\left( Nq \\atop n-k \\right)}{\\left( N \\atop n \\right)} \\longrightarrow _{N \\rightarrow +\\infty} \\left(n \\atop k \\right)p ^kq^{n-k}\\)"
+                    ],
+                    "guid": "k>8#HK)ULO",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 }
@@ -8158,8 +8218,78 @@
         }
     ],
     "crowdanki_uuid": "bf5710c2-0bff-11f0-9706-00163ec6fa00",
-    "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+    "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
     "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 16,
+                "perDay": 130
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        },
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
@@ -8229,76 +8359,6 @@
             "timer": 1,
             "waitForAudio": false,
             "weightSearch": ""
-        },
-        {
-            "__type__": "DeckConfig",
-            "answerAction": 0,
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
-            "desiredRetention": 0.9,
-            "dyn": false,
-            "easyDaysPercentages": [
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "fsrsParams5": [],
-            "fsrsWeights": [],
-            "ignoreRevlogsBeforeDate": "",
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Par défaut",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 10
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "questionAction": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
-            },
-            "reviewOrder": 0,
-            "secondsToShowAnswer": 0.0,
-            "secondsToShowQuestion": 0.0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
-            "timer": 0,
-            "waitForAudio": true,
-            "weightSearch": ""
         }
     ],
     "desc": "",
@@ -8313,6 +8373,74 @@
         "today": 590
     },
     "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
@@ -8821,77 +8949,22 @@
                 }
             ],
             "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": 2887224638033873027,
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": -7793164370799427585,
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique",
-            "originalId": 1743079208597,
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": -4005149872133082135,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
         }
     ],
-    "notes": [],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'un&nbsp;<b>univers&nbsp;</b>?",
+                "Ensemble des résultats possibles d'une experience"
+            ],
+            "guid": "KK3-|@62cK",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": [
+                "Probabilités:Finies"
+            ]
+        }
+    ],
     "reviewLimit": null,
     "reviewLimitToday": {
         "limit": 170,
