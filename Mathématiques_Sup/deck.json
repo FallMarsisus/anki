@@ -1134,7 +1134,8 @@
                     "guid": "H.rKHdD)vI",
                     "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
                     "tags": [
-                        "DL"
+                        "DL",
+                        "leech"
                     ]
                 },
                 {
@@ -4002,6 +4003,186 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "fe15333c-7245-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Capture d’écran 2025-08-05 à 23.24.33.png"
+            ],
+            "name": "Fonctions à 2 Variables",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf : fonction réele de deux variables réelle",
+                        "Toute application définie sur une partie de&nbsp;\\(\\mathbb R^2\\)&nbsp;et à valeurs dans&nbsp;\\(\\mathbb R ^2\\)"
+                    ],
+                    "guid": "N`)Ry?+Ag^",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition applications partielles de&nbsp;\\( f\\)&nbsp;en&nbsp;\\((\\alpha, \\beta)\\)",
+                        "Les deux fonctions réelles d'<b>une</b>&nbsp;variable réelle :&nbsp;<br>\\[f(., \\beta): x \\rightarrow f(x, \\beta)  \\text{ et } f(\\alpha, .): y \\rightarrow f(\\alpha, y) \\]avec leurs ensembles de définition respectifs.&nbsp;<br>"
+                    ],
+                    "guid": "v?]5diRx/]",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définitions des limites de fonctions à deux variables",
+                        "<div></div>\\(\\mathcal D \\)&nbsp;une partie de&nbsp;\\(\\mathbb R^2 \\)<div><ul><li>On dit que&nbsp;\\(f \\)&nbsp;tend vers&nbsp;\\(l\\)&nbsp;en&nbsp;\\(a\\)&nbsp;quand :&nbsp;\\(\\forall \\epsilon &gt; 0, \\exists \\eta &gt; 0, \\forall u \\in \\mathcal D \\)</li></ul></div><br><ul><li>On dit que&nbsp;\\(f \\)&nbsp;tend vers&nbsp;\\(+\\infty\\)&nbsp;en&nbsp;\\(a\\)&nbsp;quand&nbsp;\\(\\forall A &gt; 0, \\exists \\eta &gt; 0, \\forall u \\in \\mathcal D \\)</li></ul>\\[(\\Vert u - a\\Vert \\le \\eta ) \\Longrightarrow ( \\vert f(u)  \\vert \\ge A)\\]<br>"
+                    ],
+                    "guid": "e}Qwv4GTaL",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Particularités des limites de fonctions à deux variables",
+                        "Il faut considérer tous les chemins venant à la limite : les comportements des applications partielles ne suffisent pas.&nbsp;"
+                    ],
+                    "guid": "wBdZ%)ptA{",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition continuité de fonctions à deux variables",
+                        "\\(f \\)&nbsp;est continue en&nbsp;\\(a \\)&nbsp;lorsque&nbsp;\\(f \\)&nbsp;admet une limite en&nbsp;\\(f(a)\\)"
+                    ],
+                    "guid": "Op7LtHgbxt",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si&nbsp;\\(f \\)&nbsp;est continue en un point&nbsp;\\(a = (\\alpha, \\beta)\\)&nbsp;de&nbsp;\\(\\mathcal D \\subset \\mathbb R ^2 \\), alors [...]",
+                        "ses applications partielles&nbsp;\\(f(., \\beta)\\)&nbsp;et&nbsp;\\(f(\\alpha, .)\\)&nbsp;sont continues respectivement en&nbsp;\\(\\alpha\\), et&nbsp;\\(\\beta\\)"
+                    ],
+                    "guid": "iF>8-*CR:9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Methode pour étudier la continuité d'une fonction à deux variables.",
+                        "<img src=\"Capture d’écran 2025-08-05 à 23.24.33.png\" width=\"939\">"
+                    ],
+                    "guid": "ooA[JfEQ+m",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition + formule de la dérivée partielle&nbsp;",
+                        "<u>Définition :</u><br>Si la fonction partielle&nbsp;\\(f(., \\beta) : x \\rightarrow f(x, \\beta)\\)&nbsp;est dérivable en&nbsp;\\(\\alpha\\),&nbsp;\\(f(., \\beta) ' (\\alpha)\\)&nbsp;est la <b>dérivée partielle de&nbsp;</b>\\(f\\)<b>&nbsp;par rapport à&nbsp;</b>\\( x\\)<b>&nbsp;</b>en&nbsp;\\(a = (\\alpha, \\beta)\\)&nbsp;<br><br>On fait pareil si c'est la deuxième variable, avec un&nbsp;\\(\\partial y \\)...<br><br><u>Formule :</u>&nbsp;<br>\\(\\frac {\\partial f}{\\partial x }(\\alpha, \\beta) = \\lim_{t \\rightarrow 0}\\frac {f(\\alpha + t, \\beta ) - f(\\alpha, \\beta)}{t}\\)<br>"
+                    ],
+                    "guid": "L%UGqOfT)s",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment calculer une dérivée partielle ?",
+                        "<div>Pour calculer la dérivée partielle par rapport à x, on fixe mentalement y, on dérive par rapport à la</div>\n<div>variable x puis on \"relâche\" y, ce qui donne une fonction de deux variables.</div>"
+                    ],
+                    "guid": "Q)@pa7L&)R",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Développement limité à l'ordre 1 des fonctions à deux variables",
+                        "\\[f(\\alpha + h_1,  \\beta + h_2) = f(\\alpha, \\beta) + \\frac {\\partial f}{\\partial x}(\\alpha, \\beta)h_1 + \\frac {\\partial f}{\\partial y}(\\alpha, \\beta)h_2 + o_{(h_1, h_2) \\rightarrow (0, 0)}(\\Vert (h_1, h_2)\\Vert)\\]<br><u>Aussi possible avec le gradient :&nbsp;<br></u>\\[f(\\alpha + h_1,  \\beta + h_2) = f(\\alpha, \\beta) + \\nabla f(\\alpha, \\beta). (h_1, h_2)+ o_{(h_1, h_2) \\rightarrow (0, 0)}(\\Vert (h_1, h_2)\\Vert)\\]<u><br></u>"
+                    ],
+                    "guid": "s.[GNW3v(a",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition : Gradient",
+                        "\\(\\nabla f(\\alpha, \\beta)  = \\left(\\frac {\\partial f}{\\partial x}(\\alpha, \\beta), \\frac {\\partial f}{\\partial y} (\\alpha, \\beta)\\right)\\)"
+                    ],
+                    "guid": "d?H0KFP?p.",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Règle de la dérivation en chaîne (fct 2 var)",
+                        "Soit&nbsp;\\(\\Phi \\left\\{ I \\longrightarrow \\mathbb R \\atop t \\rightarrow f(u(t), v(t)) \\right.\\), on a&nbsp;<br>\\[\\Phi'(t) = u'(t) \\times \\frac {\\partial f}{\\partial x}(u(t), v(t)) + v'(t) \\times  \\frac {\\partial f}{\\partial y} (u(t), v(t))\\]<br>"
+                    ],
+                    "guid": "dV2plAQAi`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition d'extrémum local (fct 2 var)",
+                        "\\(f \\)&nbsp;admet un maximum local en&nbsp;\\(a = (\\alpha, \\beta)\\)&nbsp;lorsque :<br>\\(\\exists r &gt; 0, \\forall u \\in \\mathcal D  \\cap b (a;r), \\space f(u) \\le f(a)\\)&nbsp;avec&nbsp;\\(\\mathcal D \\)&nbsp;une partie de&nbsp;\\(\\mathbb R^2 \\)<br>Pareil pour le minimum"
+                    ],
+                    "guid": "gP|g^`wL0*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Schwarz",
+                        "\\(f : U \\rightarrow \\mathbb R \\)&nbsp;une fonction de deux variables de classe&nbsp;\\(\\mathcal C^2\\)&nbsp;sur U, alors&nbsp;<br>\\[ \\frac {\\partial ^2f}{\\partial x\\partial y } =  \\frac {\\partial ^2f}{\\partial y\\partial x}\\]<br>"
+                    ],
+                    "guid": "wEyJv;Os~i",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition Point Critique (fct 2 var)",
+                        "Si le gradient de&nbsp;\\(f \\)&nbsp;est nul en&nbsp;\\(a \\), alors&nbsp;\\(a \\)&nbsp;est un <b>point critique</b>.&nbsp;"
+                    ],
+                    "guid": "Rh`e{Y]lD$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si&nbsp;\\(f \\)&nbsp;présente un extrémum local en&nbsp;\\(a\\), alors [...]",
+                        "le gradient s'annule en&nbsp;\\(a\\).<br><br>ATTENTION : PAS RECIPROQUE.&nbsp;"
+                    ],
+                    "guid": "AIzVvm:`Z_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "0d802fbc-2fd8-11f0-921b-c0d273f65878",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
@@ -6370,18 +6551,6 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
-                    ],
-                    "guid": "m]e_emLY_A",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "sommes::et::produits"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "sommes des k",
                         "\\[\\frac{n(n+1)}{2}\\]"
                     ],
@@ -6470,6 +6639,18 @@
                         "\\[(a+b)^n = \\sum_{k=0}^{n}{\\binom{n}{k}a^kb^{n-k}}\\]"
                     ],
                     "guid": "rk),tt>QDJ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "sommes::et::produits"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
+                    ],
+                    "guid": "m]e_emLY_A",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
                     "tags": [
                         "sommes::et::produits"
@@ -8446,8 +8627,78 @@
         }
     ],
     "crowdanki_uuid": "bf5710c2-0bff-11f0-9706-00163ec6fa00",
-    "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+    "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
     "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1400,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.2,
+                "hardFactor": 1.1,
+                "ivlFct": 1.0,
+                "maxIvl": 12,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": true,
+            "timer": 1,
+            "waitForAudio": false,
+            "weightSearch": ""
+        },
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
@@ -8516,76 +8767,6 @@
             "stopTimerOnAnswer": false,
             "timer": 0,
             "waitForAudio": true,
-            "weightSearch": ""
-        },
-        {
-            "__type__": "DeckConfig",
-            "answerAction": 0,
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
-            "desiredRetention": 0.9,
-            "dyn": false,
-            "easyDaysPercentages": [
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "fsrsParams5": [],
-            "fsrsWeights": [],
-            "ignoreRevlogsBeforeDate": "",
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Par défaut",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 1400,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 20
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "questionAction": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.2,
-                "hardFactor": 1.1,
-                "ivlFct": 1.0,
-                "maxIvl": 12,
-                "perDay": 130
-            },
-            "reviewOrder": 0,
-            "secondsToShowAnswer": 0.0,
-            "secondsToShowQuestion": 0.0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": true,
-            "timer": 1,
-            "waitForAudio": false,
             "weightSearch": ""
         }
     ],
