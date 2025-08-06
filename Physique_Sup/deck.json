@@ -21,90 +21,6 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Un processus quasi-statique permet de supposer que [...]",
-                        "[...] il y a a tout moment équilibre thermodynamique (mais ça n'exclut pas un gain d'entropie)."
-                    ],
-                    "guid": "Nb<F`QH=$y",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "S'il y a gain d'entropie dans un processus quasi statique, il est {{c1::non réversible}}. Sinon il est {{c1::réversible}}.<br>Tout processus {{c1::réversible}} est donc quasi statique mais pas l'inverse.",
-                        ""
-                    ],
-                    "guid": "G>A>JUK={x",
-                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "L'entropie est une grandeur qui caractérise [...]",
-                        "[...] la capacité d'un système physique à subir des transformations spontanées : plus l'entropie est grande, moins le système à la capacité de se transformer."
-                    ],
-                    "guid": "JBk3c,StD/",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Deuxième principe de la thermodynamique",
-                        "\\(\\Delta S = S_f - S_i = S_{éch} + S_{créée}\\)<br><br>\\(S_{éch} = \\frac Q {T_S}\\)&nbsp;est le terme d'échange, avec&nbsp;\\(T_S\\)&nbsp;la température de la surface du système traversée par le transfert (si le système est en contact avec un thermostat,&nbsp;\\(T_S\\)&nbsp;est la température du thermostat)<br><br>\\(S_{créée}\\)&nbsp;est le terme de création tel que&nbsp;\\(S_{créée} \\geq 0\\).<br>Si la transformation est irréversible,&nbsp;\\(S_{créée} &gt; 0\\).<br>Si elle est réversible,&nbsp;\\(S_{créée} = 0\\)."
-                    ],
-                    "guid": ":xW>It<UM",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Deuxième principe appliqué à un système isolé (échangeant ni énergie ni matière avec l'extérieur)",
-                        "\\(S_{éch} = 0\\)&nbsp;car&nbsp;\\(Q = 0\\)&nbsp;donc&nbsp;\\(\\Delta S = S_{créée} \\ge 0\\)"
-                    ],
-                    "guid": "o_y3!e8*5!",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "L'état d'équilibre d'un système isolé est celui dans lequel son entropie est [...]",
-                        "[...] maximale."
-                    ],
-                    "guid": "Qn6/KY`L]S",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "\\(\\Delta S\\)&nbsp;dépend {{c1::uniquement de l'état initial et de l'état final}}.<br>\\(S_{éch}\\)&nbsp;et&nbsp;\\(S_{créée}\\)&nbsp;dépendent {{c1::du chemin suivi entre les deux états}}.",
-                        ""
-                    ],
-                    "guid": "z1NLB6$QXg",
-                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
-                    "tags": [
-                        "Deuxième_Principe"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "Notion d'irréversibilité",
                         "Evolution qui peut se faire que dans un sens -&gt; transformation inverse ne se produit jamais&nbsp;<br><br><br>par exemple : un pingouin qui respire par les fesses. le pingouin s'assoit. il meurt. On peut pas revenir en arrière."
                     ],
@@ -208,6 +124,2939 @@
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": [
                         "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Un processus quasi-statique permet de supposer que [...]",
+                        "[...] il y a a tout moment équilibre thermodynamique (mais ça n'exclut pas un gain d'entropie)."
+                    ],
+                    "guid": "Nb<F`QH=$y",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "S'il y a gain d'entropie dans un processus quasi statique, il est {{c1::non réversible}}. Sinon il est {{c1::réversible}}.<br>Tout processus {{c1::réversible}} est donc quasi statique mais pas l'inverse.",
+                        ""
+                    ],
+                    "guid": "G>A>JUK={x",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'entropie est une grandeur qui caractérise [...]",
+                        "[...] la capacité d'un système physique à subir des transformations spontanées : plus l'entropie est grande, moins le système à la capacité de se transformer."
+                    ],
+                    "guid": "JBk3c,StD/",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deuxième principe de la thermodynamique",
+                        "\\(\\Delta S = S_f - S_i = S_{éch} + S_{créée}\\)<br><br>\\(S_{éch} = \\frac Q {T_S}\\)&nbsp;est le terme d'échange, avec&nbsp;\\(T_S\\)&nbsp;la température de la surface du système traversée par le transfert (si le système est en contact avec un thermostat,&nbsp;\\(T_S\\)&nbsp;est la température du thermostat)<br><br>\\(S_{créée}\\)&nbsp;est le terme de création tel que&nbsp;\\(S_{créée} \\geq 0\\).<br>Si la transformation est irréversible,&nbsp;\\(S_{créée} &gt; 0\\).<br>Si elle est réversible,&nbsp;\\(S_{créée} = 0\\)."
+                    ],
+                    "guid": ":xW>It<UM",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deuxième principe appliqué à un système isolé (échangeant ni énergie ni matière avec l'extérieur)",
+                        "\\(S_{éch} = 0\\)&nbsp;car&nbsp;\\(Q = 0\\)&nbsp;donc&nbsp;\\(\\Delta S = S_{créée} \\ge 0\\)"
+                    ],
+                    "guid": "o_y3!e8*5!",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'état d'équilibre d'un système isolé est celui dans lequel son entropie est [...]",
+                        "[...] maximale."
+                    ],
+                    "guid": "Qn6/KY`L]S",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\Delta S\\)&nbsp;dépend {{c1::uniquement de l'état initial et de l'état final}}.<br>\\(S_{éch}\\)&nbsp;et&nbsp;\\(S_{créée}\\)&nbsp;dépendent {{c1::du chemin suivi entre les deux états}}.",
+                        ""
+                    ],
+                    "guid": "z1NLB6$QXg",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": [
+                        "Deuxième_Principe"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881a774a-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Screenshot 2024-10-07 at 21.26.20.png",
+                "Screenshot 2024-10-07 at 21.28.08.png"
+            ],
+            "name": "Elec",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "unité du champ électrique",
+                        "volt par mètre"
+                    ],
+                    "guid": "OQ/Xxm2xgp",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "échelles de champs électriques",
+                        "champ intense (étincelles) =&nbsp;\\(10^6 V.m^{-1}\\)<br>champ du fond de l'univers =&nbsp;\\(3.10^{-6}V.m^{-1}\\)<br>champ subi par un électron d'hydrogène&nbsp;\\(6.10^{11}V.m^{-1}\\)"
+                    ],
+                    "guid": "v1HHFH1zN(",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "unité intensité",
+                        "Ampère (A)<br>\\(1 A = 1 C.s^{-1}\\)"
+                    ],
+                    "guid": "A:O(^ML7uc",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "électrisation par ... et par ...",
+                        "contact et influence"
+                    ],
+                    "guid": "IZqVQV);i7",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "charge électrique",
+                        "grandeur scalaire, q, Coulomb, multiple de&nbsp;\\(1,6\\times10^{-19} C\\)"
+                    ],
+                    "guid": "qRwTmq:5Ay",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\[U_{AB}\\] en fonction de&nbsp;\\(V_A\\) et&nbsp;\\(V_B\\)",
+                        "\\[U_{AB} = V_A - V_B\\]"
+                    ],
+                    "guid": "Gq3T,BMJ/V",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "loi additivité des tensions",
+                        "\\[U_{AC} = U_{AB} + U_{BC}\\]"
+                    ],
+                    "guid": "tj>X+;ij9R",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "masse (élec",
+                        "point auquel on attribue V = 0"
+                    ],
+                    "guid": "lxkhA6uS>r",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ARQS Définition",
+                        "quand L &lt;&lt; cT<br><br>où L longueurs de fils, c célérité, T temps caractéristique"
+                    ],
+                    "guid": "zh?=/vf2Wv",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "loi des noeuds",
+                        "il y a autant d'intensité qui entre d'un noeud qui sort d'un noeud"
+                    ],
+                    "guid": "I>v2Pqk5_L",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi des mailles",
+                        "pour une maille de n points oriéntés tous dans le même sens alors<br><br>\\[\\sum_{k=0}^{n}{U_k} = 0\\]"
+                    ],
+                    "guid": "L/O3b$]M;S",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lois de Kirschoff",
+                        "loi des mailles + loi des noeuds"
+                    ],
+                    "guid": "p,]L#vssTo",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "convention générateur",
+                        "<img src=\"Screenshot 2024-10-07 at 21.26.20.png\"><br><br>P = UI, P est la puissance&nbsp;<b>cédée</b>&nbsp;au circuit"
+                    ],
+                    "guid": "MLeDW1!^|,",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "convention récepteur",
+                        "<img src=\"Screenshot 2024-10-07 at 21.28.08.png\"><br><br>P = UI, puissance&nbsp;<b>reçue</b>&nbsp;du circuit"
+                    ],
+                    "guid": "Jsvf^2~iy(",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "unité puissance",
+                        "\\[W = J.s^{-1} = kg.m^2.s^{-3}\\]"
+                    ],
+                    "guid": "FEX2_jC&?f",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "1 kWh en joules",
+                        "3,6 MJ"
+                    ],
+                    "guid": "t}hj,n%{e}",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Puissance instantannée",
+                        "\\[P(t) = u(t)i(t)\\]"
+                    ],
+                    "guid": "A1p`HJT``a",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi d'OHM",
+                        "U = RI"
+                    ],
+                    "guid": "np?d$y62_i",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ordres de grandeurs résistance",
+                        "TP:&nbsp;\\(10^7 \\Omega\\)<br>Usuel:&nbsp;\\(10^3 \\Omega\\)"
+                    ],
+                    "guid": "QUO5yyks-)",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Puissance dans résistor",
+                        "\\(P = RI^2\\) (perte par effet joule)"
+                    ],
+                    "guid": "N3.b7UOaU4",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pont diviseur de tension",
+                        "\\[U_j = \\frac{R_jU}{\\sum{R_k}}\\]"
+                    ],
+                    "guid": "v&2z^XilpY",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pont diviseur d'intensité",
+                        "\\[I_j = \\frac{I}{R_j\\sum{\\frac{1}{R_k}}}\\]"
+                    ],
+                    "guid": "bvzR#7&5n8",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "pont diviseur de tension 2 dipôles",
+                        "\\(U_2 = \\frac{R_2}{R_1 + R_2}\\times U\\)"
+                    ],
+                    "guid": "z+9`>#]u17",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "pont diviseur d'intensité 2 dipôles",
+                        "\\[I_1 = \\frac{R_2}{R_1+R_2}\\times I\\]"
+                    ],
+                    "guid": "J*5gYnuw=t",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "composants d'un condensateur",
+                        "2 armatures métalliques et isolant diélectrique ou vide"
+                    ],
+                    "guid": "N7bp#Dw9|b",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule tension et capacité",
+                        "\\(q = C\\times U\\)&nbsp;(q = q, c'est quand meme sympa)"
+                    ],
+                    "guid": "IB8-woyUXg",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "unité Faraday",
+                        "\\(F = C.V^{-1}\\)"
+                    ],
+                    "guid": "K6z@gYU`.w",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule intensité capacité",
+                        "\\(i = C\\frac{du}{dt}\\)"
+                    ],
+                    "guid": "hTgue|!rd%",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Puissance reçue par condensateur",
+                        "\\(P = ui = uC\\frac{du}{dt} = \\frac{d}{dt}(\\frac{1}{2}Cu^2)\\)"
+                    ],
+                    "guid": "OBX|8rYZ=",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Energie stockée par le condensateur",
+                        "\\(E_c = \\frac{1}{2}Cu_c^2\\)"
+                    ],
+                    "guid": "B9XcqzK:1l",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule bobine",
+                        "\\(u = L\\frac{di}{dt}\\)"
+                    ],
+                    "guid": "u|NOmT>7+)",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "unité inductance (L)",
+                        "Henry"
+                    ],
+                    "guid": "m52G,J|&.I",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule bobine non idéale",
+                        "\\[U_L = L\\frac{di}{dt} + Ri\\]"
+                    ],
+                    "guid": "x.a;s{qsgY",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Puissance reçue par bobine",
+                        "\\[P = ui = L\\frac{di}{dt}i = \\frac{d}{dt}(\\frac{1}{2}Li^2)\\]"
+                    ],
+                    "guid": "Q@&Up>g6>X",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "modèle circuit RC",
+                        "\\[e(t) = u_R(t) + u_C(t) = Ri(t) + u_c(t) = RC\\frac{du_c}{dt} + u_c(t)\\]"
+                    ],
+                    "guid": "e>c`y1T(%y",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "constante de temps",
+                        "\\[\\tau = RC\\]"
+                    ],
+                    "guid": "foX`]cA>)k",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "résolution équation diff RC",
+                        "\\(u_c(t) = E_0(1 - e^{-\\frac{t}{\\tau}})\\)"
+                    ],
+                    "guid": "Batsp1`I;n",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule du courant dans circuit RC",
+                        "\\[i = C\\frac{du_c}{dt} = \\frac{E}{RC}Ce^{\\frac{-t}{\\tau}} = \\frac{E}{R}e^{\\frac{-t}{\\tau}}\\]"
+                    ],
+                    "guid": "t<0Z#H5{rM",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "temps de réponse à 99% (durée du régime transitoire)",
+                        "\\[T = 4.6\\tau\\]"
+                    ],
+                    "guid": "L-ofw;$HES",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "bilan de puissance 1er Ordre&nbsp;",
+                        "\\[P = u_ri + u_ci = Ri^2 + u_c \\times C\\frac{du_c}{dt} = \\frac{d}{dt}(\\frac{1}{2}Cu_c^2(t)) + Ri^2\\]"
+                    ],
+                    "guid": "m=$O2sAv2G",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "solution circuit RL",
+                        "\\(i(t) = \\frac{E}{R} (1 - e^{-\\frac{t}{\\tau}})\\)"
+                    ],
+                    "guid": "l&Gg[(=Wb>",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RC",
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ED circuit LC",
+                        "\\(w_0^2u_c + \\frac{d^2uc}{dt^2} = 0\\)<br><br>avec<br><br>\\(w_0 = \\frac{1}{\\sqrt{LC}}\\)"
+                    ],
+                    "guid": "KZ]0c*?Nug",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "forme canonique oscillateur harmonique",
+                        "\\(\\frac{d^2x}{dt^2} = -w_0^2x\\)<br><br>avec&nbsp;\\(w_0\\)&nbsp;= pulsation propre de l'oscillateur harmonique (\\(rad.s^{-1}\\))"
+                    ],
+                    "guid": "Jzg5bLND]F",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "solution de l'oscillateur harmonique",
+                        "\\[x(t) = a\\cos(w_0t) + b\\sin(w_0t)\\]ou encore:<br>\\[x(t) = X\\cos(w_0t + \\phi)\\]<br>"
+                    ],
+                    "guid": "JJ)BHcLQl9",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "signal sinusoïdal",
+                        "\\[x(t) = x_{max}\\cos(wt + \\phi)\\]<br>où&nbsp;\\(x_{max}\\)&nbsp;est l'amplitude, w la pulsation et phi la phase initiale"
+                    ],
+                    "guid": "ch;ddt{gaw",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "oscillateur harmonique amorti",
+                        "\\[\\frac{1}{w_0^2}\\frac{d^2x}{dt^2} + \\frac{2\\xi}{w_0}\\frac{dx}{dt} + x(t) = 0\\]<br>avec&nbsp;\\(w_0\\)&nbsp;la pulsation propre et&nbsp;\\(\\xi\\)&nbsp;le taux d'armortissement"
+                    ],
+                    "guid": "z=@@er(a:U",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "facteur de qualité",
+                        "\\[Q = \\frac{1}{2\\xi}\\]<br>"
+                    ],
+                    "guid": "k_iGGZG-xo",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "oscillateur amorti pour circuit RLC",
+                        "\\(w_0 = \\frac{1}{\\sqrt{LC}}\\)&nbsp;et&nbsp;\\(Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}\\)&nbsp;et&nbsp;\\(\\xi = \\frac{R}{2}\\sqrt{\\frac{C}{L}}\\)"
+                    ],
+                    "guid": "DTDY)3lhxh",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Résolution ED 2, équation homogène",
+                        "\\(\\Delta = 4w_0^2(\\xi^2 - 1)\\)<br><br><ul><li>\\(\\Delta &lt; 0\\): régime pseudo-périodique,\\((A\\cos(w_0't) + B\\sin(w_0't))e^{-\\xi w_0t}\\)<br></li><li>\\(\\Delta = 0\\): régime critique,&nbsp;\\((A + Bt)e^{-w_0t}\\)</li><li>\\(\\Delta &gt; 0\\): régime apériodique,&nbsp;\\(Ae^{r_1t} + Be^{r_2t}\\)</li></ul>"
+                    ],
+                    "guid": "PT:7rWVzzc",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pseudo-périodique ( période et pseudo-période)",
+                        "période&nbsp;\\(T_0 = \\frac{2\\pi}{w_0}\\)<br><br>pseudo-période&nbsp;\\(T = \\frac{2\\pi}{w}\\)&nbsp;avec&nbsp;\\(w = w_0\\sqrt{1 - \\xi^2}\\)"
+                    ],
+                    "guid": "FCWb,lxMnq",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "durée du régime transitoire",
+                        "\\(\\tau = \\frac{1}{w_0\\xi}\\),<br><br>durée du régime transitoire&nbsp;\\(3\\tau\\)<br><br>particularité du régime pseudo-périodique:&nbsp;\\(\\frac{3\\tau}{T'_0} \\sim Q\\), nombre d'oscillations à peu près égal à Q"
+                    ],
+                    "guid": "eNM^bC]4HW",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RLC"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881a987e-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Filtres",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "gain et phase en fonction de la fonction de transfert",
+                        "\\[G(w) = |\\underline{H}(jw)|\\]\\[\\phi(w) = arg(\\underline{H}(jw))\\]<br>"
+                    ],
+                    "guid": "Q@0wi)]k~Z",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "sortie d'un filtre en fonction de la fonction de transfert",
+                        "\\[\\underline{s} = G(\\omega)E_0e^{j(wt + \\phi + \\phi(\\omega))}\\]\\[s(t) = G(\\omega)E_0cos(wt+\\phi+\\phi(\\omega))\\]<br>"
+                    ],
+                    "guid": "jSkaH,F*wC",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Gain de décibels",
+                        "\\[G_{db} = 20log(\\underline{H}(jw))\\]<br>"
+                    ],
+                    "guid": "s=E@zfy3AP",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "filtre passe bas 1er ordre",
+                        "circuit: RC<br>sortie: condensateur<br>forme canonique:&nbsp;\\(\\underline{H} = \\frac{G_0}{1+jx}\\)&nbsp;(donc&nbsp;\\(w_0 = \\frac{1}{RC}\\))<br>diagramme de bode: pente de&nbsp;\\(-20dB\\)&nbsp;par décade"
+                    ],
+                    "guid": "NGU+5#$%I;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "bande passante",
+                        "intervalle de pulsation tq&nbsp;\\(G(w) &gt; \\frac{G_{max}}{\\sqrt{2}}\\)&nbsp;ou&nbsp;\\(G_{db}(w) &gt; G_{dbmax} - 3 db\\)"
+                    ],
+                    "guid": "sO|cq=z)Rd",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "domaine intégrateur / dérivateur",
+                        "pente de -20 db / décade<br>pente de +20 db / décade"
+                    ],
+                    "guid": "k|Cg}K5V~%",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "effet moyenneur",
+                        "par filtre passe bas avec une pulsation propre très petite devant la pulsation du signal d'entrée"
+                    ],
+                    "guid": "u05fEvwO9i",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "filtre passe-haut du premier ordre",
+                        "circuit: RC<br>sortie: résistance<br>forme canonique:&nbsp;\\(\\underline{H} = \\frac{G_0jx}{1 + jx}\\)&nbsp;(\\(w_0 = \\frac{1}{RC}\\))"
+                    ],
+                    "guid": "o.Q^WF8h+H",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "filtre passe bas d'ordre 2",
+                        "circuit: RLC<br>sortie: condensateur<br>forme canonique:&nbsp;\\(\\underline{H} = \\frac{1}{1 - x^2 + j\\frac{x}{Q}}\\)&nbsp;(\\(w_0 = \\frac{1}{\\sqrt{LC}} \\))"
+                    ],
+                    "guid": "k:rLCd8aYv",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "filtre passe bande d'ordre deux",
+                        "circuit: RLC<br>sortie: résistance<br>forme canonique:&nbsp;\\(\\frac{1}{1 + jQ(x - \\frac{1}{x})}\\)"
+                    ],
+                    "guid": "P99SxLvZ/{",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881aa2f6-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Généralités",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "masse d'un proton",
+                        "\\(m_p = 1,7.10^{-27}kg\\)"
+                    ],
+                    "guid": "Nn^1>e7^;[",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "masse d'un électron",
+                        "\\(m_e=9,1.10^{-31}kg\\)"
+                    ],
+                    "guid": "w^0_XdP&{c",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "charge élémentaire",
+                        "\\(e=1,6.10^{-19}C\\)"
+                    ],
+                    "guid": "D3)rQ+*kQC",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Constante d'avogadro",
+                        "\\(N_a = 6,02.10^{23} mol^{-1}\\)"
+                    ],
+                    "guid": "A[?M2kJ>FK",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "constante de plank",
+                        "\\(h = 6,63.10^{-34} J.s\\)"
+                    ],
+                    "guid": "xquJr:IWpQ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "gain d'énergie cinétique d'un électron dans un champ de 1V",
+                        "1eV"
+                    ],
+                    "guid": "nIzBtIwYPi",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\rho_{eau}\\)",
+                        "\\(1.10^3kg.m^{-3}\\)"
+                    ],
+                    "guid": "h53@a]hQ%Y",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "masse volumique de l'air",
+                        "\\(1.29kg.m^{-3}\\)"
+                    ],
+                    "guid": "Ks4Y/QZx18",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "rayon terrestre",
+                        "\\(R_t = 6.37.10^6 m\\)"
+                    ],
+                    "guid": "DnO8;_Qhkv",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "masse Terre",
+                        "\\(M_t = 5,97.10^{24} kg\\)"
+                    ],
+                    "guid": "tj*S/`sn+H",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "masse soleil",
+                        "\\(M_s = 2,00.10^{30} kg\\)"
+                    ],
+                    "guid": "I#0sd{/${-",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "distance Terre lune",
+                        "380 000 km"
+                    ],
+                    "guid": "E0LWZ#6f,5",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "rayon soleil",
+                        "700 000 km"
+                    ],
+                    "guid": "zx~;isC(8`",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "orbite géostationaire",
+                        "36 000 km"
+                    ],
+                    "guid": "LKemNK+B[F",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "G",
+                        "\\(6.67.10^{-11} m^3.kg^{-1}.s^{-2}\\)"
+                    ],
+                    "guid": "j+qCP#Hc3#",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\omega\\)&nbsp;pulsation",
+                        "\\(\\omega = \\frac{2\\pi}{T}\\)"
+                    ],
+                    "guid": "gh|x#P83G=",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "tableau spatial / temporel",
+                        "----------------|&nbsp; Période&nbsp; |&nbsp; Fréquence&nbsp; |&nbsp; Pulsation&nbsp; |<br>-------------------------------------------------------------------<br>&nbsp; Spatiale&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;&nbsp;\\(\\lambda\\)&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\(\\sigma\\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp;\\(k\\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|<br>-------------------------------------------------------------------<br>Temporelle |&nbsp; &nbsp; &nbsp; &nbsp;\\(T\\)&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\(f\\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp;\\(\\omega\\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|"
+                    ],
+                    "guid": "e8uU9spYMM",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vecteur quantité de mouvement",
+                        "\\(\\vec{p} = m\\vec{v}\\)"
+                    ],
+                    "guid": "yQ)Y~H>`Q;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "zone de validité de la mécanique",
+                        "tant que v &lt; c/10"
+                    ],
+                    "guid": "HV<lfinJYK",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "comparaison oscillateur harmonique élec et mécanique",
+                        "R =&nbsp;\\(\\lambda\\)<br>L = m<br>C = 1/k<br>\\(w_0 = \\sqrt{\\frac{k}{m}}\\)"
+                    ],
+                    "guid": "mmOZh7;aR#",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "puissance d'une force",
+                        "\\(P(\\vec{f}) = \\vec{f}\\cdot\\vec{v}\\)"
+                    ],
+                    "guid": "txuD#vXE?L",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "travail élémentaire d'une force",
+                        "\\[\\delta W(\\vec{f}) = P(\\vec{f})dt\\]<br>"
+                    ],
+                    "guid": "r`&TG}G7b(",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "travail d'une force au cours d'un déplacement",
+                        "\\[W_{A\\to B}(\\vec{f}) = \\int_{M\\in{AB}}{\\delta W(\\vec{f})}\\]<br>"
+                    ],
+                    "guid": "Bj&4&PZd8n",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Log2 ",
+                        "0,3"
+                    ],
+                    "guid": "hsxw9y|$Vg",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Log3",
+                        "0.5"
+                    ],
+                    "guid": "rM2|1MHzp,",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Log5",
+                        "0.7"
+                    ],
+                    "guid": "kh}dk.g3:;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Permititivité magnétique du vide",
+                        "\\(  \\mu_0 = 4\\pi \\times 10^{-7} H.m^{-1} \\)"
+                    ],
+                    "guid": "QJ{nUkAthS",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "constante&nbsp;\\(\\overline h\\)",
+                        "\\[\\overline h = h/2\\pi\\]<br>"
+                    ],
+                    "guid": "E~]]R6w(hR",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "quantique"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881ab2f0-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Induction",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "champ magnétique",
+                        "unité = Telsa (\\(1T = 1kg.s^{-2}.A^{-1}\\)<br>champ magnétique terrestre =&nbsp;\\(5.10^{-5}T\\)<br>.... spectroscope rayonnement magnétique nucléaire =&nbsp;\\(30T\\)<br>.... aimants usuels =&nbsp;\\(0.1T\\)"
+                    ],
+                    "guid": "Q,ir:<<.QF",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "intensité d'un champ magnétique",
+                        "défini par son action sur une particule ponctuelle de charge q<br>\\[\\vec f = q(\\vec v \\wedge \\vec B)\\]<br>"
+                    ],
+                    "guid": "Nv$Rsv!e6$",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "unité et dimension champ magnétique",
+                        "unité = Tesla<br>dimension =&nbsp;\\(M.T^{-2}.I^{-1}\\)"
+                    ],
+                    "guid": "HdqTmUg=ss",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "nombre de spires par unité de longueur pour une bobine",
+                        "\\[n = \\frac{N}{L}\\]<br>"
+                    ],
+                    "guid": "Ft6u)q`?{",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "condition solénoide infini",
+                        "\\(L &gt;&gt; a\\)&nbsp;avec a le diamètre"
+                    ],
+                    "guid": "b3rKR`S+tz",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "expression champ magnétique pour un solénoide infini",
+                        "\\[\\vec B = \\mu_0 ni \\vec u\\]<br>"
+                    ],
+                    "guid": "g3o~8CDe[5",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vecteur surface d'une spire",
+                        "\\(\\vec S \\perp \\text{plan spire}\\)<br>\\(\\Vert \\vec S \\Vert = \\text{ surface de la spire}\\)"
+                    ],
+                    "guid": "u6^]bIJ.u?",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment magnétique",
+                        "\\[\\vec M = i \\vec S = iS \\vec n\\]\\[\\vec M = N i S\\vec n\\](pour N spires)<br>"
+                    ],
+                    "guid": "tZ-rShND5O",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "densité linéique de la force de Laplace",
+                        "\\[\\vec {df_L} = i \\vec{dl} \\wedge \\vec B(M)\\]Sur le tronçon L:&nbsp;\\(\\vec f_{Laplace} = \\int_0^L{idx\\vec{u_x}\\wedge \\vec{B(x)}}\\)<br>"
+                    ],
+                    "guid": "BYVA@Ilq?y",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force de Laplace sur un tronçon uniforme",
+                        "\\[\\vec{f_L} = i\\vec{MN}\\wedge \\vec{B}\\]<br>"
+                    ],
+                    "guid": "M<}A|u<V0b",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "couple de Laplace",
+                        "\\[\\vec{\\Gamma_L} = \\vec M \\wedge \\vec B\\]"
+                    ],
+                    "guid": "A;5W$!2*Oe",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "puissance du couple de Laplace",
+                        "\\[P_L = -iSB\\dot\\alpha\\sin\\alpha\\]<br>"
+                    ],
+                    "guid": "d:F7bP>#0e",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "positions d'équilibres action d'un champ magnétique sur un aimant",
+                        "équilibre stable = de même sens<br>équilibre instable = de sens inverse"
+                    ],
+                    "guid": "jDm:NfMF,S",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "phénomène d'induction",
+                        "création d'un courant électriue lorsqu'on a:<br>- circuit fixe dans&nbsp;\\(\\vec B\\)&nbsp;variable<br>- circuit mobile dans&nbsp;\\(\\vec B\\)&nbsp;fixe"
+                    ],
+                    "guid": "y=hR*$ekpz",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Courant induit: Loi de Faraday",
+                        "\\[e = -\\frac{d\\phi}{dt}\\]<br>"
+                    ],
+                    "guid": "LiJfs_J:iH",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi de Lenz",
+                        "Les phénomènes d'induction viennent s'opposer par leurs effets à la cause qui leur a donné naissance"
+                    ],
+                    "guid": "m4Qpo`xrZ/",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "champ magnétique propre",
+                        "champ magnétique créé par le circuit lui-même<br>s'oppose au champ magnétique extérieur"
+                    ],
+                    "guid": "g>ECthb<iw",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "inductance propre d'une bobine de grande longueur",
+                        "\\[\\phi_p = i\\times\\frac{\\mu_0SN^2}{d}\\]d'où&nbsp;\\(L = \\frac{\\mu_0SN^2}{d}\\)<br>"
+                    ],
+                    "guid": "F^^E$op[d<",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "coefficient d'induction mutuelle",
+                        "\\[\\phi_{1\\to 2} = M_{1\\to 2}\\times i_1\\]\\[\\phi_{2\\to 1} = M_{2 \\to 1}\\times i_2\\]<br>"
+                    ],
+                    "guid": "cz[?e;gbRN",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème de Neumann",
+                        "\\(M_{1\\to 2} = M_{2\\to 1}\\)<br>Le signe de M dépend de l'orientation des circuits"
+                    ],
+                    "guid": "PK68*N<J3k",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "coefficient d'induction mutuelle pour deux bobines",
+                        "Une grande bobine de&nbsp;\\(N_1\\)&nbsp;spires et de longueur&nbsp;\\(l_1\\)&nbsp;dans laquelle se trouve une bobine de&nbsp;\\(N_2\\)&nbsp;spires et de longuer&nbsp;\\(l_2\\)<br><br>\\[M = \\frac{\\mu_0N_1N_2S_2}{l_1}\\]<br>"
+                    ],
+                    "guid": "D~0qBK!ZhU",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Énergie magnétique stockée lors d'un couplage",
+                        "\\[\\frac{1}{2}L_1i_1^2 + \\frac{1}{2}L_2i_2^2 + Mi_1i_2\\]<br>"
+                    ],
+                    "guid": "s9f7K*Km;#",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "transformateur de tension",
+                        "principe: deux circuits avec des bobines reliés par un matériau ferromagnétique pour canaliser les lignes de champ, sert à changer la tension d'un courant<br><br>modèle idéal: on néglige les pertes (effet joule, hystérésis, pertes de flux)<br><br>\\(e_1 = -N_1S_1\\frac{dB}{dt}\\)<br>\\(e_2 = -N_2S_2\\frac{dB}{dt}\\)<br>D'où&nbsp;\\(\\frac{u_2}{u_1} = \\frac{N_2}{N_1}\\)&nbsp;(on a&nbsp;\\(S_1 = S_2\\))"
+                    ],
+                    "guid": "fV2,IA.fld",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "induction"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881ace8e-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Machines Thermiques",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "définition machine thermique",
+                        "échange du travail avec un système mécanique. échange sous forme de transfert thermique avec 1 thermostat.<br>subit des transformations cycliques -&gt; état initial = état final"
+                    ],
+                    "guid": "BY46@mq_F$",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "impossibilité de la machine thermique monotherme",
+                        "car ne peut que chauffer"
+                    ],
+                    "guid": "p_S$Pl?9n:",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "inégalité de Clausius",
+                        "\\[\\frac{Q_{ch}}{T_{ch}} + \\frac{Q_{fr}}{T_{fr}} \\le 0\\]<br>"
+                    ],
+                    "guid": "jN[CY1fZUb",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "types de machines thermiques",
+                        "- moteur, W &lt; 0<br>- système frigorifique, W &gt; 0"
+                    ],
+                    "guid": "z9<}>hq>Vk",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "rendement d'un moteur",
+                        "\\[\\eta = \\frac{-W}{Q_{ch}}\\]attention: signe dépend de la convention choisie<br>"
+                    ],
+                    "guid": "ke!xDyO#ww",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "rendement de carnot pour un moteur",
+                        "\\[\\eta \\le 1 - \\frac{T_{fr}}{T_{ch}}\\]<br>"
+                    ],
+                    "guid": "wjBTr])b8+",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "cycle de Carnot d'un moteur",
+                        "- 2 isothermes (à Tch + à Tfr)<br>- 2 adiabatiques réversibles"
+                    ],
+                    "guid": "O+f&k2&d)Q",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ordres de grandeur de rendements",
+                        "centrale nucléaire, carnot: 0.5, réel: 0.3-0.4<br>moteur, carnot: 0.5, réel essence: 0.35, réel diesel: 0.45"
+                    ],
+                    "guid": "OAvGc<;+yq",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "cogénération",
+                        "exemple: coupler la production d'électricité à un système de chauffage"
+                    ],
+                    "guid": "MrOx8]qBaP",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "efficacité d'un système frigorifique",
+                        "\\[e = \\frac{Q_{fr}}{W}\\]attention: signe dépende convention"
+                    ],
+                    "guid": "Dg!J&@JZnS",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ordre de grandeur efficacité congélateur/frigo",
+                        "congélateur: carnot = 6, réel = 1<br>frigo: carnot = 8"
+                    ],
+                    "guid": "Cej<f%8f*/",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème de Carnot",
+                        "L'efficacité d'une pompe à chaleur<br>\\[e_{PAC} \\le \\frac{T_{ch}}{T_{ch} - T_{fr}}\\]<br>"
+                    ],
+                    "guid": "j4YJuCGX*i",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "cycle d'un moteur à explosion:",
+                        "admission: mélange air carburant (isobare)<br>compression: comprime le gaz adiabatiquement<br>explosion + détente: la bougie explose (à volume constant) et détente adiabatiquement<br>échappement: refoulement du gaz&nbsp;"
+                    ],
+                    "guid": "k}-rk1u3FU",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "travail reçu par un écoulement stationnaire",
+                        "\\[W_{recu} = P_emv_e - P_smv_s\\]<br>"
+                    ],
+                    "guid": "G=PG!Pyfun",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "enthalpie&nbsp;<b>massique</b>&nbsp;pour un fluide en écoulement stationnaire",
+                        "\\[h_s - h_e = w_{utile} + q\\]<br>"
+                    ],
+                    "guid": "GRf1_<wqY4",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "détente de Joule thomson",
+                        "gaz parfait dans un tube au milieu duquel il y a une paroi semi perméable, donc uniquement une partie des particules passe à travers"
+                    ],
+                    "guid": "MNq>:5-AU^",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "machine_thermique"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881ae75c-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Mécanique du point",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "potentiel électrique",
+                        "\\[V = \\frac{E_p}{q}\\]<br><br>\\(E_p\\) électrique associée à tout point de l'espace"
+                    ],
+                    "guid": "btj<B|B99T",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "référentiel",
+                        "défini par le point O et la base R<br><br>en mécanique classique le temps s'écoule de la même façon dans tous les référentiels"
+                    ],
+                    "guid": "qG7&(Z`+FW",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "description_et_paramétrage_du_mouvement_d'un_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "point matériel",
+                        "solide dont on peut négligler l'extension spatiale et la rotation sur lui-même"
+                    ],
+                    "guid": "B#gp3}gIZp",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "description_et_paramétrage_du_mouvement_d'un_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vecteur vitesse",
+                        "\\[\\displaylines{&lt;\\vec{v}&gt; = \\frac{\\Delta\\overrightarrow{OM}}{\\Delta t} \\\\\n\\vec{v}(t) = \\frac{d\\overrightarrow{OM}}{dt}}\\]<br>"
+                    ],
+                    "guid": "iN%)U;CA<;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "description_et_paramétrage_du_mouvement_d'un_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vecteur accélération",
+                        "\\[\\displaylines{&lt;\\vec{a}&gt; = \\frac{\\vec{v}(t)}{\\Delta t} \\\\\n\\vec{a}(t) = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{OM}}{dt^2}\n\n}\\]<br>"
+                    ],
+                    "guid": "mkDl;5{Bft",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "description_et_paramétrage_du_mouvement_d'un_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vecteur vitesse coordonnées polaire / cylindrique",
+                        "\\[\\vec{v} = \\dot{r}\\vec{u_r} + r\\dot{\\theta}\\vec{u_\\theta} + \\dot{z}\\vec{u_z}\\]<br>"
+                    ],
+                    "guid": "o<o[[d-Yvy",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "principe d'inertie",
+                        "existence des référentiels galiléens: tout point matériel isolé est en mouvement rectiligne uniforme<br><br>les référentiels galiléens sont eux-même en mouvement rectiligne uniforme les uns par rapport aux autres"
+                    ],
+                    "guid": "yWbNu4|xY~",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "principe d'actions réciproques",
+                        "\\[\\overrightarrow{f_{M\\to ext}} = -\\overrightarrow{f_{ext \\to M}}\\]<br>"
+                    ],
+                    "guid": "K^>Za?<o+s",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force de gravitation universelle",
+                        "\\[\\vec{F_{P\\to M}} = -G\\frac{m_1m_2}{d^2}\\vec{u_{PM}}\\]"
+                    ],
+                    "guid": "lAU{7(J.CA",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force électrostatique",
+                        "\\[\\overrightarrow{F_{P\\to M}} = \\frac{q_1q_2}{d^2}\\overrightarrow{u_{PM}}\\]<br>"
+                    ],
+                    "guid": "l,f*?}W0i#",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force de tension d'un fil",
+                        "\\[\\vec{T} = -T\\vec{u_{ext}}\\]-&nbsp;\\(\\vec{u_{ext}}\\)&nbsp;toujours orienté vers l'extérieur<br>- T &gt; 0"
+                    ],
+                    "guid": "I5hq^u9ySz",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force de rappel élastique",
+                        "\\[\\vec{F} = -k\\Delta{l}\\vec{u_{ext}}\\]\\[\\Delta l = l - l_0\\]<br>"
+                    ],
+                    "guid": "AY=E!EzH;,",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "frottements",
+                        "<ul><li>sans glissement:&nbsp;\\(||\\vec{T}|| \\le \\mu_s||\\vec{N}||\\)</li><li>avec glissement:&nbsp;\\(||\\vec{T}|| = \\mu_d||\\vec{N}||\\)</li></ul><div>on a toujours&nbsp;</div>\\(\\mu_d &lt; \\mu_s\\)"
+                    ],
+                    "guid": "o~:sC-tKA&",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "poussé d'archimède",
+                        "\\[\\vec \\pi = -\\rho V\\vec g\\]<br>"
+                    ],
+                    "guid": "Heb_ZC:+((",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "frottements de fluide (incluant air)",
+                        "\\(\\vec f= -k\\vec v\\)"
+                    ],
+                    "guid": "A#0n`3T`A0",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "dynamique_du_point"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énérgie cinétique",
+                        "\\(E_c = \\frac{1}{2}mv^2\\)"
+                    ],
+                    "guid": "Er9B$9Ta7x",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème de la puissance cinétique",
+                        "\\[\\frac{dE_c}{dt} = \\sum_{i=1}{P(\\vec{f_i})}\\]<br>"
+                    ],
+                    "guid": "K+sWA*J#H.",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème de l'énergie cinétique",
+                        "\\[\\Delta{E_c} = E_c(t_2) - E_c(t_1) = \\sum_{i=1}{W\\vec{f_{i\\to M}}}\\]<br>\\[dEc = \\sum_{i=1}\\delta W \\vec{f_i}\\]<br>"
+                    ],
+                    "guid": "jEPWy)zVEE",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force conservative",
+                        "f conservative ssi:<br>\\[\\vec{f}\\cdot d\\vec{OM} = \\vec{f}\\cdot d\\vec{l} = \\delta W(\\vec{f}) = -dEp\\]<br>"
+                    ],
+                    "guid": "G_{+VJkr@a",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie potentielle de pensanteur",
+                        "\\[E_{pp} = mgz\\]<br>"
+                    ],
+                    "guid": "pG#/Nssm]4",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie potentielle de gravitation",
+                        "\\[E_p = -\\frac{Gmm_p}{r}\\]<br>"
+                    ],
+                    "guid": "qHIMg<qeSC",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie potentielle élastique",
+                        "\\[E_p = \\frac{1}{2}k(x-l_0)^2\\]<br>"
+                    ],
+                    "guid": "Cem0p[1SL+",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie pontentielle électrique",
+                        "\\[E_p = \\frac{q_1q_2}{4\\epsilon_0\\pi r}\\]<br>"
+                    ],
+                    "guid": "n_.|~]W?h{",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème de l'énergie mécanique",
+                        "la variation d'énergie mécanique est égale au travail des forces non conservatives"
+                    ],
+                    "guid": "C?.jL*hpgu",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "position d'équilibre",
+                        "somme des forces est nulle<br>\\(\\frac{dEp}{dt} = 0\\)<br>stable:&nbsp;\\(\\frac{d^2 Ep}{dt^2} &gt; 0\\)&nbsp;<br>instable:&nbsp;\\(\\frac{d^2 Ep}{dt^2} &lt;0\\)"
+                    ],
+                    "guid": "A_BuM*ycNW",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "approximation harmonique",
+                        "\\[E_p(x) = E_p(x_{eq}) + (x-x_{eq})\\frac{dEp}{dx}(x_{eq}) + \\frac{(x-x_{eq})^2}{2}\\frac{d^2Ep}{dx^2}(x_{eq})\\]<br>"
+                    ],
+                    "guid": "GHo7`qPf/Q",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "énergie"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique",
+                        "\\[\\vec{L_{O/M}} = \\vec{OM} \\wedge \\vec{mv} = \\vec{OM} \\wedge \\vec{P}\\]<br>"
+                    ],
+                    "guid": "pR@>ASX~>>",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique en mvt rectiligne",
+                        "\\[\\vec{L_O} = \\vec{0}\\]<br>"
+                    ],
+                    "guid": "P@_#PB+ThG",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique mouvement plan",
+                        "\\[\\vec{L_O} \\perp (\\pi)\\]<br>"
+                    ],
+                    "guid": "F_Rw(LkO8n",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "relation de \"Chasles\" moment",
+                        "\\[\\vec{L_A} = \\vec{L_B} + \\vec{AB} \\wedge \\vec{p}\\]<br>"
+                    ],
+                    "guid": "iMvZRQa6SO",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment par rapport à un axe",
+                        "\\[L_{\\Delta} = \\vec{L_O} \\cdot\\vec{u_{\\Delta}}\\]<br>"
+                    ],
+                    "guid": "sKlF#DZ]64",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment mouvement circulaire",
+                        "\\[\\vec{L_O} = \\vec{OM} \\wedge m\\vec{v} = R\\vec{u_r} \\wedge mR\\dot{\\theta}\\vec{u_\\theta} = mR\\dot\\theta\\vec{u_z}\\]<br>"
+                    ],
+                    "guid": "L5&|Mzu]S6",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "loi du levier (tension entre poids)",
+                        "\\[d_1\\mid\\mid\\vec{T_1}\\mid\\mid = d_2\\mid\\mid\\vec{T_2}\\mid\\mid\\]<br>"
+                    ],
+                    "guid": "NcE-4+}%[!",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "définition du moment d'une force",
+                        "\\[\\vec{\\mathcal{M_o}}(\\vec{f}) = \\vec{OM} \\wedge \\vec{f}\\]\\[\\vec{\\mathcal{M_o}}(\\vec{f_1} + \\vec{f_2}) = \\vec{\\mathcal{M_o}}(\\vec{f_1}) + \\vec{\\mathcal{M_o}}(\\vec{f_2})\\]<br>"
+                    ],
+                    "guid": "A*IJQ^3U70",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment par rapport à un axe orienté",
+                        "\\[M_\\Delta(\\vec{f}) = M_O(\\vec{f}) \\cdot \\vec{u_\\Delta}\\]<br>"
+                    ],
+                    "guid": "rWtlT@bb;N",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "bras de levier",
+                        "distance séparant l'axe (\\(\\Delta\\)) de rotation de la droite d'action de la force&nbsp;\\(\\vec{f}\\)"
+                    ],
+                    "guid": "m.UByapUZ_",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème moment cinétique",
+                        "O fixe<br>\\[\\frac{d\\vec{L_o}}{dt} = \\sum_{i}{\\vec{M_O}(\\vec{f_i})}\\]<br>"
+                    ],
+                    "guid": "N6/mdIHy[r",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "cas particuliers TMC",
+                        "\\(\\sum{\\vec{f_i}} = \\vec{0}\\), système isolé / pseudo isolé (Lo constant)<br>\\(\\sum{\\vec{f_i}} // \\vec{OM} \\)&nbsp;force centrale -&gt; Lo constant"
+                    ],
+                    "guid": "d=h,rI<0(?",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "loi moment cinétique pour axe fixe",
+                        "\\[\\frac{d\\vec{L_o}}{dt} = \\frac{dL_{oz}}{dt} = \\sum_{i}{M_{oz}(\\vec{f_i})}\\]<br>"
+                    ],
+                    "guid": "J_ip$eB6]5",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "moment_cinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force centrale",
+                        "point M soumis à f qui passe constament par O fixe"
+                    ],
+                    "guid": "lOWl1GSa|@",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie potentielle d'un système gravitationel",
+                        "\\[E_p = \\frac{Gmm_o}{r} + k\\]<br>"
+                    ],
+                    "guid": "lpZ=bZUBno",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force Newtonienne",
+                        "\\[\\vec{f} = -\\frac{k}{r^2}\\vec{u_r}\\]\\[E_p(r) = -\\frac{k}{r}\\]<br>"
+                    ],
+                    "guid": "t$YDyL[|wr",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "constante des aires",
+                        "\\[C = r^2\\dot\\theta = \\frac{||\\vec{L_o}||}{m}\\]<br>"
+                    ],
+                    "guid": "i._1S#t#o-",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "2eme loi de Kepler",
+                        "\\[\\Delta A = \\frac{C}{2}\\Delta t\\]<br>"
+                    ],
+                    "guid": "jWrSK~;cO1",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie potentielle effective",
+                        "\\[E_{p_{eff}} = \\frac{1}{2}m\\frac{C^2}{r^2} + E_p(r)\\]problème à 1 dimension<br>"
+                    ],
+                    "guid": "b#%q;R#imG",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "trajectoire en fonction Em (gravitation)",
+                        "<ul><li>Em &gt; 0, état libre hyperbole</li><li>Em = 0, parabole</li><li>Emin &lt; Em &lt; 0, ellipse (état lié)</li><li>Em = Emin, circulaire (r0)</li><li>Em &lt; Emin, impossible</li></ul>"
+                    ],
+                    "guid": "EH^F+Uxh|h",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vitesse orbite (circulaire uniquement)",
+                        "\\[v = \\sqrt{\\frac{Gm_o}{r}}\\]<br>"
+                    ],
+                    "guid": "sl[+5a;:3R",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "énergie mécanique orbite circulaire / elliptique",
+                        "\\[E_m = -\\frac{Gmm_o}{2R} = -\\frac{Gmm_o}{2a} \\]<br>"
+                    ],
+                    "guid": "GB3M5Ay&Zv",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "3eme loi de Kepler",
+                        "\\[\\frac{T^2}{a^3} = \\frac{4\\pi^2}{GM_o}\\]preuve:<br>\\[v = \\sqrt{\\frac{GM_o}{r}}\\]\\[v = \\frac{2\\pi R}{T}\\]<br>"
+                    ],
+                    "guid": "zeKmd9blN9",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vitesse de libération",
+                        "s'obtient quand Em = 0 (état libre)<br><br>11 km/s"
+                    ],
+                    "guid": "sYgK#fn[Sj",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "champ_de_gravitation"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881b226c-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Mécanique du solide",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "définition solide",
+                        "système physique tel que l'ensemble des points reste à distance fixe des uns des autres (solide indéformable)"
+                    ],
+                    "guid": "A+~?VBAVb~",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "comment déterminer centre de gravité",
+                        "suspendre le solide à partir de plusieurs points voir où les droites des forces se croisent"
+                    ],
+                    "guid": "uW-_keWFvO",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "définition rotation",
+                        "solide en rotation autour d'un axe fixe si il existe une unique droite fixe par rapport au référentiel d'étude et au solide."
+                    ],
+                    "guid": "q6#|s4wOQ8",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment d'inertie J(oz)",
+                        "\\(J_{(Oz)} = mr^2\\)<br>car&nbsp;\\(L_{\\vec{o_Z}} = mr^2\\dot{\\theta}\\)&nbsp;"
+                    ],
+                    "guid": "Q&4ZSZoF=#",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique d'un solide",
+                        "le produit du moment d'inertie J(oz) et la vitesse angulaire"
+                    ],
+                    "guid": "Kr(Yd^?UW[",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique cylindre",
+                        "\\[\\frac{mR^2}{2}\\]<br>"
+                    ],
+                    "guid": "Ad|x7FbRjS",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique boule",
+                        "\\[\\frac{2}{5}mR^2\\]<br>"
+                    ],
+                    "guid": "r$U~FUF0Rk",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment cinétique barre de longuer L",
+                        "\\[\\frac{mL^2}{12}\\]<br>"
+                    ],
+                    "guid": "N5aqb%V/zy",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème d'Huygens",
+                        "\\[J_{(\\Delta)} = J_{(\\Delta')} + md^2 \\]avec&nbsp;\\(\\Delta // \\Delta'\\)<br>"
+                    ],
+                    "guid": "L>~p}11ka{",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "sens physique moment d'inertie",
+                        "Caractérise l'aptitude du solide à s'opposer aux variations de vitesses angulaires"
+                    ],
+                    "guid": "g8P5bC*q,o",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "couple",
+                        "\\(\\vec{f_1} + \\vec{f_2} = \\vec{0}\\)<br>\\(M_{(Oz)}(\\vec{f_1} + \\vec{f_2} ) = (d_1 + d_2)||\\vec{f_1}|| = d||\\vec{f_2}||\\)"
+                    ],
+                    "guid": "vppVWiXYl*",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "moment du couple de torsion",
+                        "\\[\\Gamma = -C\\alpha\\](avec C la constante de torsion du fil)<br>\\[M_{(Oz)}(\\vec{f_A} + \\vec{f_B}) = d||\\vec{f_A}|| &gt; 0\\]\\[\\Gamma + M_{(Oz)}(\\vec{f_A} + \\vec{f_B}) = 0\\]<br>"
+                    ],
+                    "guid": "wJ5.ud1?hG",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "théorème puissance cinétique (solide)",
+                        "\\[\\frac{dEc}{dt} = \\sum{Mo(\\vec{f})\\dot\\theta}\\]<br>"
+                    ],
+                    "guid": "DJop>]o=)f",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "mouvement_solide"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881b3766-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Optique",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vitesse dans milieu transparent d'indice optique n",
+                        "\\(v = \\frac{c}{n}\\)"
+                    ],
+                    "guid": "w[S.&o:p]d",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "de quoi dépend l'indice optique d'un milieu",
+                        "longueur d'onde"
+                    ],
+                    "guid": "by~mZC*>9`",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule de la fréquence",
+                        "\\(f = \\frac{c}{\\lambda}\\)"
+                    ],
+                    "guid": "L#9|o*$vwk",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ordre de grandeur fréquence lumineuse",
+                        "\\(f = 6.10^{14}Hz\\)"
+                    ],
+                    "guid": "OiSXaD#/M[",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "formule longueur d'onde dans un milieu transparent d'indice n",
+                        "\\(\\lambda' = \\frac{\\lambda}{n}\\)"
+                    ],
+                    "guid": "sh?=s1r8.i",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "sources de lumière blance",
+                        "- soleil<br>- lampe&nbsp; à incandescence<br>- lampe fluorescente"
+                    ],
+                    "guid": "u]iKfl4Pn;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "types de sources lumineuses",
+                        "- lampe spectrale<br>- laser<br>- lumière blanche"
+                    ],
+                    "guid": ";ygtvu&;N",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "modèle optique géométrique",
+                        "- sources ponctuelles<br>- monochromatiques<br>- isotrope<br>- homogène<br>- limites: diffraction, outils &gt; 1000\\(\\lambda\\)"
+                    ],
+                    "guid": "j=^okXvH=P",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "principe de fermat",
+                        "le trajet effectué par la lumière sera toujours tel que la durée de parcours soit localement minimale"
+                    ],
+                    "guid": "sYz**vZ1#@",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lois de Snell-Descartes",
+                        "- le rayon émergent est dans plan d'incidence<br>- i = -r<br>-&nbsp;\\(n_1sin(i) = n_2sin(r)\\)"
+                    ],
+                    "guid": "Kr6ahe~.oZ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "réflexion totale",
+                        "d'un milieu plus réfringeant à moins réfringent<br>\\(i_{lim} = sin^{-1}(\\frac{n_2}{n_1})\\)"
+                    ],
+                    "guid": "m.!t586J$[",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "réfraction limite",
+                        "quand on passe d'un milieu moins réfringent à plus réfringent<br>atteint pour&nbsp;\\(i_{max} = \\frac{\\pi}{2}\\)<br>donc&nbsp;\\(r_{max} = sin^{-1}(\\frac{sin(\\frac{\\pi}{2})n_1}{n_2}) = sin^{-1}(\\frac{n_1}{n_2})\\)"
+                    ],
+                    "guid": "nXDl0{t{)D",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "stigmatisme / stigmatisme rigoureux",
+                        "une image ponctuelle vient d'un objet ponctuel et inversement (si A et A' conjugués alors tous les rayons passant par A passent par A')"
+                    ],
+                    "guid": "N=_;<Jh~;>",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "système optique centré",
+                        "dioptres du système ont le même axe de symétrie"
+                    ],
+                    "guid": "j:@pVL[0Ou",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "rayons paraxial",
+                        "- angle &lt; 20°<br>- proche de l'axe optique"
+                    ],
+                    "guid": "IIy/Ts0>}H",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "conditions de Gauss",
+                        "système centré et tous les rayons sont paraxiaux"
+                    ],
+                    "guid": "GMw#)bvh<0",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "aplanétisme",
+                        "l'image d'un objet perpendiculaire à l'axe optique est perpendiculaire à l'axe optique"
+                    ],
+                    "guid": "w-bq;|Ii*4",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "vergence",
+                        "\\(V = \\frac{1}{f'} = -\\frac{1}{f} \\delta\\) (dioptrite =&nbsp;\\(m^{-1}\\)"
+                    ],
+                    "guid": "o*oP}luN`k",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "relation de conjugaison avec origine au foyer (Newton)",
+                        "\\(\\overline{FA}\\times\\overline{F'A'} = -f'^2 = -f^2 = ff'\\)<br>\\(\\gamma = -\\frac{\\overline{F'A'}}{f'} = - \\frac{f}{\\overline{FA}}\\)"
+                    ],
+                    "guid": "l|l^s/Fh8t",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "relation avec origine au centre (Descartes)",
+                        "\\(\\frac{1}{\\overline{OA'}} - \\frac{1}{\\overline{OA}} = \\frac{1}{f'} = V\\)<br>\\(\\gamma = \\frac{\\overline{OA'}}{\\overline{OA}}\\)"
+                    ],
+                    "guid": "or{l=dcp*e",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "association de lentilles",
+                        "on considère confondues&nbsp;\\(V = V_1 + V_2\\) (formule de Gullstrand)"
+                    ],
+                    "guid": "Dpc0zh_!7;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "modélisation de l'oeil",
+                        "- écran: rétine<br>- lentille: cristallin<br>- diaphragme: iris"
+                    ],
+                    "guid": "vJETz0Pl^H",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "plages d'accomodation",
+                        "PR (punctum remotum) = distance maximale à laquelle l'oeil voit au repos ( infini)<br>PP (punctum proximum) = distance minimale à laquelle l'oeil voit (25 cm)"
+                    ],
+                    "guid": "Lu4#Va]W|J",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "instruments d'optique",
+                        "objectif: côté objet<br>oculaire: côté oeil (image)<br>réglé pour voir sans accomodage<br><br><b>Microscope</b><br>- A -&gt; F2 -&gt; infini<br>- G &lt; 0 (image inversée)<br><br><b>Lunette de Galilée<br></b>- infini -&gt; F1'/F2 -&gt; infini<br>- G &gt; 0 (image droite)<br><br><b>Lunette Astronomique<br></b>- infini -&gt; F1'/F2 -&gt; infini<br>- G &lt; 0 (image inversée)"
+                    ],
+                    "guid": "b3J:N5r:)w",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "optique"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881b56ba-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Particules Chargées",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force d'un champ électrique",
+                        "\\[\\vec{f} = q\\vec{E}\\]"
+                    ],
+                    "guid": "r+?n{1RYX.",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ordres de grandeur champs électromagnétiques",
+                        "- ondes radios&nbsp;\\(10^{-1} N.C^{-1}\\)<br>- rayons X \\(5\\times10^{6} N.C^{-1}\\)<br>- fond de l'univers \\(5\\times10^{-6} N.C^{-1}\\)"
+                    ],
+                    "guid": "p[an+%K3PH",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "électricité",
+                        "électrocinétique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "champ électrique",
+                        "grandeur vectorielle en volt par mètre"
+                    ],
+                    "guid": "yR(4M&!w]b",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "création d'un champ électrique",
+                        "alimenter deux plaques avec une différence de potentiel:<br>\\[E = \\frac{U}{d}\\]<br>"
+                    ],
+                    "guid": "eiIxq(xK)e",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force électromagnétique",
+                        "électrique: accélère ou freine une particule chargée<br>magnétique: ne peut que dévier"
+                    ],
+                    "guid": "h0A7T0]2A^",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "force de Lorentz",
+                        "\\[\\vec{f} = q\\vec{E} + q(\\vec{v} \\wedge \\vec{B})\\]<br>"
+                    ],
+                    "guid": "K>2D;3Cu04",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pontentiel électrique",
+                        "\\[E_p = qV \\]\\[V = \\frac{E_p}{q}\\]<br>"
+                    ],
+                    "guid": "cyrUDQ8@0R",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "variation d'énergie cinétique d'une particule chargée",
+                        "\\[\\Delta E_c = -q\\Delta V\\]<br>"
+                    ],
+                    "guid": "i2oI.%Lof!",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "trajectoire particule chargée dans champ magnétique",
+                        "mouvement circulaire et uniforme à la vitesse angulaire:&nbsp;\\(\\omega_c = \\frac{|q|B}{m}\\)&nbsp;(pulsation cyclotron)<br>on trouve le rayon de la trajectoire avec&nbsp;\\(v_0 = R\\omega_c\\)&nbsp;(repère de Frenet)"
+                    ],
+                    "guid": "i*LEAsA&`W",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "particules_chargées"
                     ]
                 }
             ],
@@ -583,6 +3432,438 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "881b8d24-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Propagation du Signal",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "onde",
+                        "phénomène dans lequel perturbation locale se déplace dans l'espace sans qu'il n'y ait de déplacement de matière en moyenne"
+                    ],
+                    "guid": "KLNg<y3tLI",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "onde transversale",
+                        "lorsque le mouvement local est perpendiculaire à la direction dans laquelle elle se propage"
+                    ],
+                    "guid": "y%N:7ee1y4",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "onde longitudinale",
+                        "mouvement local de la matière est parallèle à la direction&nbsp; dans laquelle elle se propage"
+                    ],
+                    "guid": "J:4aB$dg|]",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "principe de superposition",
+                        "actions&nbsp;\\(\\vec{M_1} \\text{ et } \\vec{M_2}\\)&nbsp;agissant simultanément alors le point M arrive en M' tq:<br><br>\\[\\vec{MM'} = \\vec{MM_1} + \\vec{MM_2}\\]<br>"
+                    ],
+                    "guid": "B:d08VsQ1T",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "front d'onde",
+                        "surface virtuelle formée par l'ensemble des points possédant la même phase au cours du temsp"
+                    ],
+                    "guid": "Mu{g[:_BU2",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "expression déphasage",
+                        "\\(\\Delta \\phi = \\phi_2 - \\phi_1 = 2\\pi\\frac{d_1 - d_2}{\\lambda}\\)"
+                    ],
+                    "guid": "l)oOcVQ>]B",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "somme amplitudes signaux sinusoïdaux de même fréquence",
+                        "\\[A = \\sqrt{A_1^2 + A_2^2 + 2A_1A_2\\cos(\\phi_2 - \\phi_1)}\\]<br>"
+                    ],
+                    "guid": "K_54N7zUVS",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "interférences",
+                        "<ul><li>constructive:&nbsp;\\(\\frac{d_1-d_2}{\\lambda} \\in \\mathbb{Z}\\)</li><li>destructive:&nbsp;\\(\\frac{d_1 - d_2}{\\lambda} = k + \\frac{1}{2}, k\\in\\mathbb{Z}\\)</li></ul>"
+                    ],
+                    "guid": "ydA#4C]Iwz",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "différence de marche",
+                        "\\[\\delta = d_2 - d_1\\]<br>"
+                    ],
+                    "guid": "<IK#qLd42",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "différence de chemin",
+                        "\\[\\delta(M) = n(SS_2+S_2M) - n(SS_1 + S_1M)\\]<br>"
+                    ],
+                    "guid": "oU6+O2|+hN",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "figure d'interférence trous d'Young",
+                        "franges rectilignes, perpendiculaire à&nbsp;\\(S_1S_2\\)&nbsp;et espacés de l'interfrange:<br><br>\\[i = \\frac{\\lambda D}{a}\\]<br>"
+                    ],
+                    "guid": "xr-OAN66>k",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "principe de Huygens",
+                        "chaque point d'un front d'onde primaire peut être considéré comme la source secondaire d'une onde de même fréquence que la primaire.<br><br>le front d'onde résulte de la somme des ondes sphériques issues de ces sources"
+                    ],
+                    "guid": "nIM3Qz8Y~Z",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "diffraction par un obstacle",
+                        "ouverture angulaire de l'onde en sortant:<br><br>\\[\\sin\\theta \\sim \\frac{\\lambda}{a}\\]<br>avec a la largeur de l'obstacle"
+                    ],
+                    "guid": "s79)-IRM9d",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "k (vecteur d'onde)",
+                        "\\(k = \\frac{2\\pi}{\\lambda}\\)"
+                    ],
+                    "guid": "hYD6#m-!y0",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "longueur d'onde",
+                        "\\(\\lambda = cT\\)"
+                    ],
+                    "guid": "vX7Ra}VX0}",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fréquence spatiale (nombre d'onde)",
+                        "\\(\\sigma = \\frac{1}{\\lambda}\\)"
+                    ],
+                    "guid": "kb>6XHpcA_",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "propagration_signal"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881ba2e6-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "RSF",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "valeur efficace signal sinusoïdal",
+                        "\\[\\frac{X_0}{\\sqrt{2}}\\]<br>"
+                    ],
+                    "guid": "pz6TU!0B/p",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lien entre&nbsp;\\(\\underline{x(t)}\\)&nbsp;et&nbsp;\\(x(t)\\)",
+                        "valeur instantannée:&nbsp;\\(Re(\\underline{x(t)})\\)<br>amplitude:&nbsp;\\(|\\underline{x(t)}|\\)<br>phase initiale:&nbsp;\\(\\phi = arg(\\underline{x(t)}) - \\omega t = arg(\\underline{X_0})\\)"
+                    ],
+                    "guid": "u0xHlJ98;O",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "dérivation intégration signal complexe",
+                        "derivation:&nbsp;\\(\\times j\\omega\\)<br>intégration:&nbsp;\\(\\times \\frac{1}{j\\omega}\\)<br>"
+                    ],
+                    "guid": "hl%u:++x5T",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "déphasage signaux complexes",
+                        "\\[\\psi - \\phi = \\frac{arg(\\underline{y(t)})}{arg(\\underline{x(t)})}\\]<br>"
+                    ],
+                    "guid": "K#]T`DP7/2",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "impédence",
+                        "\\[\\underline{u} = \\underline{Z}\\times\\underline{i}\\]module de Z: rapport entre U0 et I0<br>argument de Z: déphasage de u(t) par rapport à i(t)<br><br>admittance:\\[\\underline{Y} = \\frac{1}{\\underline{Z}}\\]"
+                    ],
+                    "guid": "GXOp~*aS2=",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "impédance de dipôles",
+                        "- résistor:&nbsp;\\(\\underline{Z} = R\\)<br>- condensateur&nbsp;\\(\\underline{Z} = \\frac{1}{jC\\omega}\\)<br>- bobine&nbsp;\\(\\underline{Z} = jL\\omega\\)"
+                    ],
+                    "guid": "q;zu=Ksbba",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques Impédances (pont diviseur, etc...)",
+                        "Pareil que pour les tensions, on s'en fout"
+                    ],
+                    "guid": "k%@cW!Hj86",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "résonance",
+                        "résonance quand l'amplitude de la réponse sinusoidale d'un système à une excitation sinusoidale d'amplitude fixe mais de fréquence variable passe par un maximum pour une valeur&nbsp;\\(f_0\\)&nbsp;de la fréquence (fréquence de résonance)"
+                    ],
+                    "guid": "oInQf]rk.H",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "facteur de qualité (régime sinusoïdal)",
+                        "\\[Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}} = \\frac{L\\omega_0}{R} = \\frac{1}{RC\\omega_0}\\]\\[U_{R0} = \\frac{E_0}{\\sqrt{1 + (Q^2(\\frac{\\omega}{\\omega_0} - \\frac{\\omega_0}{\\omega})^2)}}\\]<br>"
+                    ],
+                    "guid": "mO8trNo<P$",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "circuit RLC série (ou oscillo mécanique) résonance en intensité guarantie pour",
+                        "pulsation&nbsp;\\(\\omega_0\\)"
+                    ],
+                    "guid": "z]KDXsIV9e",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "condition résonance en intensité",
+                        "courant et tension du générateur en phase (droite sur XY)"
+                    ],
+                    "guid": "n5_.ba~^v5",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "condensateur BF HF",
+                        "BF: interrupteur ouvert<br>HF: fil"
+                    ],
+                    "guid": "c%0y5s+XTL",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "bobine BF HF",
+                        "BF: fil&nbsp;<br>HF: interrupteur ouvert"
+                    ],
+                    "guid": "O=Z9LG^oLI",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "résonance en intensité",
+                        "circuit: RLC<br>sortie: tension sur la résistance<br>forme canonique:&nbsp;\\(\\frac{1}{1 + jQ(x - \\frac{1}{x})}\\)<br>résonance pour&nbsp;\\(x = 1\\)&nbsp;donc&nbsp;\\(\\omega = \\omega_0\\)"
+                    ],
+                    "guid": "w4GSa(ev.r",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "acuité",
+                        "intervalle&nbsp;\\(\\Delta\\omega\\)&nbsp;tel que&nbsp;\\(|\\frac{u_r}{e}| &gt; \\frac{1}{\\sqrt{2}}\\)<br><br>\\(\\Delta\\omega = \\frac{\\omega_0}{Q}\\)"
+                    ],
+                    "guid": "BaFv4.qzFn",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "résonance en tension",
+                        "circuit: RLC<br>sortie: tension condensateur<br>forme canonique:&nbsp;\\(\\frac{1}{1 - x^2 + j\\frac{x}{Q}}\\)<br>méthode pour amplitude:&nbsp;\\(X = x^2\\)&nbsp;\\(f(X) = (1 - X)^2 + \\frac{X}{Q^2}\\)&nbsp;\\(f'(X) = 2X - 2 + \\frac{1}{Q^2}\\)&nbsp;\\(f''(X) = 2\\)_r<br>pulsations de résonance:<br>-&nbsp;\\(Q &gt; \\frac{1}{\\sqrt{2}}\\):&nbsp;\\(\\omega_r = \\omega_0\\sqrt{1 - \\frac{1}{2Q^2}}\\)<br>-&nbsp;\\(Q &gt; 2\\):&nbsp;\\(\\omega_r \\sim \\omega_0\\)<br>-&nbsp;\\(Q &lt; 2\\):&nbsp;\\(\\omega_r = \\omega_0\\sqrt{1 - \\frac{1}{4Q^2}}\\)"
+                    ],
+                    "guid": "q6.b?ZfIc~",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "RSF"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "forme signal (théorème de Fourier)",
+                        "\\[s(t) = s_0 + \\sum_{n=1}^{+\\infty}{c_ncos(nwt + \\phi_n)}\\]<br>"
+                    ],
+                    "guid": "D~iF+fJ=XD",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "filtrage_linéaire"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "021bb199-2fd3-11f0-ade6-c0d273f65878",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
@@ -869,6 +4150,130 @@
                     "tags": [
                         "Thermo1"
                     ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "volume molaire d'un gaz",
+                        "\\(22,4 L.mol^{-1}\\)"
+                    ],
+                    "guid": "u]<HG7@SiJ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "881bbc2c-72a5-11f0-addb-0b4075f3e626",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Transition de Phase",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "variables d'état d'un système diphasé",
+                        "- P (ou T car liés)<br>-&nbsp;\\(n_{\\text I}\\)&nbsp;et&nbsp;\\(n_{\\text{II}}\\)&nbsp;(quantités de matière dans chaque phase)<br><br>\\(n = n_{\\text{I}} + n_{\\text{II}}\\)&nbsp;"
+                    ],
+                    "guid": "w4h#BN&K:s",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fraction molaire ou massique",
+                        "\\[x_\\text I = \\frac{n_\\text I}{n_\\text I + n_{\\text{II}}} = \\frac{m_\\text I}{m_\\text I + m_{\\text{II}}}\\]<br>"
+                    ],
+                    "guid": "D:.Kd`z8~;",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème des moments",
+                        "\\[\\mathcal v = x_L\\mathcal v_L + x_G\\mathcal v_G = x_L\\mathcal v_L + (1-x_L)v_G\\]\\[x_L = \\frac{\\mathcal v - \\mathcal v_G}{\\mathcal v_L - \\mathcal v_G}\\]<br>"
+                    ],
+                    "guid": "s:r&3lg+R@",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "atmosphère inerte",
+                        "phase gazeuse qui ne change pas d'état et qui ne réagit pas avec d'autres corps en présence"
+                    ],
+                    "guid": "wLf6I)U|GZ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "enthalpie molaire d'un changement d'état",
+                        "variation d'enthalpie au cours de la transformation d'un emole de corps pur de l'état I à l'état II<br>\\[\\Delta_{I-II}H_m\\]enthalpie massique&nbsp;\\(\\Delta_{I-II}h\\)<br>"
+                    ],
+                    "guid": "z@iEg@0_>|",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "O.G chaleur latente",
+                        "chaleur latente:<br><br>\\[L_{fusion} = \\Delta_{S-L}h \\sim 10^2 kJ/kg\\]\\[L_{vaporisation} = \\Delta_{L-V}h \\sim 10^3 kJ/kg\\]"
+                    ],
+                    "guid": "EO#6?1+ol:",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "entropie de changement d'état",
+                        "\\[S = S_\\text{II} - S_\\text{I}\\]\\[S_{sol} &lt; S_{liq} &lt; S_v\\]<br>"
+                    ],
+                    "guid": "hUu?r^T$XA",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lien entre entropie et enthalpie de changement d'état",
+                        "\\[\\Delta S = S_{éch} + S_{crée} = \\frac{Q}{T_0} = \\frac{m(x_{IIf} - x_{IIi})\\Delta_{I-II}{h}}{T_0}\\]<br>"
+                    ],
+                    "guid": "Q|<Qrwb:GW",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "transition_de_phase"
+                    ]
                 }
             ],
             "reviewLimit": null,
@@ -937,7 +4342,7 @@
                 "hardFactor": 1.1,
                 "ivlFct": 1.0,
                 "maxIvl": 12,
-                "perDay": 130
+                "perDay": 100
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
@@ -1006,8 +4411,8 @@
                 "ease4": 1.3,
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
+                "maxIvl": 16,
+                "perDay": 130
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
@@ -1030,7 +4435,7 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
                 {
@@ -1038,8 +4443,8 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
-                    "id": -3568197255527884728,
-                    "name": "Front",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
                     "ord": 0,
                     "plainText": false,
                     "preventDeletion": false,
@@ -1053,8 +4458,8 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
-                    "id": -8792581457391807817,
-                    "name": "Back",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
                     "ord": 1,
                     "plainText": false,
                     "preventDeletion": false,
@@ -1067,7 +4472,8 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basic-b1fb7",
+            "name": "Basique",
+            "originalId": 1743079208597,
             "originalStockKind": 1,
             "req": [
                 [
@@ -1079,19 +4485,18 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -7066904010460991323,
-                    "name": "Card 1",
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
                     "ord": 0,
-                    "qfmt": "{{Front}}"
+                    "qfmt": "{{Recto}}"
                 }
             ],
             "type": 0
@@ -1165,7 +4570,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "crowdanki_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
                 {
@@ -1173,8 +4578,8 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
-                    "id": 2887224638033873027,
-                    "name": "Recto",
+                    "id": -3568197255527884728,
+                    "name": "Front",
                     "ord": 0,
                     "plainText": false,
                     "preventDeletion": false,
@@ -1188,8 +4593,8 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
-                    "id": -7793164370799427585,
-                    "name": "Verso",
+                    "id": -8792581457391807817,
+                    "name": "Back",
                     "ord": 1,
                     "plainText": false,
                     "preventDeletion": false,
@@ -1202,8 +4607,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique",
-            "originalId": 1743079208597,
+            "name": "Basic-6578f",
             "originalStockKind": 1,
             "req": [
                 [
@@ -1215,24 +4619,56 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -4005149872133082135,
-                    "name": "Carte 1",
+                    "id": -7066904010460991323,
+                    "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Recto}}"
+                    "qfmt": "{{Front}}"
                 }
             ],
             "type": 0
         }
     ],
-    "notes": [],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Equation Oscillateur Harmonique",
+                "\\(\\frac {d^2 u }{dt^2} + \\omega_0^2u = K\\)"
+            ],
+            "guid": "f#EO9>/?5v",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expression de la periode à partir de&nbsp;\\(\\omega _0\\)",
+                "\\(T = \\frac {2 \\pi } {\\omega _0}\\)"
+            ],
+            "guid": "K^l##;VRZ|",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Solution de l'équation oscillateur harmonique",
+                "\\(u = A \\sin (\\omega t ) + B\\cos (\\omega t)\\)"
+            ],
+            "guid": "lm>XEA:4MY",
+            "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "tags": []
+        }
+    ],
     "reviewLimit": null,
     "reviewLimitToday": null
 }
