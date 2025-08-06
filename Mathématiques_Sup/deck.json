@@ -1783,8 +1783,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "|E\\A|",
-                        "|E\\A| = |E| - |A|"
+                        "\\(|E/A|\\)",
+                        "\\(|E/A| = |E| - |A|\\)"
                     ],
                     "guid": "JSGMYLxqzz",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1807,8 +1807,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "|E x F|",
-                        "|E x F| = |E| x |F|"
+                        "\\(|E \\times  F|\\)",
+                        "\\(|E \\times  F| = |E| \\times  |F|\\)"
                     ],
                     "guid": "io&T7Gf{%c",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1819,7 +1819,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "|E| de cardinal n, le nombre de p-listes",
+                        "Nombre de p-listes d'un ensemble de cardinal&nbsp;\\(n\\)",
                         "\\(n^p\\)"
                     ],
                     "guid": "eU&bO.x#OU",
@@ -1831,7 +1831,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "cardinal de p-liste sans répétition",
+                        "cardinal de p-liste sans répétition d'un ensemble de cardinal&nbsp;\\(n\\)",
                         "p-arrangement<br><br>\\(\\frac{n!}{n!(n-k)!}\\)"
                     ],
                     "guid": "f^zGu`Y{3/",
@@ -1855,8 +1855,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "nombre de permutations de E",
-                        "n!"
+                        "nombre de permutations d'un ensemble de cardinal&nbsp;\\(n\\)",
+                        "\\(n!\\)"
                     ],
                     "guid": "P@bEs^zaJ5",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1892,7 +1892,7 @@
                     "__type__": "Note",
                     "fields": [
                         "F un ensemble fini, injection de E dans F ssi",
-                        "|E| =&lt; |F|"
+                        "\\(|E| \\le  |F|\\)"
                     ],
                     "guid": "Rb?sY)>F=f",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1904,7 +1904,7 @@
                     "__type__": "Note",
                     "fields": [
                         "E fini, surjection de E dans F ssi",
-                        "|E| &gt;= |F|"
+                        "\\(|E| \\ge |F|\\)"
                     ],
                     "guid": "iTZ4DPL-@B",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1916,7 +1916,7 @@
                     "__type__": "Note",
                     "fields": [
                         "bijection entre E et F (conclusion sur le cardinal)",
-                        "|E| = |F|"
+                        "\\(|E| = |F|\\)"
                     ],
                     "guid": "vo`!6tuCCL",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1928,7 +1928,7 @@
                     "__type__": "Note",
                     "fields": [
                         "E et F deux ensembles finis de même cardinal (props sur inj et surj)",
-                        "- injection E dans F: bijection de E et F<br>- surjection E dans F: bijection entre E et F"
+                        "- injection E dans F&nbsp;\\(\\rightarrow\\)&nbsp;bijection de E et F<br>- surjection E dans F&nbsp;\\(\\rightarrow \\)&nbsp;bijection entre E et F"
                     ],
                     "guid": "Puns[h8rec",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1939,8 +1939,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "le nombre d'applications de E(p) vers F(n)",
-                        "est&nbsp;\\(n^p\\)"
+                        "Nombre d'applications de E (card&nbsp;\\(n \\)) vers F (card&nbsp;\\(p\\))",
+                        "\\(n^p\\)"
                     ],
                     "guid": "h7~#9XnjZ+",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1951,8 +1951,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "nombre d'injections de E (p) dans F (n)",
-                        "\\(\\frac{n!}{(n-k)!}\\)"
+                        "Nombre d'injections de&nbsp;\\(E \\)&nbsp;(card&nbsp;\\(n\\)) dans&nbsp;\\(F\\)&nbsp;(card&nbsp;\\(p\\))",
+                        "\\(\\frac{n!}{(n-p)!}\\)"
                     ],
                     "guid": "i.IR7{iolZ",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -1963,7 +1963,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "nombre de bijections entre E (n) et F (n)",
+                        "Nombre de bijections de&nbsp;\\(E\\)&nbsp;dans&nbsp;\\(F \\)&nbsp;(cardinaux&nbsp;\\(n\\))",
                         "n!"
                     ],
                     "guid": "f)ic{gSz>6",
@@ -2043,6 +2043,26 @@
                     "tags": [
                         "dénombrement"
                     ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition :&nbsp;<b>p-arrangement</b>",
+                        "p-liste d'éléments deux à deux distincts"
+                    ],
+                    "guid": "PD9,:v}P18",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition :&nbsp;<b>p-combinaison</b>",
+                        "Partie de cardinal p. (c'est des ensembles quoi)"
+                    ],
+                    "guid": "rTfdMihEa3",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": []
                 }
             ],
             "reviewLimit": null,
@@ -4094,7 +4114,9 @@
                     ],
                     "guid": "L%UGqOfT)s",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
-                    "tags": []
+                    "tags": [
+                        "marked"
+                    ]
                 },
                 {
                     "__type__": "Note",
@@ -4879,7 +4901,11 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "Capture d’écran 2025-08-06 à 11.25.52.png",
+                "Capture d’écran 2025-08-06 à 11.26.01.png",
+                "Capture d’écran 2025-08-06 à 11.26.18.png"
+            ],
             "name": "Intégration",
             "newLimit": null,
             "newLimitToday": null,
@@ -5176,7 +5202,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Primitive d'une fraction rationnelle",
-                        ""
+                        "<img src=\"Capture d’écran 2025-08-06 à 11.26.01.png\"><img src=\"Capture d’écran 2025-08-06 à 11.26.18.png\"><img src=\"Capture d’écran 2025-08-06 à 11.25.52.png\">"
                     ],
                     "guid": "CBz>AV-%85",
                     "note_model_uuid": "f47ab53c-0b10-11f0-b3aa-00163ec6fa00",
@@ -9110,7 +9136,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basic-b1fb7",
+            "name": "Basic-6578f",
             "originalStockKind": 1,
             "req": [
                 [

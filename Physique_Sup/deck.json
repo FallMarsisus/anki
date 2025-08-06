@@ -3903,7 +3903,7 @@
                     "__type__": "Note",
                     "fields": [
                         "OG libre parcours moyen (liquide et gaz)",
-                        "- liquide :&nbsp;\\(10^{-10}m\\)<br>- gaz :&nbsp;\\(10^{-10}m\\)"
+                        "- liquide :&nbsp;\\(10^{-10}m\\)<br>- gaz :&nbsp;\\(10^{-7}m\\)"
                     ],
                     "guid": "Eq->6y%XtJ",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
