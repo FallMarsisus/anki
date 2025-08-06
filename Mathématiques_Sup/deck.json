@@ -3943,6 +3943,174 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "3209be34-72a9-11f0-a4f0-505a65e9873c",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Familles sommables",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition (formelle :D) d'une famille sommable et de sa somme",
+                        "On dit qu'une famille&nbsp;\\((a_i)_{i \\in I}\\)&nbsp;d'éléments de&nbsp;\\(\\mathbb C\\)&nbsp;est sommable s'il existe un élément&nbsp;\\(S\\)&nbsp;de&nbsp;\\(\\mathbb C\\)&nbsp;tel que<br>\\(\\forall \\varepsilon &gt; 0, \\ \\exists J_{\\varepsilon} \\in \\mathcal P_F (I), \\ \\forall J \\in \\mathcal P_F(I), \\ (J_{\\varepsilon} \\subset J) \\implies \\left(\\left| \\sum_{j \\in J} a_j - S \\right| \\leq \\varepsilon \\right)\\)Dans ce cas, S est unique et s'appelle la somme de la famille&nbsp;\\((a_i)_{i \\in I}\\). On pose&nbsp;\\(S = \\sum_{j \\in J} a_i\\)"
+                    ],
+                    "guid": "A;v6GOW!-(",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemme sur l'ensemble des sommes finies d'une famille sommable",
+                        "Soit&nbsp;\\((a_i)_{i \\in i} \\in \\mathbb C^I\\)une famille sommable.<br>L'ensemble\\(\\left\\{ \\sum_{j \\in J} a_j \\ | \\ J \\in \\mathcal P_F(I)  \\right\\}\\)&nbsp;de ses sommes finies est borné."
+                    ],
+                    "guid": "f?X_;F6MH$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition sur le support d'une famille sommable",
+                        "\\((a_i)_{i \\in I} \\in \\mathbb C^I\\)&nbsp;famille sommable.<br>Son support&nbsp;\\(\\{ i \\in I \\ | \\ a_i \\neq 0 \\}\\)&nbsp;est dénombrable."
+                    ],
+                    "guid": "FF}mQ)PdHL",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\sigma : J \\rightarrow I\\)&nbsp;bijection (marche aussi avec une permutation)<br>\\((a_i)_{i \\in I} \\in \\mathbb C^I\\)&nbsp;sommable ssi {{c1::\\((a_{\\sigma(j)})_{j \\in J}\\)&nbsp;sommable}}<br>Dans ce cas, les deux familles ont {{c1::la même somme}}.",
+                        ""
+                    ],
+                    "guid": "P6R?6I[bf*",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\((a_i)_{i \\in I} \\in \\mathbb C^I\\)&nbsp;et&nbsp;\\((I_j)_{j \\in J}\\)&nbsp;un partage de I.<br>Définition du paquet d'indice&nbsp;\\(j \\in J\\)<br>Théorème de sommation par paquets",
+                        "Le paquet d'indice&nbsp;\\(j \\in J\\)&nbsp;est la sous-famille&nbsp;\\((a_i)_{i \\in I_j}\\)<br><br>Théorème de sommation par paquets : Si&nbsp;\\((a_i)_{i \\in I}\\)&nbsp;est sommable alors :<br>- pour tout&nbsp;\\(j \\in J\\), le paquet&nbsp;\\((a_i)_{i \\in I_j}\\)&nbsp;est sommable<br>- la famille des sommes de paquets&nbsp;\\(\\left( \\sum_{i \\in I_j} a_i \\right)_{j \\in J}\\)est sommable<br>-&nbsp;\\(\\sum_{i \\in I} a_i = \\sum_{j \\in J} \\left( \\sum_{i \\in I_j} a_i \\right)\\)"
+                    ],
+                    "guid": "i_@2MKg5L1",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\((a_i)_{i \\in I} \\in \\mathbb C^I\\)&nbsp;famille sommable<br>Proposition sur sous-familles et familles bémolisées",
+                        "- Toute sous famille de&nbsp;\\((a_i)_{i \\in I}\\)&nbsp;est sommable<br>- Toute famille&nbsp;\\((a_i^{\\flat})_{i \\in I}\\)&nbsp;telle que&nbsp;\\(\\forall i \\in I, a_i^{\\flat} \\in \\{a_i, 0\\}\\)&nbsp;(famille bémolisée de&nbsp;\\((a_i)_{i \\in I}\\)&nbsp;est sommable"
+                    ],
+                    "guid": "c]p8lrO-+g",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Fubini",
+                        "\\((a_{i,j})_{(i,j) \\in I \\times J}\\)&nbsp;famille de nombres complexes<br>Si elle est sommable alors :<br>\\(\\sum_{(i,j) \\in I \\times J} a_{i,j} = \\sum_{i \\in I} \\sum_{j \\in J} a_{i,j} = \\sum_{j \\in J} \\sum_{i \\in I} a_{i,j}\\)"
+                    ],
+                    "guid": "r9M[pDcC&/",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sommabilité d'une famille de nombre réels positifs ou nuls (théorème avec la borne sup)",
+                        "\\((t_i)_{i \\in I} \\in \\mathbb R^I_+\\)<br>\\((t_i)_{i \\in I}\\)&nbsp;sommable&nbsp;\\(\\Leftrightarrow \\left( \\sup \\left\\{ \\sum_{j \\in J} t_j \\ | \\ J \\in \\mathcal P_F (I) \\right\\} &lt; + \\infty \\right)\\)<br>Dans ce cas la somme est la borne sup."
+                    ],
+                    "guid": "O,N6[uCGj!",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lien entre familles sommables et séries (positives ou nulles)",
+                        "\\((u_k)_{k \\geq 0}\\)&nbsp;suite réelle&nbsp;<u>positive ou nulle<br></u>\\(\\sum_{k \\in \\mathbb N} u_k = \\sum_{k = 0}^{+ \\infty} u_k\\)<br>La famille est sommable ssi la série est convergente"
+                    ],
+                    "guid": "Iq<,K/ock]",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Propriétés en vrac pour 2 familles à valeurs dans&nbsp;\\(\\overline {\\mathbb R_+}\\)&nbsp;<u>(pas forcément sommables)</u>",
+                        "- linéarité<br>- changement d'indice, commutativité (on peut appliquer des bijections et des permutations)<br>- sommation par paquets<br>- théorème de Fubini"
+                    ],
+                    "guid": "y=T`X!>]Ci",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de comparaison des sommes de familles positives (TCSFP)",
+                        "tu casses pas les couilles c'est comme les séries"
+                    ],
+                    "guid": "DiIrIpgQa$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de sommabilité d'une famille complexe",
+                        "On se ramène à une famille positive en considérant les modules<br>Une famille&nbsp;\\((a_i)_{i \\in I} \\in \\mathbb C^I\\)&nbsp;est sommable ssi la famille des modules&nbsp;\\((|a_i|)_{i \\in I} \\in \\mathbb R^I_+\\)&nbsp;est sommable<br>(et alors&nbsp;\\(\\left| \\sum_{i \\in I} a_i \\right| \\leq \\sum_{i \\in I} |a_i|\\))"
+                    ],
+                    "guid": "B7mtVF|NAG",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lien entre familles sommables et séries (complexes)",
+                        "\\((u_k)_{k \\geq 0}\\)&nbsp;famille complexe<br>La famille est sommable ssi la série de terme générale&nbsp;\\(u_k\\)&nbsp;est&nbsp;<u>absolument</u>&nbsp;convergente<br>Dans ce cas, la somme de la famille est égale à la somme de la série"
+                    ],
+                    "guid": "n.mqLqG{KA",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Dans quel cas est-ce qu'on peut séparer (et d'une manière générale jouer avec) les indices d'une série double ? (application du chapitre familles sommables)",
+                        "Si la famille est réelle positive, ou si elle est complexe et sommable"
+                    ],
+                    "guid": "fCiduN2_E%",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition produit de Cauchy et proposition liée",
+                        "\\((u_k)_{k \\in \\mathbb N}\\)&nbsp;et&nbsp;\\((v_k)_{k \\in \\mathbb N}\\)&nbsp;deux suites complexes<br>Produit de Cauchy : suite&nbsp;\\(u * v\\)&nbsp;de terme général&nbsp;\\((u * v)_k = \\sum_{p + q = k} u_pv_q = \\sum_{p = 0}^k u_pv_{k-p} = \\sum_{q = 0}^k u_{k-q}v_q\\)<br><br>Si les séries de termes généraux&nbsp;\\(u_k\\)&nbsp;et&nbsp;\\(v_k\\)&nbsp;sont absolument convergentes :<br>\\(\\left( \\sum_{k = 0}^{+ \\infty} u_k \\right) \\left( \\sum_{k = 0}^{+ \\infty} v_k \\right) = \\sum_{k = 0}^{+ \\infty} (u*v)_k\\)"
+                    ],
+                    "guid": "c%f]J?o38M",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "0d802fa9-2fd8-11f0-892f-c0d273f65878",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
@@ -6577,6 +6745,18 @@
                 {
                     "__type__": "Note",
                     "fields": [
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
+                    ],
+                    "guid": "m]e_emLY_A",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "sommes::et::produits"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
                         "sommes des k",
                         "\\[\\frac{n(n+1)}{2}\\]"
                     ],
@@ -6665,18 +6845,6 @@
                         "\\[(a+b)^n = \\sum_{k=0}^{n}{\\binom{n}{k}a^kb^{n-k}}\\]"
                     ],
                     "guid": "rk),tt>QDJ",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "sommes::et::produits"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
-                    ],
-                    "guid": "m]e_emLY_A",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
                     "tags": [
                         "sommes::et::produits"
