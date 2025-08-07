@@ -27,11 +27,77 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "Capture d’écran 2025-08-07 à 11.19.37.png",
+                "Capture d’écran 2025-08-07 à 11.20.29.png",
+                "Capture d’écran 2025-08-07 à 11.22.03.png",
+                "Capture d’écran 2025-08-07 à 11.26.53.png"
+            ],
             "name": "Simples",
             "newLimit": null,
             "newLimitToday": null,
-            "notes": [],
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Donner la valeur de la somme des cubes, le prouver.&nbsp;",
+                        "\\(\\sum_{k = 0} ^n k^3 = \\frac{n^2 (n+1)^2}{4} \\)<br><br>Preuve par récurrence simple"
+                    ],
+                    "guid": "fHnxA*~)oi",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Langage_Mathématique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Soit&nbsp;\\(A, B \\subset E\\).&nbsp;<br>Soit&nbsp;\\(f  : \\mathcal P (E) \\rightarrow  \\mathcal P (A) \\times \\mathcal P (B) \\atop X \\mapsto (X \\cap A , X\\cap B)\\).<br><br>1. Montrer que&nbsp;\\(f \\)&nbsp;est injective ssi&nbsp;\\(A\\cup B  =E\\)<br>2. Montrer que&nbsp;\\(f\\)&nbsp;est surjective ssi&nbsp;\\(A\\cap B  =\\emptyset\\)<br>3. Dans le cas où&nbsp;\\(f \\)&nbsp;est bijective, déterminer&nbsp;\\(f^{-1}\\)<br>4. On suppose&nbsp;\\(A \\not= \\emptyset\\)&nbsp;et&nbsp;\\(A \\not= E\\). Les applications&nbsp;\\(X \\mapsto X \\cup A\\)&nbsp;et&nbsp;\\(X \\mapsto X \\cap A \\)&nbsp;sont elles injectives ? surjectives ?&nbsp;",
+                        "1.&nbsp;\\(\\boxed \\Rightarrow \\)&nbsp;Calculer&nbsp;\\(f(E)\\)&nbsp;puis injectivité de&nbsp;\\(f\\)<br>&nbsp; &nbsp;&nbsp;\\(\\boxed \\Leftarrow\\)&nbsp;Le classique pour montrer l'injectivité... (astuce :&nbsp;\\(X = X \\cap E \\))<br>2.&nbsp;\\(\\boxed \\Rightarrow \\)&nbsp;RA. On montre que&nbsp;\\((\\{x \\in A\\cap B \\}, \\emptyset)\\)&nbsp;n'a pas d'antécédent<br>&nbsp; &nbsp;&nbsp;\\(\\boxed \\Leftarrow\\)&nbsp;On prend&nbsp;\\(X = A' \\cup B' \\)&nbsp;avec&nbsp;\\((A', B') \\in \\mathcal P(A) \\times \\mathcal P (B)\\)<br>3.&nbsp;\\(f^{-1} : \\mathcal P ( A) \\times \\mathcal P(B) \\rightarrow \\mathcal P(E) \\atop (A', B') \\mapsto A' \\cup B'\\)<br>4. Tout est faux. Trouver des contrexemples.&nbsp;"
+                    ],
+                    "guid": "wZFtv]m0h-",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Applications"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<img src=\"Capture d’écran 2025-08-07 à 11.19.37.png\">",
+                        "1. C'est que du calcul<br><img src=\"Capture d’écran 2025-08-07 à 11.20.29.png\" width=\"619\"><br><br>2. C'est que du calcul<br><img src=\"Capture d’écran 2025-08-07 à 11.22.03.png\" width=\"619\"><br><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\"><span style=\"text-align: center;\">3. C'est que du calcul</span></div><div style=\"text-align: left;\"><img src=\"Capture d’écran 2025-08-07 à 11.26.53.png\" width=\"618\"></div>"
+                    ],
+                    "guid": "JdckKKt{`_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Nombres"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>Déterminer les racines quatrièmes de&nbsp;\\(−119 + 120i\\).</div>",
+                        "<div>Avec la méthode habituelle, on trouve que les racines carrées de \\(−119 + 120i\\)&nbsp;sont \\(5 + 12i\\)&nbsp;et&nbsp;\\(−5−12i\\). On</div>\n<div>obtient que&nbsp;\\(2−3i\\)&nbsp;est une racine quatrième de&nbsp;\\(−119 + 120i.\\)</div><div>Les autres s’obtiennent en multipliant celle-ci</div>\n<div>par les racines quatrièmes de l’unité diﬀérente de 1, c’est-à-dire i, −1 et−i.</div>\n<div>On trouve finalement \\(2−3i\\),&nbsp;\\(2i+ 3\\),&nbsp;\\(−2 + 3i\\)&nbsp;et</div>\\(-2i - 3\\)"
+                    ],
+                    "guid": "J4(.mE&Zj;",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Nombres"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b>Formule de Vandermonde :&nbsp;</b>énoncé et démonstration. (développer&nbsp;\\((1+x)^{m + n} \\)&nbsp;de deux manières différentes)<br><u>Rappel :</u><b>&nbsp;</b>Produit de deux expressions polynomiales :&nbsp;\\(R  = P \\times Q\\), avec&nbsp;\\(P = (a_n) , Q = (b_m)\\).&nbsp;<br>\\[R = \\sum _{k = 0} ^n \\left(\\sum _{(i, j) \\in [|0; n|]\\times [|0; m|]\\atop i + j = k}a_ib_j\\right)x_k \\]<br>",
+                        "Pour tout&nbsp;\\(x\\in \\mathbb R\\), on a&nbsp;\\((1 + x)^{m +  n } = \\sum _{k = 0} ^{m + n} \\left(m + n \\atop k \\right) x^k\\)&nbsp;et donc&nbsp;<br>\\[(1+x) ^{m+n} = (1+x)^m (1+x) ^n  = \\left(\\sum_{i= 0}^m \\left(m\\atop i \\right) x^i\\right)\\left( \\sum_{j = 0} ^n \\left(n \\atop j \\right) x^j\\right) = \\sum_{k = 0}^{m + n} \\left(\\sum_{i = 0} ^k\\left(m\\atop i \\right)\\left(n\\atop k-i\\right)\\right)x^k\\]<br>D'où par unicité de cette écriture polynomiale,&nbsp;\\(\\forall k \\in [| 0 ; m + n |]\\), on peut identifier les coefficitents devant&nbsp;\\(x^k\\), soit&nbsp; :<br>\\[\\forall k \\in [| 0 ; m + n |], \\space \\space \\left(m + n \\atop k \\right) = \\sum _{i = 0} ^k \\left(m \\atop i \\right)\\left(n \\atop k - i \\right)\\]<br>"
+                    ],
+                    "guid": "Gy{-Z^RRs@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Sommes_et_produits"
+                    ]
+                }
+            ],
             "reviewLimit": null,
             "reviewLimitToday": null
         }
@@ -118,7 +184,76 @@
     "name": "Exercices Maths Sup",
     "newLimit": null,
     "newLimitToday": null,
-    "note_models": [],
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
     "notes": [],
     "reviewLimit": null,
     "reviewLimitToday": null

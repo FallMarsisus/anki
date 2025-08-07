@@ -1940,7 +1940,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Nombre d'applications de E (card&nbsp;\\(n \\)) vers F (card&nbsp;\\(p\\))",
-                        "\\(n^p\\)"
+                        "\\(p^n\\)"
                     ],
                     "guid": "h7~#9XnjZ+",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
@@ -6468,7 +6468,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Formule de conditionnement",
-                        "E de probabilité non nulle<br>\\(P(E \\cap A) = P(E) P(E \\ | \\ A)\\)"
+                        "E de probabilité non nulle<br>\\(P(E \\cap A) = P(A) P(E \\ | \\ A)\\)"
                     ],
                     "guid": "he+=d[tZ!F",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
@@ -6745,18 +6745,6 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
-                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
-                    ],
-                    "guid": "m]e_emLY_A",
-                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
-                    "tags": [
-                        "sommes::et::produits"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "sommes des k",
                         "\\[\\frac{n(n+1)}{2}\\]"
                     ],
@@ -6845,6 +6833,18 @@
                         "\\[(a+b)^n = \\sum_{k=0}^{n}{\\binom{n}{k}a^kb^{n-k}}\\]"
                     ],
                     "guid": "rk),tt>QDJ",
+                    "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
+                    "tags": [
+                        "sommes::et::produits"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2\\]",
+                        "\\[(\\sum_{k=1}^{p}{a_k})^2 = \\sum_{k=1}^{p}{a^2_k} + \\sum_{1 \\le k &lt; l \\le p}{2a_k a_l}\\]"
+                    ],
+                    "guid": "m]e_emLY_A",
                     "note_model_uuid": "3ca50c8c-a9d6-11ef-974d-f92c0362d330",
                     "tags": [
                         "sommes::et::produits"
@@ -8868,7 +8868,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 20
+                "perDay": 10
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -8881,8 +8881,8 @@
                 "ease4": 1.2,
                 "hardFactor": 1.1,
                 "ivlFct": 1.0,
-                "maxIvl": 12,
-                "perDay": 100
+                "maxIvl": 20,
+                "perDay": 50
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
