@@ -10,11 +10,67 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-068e1d8169845f5ddbcabd7a83cd0487cca8e36f.jpg",
+                "paste-2ac812c28c9bd2e153fc0f59aa24baa34a70b43e.jpg",
+                "paste-431fc41ecc4b3ee6038f7ff5f5033826349cd70d.jpg",
+                "paste-cd0607fd8328cc18813123a3e84b14a2ee97eb20.jpg",
+                "paste-da72749e1e83dc52f80382ee148bcbc52725c267.jpg",
+                "paste-df4eefcbb6c02bd304a106b702b929fa98c4f579.jpg"
+            ],
             "name": "Sabban",
             "newLimit": null,
             "newLimitToday": null,
-            "notes": [],
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<u>Exercice 13 chapitre Nombres (des pas élémentaires)<br></u><br>Soient&nbsp;\\(a,b,c,d \\in \\mathbb Z\\). Démontrer qu'il existe&nbsp;\\(A, B \\in \\mathbb Z\\)&nbsp;tels que&nbsp;\\((a^2 + b^2)(c^2 + d^2) = A^2 + B ^2\\)",
+                        "<img src=\"paste-068e1d8169845f5ddbcabd7a83cd0487cca8e36f.jpg\">"
+                    ],
+                    "guid": "GnI*h=9v._",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Nombres"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<u>Exercice 21 chapitre Nombres (des pas élémentaires)<br></u><br>à quelle condition sur&nbsp;\\(m,n \\in \\mathbb N^*\\)&nbsp;a-t-on&nbsp;\\(\\mathbb U_m \\subset \\mathbb U_n\\)&nbsp;?",
+                        "\\(\\mathbb U_m \\subset \\mathbb U_n \\)&nbsp;ssi m divise n.<br>\\(\\Longleftarrow\\)) clair<br>\\(\\Longrightarrow\\))&nbsp;<br><img src=\"paste-cd0607fd8328cc18813123a3e84b14a2ee97eb20.jpg\">"
+                    ],
+                    "guid": "nYWmD`{A-s",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Nombres"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<u>Exercice 8 chapitre Sommes et produits (des pas élémentaires) - Transformation d'Abel<br></u><br>Soient&nbsp;\\(n \\in \\mathbb N\\),&nbsp;\\((a_k)_{k \\in [\\![0;n]\\!]}\\)&nbsp;et&nbsp;\\((b_k)_{k \\in [\\![0;n]\\!]}\\)&nbsp;deux familles de complexes<br>On note, pour tout&nbsp;\\(k \\in [\\![0;n]\\!], \\ B_k = \\sum_{k = 0}^{n-1} b_i\\). Prouver que :<br>\\(\\sum_{k = 0}^{n} a_kb_k = a_nB_n - \\sum_{k = 0}^{n - 1} (a_{k+1} - a_k) B_k\\)",
+                        "<img src=\"paste-431fc41ecc4b3ee6038f7ff5f5033826349cd70d.jpg\"><br><u>à retenir :</u>&nbsp;on pose&nbsp;\\(B_{-1} = 0\\), et alors&nbsp;\\(\\forall k \\in [\\![ 0;n]\\!], b_k = B_k - B_{k-1}\\)"
+                    ],
+                    "guid": "nZlg9H|Src",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Sommes_et_produits"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<u>Exercice 8 chapitre Dénombrement<br><br></u><img src=\"paste-2ac812c28c9bd2e153fc0f59aa24baa34a70b43e.jpg\">",
+                        "<img src=\"paste-da72749e1e83dc52f80382ee148bcbc52725c267.jpg\"><br><img src=\"paste-df4eefcbb6c02bd304a106b702b929fa98c4f579.jpg\">"
+                    ],
+                    "guid": "lVOYFq2_wo",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Sommes_et_produits"
+                    ]
+                }
+            ],
             "reviewLimit": null,
             "reviewLimitToday": null
         },
@@ -37,6 +93,18 @@
             "newLimit": null,
             "newLimitToday": null,
             "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<u>Exercice 20 chapitre applications</u><br><br>Soient&nbsp;\\(E, F\\)&nbsp;dexu ensembles et&nbsp;\\(f : E \\rightarrow F\\)&nbsp;une application.<br>On considère la relation&nbsp;\\(\\sim\\)&nbsp;sur E définie par :&nbsp;<br>\\(\\forall x_1, x_2 \\in E, \\ (x_1 \\sim x_2) \\Leftrightarrow (f(x_1) = f(x_2))\\)<br>C'est une relation d'équivalence sur E.<br>Pour tout&nbsp;\\(x \\in E\\), on note&nbsp;\\(\\hat x\\)la classe d'équivalence de&nbsp;\\(x\\)&nbsp;modulo&nbsp;\\(\\sim\\). On note&nbsp;\\(E/_{\\sim}\\)&nbsp;l'ensemble quotient. On considère l'application :<br>\\(\\overline f \\left\\{ E/_{\\sim} \\rightarrow f(E) \\atop \\hat x \\mapsto f(x) \\right.\\)<br><br>1) Vérifier que&nbsp;\\(\\sim\\)&nbsp;est une relation d'équivalence sur E.<br>2) Justifier que&nbsp;\\(\\overline f\\)&nbsp;est bien définie<br>3) Démontrer que&nbsp;\\(\\overline f\\)&nbsp;est bijective.",
+                        "1) Vérifier réflexivité, transitivité, symétrie<br>2) Vérifier que l'image de&nbsp;\\(\\hat x\\)&nbsp;par&nbsp;\\(\\overline f\\)&nbsp;ne dépend pas du représentant&nbsp;\\(x\\)&nbsp;choisi dans&nbsp;\\(\\hat x\\)&nbsp;(et accessoirement que&nbsp;\\(\\overline f\\)&nbsp;est à valeurs dans&nbsp;\\(f(E)\\)<br>3) Injectivité : On prend&nbsp;\\(\\hat{x_1}, \\hat{x_2} \\in E/_\\sim\\)&nbsp;telles que&nbsp;\\(\\overline f(\\hat{x_1}) = \\overline f (\\hat{x_2})\\), et on montre que&nbsp;\\(\\hat{x_1} = \\hat{x_2} \\)<br>Surjectivité car c'est à valeurs dans&nbsp;\\(f(E)\\)"
+                    ],
+                    "guid": "QP4-Bi$hq7",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": [
+                        "Applications"
+                    ]
+                },
                 {
                     "__type__": "Note",
                     "fields": [
