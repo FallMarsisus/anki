@@ -1,0 +1,281 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "6c7fb162-8b4b-11f0-a3dc-b951edacb484",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Signaux Périodiques",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Décomposition en série de fourier",
+                        "Pour&nbsp;\\(s \\)&nbsp;une fct périodique de période&nbsp;\\(T = \\frac 1 f = \\frac{2\\pi} \\omega\\),&nbsp;<br>On écrit&nbsp;\\(s (t) = c_0 + \\sum _n a_n \\cos(n\\omega t) + b_n\\sin(n\\omega t)\\)ou encore&nbsp;\\(s(t) = c_o + \\sum _n A_n \\cos(n\\omega t + \\phi_n)\\)"
+                    ],
+                    "guid": "eZbEFsZ`kV",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition de la composante continue d'une fonction sinusoidale",
+                        "Pour les séries de fourier :&nbsp;\\(c_0 = \\frac 1 T \\int_{(T)} s(t)dt = \\langle f(t)\\rangle_{(T)}\\)"
+                    ],
+                    "guid": "bu~|4LxMyR",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Relation entre un signal créneau et un triangle",
+                        "Créneau dérivé donne le Triangle"
+                    ],
+                    "guid": "f4|8i0i8*h",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition : Bande passante",
+                        "Ensemble des pulsations&nbsp;\\(x \\)&nbsp;telles que&nbsp;\\(G(x) \\ge \\frac{G_{max}} {\\sqrt{2}}\\), ou encore telles que&nbsp;\\(G_{dB}&gt;G_{dB.\\max}  - 3 \\space  dB\\)"
+                    ],
+                    "guid": "pjnYp9rC6e",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définitions : Fonction de transfert, pulsation propre",
+                        "On a&nbsp;\\(\\underline s  = \\underline H(jx) \\underline e(t)\\), avec&nbsp;\\(\\underline  H\\)&nbsp;la <b>fonction de transfert</b><br>On pose&nbsp;\\(x = \\frac \\omega {\\omega_0}\\), avec&nbsp;\\(\\omega_0\\)&nbsp;la&nbsp;<b>pulsation propre</b>&nbsp;du filtre."
+                    ],
+                    "guid": "w<ZjD3l5)*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques :&nbsp;<b>passe-bas ordre 1</b>",
+                        "\\(\\underline H (jx) = \\frac {H_0} {1 + jx}\\),&nbsp;<br>Comportements asymptotiques évidents&nbsp;<br>\\(G_\\max = \\vert H_0\\vert\\)<br>Pente de -20 dB.dec (<b>intégrateur</b>), bande passante en&nbsp;\\(x \\in [0; 1]\\)"
+                    ],
+                    "guid": "x;HwIkHMe:",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques :&nbsp;<b>passe-haut d'ordre 1</b>",
+                        "\\(\\underline H (jx) = \\frac {H_0} {1 + \\frac 1 {jx}}\\),&nbsp;<br>Comportements asymptotiques évidents&nbsp;<br>\\(G_\\max = \\vert H_0\\vert\\)<br>Pente de +20 dB.dec (<b>dérivateur</b>), bande passante en&nbsp;\\(x \\in [1; +\\infty]\\)"
+                    ],
+                    "guid": "K7,NQ&XX>_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques :&nbsp;<b>passe-bas ordre 2</b>",
+                        "\\(\\underline H (jx) = \\frac {H_0} {1 - x^2 +j\\frac x Q}\\),&nbsp;<br>Comportements asymptotiques évidents&nbsp;<br>Si&nbsp;\\(Q \\le \\frac{\\sqrt 2} 2 \\), pas de résonnance<br>Pente de -40 dB.dec (<b>intégrateur</b>)<br>Largeur de la bande passante si&nbsp;\\(Q\\gg1 \\space \\space \\Delta x \\sim \\frac 1 Q \\)"
+                    ],
+                    "guid": "bn4//cy4L,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques : <b>passe-haut ordre 2</b>",
+                        "\\(\\underline H(jx ) = \\frac  {H_0} {1 - \\frac 1 {x^2} - \\frac j {xQ}}\\)<br>Comportements asymptotiques évidents&nbsp;<br>Si&nbsp; \\(Q \\le \\frac{\\sqrt 2 } 2\\), pas de résonnance<br>Pente de 40 dB.dec (<b>dérivateur</b>)<br>Largeur de la bande passante si&nbsp; \\(Q \\gg 1 : \\Delta x \\sim \\frac 1 Q \\)"
+                    ],
+                    "guid": "zvKz_ZaQp6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractéristiques :&nbsp;<b>passe-bande&nbsp;</b>",
+                        "\\(\\underline H(jx) = \\frac {H_0} {1 + jQ(x - \\frac 1 x)}\\)<br>Comportements asymptotiques évidents, Pentes en +20 et -20 dB.dec<br>Résonnance en&nbsp;\\(x = 1\\),&nbsp;\\(\\forall  Q ; G_\\max = \\vert H_0\\vert\\)<br>Largeur de la bande passante&nbsp;\\(\\Delta x = \\frac 1  x\\)"
+                    ],
+                    "guid": "IQV)au}gFJ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        }
+    ],
+    "crowdanki_uuid": "6c7fa974-8b4b-11f0-a3dc-b951edacb484",
+    "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1400,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.2,
+                "hardFactor": 1.1,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": true,
+            "timer": 1,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Physique Spé",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
