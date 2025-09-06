@@ -1,6 +1,225 @@
 {
     "__type__": "Deck",
-    "children": [],
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "2aa51df4-8b50-11f0-8d59-9bf74e57074e",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Suites et séries numériques",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition convergence d'une série (+ somme de la série et reste)",
+                        "\\((u_n)_{n \\in \\mathbb N} \\in \\mathbb K^{\\mathbb N} \\ \\ \\ \\ \\ (\\mathbb K = \\mathbb R \\text{ ou } \\mathbb C)\\)<br>\\(S_n = \\sum_{k = 0}^{n} u_k\\)<br>\\(\\sum u_k\\)&nbsp;converge ssi suite&nbsp;\\((S_n)\\)&nbsp;des suites partielles converge<br>Si elle converge,&nbsp;\\(\\sum_{k = 0}^{+ \\infty} u_k\\)&nbsp;est la somme de la série,&nbsp;\\(R_n = \\sum_{k = n+1}^{+ \\infty}u_k\\)&nbsp;est son reste, et&nbsp;\\(\\forall n \\in \\mathbb N, \\sum_{k = 0}^{+ \\infty} u_k = S_n + R_n\\)"
+                    ],
+                    "guid": "b_<f?8CHE~",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de Riemann (séries)",
+                        "\\(\\sum {1 \\over {k^\\alpha}}\\)&nbsp;converge ssi&nbsp;\\(\\alpha &gt; 1\\)"
+                    ],
+                    "guid": "ylfZt!AO9q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "équivalent de&nbsp;\\(\\sum_{k = 0}^{n} {1 \\over n}\\)",
+                        "\\(\\sim_{+ \\infty} \\ln n\\)"
+                    ],
+                    "guid": "p4Q>I6Z<X",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Fonction&nbsp;\\(\\zeta\\)&nbsp;(domaine de définition, expression, valeurs simples, prolongement possible)",
+                        "\\(\\zeta : \\ ]1; + \\infty[ \\ \\rightarrow \\ \\mathbb R_{+}^{*} \\atop x \\mapsto \\sum_{k = 1}^{+ \\infty} {1 \\over {k^x}}\\)<br><br>\\(\\zeta(2) = {{\\pi ^ 2} \\over 6}, \\ \\ \\zeta(4) = {\\pi^4 \\over 90}\\)<br><br>Prolongement possible sur&nbsp;\\(\\left\\{&nbsp;z \\in \\mathbb C \\ |&nbsp;\\ \\text {Re}(z) &gt; 1 \\right\\}\\)&nbsp;car&nbsp;\\(\\left |&nbsp;1 \\over n^z  \\right | = \\left | 1 \\over n^{\\text{Re} (z)} \\right |\\)"
+                    ],
+                    "guid": "cAT(`C>@#w",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de convergence de&nbsp;\\(\\sum {(-1)^n \\over n^\\alpha}\\)",
+                        "- divergente grossièrement si&nbsp;\\(\\alpha \\leq 0\\)<br>- semi-convergente si&nbsp;\\(\\alpha \\in \\ ]0;1]\\)<br>- absolument convergente si&nbsp;\\(\\alpha &gt; 1\\)"
+                    ],
+                    "guid": "b&00eI]G0^",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Somme de&nbsp;\\(\\sum {1 \\over {n(n+1)}}\\)",
+                        "1 (on la retrouve avec une DES sur la somme partielle)"
+                    ],
+                    "guid": "k)]*Xh_)R2",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Séries géométriques (nature et somme)",
+                        "\\(\\sum r^k\\)&nbsp;converge ssi&nbsp;\\(|r| &lt; 1\\)&nbsp;et on a alors<br><br>\\(\\sum_{n = n_0}^{+ \\infty} r^n = {r^{n_0} \\over 1 - r}\\)"
+                    ],
+                    "guid": "B)eps|h{~(",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "{{c1::\\((u_n) \\)}}&nbsp;converge ssi&nbsp;\\(\\sum\\){{c2::\\((u_{n+1} - u_n)\\)}}&nbsp;converge",
+                        ""
+                    ],
+                    "guid": "GLP$^qacQ2",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def série alternée",
+                        "\\(\\forall n \\in \\mathbb N^*, \\ u_n u_{n-1} &lt; 0\\)"
+                    ],
+                    "guid": "gJW.NLQl?N",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère spécial (+ conséquence sur le reste)",
+                        "\\(u_n\\)&nbsp;série alternée<br>Si&nbsp;\\(| u_n | \\rightarrow 0\\)&nbsp;et&nbsp;\\((|u_n|)\\)&nbsp;décroissante, alors&nbsp;\\(\\sum u_n\\)&nbsp;converge<br>\\(R_n\\)&nbsp;est alors du signe de son premier terme et&nbsp;\\(| R_n | \\leq | u_{n + 1} |\\)"
+                    ],
+                    "guid": "y06Wh3e8^?",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "- convergente + convergente = {{c1::convergente}}<br>- convergente + divergente = {{c1::divergente}}<br>- divergente + divergente = {{c1::on peut rien dire}}",
+                        ""
+                    ],
+                    "guid": "oIUh{WH05g",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\((u_n) \\in ( \\mathbb R^+)^\\mathbb N\\)<br><br>\\(\\sum u_n\\)&nbsp;converge ssi la suite des sommes partielles est {{c1::majorée}}<br><br>Dans ce cas&nbsp;{{c1::\\(\\sum_{k = 0}^{+ \\infty}u_k = \\sup_{n \\in \\mathbb N} S_n\\)}}",
+                        ""
+                    ],
+                    "guid": "mR#&[T%bC4",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème comparaison d'une série à une intégrale",
+                        "\\(f : \\mathbb R^+ \\rightarrow \\mathbb R^+\\)&nbsp;continue par morceaux et décroissante<br><br>Pour&nbsp;\\(n \\geq 1, w_n = \\int_{n-1}^{n} f(t)dt - f(n)\\)<br><br>\\(\\sum w_k\\)&nbsp;converge<br><br>(preuve : on encadre l'intégrale par f(n) et f(n-1), ce qui permet de majorer la somme partielle par f(0) - f(n) et donc par f(0))"
+                    ],
+                    "guid": "u6]a:JY+eX",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de Stirling",
+                        "\\(n! \\sim_{+ \\infty} {\\left(n \\over e\\right)^n \\sqrt{2\\pi n}}\\)"
+                    ],
+                    "guid": "FZyZm,=mrz",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Intégrales de Wallis, relation de récurrence, premières valeurs",
+                        "\\(W_n = \\int_{0}^{\\pi \\over 2} \\sin^n t dt = \\int_{0}^{\\pi \\over 2} \\cos^n t dt\\)<br><br>\\(W_{n + 2} = {n + 1 \\over n + 2} W_n\\)<br><br>\\(W_0 = {\\pi \\over 2}, \\ W_1 = 1\\)"
+                    ],
+                    "guid": "tFdGx+jCH}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorèmes de comparaison",
+                        "- Si&nbsp;\\(u_n = o(v_n)\\)&nbsp;ou&nbsp;\\(u_n = O(v_n)\\),&nbsp;\\(\\sum v_n \\text{ converge } \\implies \\sum u_n \\text{ converge}\\)&nbsp;(et contraposée)<br><br>- Si&nbsp;\\(u_n \\sim_{+ \\infty} v_n\\),&nbsp;\\(\\sum u_n\\)&nbsp;et&nbsp;\\(\\sum v_n\\)&nbsp;ont la même nature"
+                    ],
+                    "guid": "O8&hV}gW)_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Convergence absolue (+ propriété)",
+                        "\\(\\sum u_n\\)&nbsp;est dite absolument convergente ssi&nbsp;\\(\\sum | u_n |\\)&nbsp;converge<br><br>Si&nbsp;\\(\\sum u_k\\)&nbsp;cva,&nbsp;\\(\\sum u_k\\)&nbsp;cv (réciproque fausse)<br><br>(preuve :&nbsp;\\(0 \\leq u_n + | u_n | \\leq 2 |&nbsp;u_n |\\)&nbsp;dans le cas réel,&nbsp;\\(0 \\leq | \\text{Re} (u_n) |&nbsp;\\leq | u_n |\\)&nbsp;dans le cas complexe)"
+                    ],
+                    "guid": "oq8+eC^;y]",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de d'Alembert",
+                        "\\((u_n) \\in (\\mathbb R_+^*)^\\mathbb N\\), on suppose que&nbsp;\\({u_{n + 1} \\over u_n} \\rightarrow l \\in \\mathbb R^+ \\cup \\{ + \\infty \\}\\)<br><br>- Si l &lt; 1,&nbsp;\\(\\sum u_n\\)&nbsp;converge<br><br>- Si l &gt; 1,&nbsp;\\(\\sum u_n\\)&nbsp;diverge<br><br>- Si l = 1, on peut pas conclure en général"
+                    ],
+                    "guid": "y]zV8Ifk3t",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de sommation des relations de comparaison (cas convergent)",
+                        "Séries à termes positifs<br>On suppose que&nbsp;\\(\\sum a_n\\)&nbsp;converge et que&nbsp;\\(b_n = O(a_n)\\)<br><br>Alors&nbsp;\\(\\sum b_n\\)&nbsp;converge et&nbsp;\\(\\sum_{k = n + 1}^{+ \\infty} b_k = O(\\sum_{k = n + 1}^{+ \\infty} a_k)\\)&nbsp;(marche aussi avec les autres relations)<br><br>(preuve pour le o : APCR&nbsp;\\(b_n \\leq \\varepsilon a_n\\)&nbsp;donc marche aussi pour les sommes)"
+                    ],
+                    "guid": "FsW[B]b_{4",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de sommation des relations de comparaison",
+                        "Séries à termes positifs<br>On sq que&nbsp;\\(\\sum a_n\\)&nbsp;dv<br><br>Si&nbsp;\\(b_k = O (a_n)\\)&nbsp;alors&nbsp;\\(\\sum_{k = 0}^{n} b_k = O(\\sum_{k = 0}^{n} a_k)\\)&nbsp;(marche aussi avec les autres relations)<br>(preuve plus longue donc flemme)"
+                    ],
+                    "guid": "J:omv8YW8q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        }
+    ],
     "crowdanki_uuid": "3fa686e0-8b3a-11f0-8885-1d74bcf5731d",
     "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
     "deck_configurations": [
@@ -84,7 +303,143 @@
     "name": "Mathématiques Spé",
     "newLimit": null,
     "newLimitToday": null,
-    "note_models": [],
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 917761237776734798,
+                    "name": "Texte",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": true,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 0
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2795282707234633529,
+                    "name": "Verso Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 1
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Texte à trous",
+            "originalStockKind": 5,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Texte}}<br>\n{{Verso Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1362982061134984816,
+                    "name": "Texte à trous",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Texte}}"
+                }
+            ],
+            "type": 1
+        }
+    ],
     "notes": [],
     "reviewLimit": null,
     "reviewLimitToday": null
