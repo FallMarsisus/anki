@@ -4,9 +4,69 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "45a6bb6c-946a-11f0-8260-00163e28a387",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Intégrales Généralisées",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de Rayman pour les intégrales généralisées",
+                        "Soit&nbsp;\\(\\alpha \\in \\mathbb R \\), alors&nbsp;\\(\\left\\{ \\int_ 1^{+\\infty} \\frac {dt} {t^\\alpha} \\text{ converge } \\Leftrightarrow \\alpha &gt; 1 \\atop \\int _0 ^1 \\frac {dt} t \\text{ converge } \\Leftrightarrow \\alpha &lt; 1 \\right.\\)"
+                    ],
+                    "guid": "gf?s^ZfkD%",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comparaison, équivalence, négligeabilité, entre deux intégrales généralisées.",
+                        "Les mêmes que pour les séries.&nbsp;"
+                    ],
+                    "guid": "NLo:;fd9P;",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Intégration par parties impropre",
+                        "Comme pour les intégrales mais il faut vérifier avec beaucoup de bonne foi que la partie entre crochets est bien finie entre les deux bornes.&nbsp;"
+                    ],
+                    "guid": "ne3/sburv_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Intégration des relations de comparaison",
+                        "Exactement pareil que pour les séries dans les cas convergents et divergents"
+                    ],
+                    "guid": "FMJ4>W863*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "2aa51df4-8b50-11f0-8d59-9bf74e57074e",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
+            "desiredRetention": null,
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
@@ -293,9 +353,81 @@
             "timer": 0,
             "waitForAudio": true,
             "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1400,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.2,
+                "hardFactor": 1.1,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": true,
+            "timer": 1,
+            "waitForAudio": false,
+            "weightSearch": ""
         }
     ],
     "desc": "",
+    "desiredRetention": null,
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,

@@ -119,6 +119,77 @@
             ],
             "reviewLimit": null,
             "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "34d562b6-946a-11f0-8260-00163e28a387",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-fd6fa1e404a8bafad3084e160f55a8cb33daec94.jpg"
+            ],
+            "name": "Traitement numérique du signal",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Chaîne de traitement du signal",
+                        "Transducteur --&gt; Echantillonnage --&gt; CAN --&gt; Traitement --&gt; CNA --&gt; Transducteur"
+                    ],
+                    "guid": "nM9{Re,B_y",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quel (meilleur) type de circuit pour de l'échantillonnage ?&nbsp;",
+                        "Circuit echantillonneur bloqueur :&nbsp;<br>Association d'un interrupteur et d'un condensateur, permet une mémorisaiton de la tension.&nbsp;"
+                    ],
+                    "guid": "xZ^*$Um$},",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Forme des raies échantillonnées (analyse spectrales)",
+                        "<img src=\"paste-fd6fa1e404a8bafad3084e160f55a8cb33daec94.jpg\">"
+                    ],
+                    "guid": "xQ0Jf&9J!@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Critère de Shannon-Nyquist",
+                        "\\(f_e \\ge 2F\\)&nbsp;avec&nbsp;\\(f_e\\)&nbsp;la fréquence d'échantillonnage et&nbsp;\\(F \\)&nbsp;la fréquence de base du signal"
+                    ],
+                    "guid": "mr2:C#10+F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Importance du temps d'acquisition&nbsp;\\(\\tau\\)",
+                        "Plus il est grand, plus le signal en sortie est précis. Avec en particulier, deux pics voisins ne peuvent être résolus si leur écart fréquentiel est inférieur à&nbsp;\\(\\frac 1 \\tau \\)"
+                    ],
+                    "guid": "Mrk^>o<Ra[",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
         }
     ],
     "crowdanki_uuid": "6c7fa974-8b4b-11f0-a3dc-b951edacb484",
