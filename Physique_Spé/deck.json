@@ -4,6 +4,45 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "b063a2c8-9968-11f0-b83b-00163e28a387",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Circuits Logiques",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Principales portes logiques",
+                        "- NOT<br>- AND&nbsp;<br>- OR&nbsp;<br>- NAND&nbsp;<br>- NOR&nbsp;<br>- XOR"
+                    ],
+                    "guid": "wR;JWs|j3v",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition états stables et différents types de circuits associés",
+                        "<u>Etat stable:</u>&nbsp;etat dans lequel les sorties principales et les variables internes ne varient pas au cours du temps.&nbsp;<br><br>-&nbsp;<u>Circuit Astable</u>&nbsp;: un jeu de données d'entrée ne possède aucun état stable&nbsp;<br>-&nbsp;<u>Circuit Monostable</u>&nbsp;: un jeu de données d'entrée possède un seul état stable.&nbsp;<br>-&nbsp;<u>Circuit Bistable :</u>&nbsp;un jeu de données d'entrée possède deux états stables.&nbsp;"
+                    ],
+                    "guid": "ypa)!@w*,b",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "6c7fb162-8b4b-11f0-a3dc-b951edacb484",
             "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desc": "",

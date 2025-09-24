@@ -4,6 +4,85 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "ba85eef0-9968-11f0-b83b-00163e28a387",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Familles Sommables",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition Famille sommable&nbsp;",
+                        "Une famille (\\(u_i) _{i \\in I}\\)&nbsp;est sommable si et seulement si la famille&nbsp;\\((\\vert u _i \\vert )_{i \\in I }\\)&nbsp;l'est."
+                    ],
+                    "guid": "t/Q60Ehwj9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de sommation par parquets pour une famille de réels positifs",
+                        "Soit&nbsp;\\((u_i)_{i \\in I }\\)&nbsp;une famille dénombrable de réels positifs et&nbsp;\\((I_n)_{n \\in \\mathbb N}\\)&nbsp;une famille de parties de&nbsp;\\(I \\)&nbsp;vérifiant&nbsp;\\(n \\not =  m \\Rightarrow I_m \\cap I_n =  \\emptyset \\)&nbsp;et&nbsp;\\(\\bigcup_{n\\in \\mathbb N } I_n = I\\). <br><br>Alors la famille&nbsp;\\((u_i)_{i \\in I}\\)&nbsp;est sommable si et seulement si (pour tout&nbsp;\\(n \\in \\mathbb N \\), la famille&nbsp;\\((u_i)_{i \\in I_n}\\)&nbsp;l'est aussi et la série&nbsp;\\(\\sum_n \\left (\\sum _ {i \\in I_n} u_i \\right)\\)&nbsp;converge.<br><br>On a alors&nbsp;\\(\\sum_{n =0}^{+\\infty}\\left(\\sum _{i \\in I_n}u_i\\right)\\)"
+                    ],
+                    "guid": "r4.v}g.adm",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollaire du théorème de sommation par parquets.&nbsp;",
+                        "Si&nbsp;\\(\\sum u_n \\)&nbsp;converge absolument et&nbsp;\\(\\varphi \\in \\mathfrak S(\\mathbb N )\\)&nbsp;alors&nbsp;\\(\\sum u_{\\varphi (n)} \\)&nbsp;converge absolument et&nbsp;\\(\\sum _{n = 0} ^{+\\infty}u_{\\varphi (n)} = \\sum _{n = 0} ^{+ \\infty}u_n\\). Ainsi, dans une série&nbsp;<i>absolument convergente</i>,&nbsp; intervertir l'ordre des termes ne modifie ni la nature ni la somme de la série.&nbsp;"
+                    ],
+                    "guid": "rT:DSzuk^C",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Fubini",
+                        "On peut inverser les sommes des séries quand elles convergent absolument"
+                    ],
+                    "guid": "i=c&lnW7->",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition produit de Cauchy + le théorème",
+                        "\\(w_n  = \\sum _{k =0} ^n u_k v_{n - k} = \\sum _{k =0} ^n u_{n-k} v_k\\)<br><br><br>Si les séries&nbsp;\\(\\sum u_m\\)&nbsp;et&nbsp;\\(\\sum v_n \\)&nbsp;<i>cva</i>, alors&nbsp;\\(\\sum w_n \\)&nbsp;converge aussi absolument.&nbsp;<br>Et on a&nbsp;\\(\\sum _{n = 0} ^{+\\infty} w_n  = \\left(\\sum _{m = 0}^{+ \\infty} u_m\\right)\\left(\\sum _{n = 0}^{+ \\infty} v_n\\right)\\)&nbsp;&nbsp;&nbsp;"
+                    ],
+                    "guid": "BTd*bIW{d7",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition exponentiellle complexe&nbsp;",
+                        "\\(e^z  = \\sum _{n \\ge 0} \\frac {z ^n } {n!}\\)&nbsp;cva pour tout&nbsp;\\(z \\in \\mathbb C \\). Elle vérifie bien le fait que le produit de deux exponentielles c'est l'exponentielle de la somme du bouzin.&nbsp;"
+                    ],
+                    "guid": "dzvn3/2jdy",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "45a6bb6c-946a-11f0-8260-00163e28a387",
             "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desc": "",
