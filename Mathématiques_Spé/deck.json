@@ -142,6 +142,154 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "bdbddd8e-9fbd-11f0-852a-2970c940428f",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Probabilités",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf tribu",
+                        "Toute partie T de&nbsp;\\(\\mathcal P (\\Omega)\\)&nbsp;telle que :<br>-&nbsp;\\(\\Omega \\in \\mathcal T\\)<br>-&nbsp;\\(\\forall A \\in \\mathcal T, \\bar A \\in \\mathcal T\\)<br>-&nbsp;\\(\\forall (A_n)_{n \\in \\mathbb N} \\in \\mathcal T ^{\\mathbb N}, \\bigcup_{n \\in \\mathbb N} A_n \\in \\mathcal T\\)"
+                    ],
+                    "guid": "EkxQ/.ubK5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf (mesure) de probabilité (aka comment vérifier qu'un truc est une proba)",
+                        "-&nbsp;\\(\\mathbb P (\\Omega) = 1\\)<br>- Si \\((A_n) \\in \\mathcal T^{\\mathbb N}\\)&nbsp;est une suite d'évènements incompatibles, alors&nbsp;\\(\\mathbb P (\\bigsqcup_{n \\in \\mathbb N} A_n) = \\sum_{n \\in \\mathbb N} \\mathbb P(A_n)\\)"
+                    ],
+                    "guid": "iFJ:;wFQI5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\mathbb P (A \\cup B) =\\)",
+                        "\\(\\mathbb P(A) + \\mathbb P(B) - \\mathbb P(A \\cap B)\\)<br><br>Preuve :&nbsp;\\(A = A \\sqcup (B \\backslash A)\\)&nbsp;et&nbsp;\\(B = (A \\cap B) \\sqcup (B \\backslash A)\\)"
+                    ],
+                    "guid": "u$U_V|e`D>",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité sur la probabilité d'une union d'évènements",
+                        "\\((A_1,...,A_p) \\in \\mathcal T^p\\)<br>\\(\\mathbb P ( \\bigcup_{i = 1}^{p} A_i) \\leq \\sum_{i = 1}^{p} \\mathbb P (A_i)\\)<br>Preuve : récurrence sur p<br>Marche aussi avec une union infinie"
+                    ],
+                    "guid": "xBGC0WL3jj",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Continuité croissante (probabilités)",
+                        "\\((A_n)\\)&nbsp;suite croissante (par l'inclusion) d'évènements<br>\\(\\mathbb P(A_n) \\rightarrow_{n \\rightarrow + \\infty} \\mathbb P (\\bigcup_{n \\in \\mathbb N} A_n)\\)<br>Preuve : On pose&nbsp;\\(B_0 = A_0, \\ B_1 = A_1 \\backslash A_0 \\), etc...<br>Donc&nbsp;\\(\\bigcup A_n = \\bigsqcup B_n\\)&nbsp;puis par&nbsp;\\(\\sigma\\)-additivité ça marche"
+                    ],
+                    "guid": "Q{]bSG([<>",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Continuité décroissante (probabilités)",
+                        "\\((A_n)\\)&nbsp;suite décroissante (pour l'inclusion) d'évènements<br>\\(\\mathbb P (A_n) \\rightarrow_{n \\rightarrow + \\infty} \\mathbb P (\\bigcap_{n = 0}^{+ \\infty} A_n)\\)"
+                    ],
+                    "guid": "b{Yh+q.vPQ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf&nbsp;\\(\\mathbb P (A | B)\\)",
+                        "\\(\\mathbb P(B|A) = \\mathbb P_B(A) = \\left\\{ {{\\mathbb P(A \\cap B)} \\over {\\mathbb P (B)}}&nbsp;\\text{ si } \\mathbb P(B) &gt; 0 \\atop 0 \\text{ si } \\mathbb P(B) = 0 \\text{ par convention} \\right.\\)"
+                    ],
+                    "guid": "PT_c*%2WO<",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule des probas composées",
+                        "\\(\\mathbb (A_1,...,A_n) \\in \\mathcal T^n\\)<br><br>\\(\\mathbb P(A_1,...,A_n) = \\mathbb P(A_1) \\mathbb P(A_2 | A_1) \\mathbb P(A_3 |&nbsp;A_1 \\cap A_2)...\\mathbb P(A_n | A_1 \\cap ... \\cap A_{n-1})\\)<br><br>Preuve : on récurre sur n :)"
+                    ],
+                    "guid": "Cg+x3HF9ch",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf système complet et quasi-complet d'évènements",
+                        "\\((\\Omega, \\mathcal T, \\mathbb P)\\)&nbsp;espace probabilisé<br><br>Un système complet d'évènements est une famille&nbsp;\\((A_i)_{i \\in I} \\in \\mathcal T^I\\)&nbsp;(I au plus dénombrable) avec :<br>-&nbsp;\\(\\forall (i,j) \\in I^2, i \\neq j \\implies A_i \\cap A_j = \\emptyset\\)<br>-&nbsp;\\(\\bigcup_{i \\in I} A_i = \\Omega\\)<br><br>Un système quasi-complet d'évènements est une famille&nbsp;\\((A_i)_{i \\in I} \\in \\mathcal T^I\\)&nbsp;(I au plus dénombrable) avec :<br>-&nbsp;\\(\\forall (i,j) \\in I^2, i \\neq j \\implies A_i \\cap A_j = \\emptyset\\)<br>-&nbsp;\\(\\mathbb P(\\bigcup_{i \\in I} A_i) = 1\\)&nbsp;"
+                    ],
+                    "guid": "cE=x4XDn8^",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule des probas totales",
+                        "\\((A_i)_{i \\in I}\\)&nbsp;système quasi-complet d'évènements<br>Alors&nbsp;\\(\\forall B \\in \\mathcal T, \\mathbb P(B) = \\sum_{i \\in i} \\mathbb P(B | A_i) \\mathbb P(A_i) = \\sum_{i \\in I} \\mathbb P(B \\cup A_i)\\)<br>Preuve :<br>\\(B = (B \\cap (\\bigcup_{i \\in I} A_i)) \\sqcup (B \\cap (\\overline{\\bigcup_{i \\in I} A_i}))\\)"
+                    ],
+                    "guid": "pXz+UUfP3l",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de Bayes et corollaire",
+                        "\\(\\mathbb P(A | B) = {{\\mathbb P(B | A) \\mathbb P(A)} \\over {\\mathbb P(B)}}\\)&nbsp;(si A et B de proba non nulle)<br><br>Si&nbsp;\\((A_i)_{i \\in I}\\)&nbsp;est un système complet d'évènements, B de proba non nulle<br>\\(\\forall i, \\mathbb P(A_i) = {{\\mathbb P(B |&nbsp;A_i) \\mathbb P(A_i)}&nbsp;\\over {\\sum_{k \\in I} \\mathbb P(B | A_k) \\mathbb P(A_k)}}\\)"
+                    ],
+                    "guid": "Jqm?91:qLP",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf évènements indépendants",
+                        "A et B sont dits indépendants si&nbsp;\\(\\mathbb P(A \\cap B) = \\mathbb P(A) \\mathbb P(B)\\)<br>Si&nbsp;\\(\\mathbb P(B) \\neq 0\\)&nbsp;cela équivaut à&nbsp;\\(\\mathbb P(A | B) = \\mathbb P(A)\\)"
+                    ],
+                    "guid": "cFhKTRCp^6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf mutuellement indépendants",
+                        "\\((A_i)_{i \\in I} \\in \\mathcal T^I\\)<br>Les A_i sont dits mutuellement indépendants si pour toute sous-famille finie&nbsp;\\((A_i)_{i \\in J}\\)&nbsp;:<br>\\(\\mathbb P(\\bigcap_{i \\in J}A_i) = \\prod_{i \\in J} \\mathbb P(A_i)\\)<br>toute famille constituée d'évènements de A_i est mutuellement indépendante"
+                    ],
+                    "guid": "kR;>iE1l^`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "2aa51df4-8b50-11f0-8d59-9bf74e57074e",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
