@@ -4,6 +4,204 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "3becb55c-ae9d-11f0-afd2-3f294cbe5f47",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Convexité",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def barycentre et isobarycentre",
+                        "E est un R-ev<br>\\((x_i)_{1 \\leq i \\leq p} \\in E^p, (\\lambda_i) \\in \\mathbb R^p, \\text{ avec } \\sum_{i = 1}^{p} \\lambda_i \\neq 0\\)<br><br>Le barycentre de la famille pondérée&nbsp;\\(((\\lambda_i, x_i))\\)&nbsp;est&nbsp;\\(x = {{\\sum_{i = 1}^{p} \\lambda_i x_i} \\over {\\sum_{i = 1}^{p} \\lambda_i}}\\)<br>Si les&nbsp;\\(\\lambda_i\\)&nbsp;sont tous égaux, x est appelé isobarycentre de la famille&nbsp;\\((x_i)\\)"
+                    ],
+                    "guid": "BRsX${oxV7",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Isobarycentre de 2 points",
+                        "Leur milieu"
+                    ],
+                    "guid": "I_p:mW.uXf",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Isobarycentre de 3 points non alignés",
+                        "Intersection des médianes"
+                    ],
+                    "guid": "j&;8g:k.J5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quelles opérations conservent le barycentre ?",
+                        "- Multiplier tous les&nbsp;\\(\\lambda_i\\)&nbsp;par un scalaire non nul<br>- Enlever tous les vecteurs de poids nul"
+                    ],
+                    "guid": "HJA#T>9O;F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Associativité du barycentre",
+                        "\\(((\\lambda_i,x_i))_{1 \\leq i \\leq p}\\),&nbsp;\\(\\sum_{i = 1}^{p} \\lambda_i \\neq 0\\)<br>On prend une partition I,J de [[1;p]], et on suppose que sur I et J la somme des&nbsp;\\(\\lambda_i\\)&nbsp;est non nulle<br>On pose&nbsp;\\(x_I = barycentre((\\lambda_i,x_i)_{i \\in I})\\)&nbsp;et&nbsp;\\(x_J = barycentre((\\lambda_i,x_i)_{i \\in J})\\)<br>\\(barycentre((\\lambda_i,x_i)_{1 \\leq i \\leq p}) = barycentre((\\sum_{i \\in I} \\lambda_i,x_I),(\\sum_{i \\in J} \\lambda_i,x_J))\\)"
+                    ],
+                    "guid": "idy=RVePc:",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def segment [a;b]",
+                        "Ensemble des barycentres de a et b affectés de poids de même signe<br>\\([a;b] = \\{ ta + (1-t)b, t \\in [0;1]&nbsp;\\} = \\{&nbsp;b + t(a-b), t \\in [0;1]\\}\\)"
+                    ],
+                    "guid": "n|rJfh/[{k",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def partie convexe de E (R-ev), def partie étoilée",
+                        "X partie de E est :<br>- convexe ssi&nbsp;\\(\\forall (x,y) \\in X^2 [x;y] \\subset X\\)<br>- étoilée s'il existe x dans X tq&nbsp;\\(\\forall y \\in X, [x;y] \\subset X\\)"
+                    ],
+                    "guid": "f1(26/vU!=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "équivalence partie convexe et barycentre",
+                        "X est convexe ssi X contient les barycentres des familles finies de ses points, affectés de poids positifs"
+                    ],
+                    "guid": ")JrUw2!Rf",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def enveloppe convexe et théorème de Gauss-Lucas",
+                        "L'enveloppe convexe d'une partie de E est l'intersection de toutes les parties convexes de E contenant cette partie<br><br>Th de Gauss-Lucas<br>P un polynôme de degré supérieur ou égal à 2<br>Les racines de P' sont dans l'enveloppe convexe de celles de P<br><br>(ça se voit que je veux pas taper en&nbsp;\\(\\rm\\LaTeX \\)?)"
+                    ],
+                    "guid": "OH3`v;V~i@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def fonction convexe",
+                        "f convexe sur un intervalle I ssi&nbsp;<br>\\(\\forall (a,b) \\in I^2, \\forall t \\in [0;1[, f(ta + (1-t)b) \\leq tf(a) + (1-t)f(b)\\)<br>autrement dit la courbe de f est en dessous de ses cordes<br>inégalité inversée pour concave"
+                    ],
+                    "guid": "rYoWuIe~kf",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "def épigraphe",
+                        "\\(\\{ (x,y) \\in \\mathbb R^2, x \\in I \\ | \\ y \\geq f(x)&nbsp;\\}\\)"
+                    ],
+                    "guid": "Np2Ml|?od",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fonction convexe et épigraphe",
+                        "f convexe sur I ssi l'épigraphe de f est une partie convexe de&nbsp;\\(\\mathbb R^2\\)"
+                    ],
+                    "guid": "d2zv2u-qr{",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité de Jensen",
+                        "f convexe sur I<br>\\((\\lambda_1,...,\\lambda_n) \\in (\\mathbb R^+)^n, \\sum_{i=1}^n \\lambda_i = 1\\)<br>Alors&nbsp;\\(\\forall (x_i) \\in I^n, f\\left(\\sum_{i=1}^n \\lambda_i x_i\\right) \\leq \\sum_{i=1}^n \\lambda_i f(x_i) \\)"
+                    ],
+                    "guid": "z^Va]ta`]",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité des 3 pentes",
+                        "f est convexe sur I ssi<br>\\(\\forall (a,b,c) \\in I^3 \\text{ tq } a&lt;c&lt;b, \\ p(a,c) \\leq p(a,b) \\leq p(c,b)\\)<br>ssi<br>\\(\\forall (a,b,c) \\in I^3 \\text{ tq } a&lt;c&lt;b, p(a,c) \\leq p(c,b)\\)<br>avec p(a,b) la pente de la droite entre a et b (taux d'accroissement)<br>Corollaire : si on fixe x, l'application qui à y associe p(x,y) est croissante (oui j'ai vraiment la flemme de taper en&nbsp;\\(\\rm\\LaTeX\\))"
+                    ],
+                    "guid": "t-)nZGAlSU",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Convexité et dérivée",
+                        "f de I dans R dérivable<br>Il y a équivalence entre :<br>(i) f convexe sur I<br>(ii) f' croissante sur I<br>(+ conséquence sur la dérivée seconde qu'on connaît depuis la terminale)<br>(je crois que ça commence à se voir que c'est le troisième chapitre que je fais et que j'en ai marre, surtout après les vad)"
+                    ],
+                    "guid": "yN0t(O21F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Convexité et tangente",
+                        "f convexe et dérivable sur I<br>la courbe représentative de f est au-dessus de ses tangentes"
+                    ],
+                    "guid": "I0?73mi?Q}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité arithmético-géométrique",
+                        "\\(\\forall (x_i)_{1 \\leq i \\leq n} \\in (\\mathbb R^+)^n, \\sqrt[n]{\\prod_{i = 1}^{n} x_i} \\leq {1 \\over n} \\sum_{i=1}^n x_i\\)<br>Proof : si les x_i sont tous strictement positifs, concavité du ln et inégalité de Jensen"
+                    ],
+                    "guid": "x4B|N7W$15",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-&nbsp;\\(\\forall x \\in \\mathbb R, e^x \\geq\\)&nbsp;{{c1::\\(x + 1\\)}}<br>-&nbsp;\\(\\forall x \\in ]-1; + \\infty[, \\ln (1 + x) \\leq\\){{c1::\\(x\\)}}<br>-&nbsp;\\(\\forall x \\in \\left[0; {\\pi \\over 2}\\right],\\){{c1::\\({2 \\over \\pi} x\\)}}\\(\\leq \\sin x \\leq\\){{c1::\\(x\\)}}",
+                        ""
+                    ],
+                    "guid": "L5P8x6JExR",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "ba85eef0-9968-11f0-b83b-00163e28a387",
             "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desc": "",
@@ -73,6 +271,204 @@
                         "\\(e^z  = \\sum _{n \\ge 0} \\frac {z ^n } {n!}\\)&nbsp;cva pour tout&nbsp;\\(z \\in \\mathbb C \\). Elle vérifie bien le fait que le produit de deux exponentielles c'est l'exponentielle de la somme du bouzin.&nbsp;"
                     ],
                     "guid": "dzvn3/2jdy",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "3bed0ef8-ae9d-11f0-afd2-3f294cbe5f47",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Groupes",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition groupe",
+                        "(G,*) est un groupe ssi<br>- * est une loi de composition interne<br>- * est associative<br>- il existe un élément neutre pour cette loi<br>- tout élément de G admet un symétrique pour *<br><br>si * est commutative on dit que G est abélien (ou commutatif)"
+                    ],
+                    "guid": "K3%%vq9[Fr",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf sous groupe",
+                        "(H,*) ssgrp de (G,*) si H est inclus dans G et si (H,*) est un groupe<br>Caractérisation : H ssgrp de G ssi&nbsp;\\(H \\subset G, H \\neq \\emptyset \\text{ et } \\forall (h_1,h_2) \\in H^2, h_1*h_2^{-1} \\in H\\)"
+                    ],
+                    "guid": "LpI5lbm/a`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def centre de G",
+                        "\\(Z(G) = \\{ g \\in G, \\forall h \\in G, g*h = h*g&nbsp;\\}\\), c'est un ssgrp de G"
+                    ],
+                    "guid": "x_!s9Xq}vs",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ssgrp de&nbsp;\\(\\mathbb Z\\)",
+                        "les ssgrp de&nbsp;\\(\\mathbb Z\\)&nbsp;sont exactement les&nbsp;\\(n\\mathbb Z, n \\in \\mathbb N\\)"
+                    ],
+                    "guid": "GqNM6Vgp_h",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Lagrange",
+                        "G groupe fini, H ssgrp de G<br>|H| | |G|<br><br>Proof : On définit la relation d'équivalence&nbsp;\\(x \\mathcal R y \\Leftrightarrow y \\in xH = \\{xh, h \\in H\\}\\)"
+                    ],
+                    "guid": "I}9jjoM#rK",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def morphisme",
+                        "\\(f : G \\rightarrow G'\\)&nbsp;morphisme de groupes ssi<br>\\(\\forall(g_1,g_2) \\in G^2, f(g_1 * g_2) = f(g_1) \\bullet f(g_2)\\)"
+                    ],
+                    "guid": "vW+QV;AfwM",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def sous groupe distingué",
+                        "(G,*) groupe, H ssgrp de G<br>On dit que H est un ssgrp distingué de G ssi<br>\\(\\forall g \\in G, \\forall h \\in H, ghg^{-1} \\in H, \\text{ i.e. } \\forall g \\in G, gHg^{-1} = H\\)"
+                    ],
+                    "guid": "QEU>}x`.4<",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lien entre morphisme et ssgrp distingué",
+                        "Si&nbsp;\\(f:G \\rightarrow G'\\)&nbsp;est un morphisme de groupes, Ker(f) est un ssgrp distingué de G"
+                    ],
+                    "guid": "As:~w^QS&|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème définition groupe quotient",
+                        "G groupe, H ssgrp distingué de G<br>La relation&nbsp;\\(\\mathcal R\\)&nbsp;définie par&nbsp;\\(x \\mathcal R y \\Leftrightarrow xy^{-1} \\in H\\)&nbsp;est une relation d'équivalence sur G<br>L'ensembles des classes d'équivalence se note&nbsp;\\(G/_{H}\\)<br>Si&nbsp;\\((\\overline x, \\overline y) \\in (G/_H)^2\\), on peut définir&nbsp;\\(\\overline x \\overline * \\overline y = \\overline{x * y}\\), et donc&nbsp;\\((G/_H, \\overline *)\\)&nbsp;est un groupe"
+                    ],
+                    "guid": "jUJ$O6!U<4",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème géométrique du rang, version groupes (aucune idée de le décrire autrement)",
+                        "\\(f : G \\rightarrow G'\\)&nbsp;morphisme de groupes<br>On sait que Ker f est un ssgrp distingué de G<br>Donc&nbsp;\\(G/_{\\ker f}\\)&nbsp;isomorphe à&nbsp;\\(\\text{Im} f\\)"
+                    ],
+                    "guid": "p:qce-8?$J",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(f : \\mathbb Z \\rightarrow G\\)&nbsp;morphisme de groupes<br>\\(n \\in \\mathbb N\\)&nbsp;tq&nbsp;\\(\\ker f = n \\mathbb Z\\)<br>\\(\\text{Im}f\\)&nbsp;est isomorphe à ...",
+                        "\\(\\mathbb Z/_{n \\mathbb Z}\\)"
+                    ],
+                    "guid": "v{,;7nP$Uw",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf groupe produit de 2 groupes",
+                        "\\((G,*), (G', \\bullet)\\)&nbsp;groupes<br>On définit :<br>\\(\\forall ((g_1, g_1'), (g_2,g_2')) \\in (G \\times G')^2, (g_1, g_1') \\top (g_2, g_2') = (g_1*g_2,g_1' \\bullet g_2')\\)<br>\\((G \\times G', \\top)\\)&nbsp;est un groupe"
+                    ],
+                    "guid": "ul.hA(WK+v",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def sous-groupe engendré et partie génératrice",
+                        "G groupe,&nbsp;\\(A \\subset G\\)<br>Le sous-groupe engendré par A est le plus petit (au sens de l'inclusion) ssgrp de G contenant A<br>C'est aussi l'intersection de tous les ssgrp de G contenant A<br>On le note &lt;A&gt;<br>Si &lt;A&gt; = G, on dit que A est une partie génératrice de G"
+                    ],
+                    "guid": "oaf}AC3rCr",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def groupe monogène, groupe cyclique",
+                        "Monogène : engendré par un seul élément<br>Cyclique : monogène et fini"
+                    ],
+                    "guid": "lZI(C3%CzR",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Générateurs de&nbsp;\\(\\mathbb Z/_{n\\mathbb Z}\\)",
+                        "\\(\\overline k\\)&nbsp;tq&nbsp;\\(k \\wedge n = 1\\)"
+                    ],
+                    "guid": "Q&O,4G14s5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def ordre d'un élément",
+                        "Si&nbsp;\\(| \\langle g \\rangle | &lt; + \\infty\\), g est d'ordre fini, et son ordre est&nbsp;\\(\\omega (g) = | \\langle g \\rangle |\\)"
+                    ],
+                    "guid": "Ae%4DIMyC,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "G est d'ordre fini ssi&nbsp;\\(\\varphi : \\mathbb Z \\rightarrow G \\atop k \\mapsto g^k\\)&nbsp;est {{c1::non injectif}}. Son noyau est alors de la forme {{c1::&nbsp;\\(n\\mathbb Z\\), où n est l'ordre de g}}, càd&nbsp;\\(\\omega (g) =\\)&nbsp;{{c1::\\(\\min \\{p \\in \\mathbb N^* | g^p = e\\}\\)}}",
+                        ""
+                    ],
+                    "guid": "jk:;yyZ:Hc",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ordre d'un élément d'un groupe et division (je sais pas comment mieux décrire ces 2 propriétés)",
+                        "- g d'ordre fini,&nbsp;\\(k \\in \\mathbb Z, g^k = e \\Leftrightarrow k \\in \\omega(g)\\mathbb Z\\)<br>- G groupe fini,&nbsp;\\(g \\in G, \\omega(g) \\ | \\ |G|\\)"
+                    ],
+                    "guid": "CHi{@6Jgko",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 }
@@ -499,6 +895,444 @@
                         "Séries à termes positifs<br>On sq que&nbsp;\\(\\sum a_n\\)&nbsp;dv<br><br>Si&nbsp;\\(b_k = O (a_n)\\)&nbsp;alors&nbsp;\\(\\sum_{k = 0}^{n} b_k = O(\\sum_{k = 0}^{n} a_k)\\)&nbsp;(marche aussi avec les autres relations)<br>(preuve plus longue donc flemme)"
                     ],
                     "guid": "J:omv8YW8q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "3bedc85c-ae9d-11f0-afd2-3f294cbe5f47",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Variables aléatoires discrètes",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition variable aléatoire discrète",
+                        "\\(X : \\Omega \\rightarrow E\\)&nbsp;sur&nbsp;\\((\\Omega, \\mathcal T, \\mathbb P)\\)&nbsp;tq :<br>-&nbsp;\\(X(\\Omega)\\)&nbsp;est au plus dénombrable<br>-&nbsp;\\(\\forall x \\in E, X^{-1} (\\{x\\}) = \\{\\omega \\in \\Omega, X(\\omega) = x\\} \\in \\mathcal T\\)"
+                    ],
+                    "guid": "J%g>[p2c,@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf loi d'une vad",
+                        "X vad<br>Application&nbsp;\\(\\mathbb P_X : \\mathcal P(X(\\Omega)) \\rightarrow [0;1] \\atop A \\mapsto \\mathbb P(X \\in A)\\)"
+                    ],
+                    "guid": "glO>W8n#/U",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème sur la loi d'une vad",
+                        "X vad<br>\\(\\mathbb P_X\\)&nbsp;est une probabilité sur l'espace probabilisable&nbsp;\\((X(\\Omega), \\mathbb P(X(\\Omega))\\)<br><br>Preuve :&nbsp;\\(\\mathbb P(X \\in \\bigsqcup_{n \\in \\mathbb N}A_n) = \\mathbb P(\\bigsqcup_{n \\in \\mathbb N}(X \\in A_n))\\)"
+                    ],
+                    "guid": "v:~vqJ)oX",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf et notation loi uniforme",
+                        "\\(| E | = n \\in \\mathbb N^*, \\ X : \\Omega \\rightarrow E\\)<br>\\(\\forall x \\in E, \\mathbb P(X = x) = {1 \\over n}\\)<br>Le loi uniforme sur&nbsp;\\([\\![a;b]\\!]\\)&nbsp;est notée&nbsp;\\(\\mathcal U([\\![a;b]\\!])\\)&nbsp;et&nbsp;\\(\\mathcal U(n)\\)&nbsp;désigne&nbsp;\\(\\mathcal U([\\![1;n]\\!])\\)"
+                    ],
+                    "guid": "il@2qR+bI5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def et notation loi de Bernouilli",
+                        "X suit une loi de Bernouilli de paramètre&nbsp;\\(p \\in ]0;1[\\)&nbsp;ssi<br>-&nbsp;\\(X(\\Omega) = \\{0;1\\}\\)<br>-&nbsp;\\(\\left\\{&nbsp;\\mathbb P(X = 1) = p \\atop \\mathbb P(X = 0) = 1-p\\right.\\)<br>\\(X \\sim \\mathcal B(p)\\)"
+                    ],
+                    "guid": "Gu6<x=8Dde",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def loi de Rademacher",
+                        "\\(X(\\Omega) = \\{1;-1\\}\\)<br>\\(\\mathbb P(X = 1) = \\mathbb P(X = -1) = {1 \\over 2}\\)"
+                    ],
+                    "guid": "e[I9HHqOXI",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def et notation loi binomiale",
+                        "\\(n \\in \\mathbb N^*, p \\in ]0;1[\\)<br>\\(X \\sim \\mathcal B(n,p)\\)&nbsp;ssi&nbsp;\\(X(\\Omega) = [\\![0;n]\\!]\\)&nbsp;et&nbsp;\\(\\forall k \\in [\\![0;n]\\!], \\ \\mathbb P(X = k) = \\binom{n}{k}p^k(1-p)^{n-k}\\)"
+                    ],
+                    "guid": "s923|u/{:;",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def et théorème variable aléatoire composée",
+                        "X vad,&nbsp;\\(f : X(\\Omega) \\rightarrow F\\)&nbsp;application<br>\\(f \\circ X\\)&nbsp;est une vad sur le même espace que X, à valeurs dans F, notée f(X)<br>Sa loi ne dépend que de celle de X"
+                    ],
+                    "guid": "jCbxMSV~mx",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def loi conjointe",
+                        "X,Y vad sur&nbsp;\\((\\Omega, \\mathcal T, \\mathbb P)\\)&nbsp;à valeurs dans E et F respectivement<br>On pose Z = (X,Y)<br>\\(Z : \\Omega \\rightarrow E \\times F \\atop \\omega \\mapsto (X(\\omega), Y(\\omega))\\)<br>Z est une vad, et sa loi est la loi conjointe de X et Y"
+                    ],
+                    "guid": "fg#~XirK]#",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def lois marginales",
+                        "Z = (X,Y) toutes des vad<br>Les lois de X et Y sont les lois marginales de Z<br>La loi de Z les détermine complètement<br>Preuve :&nbsp;\\(\\forall x \\in E, \\mathbb P(X = x) = \\sum_{y \\in Y(\\Omega)} \\mathbb P(Z = (X,Y))\\)"
+                    ],
+                    "guid": "C/6F?{!gX#",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def lois conditionnelles (ça fait un peu beaucoup de defs là non ?)",
+                        "X,Y vad sur&nbsp;\\((\\Omega, \\mathcal T, \\mathbb P)\\)<br>\\(x \\in X(\\Omega)\\)<br>Loi conditionnelle de Y sachant (X = x) est donnée par :<br>\\(\\forall B \\in Y(\\Omega), \\mathbb P(Y \\in B | X = x) = \\left\\{ {\\mathbb P (Y \\in B, X = x) \\over \\mathbb P(X = x)} \\text{ si } \\mathbb P(X = x) \\neq 0 \\atop 0 \\text{ sinon}&nbsp;\\right.\\)"
+                    ],
+                    "guid": "C;XnN7]rG(",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def indépendance de couple de vad",
+                        "si pour tout&nbsp;\\((A,B) \\in \\mathcal P(X(\\Omega)) \\times \\mathcal P(Y(\\Omega))\\)&nbsp;les évènements&nbsp;\\((X \\in A)\\)&nbsp;et&nbsp;\\((Y \\in B)\\)&nbsp;sont indépendants"
+                    ],
+                    "guid": "J9n]2g(}[f",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si X\\(\\bot\\!\\!\\!\\bot\\)Y (pour votre santé, ne pas regarder comment j'ai fait ce symbole en latex), pour toutes fonctions f et g définies correctement (autrement dit flemme de tout taper), ...&nbsp;",
+                        "f(X) et g(Y) sont indépendantes<br>Proof : on passe aux images réciproques"
+                    ],
+                    "guid": "(7r}*oWge",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemme des coalitions (variables aléatoires discrètes)",
+                        "\\(X_1 \\bot\\!\\!\\!\\bot ... \\bot\\!\\!\\!\\bot X_n, \\ m \\in [\\![1;n-1]\\!]\\)<br>f et g définies respectivement sur&nbsp;\\(\\prod_{i = 1}^{m}X_i(\\Omega) = \\prod_{j = m+1}^{n}X_j(\\Omega)\\)&nbsp;alors&nbsp;\\(f(X_1,...,X_m) \\bot\\!\\!\\!\\bot g(X_{m+1},...,X_n)\\)<br>(ne toujours pas regarder comment j'ai fait le symbole de l'indépendance en latex)"
+                    ],
+                    "guid": "nYbs6mF65W",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème existence d'une suite iid",
+                        "Soit&nbsp;\\(\\mathcal L\\)&nbsp;la loi d'une vad<br>Alors il existe un espace probabilisé&nbsp;\\((\\Omega, \\mathcal T, \\mathbb P)\\)&nbsp;est une suite iid&nbsp;\\((X_n)\\)&nbsp;sur cet espace tq&nbsp;\\(\\forall n, X_n \\sim \\mathcal L\\)"
+                    ],
+                    "guid": "dT^VK!+<F(",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def espérance",
+                        "\\(X : \\Omega \\rightarrow \\mathbb R\\)&nbsp;admet une espérance ssi la famille&nbsp;\\((x \\mathbb P(X = x))_{x \\in X(\\Omega)}\\)&nbsp;est sommable<br>On pose alors&nbsp;\\(\\mathbb E(X) = \\sum_{x \\in X(\\Omega)} x\\mathbb P(X = x)\\)"
+                    ],
+                    "guid": "F([>!ZFd.x",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Propriétés de l'espérance",
+                        "- Linéarité<br>- Positivité<br>-&nbsp;\\(X \\geq 0 \\text{ et } E(X) = 0 \\implies X = 0 \\text{ presque sûrement}\\)<br>-&nbsp;\\(| X | \\leq Y \\text{ et } Y \\in L^1 \\implies X \\in L^1\\)"
+                    ],
+                    "guid": "bY?@FNCLn4",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule de transfert",
+                        "\\(X : \\Omega \\rightarrow \\mathbb R, f : X(\\Omega) \\rightarrow \\mathbb R\\)<br>Il y a équivalence entre :<br>(i)&nbsp;\\(f(X) \\in L^1\\)<br>(ii) La famille&nbsp;\\((f(x)\\mathbb P(X = x))_{x \\in X(\\Omega)}\\)&nbsp;est sommable<br>et alors&nbsp;\\(\\mathbb E (f(X)) = \\sum_{x \\in X(\\Omega)} f(x) \\mathbb P(X = x)\\)"
+                    ],
+                    "guid": "wj&rDT]><=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "inégalité de Markov",
+                        "\\(a \\geq 0\\), X vad positive,&nbsp;\\(X \\in L^1\\)<br>\\(a\\mathbb P(X \\geq a) \\leq \\mathbb E(X)\\)<br>Proof : on décompose avec les indicatrices, et on minore"
+                    ],
+                    "guid": "ibxbn*8+1Z",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "influence indépendance sur espérance",
+                        "\\(X \\bot\\!\\!\\!\\bot Y, X,Y \\in L^1\\)<br>Alors&nbsp;\\(XY \\in L^1\\)&nbsp;et&nbsp;\\(\\mathbb E(XY) = \\mathbb E(X) \\mathbb E(Y)\\)<br>Réciproque fausse"
+                    ],
+                    "guid": "cRLyEN}h/!",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def moments d'une vad",
+                        "X vad réelle<br>X admet un moment d'ordre k ssi&nbsp;\\(X^k\\)&nbsp;admet une espérance<br>On note alors&nbsp;\\(X \\in L^k\\)&nbsp;et&nbsp;\\(m_k = \\mathbb E(X^k) = \\sum_{x \\in X(\\Omega)}x^k\\mathbb P(X = x)\\)"
+                    ],
+                    "guid": "p.D!kC/ML)",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inclusion entre&nbsp;\\(L^2\\)&nbsp;et&nbsp;\\(L^1\\)",
+                        "\\(L^2 \\subset L^1\\)<br>Proof :&nbsp;\\(|X| \\leq {1 \\over 2}(1 + X^2)\\)"
+                    ],
+                    "guid": "eZsm9gnt@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si&nbsp;\\(X,Y \\in L^2\\), XY...",
+                        "\\(XY \\in L^1 \\text{ et } \\mathbb E(XY)^2 \\leq \\mathbb E(X^2) \\mathbb E(Y^2)\\)"
+                    ],
+                    "guid": "ma`+($W$j^",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def variance et écart-type (+ def variable réduite)",
+                        "\\(X \\in L^2\\)<br>\\(V(X) = \\mathbb E((X - \\mathbb E(X))^2)\\)<br>\\(\\sigma (X) = \\sqrt{V(X)}\\)<br>Si V(X) = 1, on dit que X est réduite"
+                    ],
+                    "guid": "m-DVgtL!S!",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "König-Huygens pour la variance",
+                        "\\(X \\in L^2, V(X) = \\mathbb E(X^2) - \\mathbb E(X)^2\\)"
+                    ],
+                    "guid": "wYpwzY#[b)",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "V(aX + B) = ...",
+                        "\\(= a^2V(X)\\)"
+                    ],
+                    "guid": "b|j$6.Gz&w",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Créer une variable centrée réduite à partir d'une varibale donnée",
+                        "\\(\\sigma(X) = \\sigma, \\mathbb E(X) = m\\)<br>\\(Y = {{X - \\sigma} \\over {m}}\\)&nbsp;est centrée réduite"
+                    ],
+                    "guid": "n8ndV6-qA*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def covariance et König-Huygens",
+                        "\\(\\text{Cov}(X,Y) = \\mathbb E((X - \\mathbb E(X))(Y - \\mathbb E(Y))) = \\mathbb E(XY) - \\mathbb E(X) \\mathbb E(Y)\\)"
+                    ],
+                    "guid": "J]A]7TIh^[",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Covariance de 2 variables indépendantes",
+                        "0,000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000<br>(autrement dit 0)"
+                    ],
+                    "guid": "P~&Gbh:`NF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Variance d'une somme (+ cas indépendant)",
+                        "\\(X,Y \\in L^2\\)<br>\\(V(X+Y) = V(X) + V(Y) + 2  \\text{Cov}(X,Y)\\)<br>Si&nbsp;\\(X \\bot\\!\\!\\!\\bot Y\\),&nbsp;\\(V(X+Y) = V(X) + V(Y)\\)"
+                    ],
+                    "guid": "O,9?Uu#-E5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Bienaymé-Tchebychev (il va falloir faire une carte sur l'orthographe de ça ou pas ?)",
+                        "\\(X \\in L^2, \\varepsilon &gt; 0\\)<br>\\(\\mathbb P (|X - \\mathbb E(X)| \\geq \\varepsilon) \\leq {V(X) \\over \\varepsilon^2}\\)"
+                    ],
+                    "guid": "p[x{I_JCF$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "loi faible des grands nombres",
+                        "\\((X_n)\\)&nbsp;suite de vad 2 à 2 indépendantes de même loi et dans&nbsp;\\(L^2\\)<br>m est leur espérance commune et&nbsp;\\(S_n = \\sum_{k=1}^n X_k\\)&nbsp;pour tout n<br>\\(\\forall \\varepsilon &gt; 0, \\mathbb P(|{S_n \\over n} - m| \\geq \\varepsilon) \\rightarrow_{n \\rightarrow +\\infty} 0\\)"
+                    ],
+                    "guid": "HN`7}lr0zQ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def, espérance, variance loi de Poisson",
+                        "\\(X \\sim \\mathcal P(\\lambda)\\)&nbsp;ssi<br>-&nbsp;\\(X(\\Omega) = \\mathbb N\\)<br>-&nbsp;\\(\\forall n \\in \\mathbb N, \\mathbb P(X = n) = {e^{-\\lambda} \\lambda^n \\over n!}\\)<br><br>\\(\\mathbb E(X) = V(X) = \\lambda\\)"
+                    ],
+                    "guid": "j)ELmPY<_[",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème suite de lois binomiales tend vers...",
+                        "\\((X_n)\\)&nbsp;suite de vad avec&nbsp;\\(X_n \\sim \\mathcal B(n, p_n)\\)<br>Si&nbsp;\\(np_n \\rightarrow_{n \\rightarrow +\\infty} \\lambda\\)<br>Alors&nbsp;\\(\\forall k \\in \\mathbb N, \\mathbb P(X_n = k) \\rightarrow_{n \\rightarrow + \\infty} e^{-\\lambda}{\\lambda^k \\over k!}\\)"
+                    ],
+                    "guid": "JT;MQ,!i`]",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def, espérance, variance loi géométrique",
+                        "X suit la loi géométrique de paramètre&nbsp;\\(p \\in ]0;1[\\)&nbsp;ssi&nbsp;\\(X(\\Omega) = \\mathbb N^*\\)&nbsp;et&nbsp;\\(\\forall n \\in \\mathbb N^*, \\mathbb P(X=n) = (1-p)^{k-1}p\\)<br>\\(X \\in L^2\\)<br>\\(\\mathbb E(X) = {1 \\over p}\\)&nbsp;et&nbsp;\\(V(X) = {1 - p \\over p^2}\\)"
+                    ],
+                    "guid": "hVxqX$w;<f",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Propriété d'absence de mémoire (et lien avec loi géométrique)",
+                        "\\(X : \\Omega \\rightarrow \\mathbb N^*\\)&nbsp;vérifie la propriété d'absence de mémoire ssi<br>\\(\\forall(n,k) \\in \\mathbb N^2, \\mathbb P(X &gt; n + k \\ | \\ X &gt; n) = \\mathbb P(X&gt;k)\\)<br>X vérifie cette propriété ssi elle suit une loi géométrique"
+                    ],
+                    "guid": "pho%J5yb|7",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Espérance et variance loi de Rademacher",
+                        "\\(\\mathbb E(X) = 0, V(X) = 1\\)"
+                    ],
+                    "guid": "o?E&U{*ZkR",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def, monotonie et limite fonction de répartition",
+                        "\\(F_X : \\mathbb R \\rightarrow \\mathbb R \\atop x \\mapsto \\mathbb P(X \\leq x)\\)<br>C'est une fonction croissante<br>\\(F_X \\rightarrow_{- \\infty} 0\\)&nbsp;et&nbsp;\\(F_X \\rightarrow_{+ \\infty} 1\\)"
+                    ],
+                    "guid": "fsXrqCNLf|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def convergence presque sûre",
+                        "On dit que&nbsp;\\((X_n)\\)&nbsp;converge presque sûrement vers la vad X ssi la suite&nbsp;\\((X_n(\\omega))_{\\omega \\in \\Omega}\\)&nbsp;converge simplement vers&nbsp;\\(X(\\omega)\\)&nbsp;pour tout&nbsp;\\(\\omega \\in \\Omega'\\), avec&nbsp;\\(\\Omega' \\in \\mathcal T\\)&nbsp;et&nbsp;\\(\\mathbb P(\\Omega') = 1\\)"
+                    ],
+                    "guid": "k5r@,LE-zi",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def convergence en probabilité et lien avec convergence presque sûre",
+                        "\\((X_n)\\)&nbsp;converge en probabilité vers X ssi<br>\\(\\forall \\varepsilon &gt; 0, \\lim_{n \\rightarrow +\\infty} (|X_n - X| \\geq \\varepsilon) = 0\\)<br>Convergence presque sûre implique convergence en probabilité, la réciproque est fausse"
+                    ],
+                    "guid": "r0R?QDU-ZW",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def convergence en loi",
+                        "X vad à valeurs entières<br>On dit que&nbsp;\\((X_n)\\)&nbsp;converge en loi vers X ssi&nbsp;\\(\\forall k \\in \\mathbb N, \\mathbb P(X_n = k) \\rightarrow_{n \\rightarrow + \\infty} \\mathbb P(X = k)\\)"
+                    ],
+                    "guid": "x9b<^[jN^?",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Weierstrass",
+                        "f fonction continue sur un segment<br>f est limite uniforme sur ce segment d'une suite de fonctions polynomiales sur ce segment<br><br>(let's go j'ai enfin fini le chapitre)"
+                    ],
+                    "guid": "xGyodTb^uf",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 }
