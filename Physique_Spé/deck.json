@@ -43,6 +43,54 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "a8fa54bc-b02b-11f0-9ea4-39a9e792ccfa",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Opérateurs vectoriels",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\overrightarrow{\\text{grad}} f = [...]\\)&nbsp;(coordonnées cartésiennes)",
+                        "\\(= \\left( \\begin{array}{1} \\dfrac{\\partial f}{\\partial x} \\\\ \\dfrac{\\partial f}{\\partial y} \\\\ \\dfrac{\\partial f}{\\partial z}  \\end{array} \\right)\\)"
+                    ],
+                    "guid": "Ic]}>KlUGF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\overrightarrow{\\text{grad}} f = [...]\\)&nbsp;(coordonnées cylindriques)",
+                        "\\(= \\left( \\begin{array}{1} \\dfrac{\\partial f}{\\partial r} \\\\ \\dfrac{1}{r} \\dfrac{\\partial f}{\\partial \\theta} \\\\ \\dfrac{\\partial f}{\\partial z}  \\end{array} \\right)\\)"
+                    ],
+                    "guid": "t~x~E3M8mq",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\overrightarrow{\\text{grad}} f = [...]\\)&nbsp;(coordonnées sphériques)",
+                        "\\(= \\left( \\begin{array}{1} \\dfrac{\\partial f}{\\partial r} \\\\ \\dfrac{1}{r} \\dfrac{\\partial f}{\\partial \\theta} \\\\ \\dfrac{1}{r \\sin \\theta} \\dfrac{\\partial f}{\\partial \\varphi}  \\end{array} \\right)\\)"
+                    ],
+                    "guid": "l_M.i{4LA6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "6c7fb162-8b4b-11f0-a3dc-b951edacb484",
             "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desc": "",
@@ -229,6 +277,392 @@
             ],
             "reviewLimit": null,
             "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "a8fa9508-b02b-11f0-9ea4-39a9e792ccfa",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Électrostatique",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Unité&nbsp;\\(\\| \\overrightarrow E \\|\\)",
+                        "\\(V \\cdot m^{-1}\\)"
+                    ],
+                    "guid": "Cg=#qe]ib*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi de Coulomb",
+                        "Champ électrostatique créé par une charge q (au point P) en un point M :<br>\\(\\overrightarrow E (M) = \\dfrac{q}{4 \\pi \\varepsilon_0 r^2} \\overrightarrow{u_r}\\)&nbsp;avec&nbsp;\\(\\varepsilon_0\\)&nbsp;la permittivité diélectrique du vide en&nbsp;\\(F \\cdot m^{-1}\\)<br>(et&nbsp;\\(\\overrightarrow {u_r} = \\dfrac{\\overrightarrow{PM}}{\\|\\overrightarrow{PM}\\|}\\))"
+                    ],
+                    "guid": "r#xCv<hBIg",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Champ éléctrostatique créé par une distribution discrète de charges",
+                        "\\(\\overrightarrow E(M) = \\sum_{i = 1}^{N} \\overrightarrow {E_i}(M) = \\sum_{i = 1}^{N} \\dfrac{q_i}{4 \\pi \\varepsilon_0 r_i^2} \\overrightarrow{u_{r_i}}\\)"
+                    ],
+                    "guid": "bL5GnJr}z2",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Champ créé par une distribution volumique continue de charge",
+                        "\\(\\overrightarrow{E} (M) = \\iiint_{P \\in \\mathcal V} \\dfrac{\\rho(P) \\mathrm d V}{4 \\pi \\varepsilon_0 (PM)^2} \\overrightarrow{u_{PM}}\\)"
+                    ],
+                    "guid": "F7EXnA;GaZ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Champ crée par une distribution surfacique continue de charges",
+                        "\\(\\overrightarrow E (M) = \\iint_{P \\in \\mathcal S} \\dfrac{\\sigma(P) \\mathrm d S}{4 \\pi \\varepsilon_0 (PM)^2} \\overrightarrow{u_{PM}}\\)"
+                    ],
+                    "guid": "yrfZ}rr[2%",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Champ créé par une distribution linéique continue de charge",
+                        "\\(\\overrightarrow E (M) = \\int_{P \\in \\mathcal C} \\dfrac{\\lambda(P)dl}{4 \\pi \\varepsilon_0 (PM)^2} \\overrightarrow{u_{PM}}\\)"
+                    ],
+                    "guid": "tKl}sW!=J`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si M appartient à un plan de symétrie d'une distribution de charges, le champ électrostatique créé par la distribution en M [...]",
+                        "[...] appartient au plan de symétrie"
+                    ],
+                    "guid": "crM9vD8O~U",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si M appartient à un plan d'antisymétrie d'une distribution de charges, le champ électrostatique créé par la distribution en M [...]",
+                        "[...] est orthogonal au plan d'antisymétrie"
+                    ],
+                    "guid": "QWF[rC6=.6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Énoncé du théorème de Gauss",
+                        "Soit S une surface fermée.<br>Soit D une distribution de charges.<br>Soit&nbsp;\\(\\overrightarrow E(M)\\)&nbsp;le champ éléctrostatique créé par D en M.<br>Le flux de&nbsp;\\(\\overrightarrow E\\)&nbsp;à travers S est égal à la charge continue dans le volume délimité par S divisée par&nbsp;\\(\\varepsilon_0\\)<br><br>\\(\\varphi_{\\overrightarrow E, S} = \\iint\\!\\!\\!\\!\\!\\!\\!\\!\\bigcirc \\overrightarrow E (M) \\cdot \\overrightarrow {dS} = \\dfrac{Q_{int}}{\\epsilon_0}\\)<br><br>(je crois que j'ai enfreint la convention de Genève du&nbsp;\\(\\rm\\LaTeX\\)&nbsp;avec ce symbole d'intégrale)"
+                    ],
+                    "guid": "EU-MS1i0%^",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Gauss appliqué à une boule uniformément chargée (choix de la surface de Gauss et résultat)",
+                        "Surface : sphère de rayon r (même r que coordonnée de M) et de centre O<br><br>Résultat :&nbsp;\\(E(r) = \\left\\{ \\dfrac{\\rho_0 r}{3 \\varepsilon_0} \\text{ si } r \\leq R \\atop \\dfrac{\\rho_0 R^3}{3 \\varepsilon_0 r^2} = \\dfrac{Q}{4 \\pi \\varepsilon_0 r^2} \\text{ si } r &gt; R \\right.\\)"
+                    ],
+                    "guid": "c?;O4=E>O&",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Gauss appliqué à une sphère uniformément chargée (choix de la surface de Gauss et résultat)",
+                        "Surface : Sphère ce centre O et de rayon r (même r que la coordonnée de M)<br><br>Résultat :<br>\\(E(r) = \\left\\{ 0 \\text{ si } r &lt; R \\atop \\dfrac{\\sigma_0 R^2}{\\varepsilon_0 r^2} = \\dfrac{Q}{4 \\pi \\varepsilon_0 r^2} \\text{ si } r&gt; R&nbsp;\\right.\\)"
+                    ],
+                    "guid": "B`qY[qDf~E",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théroème de Gauss appliqué à un cylindre uniformément chargé (surface de Gauss et résultat)",
+                        "Surface : Cylindre d'axe (Oz), rayon r (même r que coordonnée de M), hauteur l<br><br>Résultat :&nbsp;<br>\\(E(r) = \\left\\{ \\dfrac{\\rho_0 r}{2 \\varepsilon_0} \\text{ si } r \\leq R \\atop \\dfrac{\\rho_0 R^2}{2 r \\varepsilon_0} \\text{ si } r &gt; R&nbsp;\\right.\\)"
+                    ],
+                    "guid": "PD36yst|MO",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Gauss appliqué à un plan infini uniformément chargé (surface de Gauss et résultat)",
+                        "Surface : pavé droit, centre dans le plan, passe par M<br>(ou n'importe quel prisme droit, n'est-ce pas Hugo)<br><br>Résultat :<br>\\(E(z) = \\left\\{ \\dfrac{\\sigma_0}{2 \\varepsilon_0} \\text{ si } z &gt; 0 \\atop - \\dfrac{\\sigma_0}{2 \\varepsilon_0} \\text{ si } z &lt; 0&nbsp;\\right.\\)"
+                    ],
+                    "guid": "w(Ie!gE+fj",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition pootentiel éléctrique créé par une distribution D en un point M",
+                        "\\(\\overrightarrow E (M) = - \\overrightarrow{\\text{grad}} V(M)\\)"
+                    ],
+                    "guid": "O!```-820U",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression du potentiel créé par une charge ponctuelle",
+                        "\\(V(r) = \\dfrac{q}{4 \\pi \\varepsilon_0 r} + K\\)"
+                    ],
+                    "guid": "z6s3d$DL7_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression potentiel créé par une boule uniformément chargée",
+                        "Si r &gt;= R :&nbsp;\\(V(r) = \\dfrac{Q}{4 \\pi \\varepsilon_0 r} + K_1\\)<br>Si r &lt;= R :&nbsp;\\(V(r) = - \\dfrac{\\rho_0 r^2}{6 \\varepsilon_0} + K_2\\)<br>On fixe l'une des deux constantes et on détermine l'autre par continuité du potentiel"
+                    ],
+                    "guid": "K,U1#0xEYD",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression du potentiel créé par une sphère uniformément chargée",
+                        "\\(V(r) = \\left\\{ \\dfrac{Q}{4 \\pi \\varepsilon_0 r} + K_1 \\text{ si } r \\geq R \\atop K_2&nbsp;\\text{ sinon} \\right.\\)<br>On fixe l'une des 2 variables et on détermine l'autre par continuité du potentiel"
+                    ],
+                    "guid": "LC]91|1n}s",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression du potentiel créé par un cylindre uniformément chargé",
+                        "Si r &gt;= R :&nbsp;\\(V(r) = - \\rho_0 \\dfrac{R^2}{2 \\varepsilon_0} \\ln(r) + K_1\\)<br>Si r &lt;= R :&nbsp;\\(V(r) = - \\dfrac{\\rho_0 r^2}{4 \\varepsilon_0} + K_2\\)<br>On fixe l'une des deux constantes et on détermine l'autre par continuité du potentiel"
+                    ],
+                    "guid": "I@&IL@@97q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression du potentiel créé par un plan infini uniformément chargé",
+                        "Si z &gt; 0 :&nbsp;\\(V(z) = - \\dfrac{\\sigma_0 z}{2 \\varepsilon_0} + K_1\\)<br>Si z &lt; 0 :&nbsp;\\(V(z) = \\dfrac{\\sigma_0 z}{2 \\varepsilon_0} + K_2\\)<br>On fixe l'une des 2 constantes et on détermine l'autre par continuité du potentiel"
+                    ],
+                    "guid": "Gng>C.}px$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Capacité d'un condenasateur plan",
+                        "\\(C = \\dfrac{\\varepsilon_0 S}{a}\\)"
+                    ],
+                    "guid": "r@;*SC(z-d",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Capacité d'un condensateur cylindrique",
+                        "\\(C = \\dfrac{2 \\pi H \\varepsilon_0}{\\ln \\left(\\dfrac{R_2}{R_1}\\right)}\\)<br>Si R2-R1 &lt;&lt; R1, on retrouve après quelques DLs une expression équivalente à celle du condensateur plan"
+                    ],
+                    "guid": "JT,z`jJQ:V",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formule énergie potentielle électrique",
+                        "\\(E_p = qV\\)"
+                    ],
+                    "guid": "OR:-]lx-(<",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression moment dipolaire",
+                        "\\(\\overrightarrow p = q \\overrightarrow{NP}\\)&nbsp;(avec q &gt; 0)"
+                    ],
+                    "guid": "Il?<k^_/hM",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Approximation dipolaire",
+                        "r (coordonnée de M) &gt;&gt; a (distance entre les 2 charges du dipôle)"
+                    ],
+                    "guid": "p^LGHlZh$_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Potentiel produit par un dipôle dans le cas de l'approximation dipolaire",
+                        "\\(V(M) = \\dfrac{aq\\cos \\theta}{4 \\pi \\varepsilon_0 r^2}\\)"
+                    ],
+                    "guid": "P0K`)>UZ.p",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Champ électrostatique créé par un dipôle dans l'approximation dipolaire",
+                        "\\(\\overrightarrow E(M) = \\dfrac{qa}{4 \\pi \\varepsilon_0 r^3}(2 \\cos \\theta \\overrightarrow{u_r} + \\sin \\theta \\overrightarrow{u_\\theta})\\)"
+                    ],
+                    "guid": "P:XEc2pVS_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Formes intrinsèques pour V(M) et&nbsp;\\(\\overrightarrow E(M)\\)&nbsp;créés par un dipôle dans l'approximation dipolaire",
+                        "\\(V(M) = \\dfrac{\\overrightarrow p \\cdot \\overrightarrow{OM}}{4 \\pi \\varepsilon_0 (OM)^3}\\)<br>\\(\\overrightarrow E(M) = \\dfrac{1}{4 \\pi \\varepsilon_0 (OM)^5}(3(\\overrightarrow p \\cdot \\overrightarrow{OM})\\overrightarrow{OM} - (OM)^2 \\overrightarrow p )\\)(j'admets, je sais pas si c'est au programme) (gl)"
+                    ],
+                    "guid": "JIrZ6_gGFU",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Action (force, moment, énergie potentielle) d'un champ électrostatique uniforme sur un dipôle",
+                        "\\(\\overrightarrow{F_{ext}} = \\overrightarrow 0 \\implies \\text{ couple } \\overrightarrow{\\mathcal C} \\text{ de forces}\\)<br>\\(\\overrightarrow {\\mathcal M} (\\overrightarrow {\\mathcal C}) = \\overrightarrow p \\wedge \\overrightarrow {E_0}\\)<br><br>\\(E_p = - \\overrightarrow p \\cdot \\overrightarrow {E_0}\\)<br><br>(pour info, j'ai pas trouvé d'autre moyen pour taper les vecteurs que \"\\overrightarrow\". c'est long. je souffre actuellement :D)"
+                    ],
+                    "guid": "h>NWyqJVxE",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comportement qualitatif d'un dipôle dans un champ électrostatique non uniforme",
+                        "-&nbsp;\\(\\overrightarrow{F_{ext}} \\neq 0\\)&nbsp;si le champ n'est pas uniforme<br>- le dipôle se déplace vers les régions où le champ est le plus intense, et s'aligne avec les lignes de champ"
+                    ],
+                    "guid": "P07EwE6w(j",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "a8fac1cc-b02b-11f0-9ea4-39a9e792ccfa",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Éléments de surface et de volume",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Éléments de surface coordonnées cartésiennes",
+                        "\\(\\mathrm d \\overrightarrow{S_z} = \\mathrm dx \\mathrm dy \\overrightarrow{u_z}\\)<br>\\(\\mathrm d \\overrightarrow{S_y} = \\mathrm dx \\mathrm dz \\overrightarrow{u_y}\\)<br>\\(\\mathrm d \\overrightarrow{S_x} = \\mathrm dy \\mathrm dz \\overrightarrow{u_x}\\)"
+                    ],
+                    "guid": "P.Izd!}O=p",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Élément de volume coorodnnées cartésiennes",
+                        "\\(\\mathrm dV = \\mathrm dx \\mathrm dy \\mathrm dz\\)"
+                    ],
+                    "guid": "D,6MAi)tTi",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Éléments de surface coordonnées cylindriques",
+                        "\\(\\mathrm d \\overrightarrow{S_z} = r \\mathrm dr \\mathrm d \\theta \\overrightarrow{u_z}\\)<br>\\(\\mathrm d \\overrightarrow{S_r} = r \\mathrm d\\theta \\mathrm dz \\overrightarrow{u_r}\\)<br>\\(\\mathrm d \\overrightarrow{S_\\theta} = \\mathrm dr \\mathrm dz \\overrightarrow{u_\\theta}\\)"
+                    ],
+                    "guid": "IbNY3>G-8I",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Élément de volume coordonnées cylindriques",
+                        "\\(\\mathrm dV = r \\mathrm dr \\mathrm d\\theta \\mathrm d z\\)"
+                    ],
+                    "guid": "msD2;)DhbD",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Éléments de surface coordonnées sphériques",
+                        "\\(\\mathrm d \\overrightarrow{S_\\varphi} = r \\mathrm d r \\mathrm d \\theta \\overrightarrow{u_\\phi}\\)<br>\\(\\mathrm d \\overrightarrow{S_\\theta} = r \\mathrm d r \\sin \\theta \\mathrm d \\varphi \\overrightarrow{u_\\theta}\\)<br>\\(\\mathrm d \\overrightarrow{S_r} = r^2 \\sin \\theta \\mathrm d\\theta \\mathrm d \\varphi \\overrightarrow{u_r}\\)"
+                    ],
+                    "guid": "GjjT(>Ja)4",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Élément de volume coordonnées sphériques",
+                        "\\(\\mathrm d V = r^2 \\sin \\theta \\mathrm dr \\mathrm d \\theta \\mathrm d \\varphi\\)"
+                    ],
+                    "guid": "N~t<u*D^1s",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
         }
     ],
     "crowdanki_uuid": "6c7fa974-8b4b-11f0-a3dc-b951edacb484",
@@ -303,6 +737,77 @@
             "stopTimerOnAnswer": true,
             "timer": 1,
             "waitForAudio": false,
+            "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 16,
+                "perDay": 130
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
             "weightSearch": ""
         }
     ],
