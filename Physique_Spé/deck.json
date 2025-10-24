@@ -43,9 +43,149 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "d594e620-b0be-11f0-af73-1b98b8729993",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Equations de Maxwell",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression de&nbsp;\\(i(t)\\)&nbsp;en fonction de la charge Q et du vecteur densité volumique de courant&nbsp;\\(\\vec j\\)",
+                        "\\(i(t) = \\frac {dQ}{dt} = \\int \\int _{M\\in S} \\vec j(M, t).\\vec {dS}\\)<br>avec&nbsp;\\(\\vec j(M, t) = n(M, t).q.\\vec v(M, t)\\)<br>en notant&nbsp;\\(n(M, t)\\)&nbsp;le nombre de particules par unité de volume"
+                    ],
+                    "guid": "ptE%dKD)7r",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equation locale de conservation de la charge&nbsp;",
+                        "\\(\\frac {\\partial \\rho}{\\partial t } + \\text{div }\\vec j = 0\\)&nbsp;avec&nbsp;\\(\\rho \\)&nbsp;la densité volumique de charge"
+                    ],
+                    "guid": "Eh@2#Vj@9z",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equation de Maxwell - Gauss",
+                        "\\(\\text{div }\\vec E(M, t) = \\frac {\\rho (M, t)}{\\varepsilon_0}\\)"
+                    ],
+                    "guid": "Iwh)eYj=f0",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equation de Maxwell Flux",
+                        "\\(\\text{div }&nbsp;\\vec B(M, t) = 0\\)"
+                    ],
+                    "guid": "Cns]NU`CFg",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equation de Maxwell Faraday",
+                        "\\(\\vec{\\text{rot }} \\vec E(M, t ) = - \\frac{\\partial \\vec B (M, t)}{\\partial t}\\)"
+                    ],
+                    "guid": "f:~I>8FFWy",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equation de Maxwell - Ampère",
+                        "\\(\\vec{\\text{rot }} \\vec B (M, t) = \\mu_0\\vec j (M, t) + \\mu_0\\varepsilon _0 \\frac{\\partial \\vec E (M, t)}{\\partial t}\\)"
+                    ],
+                    "guid": "BMg+_,(d]M",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equation de Poisson, et equation de Laplace",
+                        "On note&nbsp;\\(\\Delta = \\text{div }\\vec{\\text{grad}}\\)&nbsp;le laplacien<br><br><b>Poisson</b> :&nbsp;\\(\\Delta V(M) = - \\frac{\\rho (M )}{\\varepsilon_0}\\)&nbsp;obtenu en remplaçant&nbsp;\\(E \\)&nbsp;par&nbsp;\\(- \\vec{\\text{grad }} V\\)<br><br><b>Laplace :</b>&nbsp;\\(\\Delta V(M) = 0\\)&nbsp;quand&nbsp;\\(\\rho = 0\\)"
+                    ],
+                    "guid": "bpF)*CA{af",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Equations de Maxwell dans l'ARQS",
+                        "\\(\\text{div } E (M, t) = \\frac{\\rho(M, t)}{\\varepsilon_0}\\)<br>\\(\\text{div } B (M, t) = 0\\)<br>\\(\\vec{\\text{rot }} E(M,t) = - \\frac{\\partial B(M, t)}{\\partial t}\\)<br>\\(\\vec{\\text{rot }} B(M,t) = \\mu _0\\vec j (M, t)\\)"
+                    ],
+                    "guid": "[tVA4U05N",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(c \\)&nbsp;en fonction de&nbsp;\\(\\varepsilon_0 \\)&nbsp;et&nbsp;\\(\\mu_0\\)",
+                        "\\(c = \\sqrt{\\frac 1 {\\varepsilon_0 \\mu_0}}\\)"
+                    ],
+                    "guid": "yacQ?KlaAK",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Valeur de&nbsp;\\(\\vec j \\)&nbsp;en fonction de&nbsp;\\(\\sigma \\)&nbsp;la conductivité du milieu",
+                        "\"Loi d'Ohm locale\" :&nbsp;\\(\\vec j = \\sigma  \\vec E\\)"
+                    ],
+                    "guid": "c569O5pYGL",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Green-Ostrogradsky",
+                        "\\(\\iint_{M\\in S} \\vec A(M, t). \\vec n. dS = \\iiint_{P\\in \\mathcal V} \\text{div }\\vec A (P, t ) d\\tau\\)"
+                    ],
+                    "guid": "EiA~cPS-^8",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Stokes-Ampère",
+                        "Contour fermé&nbsp;\\(\\mathcal C \\)<br><br>\\(\\int _{M\\in \\mathcal C} \\vec A (M, t).\\vec{dl} = \\iint_{P\\in \\mathcal S} \\vec{\\text{rot }}\\vec A(M, t).\\vec n . dS\\)"
+                    ],
+                    "guid": "xKJ+M|b;6v",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "a8fa54bc-b02b-11f0-9ea4-39a9e792ccfa",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
+            "desiredRetention": null,
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
@@ -284,6 +424,7 @@
             "crowdanki_uuid": "a8fa9508-b02b-11f0-9ea4-39a9e792ccfa",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
+            "desiredRetention": null,
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
@@ -592,6 +733,7 @@
             "crowdanki_uuid": "a8fac1cc-b02b-11f0-9ea4-39a9e792ccfa",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
+            "desiredRetention": null,
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
