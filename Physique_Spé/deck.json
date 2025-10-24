@@ -537,7 +537,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Théorème de Gauss appliqué à une sphère uniformément chargée (choix de la surface de Gauss et résultat)",
-                        "Surface : Sphère ce centre O et de rayon r (même r que la coordonnée de M)<br><br>Résultat :<br>\\(E(r) = \\left\\{ 0 \\text{ si } r &lt; R \\atop \\dfrac{\\sigma_0 R^2}{\\varepsilon_0 r^2} = \\dfrac{Q}{4 \\pi \\varepsilon_0 r^2} \\text{ si } r&gt; R&nbsp;\\right.\\)"
+                        "Surface : Sphère ce centre O et de rayon r (même r que la coordonnée de M)<br><br>Résultat :<br>\\(E(r) = \\left\\{ 0 \\text{ si } r &lt; R \\atop \\dfrac{\\sigma_0 R^2}{\\varepsilon_0 r^2} = \\dfrac{Q}{4 \\pi \\varepsilon_0 r^2} \\text{ si } r&gt; R\\right.\\)"
                     ],
                     "guid": "B`qY[qDf~E",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
