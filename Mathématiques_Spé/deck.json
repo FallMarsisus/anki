@@ -202,6 +202,712 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "92a469ee-10d1-11f1-996c-232dab6f890c",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Espaces préhilbertiens réels et euclidiens",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def produit scalaire",
+                        "Forme bilinéaire symétrique définie positive"
+                    ],
+                    "guid": "F~#&?eM4Br",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Norme associée à un produit scalaire",
+                        "\\(\\|x\\| = \\sqrt{\\langle x,x \\rangle}\\)"
+                    ],
+                    "guid": "GtbQwa[d@M",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité de Cauchy Schwarz, cas d'égalité, généralisation à des applications autres que des produits scalaires",
+                        "\\(\\forall(x,y) \\in E^2, |\\langle x,y \\rangle| \\leq \\|x\\| \\|y\\|\\)<br>égalité ssi x et y sont colinéaires<br>Valable pour des formes bilinéaires positives, le caractère défini permet seulement de préciser le cas d'égalité"
+                    ],
+                    "guid": "Hd_+>*aFMx",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Identité du parallélogramme",
+                        "\\(\\forall (x,y) \\in E^2, \\|x+y\\|^2 + \\|x-y\\|^2 = 2(\\|x\\|^2 + \\|y\\|^2)\\)"
+                    ],
+                    "guid": "b7O5,piN^Q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Identité de polarisation",
+                        "\\(\\forall(x,y) \\in E^2, \\|x + y\\|^2 - \\|x-y\\|^2 = 4 \\langle x,y \\rangle\\)"
+                    ],
+                    "guid": "bpz3ud3ZT<",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Pythagore",
+                        "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH"
+                    ],
+                    "guid": "ACoJelfE{=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Procédé d'orthogonalisation de Gram-Schmidt --(on fait frétiller Martin)--",
+                        "\\((e_1,...,e_n)\\)&nbsp;famille libre<br>Famille&nbsp;\\((V_1,...,V_n)\\)&nbsp;définie par&nbsp;\\(V_1 = e_1, V_{k+1} = e_{k+1} - \\sum_{i = 1}^{k} \\dfrac{\\langle e_{k+1},V_i \\rangle}{\\|V_i\\|^2}\\)&nbsp;est orthogonale, et les vect des deux familles sont les mêmes"
+                    ],
+                    "guid": "n]yvw9W{Eu",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Projection orthogonale sur un sous-espace vectoriel de dimension finie",
+                        "\\((f_1,...,f_n)\\)&nbsp;base ORTHONORMALE de F sous-espace de E préhilbertien de dim quelconque<br>Pour tout&nbsp;\\(x \\in E\\), il existe un unique vecteur y de F tel que&nbsp;\\(x-y \\in F^\\perp\\), et c'est&nbsp;\\(y = \\sum_{k = 1}^{n} \\langle f_k,x \\rangle f_k\\)&nbsp;et c'est le minimum de l'application&nbsp;\\(z \\in F \\mapsto \\|x-z\\|\\)"
+                    ],
+                    "guid": "sTE[+D$L(f",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Supplémentaire orthogonal en dim finie",
+                        "Tout sev F de E admet un unique supplémentaire orthogonal de dimension dim E - dim F"
+                    ],
+                    "guid": "K3(;C4ds0&",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de représentation des formes linéaires",
+                        "On pose pour tout&nbsp;\\(a \\in E, \\varphi_a : x \\mapsto \\langle a,x \\rangle\\)<br>L'application&nbsp;\\(\\varphi : a \\in E \\mapsto \\varphi_a\\)&nbsp;est un isomorphisme de E dans son dual<br>FAUX EN DIM INFINIE"
+                    ],
+                    "guid": "ci#=3{,9?Y",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Adjoint d'un endomorphisme et propriétés",
+                        "L'unique endomorphisme u* tq&nbsp;\\(\\forall x,y, \\langle u(x),y \\rangle = \\langle x, u^*(y) \\rangle\\)<br>\\((u^*)^{-1} = (u^{-1})^*\\)<br>\\(\\ker u^* = (\\text{im } u)^\\perp\\)<br>F est stable par u ssi&nbsp;\\(F^\\perp\\)&nbsp;stable par u*"
+                    ],
+                    "guid": "LhlmV.Jo5~",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "u autoadjoint ssi",
+                        "sa matrice dans toute base est symétrique"
+                    ],
+                    "guid": "y.L*2]U:n:",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "un projecteur p est autoadjoint",
+                        "il est orthogonal"
+                    ],
+                    "guid": "Pe~ODME@dW",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def endomorphismes positifs et définis positifs",
+                        "u endomorphisme positif ssi<br>\\(\\forall x \\in E, \\langle u(x),x \\rangle \\geq 0\\)<br>et défini positif ssi : c'est une égalité ssi x = 0"
+                    ],
+                    "guid": "P`O@51yj-x",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "un endomorphisme autoadjoint est positif/défini positif ssi",
+                        "\\(Sp (u) \\subset \\mathbb R^+ \\ / \\ Sp(u) \\subset \\mathbb R_+^*\\)"
+                    ],
+                    "guid": "Fb1#Y&gr|f",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf isométrie",
+                        "endomorphisme qui conserve le produit scalaire"
+                    ],
+                    "guid": "E,|bD`y)co",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "u est isométrie ssi (condition sur u*)",
+                        "u est bijectif et&nbsp;\\(u^* = u ^{-1}\\)"
+                    ],
+                    "guid": "j:7d:K9T}v",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Toute valeur propre d'une isométrie...",
+                        "est de module 1"
+                    ],
+                    "guid": "oXLR,@.FQ`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Grouope orthogonal en dimension 2",
+                        "De la forme&nbsp;\\(R(\\theta) = \\left( \\cos \\theta \\ \\ \\ \\ -\\sin \\theta \\atop \\sin \\theta \\ \\ \\ \\ \\ \\ \\cos \\theta \\right)\\)&nbsp;ou&nbsp;\\(S(\\theta) = \\left( \\cos \\theta \\ \\ \\ \\ \\ \\sin \\theta \\atop \\sin \\theta \\ \\ \\ \\ \\ - \\cos \\theta \\right)\\)"
+                    ],
+                    "guid": "CSA>`RD,.5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Groupe orthogonal en dim 3",
+                        "u une isométrie d'un espace de dim 3<br>Il existe une base orthonormale dans laquelle u a pour matrice\\(\\left( \\varepsilon \\ \\ \\ \\ 0 \\atop 0 \\ \\ \\ \\ R(\\theta) \\right)\\)<br>avec&nbsp;\\(\\varepsilon = \\)&nbsp;1 si u est une rotation, -1 sinon"
+                    ],
+                    "guid": "b/l-hYwq+-",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Généralisation du groupoe orthogonal en dimension qqcque",
+                        "u une isométrie<br>Il existe une base orthonormale tq la matrice de u dans cette base soit composée de blocs diagonaux de 1, de -1 et de&nbsp;\\(R(\\theta_i)\\)"
+                    ],
+                    "guid": "8R@3wJ&uP",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème spectral",
+                        "u autoadjoint<br>u est diagonalisable en base orthonormale (et son spectre est réel)"
+                    ],
+                    "guid": "FbOiuI%<xe",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Décomposition polaire",
+                        "\\(M \\in GL_n (\\mathbb R)\\)<br>\\(\\exists!(O,S) \\in \\mathcal O_n (\\mathbb R) \\times \\mathcal S_n^{++} (\\mathbb R), M = OS\\)<br><br>L'application qui donne la décomposition polaire est un homéomorphisme (bijection continue dont la réciproque est aussi continue)"
+                    ],
+                    "guid": "qjN`ZR`gTZ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(GL_n^+ (\\mathbb R)\\)&nbsp;est...",
+                        "connexe par arcs"
+                    ],
+                    "guid": "M+xgfW[+5,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Le seul sous-groupe de&nbsp;\\(GL_n (\\mathbb R)\\)&nbsp;contenant&nbsp;\\(\\mathcal O_n (\\mathbb R)\\)&nbsp;est...",
+                        "\\(\\mathcal O_n (\\mathbb R)\\)"
+                    ],
+                    "guid": "qtoK^d.f3%",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "92a4c362-10d1-11f1-996c-232dab6f890c",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Espaces vectoriels normés",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf norme (4 choses à vérifier)",
+                        "- Positivité :&nbsp;\\(\\forall x \\in E, N(x) \\geq 0\\)<br>- Séparation :&nbsp;\\(\\forall x \\in E, N(x) = 0 \\Leftrightarrow x = 0\\)<br>- Homogénéité :&nbsp;\\(\\forall \\lambda \\in \\mathbb K, \\forall x \\in E, N(\\lambda x) = |\\lambda|N(x)\\)<br>- Inégalité triangulaire :&nbsp;\\(\\forall (x,y) \\in E^2, N(x + y) \\leq N(x) + N(y)\\)"
+                    ],
+                    "guid": "v8~{i;)K,1",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Normes usuelles sur&nbsp;\\(\\mathbb K^n\\)",
+                        "\\(\\forall x = (x_1,...,x_n)\\)<br>-&nbsp;\\(\\|x\\|_1 = \\sum_{k = 1}^n |x_k|\\)<br>-&nbsp;\\(\\|x\\|_2 = \\sqrt{\\sum_{k = 1}^{n} |x_k|^2}\\)<br>-&nbsp;\\(\\|x\\|_{\\infty} = \\max_{k \\in \\{1,...,n\\}} | x_k |\\)"
+                    ],
+                    "guid": "kqp^C4W}#,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Normes usuelles sur&nbsp;\\(\\mathcal C([a,b],\\mathbb K), \\ a &lt; b\\)",
+                        "\\(\\|f\\|_1 = \\int_a^b|f|, \\ \\|f\\|_2 = \\sqrt{\\int_a^b |f^2|}, \\ \\|f\\|_{\\infty}  = \\sup_{[a,b]} |f|\\)"
+                    ],
+                    "guid": "zwH%+w_i>N",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def distance associée à une norme",
+                        "\\(d(x,y) = N(x-y)\\)"
+                    ],
+                    "guid": "JHCpPNao4S",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def distance d'un point à une partie, 2 propriétés",
+                        "\\(d(x,A) = \\inf_{a \\in A} d(x,a)\\)<br>------------------------------<br>\\(d(x,A) = 0 \\Leftrightarrow x \\in \\overline{A}\\)<br><br>\\(d(.,A)\\)&nbsp;est 1-lipschitzienne"
+                    ],
+                    "guid": "PYHQ00b>}T",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf convergence (evn)",
+                        "Une suite u_n converge vers l ssi la suite&nbsp;\\(\\|u_n-l\\|\\)&nbsp;converge vers 0<br>ie&nbsp;\\(\\forall \\varepsilon &gt; 0, \\exists N \\in \\mathbb N, \\forall n \\geq N, \\|u_n - l\\| &lt; \\varepsilon\\)"
+                    ],
+                    "guid": "A;TV!>a!>9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nom des convergences selon les normes 1, 2 et infinie sur&nbsp;\\(\\mathcal C([a,b],\\mathbb K)\\)",
+                        "- Norme 1 : convergence en moyenne<br>- Norme 2 : convergence en moyenne quadratique<br>- Norme infinie : convergence uniforme"
+                    ],
+                    "guid": "J4*,PJz#bQ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def espace&nbsp;\\(\\mathcal l^{\\infty}(E)\\)",
+                        "Espace des suites bornées sur E, muni de la norme sup&nbsp;\\(\\|(u_n)\\|_{\\infty} = \\sup_{n \\in \\mathbb N} |u_n|\\)"
+                    ],
+                    "guid": "jEQqi2&.o$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def suite extraite et valeur d'adhérence",
+                        "Suite extraite/sous-suite de&nbsp;\\(u_n\\)&nbsp;: de la forme&nbsp;\\(u_\\varphi(n)\\)&nbsp;avec&nbsp;\\(\\varphi : \\mathbb N \\rightarrow \\mathbb N\\)&nbsp;strictement croissante<br>l est une valeur d'adhérence de (u_n) ssi il existe une sous-suite de u_n convergent vers l"
+                    ],
+                    "guid": "BnTz]-3};=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une suite qui possède deux valeurs d'adhérence dsitinctes est...",
+                        "divergente"
+                    ],
+                    "guid": "OAo`YHYZAF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def normes équivalentes",
+                        "Deux normes N et N' sont équivalentes ssi il existe&nbsp;\\(\\alpha, \\beta\\)&nbsp;tq<br>\\(\\alpha N \\leq N' \\leq \\beta N\\)<br>Les suites qui convergent selon N convergent vers la même limite selon N'"
+                    ],
+                    "guid": "u{A<bLxAnF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Union, intersection, produit d'ouverts...",
+                        "Une union quelconque d'ouverts est un ouvert<br>Une intersection finie d'ouverts est un ouvert<br>Un produit fini d'ouverts est un ouvert"
+                    ],
+                    "guid": "w7K>B^>`Ye",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Union, intersection, produit de fermés, ...",
+                        "Une union finie de fermés est un fermé<br>Une intersection quelconque de fermés est un fermé<br>Un produit fini de fermés est un fermé"
+                    ],
+                    "guid": "zrL&t})_l(",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "équivalence adhérence et fermé",
+                        "F fermé ssi&nbsp;\\(\\overline F = F\\)"
+                    ],
+                    "guid": "Iw^fCo_$z",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Adhérence de E\\A = ...<br>\\(\\overline{E \\backslash A}\\)&nbsp;= ...",
+                        "...&nbsp;\\(E \\backslash \\overline A\\)<br>... E \\ (Adhérence de A) (ça se voit que je sais pas taper le bon symbole ?)"
+                    ],
+                    "guid": "oV[Ep=%<K=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def partie dense dans E, dans&nbsp;\\(B \\subset E\\)",
+                        "A est dense dans E ssi&nbsp;\\(\\overline A = E\\)<br>A est dense dans&nbsp;\\(B \\subset E\\)&nbsp;ssi&nbsp;\\(B \\subset \\overline A\\)"
+                    ],
+                    "guid": "xF5&]y]Xu8",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sous-groupes de&nbsp;\\((\\mathbb R, +) \\)",
+                        "Soit discret (\\(a\\mathbb Z, a \\in \\mathbb R\\))<br>Soit dense dans&nbsp;\\(\\mathbb R\\)"
+                    ],
+                    "guid": "L-7;KAE6*~",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Limite d'une fonction en un point (evn)",
+                        "f admet la limite b en a ssi<br>\\(\\forall \\varepsilon &gt; 0, \\exists \\eta &gt; 0, \\forall x \\in A, \\|x-a\\| &lt; \\eta \\implies \\|f(x) - b\\| &lt; \\varepsilon\\)"
+                    ],
+                    "guid": "cI-Q6vMgUu",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def continuité uniforme",
+                        "\\(\\forall \\varepsilon &gt; 0, \\exists \\eta &gt; 0, \\forall (x,y) \\in A^2, \\|x-y\\| &lt; \\eta \\implies \\|f(x)-f(y)\\| &lt; \\varepsilon \\)&nbsp;"
+                    ],
+                    "guid": "h*MHW@/EE-",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def fonction k-lip.... (allez on révise l'orthographe :D)",
+                        "\\(\\forall (x,y) \\in E^2, \\|f(x)-f(y)\\| \\leq k\\|x-y\\|\\)"
+                    ],
+                    "guid": "c23hVn3BOu",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si A est dense dans B et f : B -&gt; F continue alors...",
+                        "f(A) est dense dans f(B)"
+                    ],
+                    "guid": "m9r^gM:NJR",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deux fonctions continues f et g de A dans F coïncidant sur une partie dense de A sont..",
+                        "égales sur A"
+                    ],
+                    "guid": "wchA7DIjnL",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Continuité et images réciproques",
+                        "<div>f : A partie de E -&gt; E' continue<br></div><div>- U ouvert de E',&nbsp;\\(f^{-1}(U)\\)&nbsp;est un ouvert relatif de A</div><div>- F fermé de E',&nbsp;\\(f^{-1}(F)\\)&nbsp;est un fermé relatif de A</div>"
+                    ],
+                    "guid": "z%pA-9w0D%",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème fondamental de la continuité des applications linéaires (6 équivalences :D)",
+                        "\\(u \\in \\mathcal L((E,N),(F,N'))\\)<br>Équivalence entre :<br>(i)&nbsp;\\(\\exists k \\in \\mathbb R^+, \\forall x \\in E, N'(u(x)) \\leq kN(x)\\)<br>(ii) u est lipschitzienne<br>(iii) u est continue sur E<br>(iv) u est continue en 0<br>(v) u est bornée sur la boule unité<br>(vi) u est bornée sur la sphère unité"
+                    ],
+                    "guid": "NQdSdg<=oa",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def norme subordonnée/triple et propriété",
+                        "u application linéaire continue<br>\\(|||u||| = \\sup_{x \\in E \\backslash \\{0_E\\}} \\dfrac{N'(u(x))}{N(x)} = \\sup_{x \\in B(0_E,1)} N'(u(x))= \\sup_{x \\in S(0_E,1)} N'(u(x))\\)Lorsque u et v sont des endomorphismes :<br>\\(||| v \\circ u ||| \\leq |||u||| \\times |||v|||\\)"
+                    ],
+                    "guid": "p{C:*.X.A9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Continuité d'une application bilinéaire",
+                        "Une application bilinéaire B est continue ssi il existe&nbsp;\\(k \\in \\mathbb R\\)&nbsp;tq<br>\\(\\forall (x,y) \\in E \\times F, \\|&nbsp;B(x,y) \\| \\leq k \\|x\\| \\|y\\|\\)"
+                    ],
+                    "guid": "d39&u7R%U#",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Tout compact est...",
+                        "fermé et borné"
+                    ],
+                    "guid": "hcins0+x-u",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Propriété partie fermée d'un compact",
+                        "Toute partie fermée d'un compact est compacte<br>Toute partie compacte d'un compact y est fermée"
+                    ],
+                    "guid": "F1fsKGp>FE",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Produit de deux compacts",
+                        "Le produit de deux compacts est un compact"
+                    ],
+                    "guid": "hgoxB5x*A^",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'image continue d'un compact...",
+                        "est un compact<br>(autrement dit théorème des bornes atteintes)"
+                    ],
+                    "guid": "oF`|yk[g4]",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Heine",
+                        "Toute application continue sur un compact est uniformément continue sur ce compact"
+                    ],
+                    "guid": "p86T/Jy!5>",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf connexité par arcs",
+                        "A est connexe par arcs ssi pour tous x,y dans A, il existe un arc (\\(\\varphi : [0,1] \\rightarrow A\\)&nbsp;continue tq&nbsp;\\(\\varphi(0) = x, \\varphi(1) = y\\)) joignant x à y"
+                    ],
+                    "guid": "eXCnyx?r;}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Les parties connexes par arcs de&nbsp;\\(\\mathbb R\\)&nbsp;sont...",
+                        "les intervalles"
+                    ],
+                    "guid": "u5@gY9==GD",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'image continue d'une partie connexe par arcs...",
+                        "est connexe par arcs"
+                    ],
+                    "guid": "rJcjHap)@w",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "E evn de dimension finie, propriété sur les normes",
+                        "elles sont toutes équivalentes"
+                    ],
+                    "guid": "y&tU|sX+7r",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si E evn de dim finie, propriété sur les applications linéaires",
+                        "Elles sont toutes continues<br>(de même pour les applications bilinéaires, etc.)"
+                    ],
+                    "guid": "LxNT:rBr)|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une application à valeurs dans un evn de dim finie est continue ssi",
+                        "ses composantes sont continues"
+                    ],
+                    "guid": "tnF2o=jych",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def/propriété exponentielle de matrice",
+                        "\\(A \\in \\mathcal M_p(\\mathbb C)\\)<br>La série&nbsp;\\(\\sum \\dfrac{A^n}{n!}\\)&nbsp;est absolument convergente, on pose&nbsp;\\(\\exp(A) = \\sum_{n = 0}^{+ \\infty} \\dfrac{A^n}{n!}\\)"
+                    ],
+                    "guid": "C<oAf&!BMt",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Bolzano-Werierstrass",
+                        "De toute suite bornée on peut extraire une sous-suite convergente"
+                    ],
+                    "guid": "W:W>X~V{j",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "En dim finie, propriété sur les compacts",
+                        "Ce sont exactement les fermés bornés"
+                    ],
+                    "guid": "KYs~%#@}f*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "CNS convergence d'une suite sur un evn de dim finie (avec valeurs d'adhérences)",
+                        "Sur un evn de dim finie, une suite converge ssi elle a une unique valeur d'adhrénce"
+                    ],
+                    "guid": "b?c&Qk,C9e",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Tout sev de dim finie d'un evn est...",
+                        "fermé"
+                    ],
+                    "guid": "EUo>e%uv.y",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "ba85eef0-9968-11f0-b83b-00163e28a387",
             "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
             "desc": "",
@@ -271,6 +977,94 @@
                         "\\(e^z  = \\sum _{n \\ge 0} \\frac {z ^n } {n!}\\)&nbsp;cva pour tout&nbsp;\\(z \\in \\mathbb C \\). Elle vérifie bien le fait que le produit de deux exponentielles c'est l'exponentielle de la somme du bouzin.&nbsp;"
                     ],
                     "guid": "dzvn3/2jdy",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "92a579e2-10d1-11f1-996c-232dab6f890c",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Fonctions vectorielles",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Dérivée d'une application bilinéaire appliquée à deux fonctions et conséquences",
+                        "\\((B(f,g))' =  B(f',g) + B(f,g')\\)<br>Application au produit scalaire : un vecteur est de norme constante ssi sa dérivée lui est orthogonale"
+                    ],
+                    "guid": "JKP&%dVa+P",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sommes de Riemann --(on fait une expérience, on prend Lucie,...)--",
+                        "\\(f : [a,b] \\rightarrow F\\)&nbsp;cpm<br>\\(\\dfrac{b-a}{n}\\sum_{k = 0}^{n} f\\left( a + k \\dfrac{b-a}{n} \\right) \\rightarrow_{n \\rightarrow + \\infty} \\int_a^b f(t)dt\\)"
+                    ],
+                    "guid": "mO!pe7S5.+",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème fondamental de l'analyse (oui le sous-deck \"fonctions vectorielles\" est en réalité un sous-deck \"révisions de sup\". cry about it.)",
+                        "\\(x \\mapsto \\int_a^x f(t)dt\\)&nbsp;est l'unique primitive de f qui s'annule en a"
+                    ],
+                    "guid": "d:nIh<i6ry",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité des accroissements finis",
+                        "f de classe&nbsp;\\(\\mathcal C^1\\)&nbsp;sur I, s'il existe&nbsp;\\(k \\in \\mathbb R^+\\)&nbsp;tq&nbsp;\\(\\|f'\\| \\leq k\\)&nbsp;sur I :<br>\\(\\forall(a,b) \\in I^2, \\|f(b) - f(a)\\| \\leq k \\|b - a\\|\\)"
+                    ],
+                    "guid": "p?Hb?eqyAI",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Taylor reste intégral",
+                        "f de classe&nbsp;\\(\\mathcal C^{n+1}\\)&nbsp;sur I<br>\\(\\forall (a,x) \\in I^2, f(x) = \\sum_{k = 0}^{n} \\dfrac{(x-a)^k}{k!}f^{(k)}(a) + \\int_a^x \\dfrac{(x-t)^n}{n!}f^{(n+1)}(t)dt\\)&nbsp;"
+                    ],
+                    "guid": "x3([QD.Z0r",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "INÉGALITÉ de Taylor-Lagrange",
+                        "f de classe&nbsp;\\(\\mathcal C^{n+1}\\)&nbsp;sur I<br>\\(\\forall (x,a) \\in I^2, \\left\\|f(x) - \\sum_{k=0}^{n} \\dfrac{(x-a)^k}{k!}f^{(k)}(a)\\right\\| \\leq \\dfrac{M|x-a|^{n+1}}{(n+1)!}\\)&nbsp;où M est un majorant de&nbsp;\\(\\|f^{n+1}\\|\\)&nbsp;sur ]a,x[ ou ]x,a["
+                    ],
+                    "guid": "M&c:$LngN9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Taylor-Young",
+                        "f de classe&nbsp;\\(\\mathcal C^{n+1} \\ (n \\in \\mathbb N^*)\\)&nbsp;sur I, soit&nbsp;\\(a \\in I\\). f admet un DL à l'ordre n en a de la forme :<br>\\(f(t) = \\sum_{k=0}^{n} \\dfrac{(t-a)^k}{k!}f^{(k)}(a) + o((t-a)^n)\\)"
+                    ],
+                    "guid": "w{|E!i$w3J",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 }
@@ -676,6 +1470,154 @@
                         "\\((A_i)_{i \\in I} \\in \\mathcal T^I\\)<br>Les A_i sont dits mutuellement indépendants si pour toute sous-famille finie&nbsp;\\((A_i)_{i \\in J}\\)&nbsp;:<br>\\(\\mathbb P(\\bigcap_{i \\in J}A_i) = \\prod_{i \\in J} \\mathbb P(A_i)\\)<br>toute famille constituée d'évènements de A_i est mutuellement indépendante"
                     ],
                     "guid": "kR;>iE1l^`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "92a661b8-10d1-11f1-996c-232dab6f890c",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Suites et séries de fonctions",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def convergence simple pour une suite de fonctions",
+                        "\\((f_n)\\)&nbsp;cvs vers f sur A ssi&nbsp;\\(\\forall x \\in A, \\lim_{n \\rightarrow + \\infty} f_n(x) = f(x)\\)"
+                    ],
+                    "guid": "e{G,I!nX;F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf convergence uniforme pour une suite de fonctions",
+                        "\\((f_n)\\)&nbsp;converge uniformément vers f sur A ssi&nbsp;\\(\\lim_{n \\rightarrow + \\infty} \\|f_n-f\\|_\\infty = 0\\)<br>ie&nbsp;\\(\\forall \\varepsilon &gt; 0, \\exists N \\in \\mathbb N, \\forall n \\geq N, \\forall x \\in A, \\|f_n(x) - f(x)\\| &lt; \\varepsilon \\)<br>(ce qui implique que&nbsp;\\(|f_n - f|\\)&nbsp;est borneé APCR)"
+                    ],
+                    "guid": "oym1Pu950&",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Convergence simple, uniforme d'une série de fonctions",
+                        "Convergence simple, uniforme de la suite des sommes partielles"
+                    ],
+                    "guid": "c{V9qEHSB+",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\sum f_n\\)&nbsp;cvu sur A ssi ... (condition avec le reste)",
+                        "elle cvs et la suite&nbsp;\\(R_n\\)&nbsp;de ses restes converge uniformément sur la fonction nulle"
+                    ],
+                    "guid": "Kp)s7j2+SG",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def convergence normale d'une série de fonctions",
+                        "\\(\\sum f_n\\)&nbsp;cvn sur A ssi&nbsp;\\(\\sum \\|f\\|_\\infty\\)&nbsp;converge"
+                    ],
+                    "guid": "m7}.Ui5tX6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Convergence absolue d'une série de fonctions",
+                        "Si&nbsp;\\(\\sum|f_n|\\)&nbsp;cvs"
+                    ],
+                    "guid": "ji,+-~EIp*",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Implications entre les types de convergence pour les séries de fonctions",
+                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Convergence uniforme<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; /&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v<br>Convergence normale&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Convergence simple<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; /<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Convergence absolue"
+                    ],
+                    "guid": "knap7,[,=R",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Continuité pour les suites et séries de fonctions (avec convergence uniforme puis convergence normale)",
+                        "Si les\\(f_n\\)&nbsp;sont continues sur A et si&nbsp;\\((f_n)\\)&nbsp;cvu vers f sur A alors f est continue<br>idem pour les séries de fonctions<br><br>Si on a convergence normale sur tout compact de&nbsp;\\(\\mathbb R_+^*\\)seulement&nbsp;alors même conclusion<br><br>(mais attention la cvn sur tout compact de&nbsp;\\(\\mathbb R_+^*\\)&nbsp;n'implique pas la cvn sur&nbsp;\\(\\mathbb R_+^*\\))"
+                    ],
+                    "guid": "gXVJp-I.(+",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de la double limite (pour suites puis séries de fonctions)",
+                        "Suites :<br>Si&nbsp;\\((f_n)\\)&nbsp;cvu vers f sur A, et si chaque&nbsp;\\(f_n\\)&nbsp;admet une limite&nbsp;\\(l_n\\)&nbsp;en&nbsp;\\(a \\in \\overline A\\)&nbsp;alors&nbsp;\\((l_n)\\)&nbsp;converge vers une limite l, f a une limite en a et&nbsp;\\(\\lim_{x \\rightarrow a}f(x) = l\\)<br><br>Séries :<br>Si&nbsp;\\(\\sum f_n\\)&nbsp;cvn (ou cvu) sur A, si chaque&nbsp;\\(f_n\\)&nbsp;admet une limite&nbsp;\\(l_n\\)&nbsp;en&nbsp;\\(a \\in \\overline A\\), alors&nbsp;\\(\\sum l_n\\)&nbsp;converge,&nbsp;\\(\\sum_{n = 0}^{+\\infty}f_n\\)&nbsp;admet une limite en a&nbsp;et&nbsp;\\(\\lim_{x \\rightarrow a} \\sum_{n = 0}^{+\\infty} f_n(x) = \\sum_{n = 0}^{+\\infty}l_n\\)"
+                    ],
+                    "guid": "C6<y~`[ZfG",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Intégration et convergence uniforme d'une suite de fonctions",
+                        "\\((f_n)\\)&nbsp;suite de fonction qui converge uniformément vers f sur tout segment de I, soit&nbsp;\\(a \\in I\\)<br>On pose pour tout&nbsp;\\((n,x) \\in \\mathbb N \\times I, F_n(x) = \\int_a^x f_n(t)dt\\)&nbsp;et&nbsp;\\(F(x) = \\int_a^xf(t)dt\\)<br>Alors&nbsp;\\((F_n)\\)&nbsp;cvu vers f<br><br>Corollaire : inversion de la limite et de l'intégrale lorsqu'on a cvu"
+                    ],
+                    "guid": "s5ZT]d6?0(",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème d'intégration terme à terme sur un segment (séries de fonctions)",
+                        "\\(\\sum f_n\\)&nbsp;série de fonctions continues qui chacunes cvu sur [a,b]<br><br>Alors&nbsp;\\(\\sum \\int_a^bf_n\\)&nbsp;est convergente et&nbsp;\\(\\sum_{n = 0}^{+\\infty} \\int_a^b f_n(t)dt = \\int_a^b \\sum_{n = 0}^{+\\infty} f_n(t)dt\\)"
+                    ],
+                    "guid": "yMSY^&hXd6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème sur la dérivation pour une suite de fonction",
+                        "\\((f_n)\\)&nbsp;suite de fonctions de classe&nbsp;\\(\\mathcal C^1\\)&nbsp;qui converge simplement sur I vers f et telle que&nbsp;\\((f'(n))\\)&nbsp;cvu vers sur tout segment de I vers h<br>Alors f est de classe&nbsp;\\(\\mathcal C^1\\)&nbsp;et f' = h<br><br>Généralisation à la dérivée k-ième : si les dérivées de 0 à k-1 cvs et la dérivée k-ième cvu"
+                    ],
+                    "guid": "r)e.uFr]?f",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de dérivation terme à terme d'une série de fonctions",
+                        "\\(\\sum f_n\\)&nbsp;série de fonctions de classe&nbsp;\\(\\mathcal C^1\\)&nbsp;sur I. Si&nbsp;\\(\\sum f_n\\)&nbsp;cvs sur I et&nbsp;\\(\\sum f'n\\)&nbsp;cn ou cvu sur tout segment de I, alors la somme est de classe&nbsp;\\(\\mathcal C^1\\)&nbsp;\\(\\left(\\sum_{n=0}^{+\\infty}f_n\\right)' =\\sum_{n=0}^{+\\infty}f_n' \\)"
+                    ],
+                    "guid": "zBY+vT8`j/",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 }
