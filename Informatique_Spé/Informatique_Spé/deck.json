@@ -1,0 +1,817 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c9109374-946f-11f0-927a-f9019d2f4e20",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Langages et automates",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf alphabet",
+                        "Ensemble non vide de symboles/lettres/caractères"
+                    ],
+                    "guid": "QQ#0NKC_,|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def mot de longueur n<br>Notation ensemble des mots, ensemble des mots de longueur non nulle, mot vide",
+                        "Suite finie de n lettres de l'alphabet<br>\\(\\Sigma^*, \\Sigma^+, \\varepsilon\\)"
+                    ],
+                    "guid": "DO?cW},_>1",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def langage",
+                        "Sous-ensemble de&nbsp;\\(\\Sigma^*\\)"
+                    ],
+                    "guid": "v/UY<Ln^Xq",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition union, concaténation, étoile de Kleene pour des langages",
+                        "-&nbsp;\\(L_1 \\cup L_2 = \\{ u \\in \\Sigma^*, u \\in L_1 \\text{ ou } u \\in L_2 \\}\\)<br>-&nbsp;\\(L_1L_2 = \\{ u.v, (u,v) \\in L_1 \\times L_2&nbsp;\\}\\)<br>-&nbsp;\\(L^* = \\bigcup_{n \\in \\mathbb N} L^n\\)"
+                    ],
+                    "guid": "tqSi4uG@CL",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Un AFD&nbsp;\\(\\mathcal A\\)&nbsp;est un quintuplet&nbsp;\\((\\Sigma, Q, q_0, F , \\delta)\\)&nbsp;où :<br>- Q est {{c1::l'ensemble des états}}<br>-&nbsp;\\(q_0 \\in Q\\)&nbsp;est {{c1::l'état initial}}<br>-&nbsp;\\(F \\subset Q\\)&nbsp;est&nbsp;{{c1::l'ensemble des états finals}}<br>-&nbsp;\\(\\delta\\)&nbsp;est {{c1::la fonction de transition&nbsp;\\(Q \\times \\Sigma \\rightarrow Q\\)}}",
+                        ""
+                    ],
+                    "guid": "AZy3Lewbf^",
+                    "note_model_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\delta^* (q, uv) = \\)",
+                        "\\(\\delta^* (\\delta^* (q, u), v)\\)"
+                    ],
+                    "guid": "vR^}tN1W4F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition état accessible, co-accessible, utile",
+                        "Un état q est dit :<br>- accessible si il existe u tel que&nbsp;\\(\\delta^*(q_0,u) = q\\)<br>- co-accessible si il existe u tel que&nbsp;\\(\\delta^*(q,u) \\in F\\)<br>- utile si il est accessible et co-accessible"
+                    ],
+                    "guid": "d*{2AX#LU5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Un automate émondé reconnaît...",
+                        "... le même langage que l'automate d'origine"
+                    ],
+                    "guid": "yyPbfCtLt_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Les langages reconnus par AFND...",
+                        "...sont les mêmes que ceux reconnus par AFD.<br><br>Preuve : construction de l'automate des parties pouis récurrence pour prouver chaque inclusion"
+                    ],
+                    "guid": "e{W1iXESMs",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemme de l'étoile",
+                        "L langage reconnu par un automate à n états.<br>Pour tout&nbsp;\\(u \\in L\\)&nbsp;tel que&nbsp;\\(| u | \\geq n\\), il existe x, y, z tels que u = xyz avec :<br>-&nbsp;\\(| xy |&nbsp;\\leq n\\)<br>-&nbsp;\\(y \\neq \\varepsilon\\)<br>-&nbsp;\\(\\mathcal L(xy*z) \\in L\\)"
+                    ],
+                    "guid": "qF&3bf.W<V",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def automate asynchrone",
+                        "automate qui a des&nbsp;\\(\\varepsilon\\)-transitions<br>Reconnaissent les mêmes langages que les AFD"
+                    ],
+                    "guid": "GLjrbgBsj!",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'ensemble des langages reconnaissables est stable par : (:3) (il y en a 7 mais 3 nécessaires)",
+                        "Nécessaires :<br>- Union<br>- Complémentaire<br>- Concaténation<br><br>Autres :<br>- Intersection<br>- Différence ensembliste<br>- Différence symétrique&nbsp;\\(( A \\cup B \\ \\backslash \\ A \\cap B, \\text{ ou } (A \\cap \\bar B) \\cup (B \\cap \\bar A)\\)<br>- étoile de Kleene"
+                    ],
+                    "guid": "JTP/MW?Ahw",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def langage local",
+                        "S'il existe&nbsp;\\(R \\subset \\Sigma, S \\subset \\Sigma, F \\subset \\Sigma^2\\)&nbsp;tels que pour tout mot non vide w, w est dans L ssi :<br>- la première lettre de w est dans R<br>- la dernière lettre de w est dans S<br>- Aucun facteur de longueur 2 de w n'est dans&nbsp;\\(\\bar F\\)<br><br>ie :<br>\\(L \\backslash \\{ \\varepsilon \\} = (R \\Sigma^* \\cup \\Sigma^*S) \\backslash (\\Sigma^* \\bar F \\Sigma^*)\\)"
+                    ],
+                    "guid": "iok_kw*9AF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'ensemble des langages locaux est stable par : (4 dont 2 avec une condition)",
+                        "- intersection<br>- étoile de Kleene<br>- union et concaténation sur l'union des alphabets si les alphabets sont disjoints"
+                    ],
+                    "guid": "f,{$9@(eAm",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Kleene",
+                        "Les langages reconnaissables sont exactement les langages réguliers"
+                    ],
+                    "guid": "IR1,Cu5ePy",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de Berry-Sethi (créer un automate à partir d'une expression régulière e)",
+                        "- transformer e en une expression régulière e' linéaire en ajoutant des indices aux occurences des symboles<br>- créer l'automate local associé à e' (et c'est là que je me rends compte que j'ai pas encore tapé cette méthode)<br>- remettre les symboles sans les indices, l'automate peut donc ne pas être déterministe"
+                    ],
+                    "guid": "egktI:t[`9",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Créer un automate local à partir d'un langage local L (ensembles&nbsp;\\(R_L, S_L, F_L\\))",
+                        "-&nbsp;\\(Q = \\{ q_0&nbsp;\\} \\cup \\{ q_a, a \\in \\Sigma&nbsp;\\}\\)&nbsp;avec q0 un état supplémentaire défini comme état initial<br>-&nbsp;\\(\\forall a \\in R_L, \\ \\delta(q_0,a) = a\\)<br>-&nbsp;\\(\\forall a,b, \\ ab \\in F_L, \\delta (q_a,b) = q_b\\)<br>-&nbsp;\\(F = \\left\\{ \\{ q_0 \\} \\cup \\{q_a, a \\in S \\} \\text{ si } \\varepsilon \\in L \\atop \\{&nbsp;q_a, a \\in S\\} \\text{ sinon} \\right.\\)"
+                    ],
+                    "guid": "Q2BQ8Q?0|-",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def automate généralisé",
+                        "Automate sur l'alphabet des expressions générales de&nbsp;\\(\\Sigma\\)"
+                    ],
+                    "guid": "b?a<{gV9SK",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "10f0403c-117e-11f1-92c0-00163ef08b9f",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Révisions MPI",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment implémenter une&nbsp;<b>pile&nbsp;</b>?",
+                        "- Liste Chaînée<br>- Tableau (pour une pile bornée)"
+                    ],
+                    "guid": "Df-T8I>5@h",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment implémenter une<b>&nbsp;file&nbsp;</b>?&nbsp;",
+                        "- Avec deux&nbsp;<b>piles</b>&nbsp;(pile d'enfilage et pile de défilage, on vide la pile d'enfilage dans la pile de défilage quand elle est vide et qu'on souhaite défiler)<br>- Tableau circulaire (en taille bornée)<br>- Liste chainée (pointeur vers le début et la fin)"
+                    ],
+                    "guid": "N#;aefoc.-",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment implémenter un&nbsp;<b>dictionnaire&nbsp;</b>?",
+                        "- Table de hachage et fonction de hachage<br>- Arbre binaire de recherche"
+                    ],
+                    "guid": "i~#6wlK%3,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment implémenter une&nbsp;<b>file de priorité&nbsp;</b>?&nbsp;",
+                        "- tas binaire"
+                    ],
+                    "guid": "Kf2^WHCw+a",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Parcours d'arbre (en largeur) :&nbsp;",
+                        "- Préfixe : racine avant les enfants<br>- Infixe : radine au milieu du parcours<br>- Postfixe : racine après le parcours"
+                    ],
+                    "guid": "C78:LLt=H;",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est qu'un&nbsp;<b><u>A</u>rbre&nbsp;<u>B</u>inaire de&nbsp;<u>R</u>echerche&nbsp;</b>?&nbsp;",
+                        "Arbre binaire (un noeud à gauche + un à droite) +&nbsp;<br>Pour tout noeud \\(x\\), on a tous les noeuds de l'enfant gauche de&nbsp;\\(x, \\space \\le x \\)&nbsp;et tous ceux de l'enfant droit&nbsp;\\(\\ge x \\).&nbsp;"
+                    ],
+                    "guid": "sDE5REy<%`",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce qu'un&nbsp;<b>Arbre rouge-noir&nbsp;</b>?&nbsp;",
+                        "ABR dont les noeuds sont colorés selon ces conditions :&nbsp;<br>- Racine Noire,&nbsp;<br>- Noeud rouge n'a pas d'enfant rouge<br>- Tous les chemins depuis un noeud jusqu'à un descendant vide contient le même nombre de noeuds noirs"
+                    ],
+                    "guid": "BADb7v:I+2",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Dire tout ce qu'on sait sur l<b>'Union-Find</b>",
+                        "On l'a implémenté&nbsp;\\(n \\space (n \\in \\mathbb N^* )\\)&nbsp;fois je pense que c'est bon."
+                    ],
+                    "guid": "FDv!L_L):5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Parcours de graphe (largeur et profondeur)",
+                        "DFS : Parcours récursif des voisins<br>BFS : utilisation d'une queue.&nbsp;"
+                    ],
+                    "guid": "j*<0-_S}ZH",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de Dijkstra",
+                        "Trouve les distances depuis un sommet de départ à tous les autres,&nbsp;<br>Graphe à poids positifs<br><br>A chaque itération : extraire le sommet le plus proche du sommet de départ, et mettre à jour la distance vs ses voisins"
+                    ],
+                    "guid": "OIv:E^:|^s",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Floyd-Warshall</b>&nbsp;",
+                        "- Trouve toutes les distances entre deux sommets qcq<br>- Dans un graphe non orienté à poids&nbsp;\\(\\ge 0\\)<br><br>Programmation dynamique : le plus court chemin de s à t ne passant que par des\nsommets intermédiaires inférieurs ou égaux à u est soit un plus court chemin de s à t ne passant\nque par des sommets intermédiaires strictement inférieurs à u, soit la concaténation d’un plus court\nchemin de s à u et de u à t, chacun ne passant que par des sommets intermédiaires strictement\ninférieurs à u ; (pfiou)"
+                    ],
+                    "guid": "QJA(zI@QCf",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme&nbsp;<b>A-étoile</b>",
+                        "- Distance entre un sommet de départ et d'arrivée<br>- On extrait à chaque itération le sommet qui minimise&nbsp;<b>la somme entre la distance depuis le sommet de départ et une estimation heuristique de la distance au sommet d'arrivée</b>&nbsp;"
+                    ],
+                    "guid": "h*d!h;Z(L~",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Kruskal</b>",
+                        "- Permet de trouver un arbre couvrant de poids minimal<br>- Part d'un graphe vide et parcourt les arêtes par poids croissant, on garde celles qui ne créent pas de cycle.&nbsp;<br>- Possibilité d'utiliser un union find pouur détecter les composantes connexes."
+                    ],
+                    "guid": "G9)<r,VsrF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce qu'un&nbsp;<b>couplage&nbsp;</b>?&nbsp;",
+                        "Sous ensemble d'arêtes d'un graphe tq deux arêtes n'ont jamais de sommet en commun.&nbsp;"
+                    ],
+                    "guid": "vJ^#Jd{b_U",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Différence couplage&nbsp;<b>maximal&nbsp;</b>et (de cardinal)&nbsp;<b>maximum</b>",
+                        "maximal : ajout d'une arête fait que c'est plus un couplage<br>maximum : est du plus grand cardinal vs tous les couplages"
+                    ],
+                    "guid": "n3o4W,U6yw",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment passer d'un algo Monte-Carlo à un Las Vegas",
+                        "On itère jusqu'a avoir une réponse correcte"
+                    ],
+                    "guid": "yu6j>=Kc#y",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Boyer-Moore&nbsp;</b>(mot&nbsp;\\(M \\)&nbsp;de taille&nbsp;\\(p\\)&nbsp;dans un texte&nbsp;\\(T \\)&nbsp;de taille&nbsp;\\(n \\))",
+                        "- Recherche de mot dans un texte, permet de sauter des indices dans la recherche linéaire.&nbsp;<br>- On fait la comparaison des lettres de la droite vers la gauche, et si on trouve une différence on peut tout de suite décaler notre indice de p."
+                    ],
+                    "guid": "xJ=cqzG!^R",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Rabin-Karp</b>&nbsp;(mot&nbsp;\\(M\\)&nbsp;de taille&nbsp;\\(p \\)&nbsp;dans un texte&nbsp;\\(T \\)&nbsp;de taille&nbsp;\\(n\\))",
+                        "- Recherche de mot dans un texte<br>- Utilise une fonction de hachage pour éviter de vérifier des alignements de letrtes incorrects<br>- On calcule&nbsp;\\(h_M \\)&nbsp;et&nbsp;\\(h_T\\)&nbsp;(de&nbsp;\\(T[0;p]\\)) les hachages des deux char*<br>- Puis si pour indice i&nbsp;\\(h_M = h_T\\), alors on compare&nbsp;\\(M \\)&nbsp;et&nbsp;\\(T[i; i+p]\\)<br>- On met à jour&nbsp;\\(h_T\\)&nbsp;comme haché de&nbsp;\\(T[i+1; i+p+1]\\)<br><br>On choisit la fonction de hachage pour limiter les collision et permettre les mises à jour en temps réel.&nbsp;"
+                    ],
+                    "guid": "kW%5;]*>#P",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Huffman</b>&nbsp;(et construction de l'arbre)",
+                        "Algorithme de&nbsp;<b>compression sans perte</b>.&nbsp;<br>Construction de l'arbre par un algo glouton:<br>&nbsp; 1. File de priorité des couples&nbsp;\\((freq(a), Feuille(a))\\)&nbsp;pour chaque lettre&nbsp;\\(a \\)<br>&nbsp; 2. Tant qu'il reste au moins deux arbres, on extrait les deux arbres de plus petite fréquence&nbsp;\\((f_1, A_1)\\)&nbsp;et&nbsp;\\((f_2, A_2)\\)&nbsp;et on insère alors&nbsp;\\((f_1 + f_2, Noeud(A_1, A_2))\\)<br><br>On encode alors une lettre en suivant le chemin de la racine jusqu'à la feuille qui contient cette lettre : 0 à gauche, 1 à droite.&nbsp;<br>On décompresse en lisant le texte compressé : si on lit un 0 on va à droite sinon on va à gauche....&nbsp;"
+                    ],
+                    "guid": "BVaO9xU[^L",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Lempel-Ziv</b>",
+                        "- Algo de<b> compression sans perte&nbsp;</b>(avec une table)<br>Pour <u>compresser</u> un texte&nbsp;\\(T\\), avec un indice&nbsp;\\(i\\)<br>&nbsp; - On calcule le plus long mot&nbsp;\\(T[i: i + j]\\)&nbsp;encodé dans la table et on écrit le code associé.<br>&nbsp; &nbsp;- On ajoute un nouveau code pour&nbsp;\\(T[i: i + j + 1]\\)<br>&nbsp; &nbsp;- On modifie i en&nbsp;\\(i+ j\\)<br>Pour&nbsp;<u>décompresser</u>&nbsp;: on recrée la table petit à petit en lisant les codes :&nbsp;<br>&nbsp; &nbsp;- On lit le premier code associé à un mot&nbsp;\\(u \\), si le deuxième code n'est pas dans la table, on ajoute un code pour&nbsp;\\(uu[0]\\)<br>&nbsp; - Tant que possible on lit le code suivant, associé à un mot&nbsp;\\(xv\\)&nbsp;puis on ajoute à la table un code pour&nbsp;\\(ux \\)&nbsp;puis on modifie&nbsp;\\(u \\)&nbsp;en&nbsp;\\(xv \\)"
+                    ],
+                    "guid": "KGKsJ!Q7Jf",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme des&nbsp;\\(k\\)-<b>plus proches voisins</b>",
+                        "- Permet de faire de la classification à partir de données étiquetées.&nbsp;<br>Pour chaque élément on cherche ses k plus proches voisins et on renvoie la classe majoritaire parmi ces voisin."
+                    ],
+                    "guid": "A3BQ=ia^:5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme&nbsp;<b>ID3</b>",
+                        "- Permet de construire un arbre de descision (apprentissage supervisé)<br>- On note l'entropie d'une partition&nbsp;\\(\\{ C_1, \\dots, C_m\\} \\)&nbsp;d'un ensemble&nbsp;\\(E \\)&nbsp;de&nbsp;\\(N \\)&nbsp;est&nbsp;\\(H(E) = - \\sum _ {j = 1} ^m  \\frac {\\vert C_j\\vert } N \\log \\left(\\frac{\\vert C_j\\vert}N \\right)\\)<br><br>- Si tous les éléments de E sont d'une même classe, on crée une feuille qui correspond à cette classe<br>- Si&nbsp;\\(E = \\)<i>&nbsp;ensemble vide&nbsp;</i>on crée une feuille qui correspond à la classe majoritaire du noeud parent.<br>- Si tous les éléments ont les mêmes attributs on crée une feuille qui correspond à la classe majoritaire.&nbsp;<br>- Sinon on choisit l'attribut&nbsp;\\(a \\)&nbsp;qui maximise le gain et on crée un noeud d'attribut \\(a\\)&nbsp;et pour enfants les arbres de descisions crées à partir des sous-ensembles de&nbsp;\\(E \\)&nbsp;regroupés selon les valeurs de&nbsp;\\(a \\), le gain étant la différence entre l'entropie de&nbsp;\\(E \\)&nbsp;et la moyenne pondérée des entropies des sous-ensembles.&nbsp;"
+                    ],
+                    "guid": "A[EKHQUc}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce qu'un&nbsp;<b>attracteur&nbsp;</b>?&nbsp;",
+                        "Attracteur de&nbsp;\\(j \\)&nbsp;= ensemble des positions gagnantes pour&nbsp;\\(j\\)<br><br><br>Calcul de l'attracteur par récurrence :&nbsp;<br>-&nbsp;\\(A_0(j) \\)&nbsp;: ensemble des pos finales gagnantes pour&nbsp;\\(j\\)<br>- Pour&nbsp;\\(n \\in \\mathbb N, A_{n+1}(j)\\)&nbsp;est l'union de&nbsp;\\(A_n(j)\\), des sommets de&nbsp;\\(j \\)&nbsp;ayant un voisin dans&nbsp;\\(A_n(j)\\)&nbsp;et des sommets de l'adversaire de \\(j\\)&nbsp;ayant tous leurs voisins dans \\(A_n(j)\\)<br>-&nbsp;\\((A_n(j))_{n\\in\\mathbb N }\\)&nbsp;est une suite stationnaire APCR qui CV vers l'attracteur de j&nbsp;"
+                    ],
+                    "guid": "ydY@DxUG[J",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme&nbsp;<b>mini-max</b>",
+                        "- On choisit une profondeur d'exploration&nbsp;\\(p \\)<br>- Depuis une position&nbsp;\\(s \\), on attribue un score à chaque sommet de distance&nbsp;\\(\\le p \\)<br>- Si&nbsp;\\(t \\)&nbsp;est une position finale ou à distance&nbsp;\\(= p\\), le score de&nbsp;\\(t \\)&nbsp;est donné par une heuristique<br>- Sinon, si&nbsp;\\(t \\)&nbsp;est une position du joueur 1, le score de&nbsp;\\(t \\)&nbsp;est le maximum des scores des voisins de&nbsp;\\(t\\)<br>- Sinon le score de \\(t\\)&nbsp;est le minimum des scores des voisins de&nbsp;\\(t\\).&nbsp;<br>- On choisit comme coup à jouer le voisin de s qui maximise le score.&nbsp;"
+                    ],
+                    "guid": "y9}{d1Y=Zy",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Algorithme de&nbsp;<b>Peterson</b>",
+                        "- Pour implémenter un mutex pour deux fils 0 et 1&nbsp;<br>- On utilise un tableau&nbsp;\\(V \\)&nbsp;(veut entrer) de deux bool (initialisés à&nbsp;\\(false\\)), et une variable de tour \\(t\\)&nbsp;(init à 0)<br>- Si le fil&nbsp;\\(i \\)&nbsp;veut vérouiller le mutex, il pose&nbsp;\\(V[i]\\)&nbsp;à&nbsp;\\(true\\), cède la prio à l'autre (\\(t = 1 - i)\\)&nbsp;puis attend que&nbsp;\\(t=  i\\)&nbsp;ou que l'autre ait fini (\\(V[1 -i ]= false\\))<br>- Si le fil&nbsp;\\(i \\)&nbsp;veut dévérouiller le mutex, il pose&nbsp;\\(V[i] = false\\)"
+                    ],
+                    "guid": "vrQcbdpR%,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "6233a07e-8b4b-11f0-a3dc-b951edacb484",
+            "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desc": "",
+            "desiredRetention": null,
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Union FInd",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Implémentation efficace d'une structure union-find&nbsp;",
+                        "Représentation filiale, arbres d'arité quelconque pour relier chaque valeur à une valeur parente, les valeurs s'associant à elles-mêmes sont donc le \"haut\" des branches"
+                    ],
+                    "guid": "6~H3[2eF+",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Utilité de la structure union-find",
+                        "Représenter des données partitionnées, on doit :&nbsp;<br>- Créer une structure vide<br>- Ajouter une nouvelle partie (singleton)<br>- Unir deux parties existantes<br>- Trouver la partie à laquelle appartient une valeur&nbsp;"
+                    ],
+                    "guid": "Kqu/+Gsu]Q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Complexité pire cas d'une union find bien implémentée :&nbsp;",
+                        "Sans optimisaiton ; linéaire en la hauteur max des arbres de la représentation filiale,&nbsp;<br>Avec l'optimisation;&nbsp;\\(\\Theta(\\alpha(n))\\)&nbsp;avec&nbsp;\\(\\alpha \\)&nbsp;la fonction inverse de Ackerman (croit TRES lentement)"
+                    ],
+                    "guid": "jnG.ZsYQe$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        }
+    ],
+    "crowdanki_uuid": "6233926e-8b4b-11f0-a3dc-b951edacb484",
+    "deck_config_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f47a8eb8-0b10-11f0-b3aa-00163ec6fa00",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1400,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.2,
+                "hardFactor": 1.1,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": true,
+            "timer": 1,
+            "waitForAudio": false,
+            "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 16,
+                "perDay": 130
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Informatique Spé",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2887224638033873027,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7793164370799427585,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalId": 1743079208597,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -4005149872133082135,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "74f796e2-19f5-11f0-9ce0-505a65e9873c",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 917761237776734798,
+                    "name": "Texte",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": true,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 0
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2795282707234633529,
+                    "name": "Verso Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 1
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Texte à trous",
+            "originalStockKind": 5,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Texte}}<br>\n{{Verso Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1362982061134984816,
+                    "name": "Texte à trous",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Texte}}"
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": [],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
