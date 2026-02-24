@@ -4,6 +4,332 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "37c57d5e-11af-11f1-8790-1d0dfbec596e",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Algèbre générale",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Caractérisation des sous groupes",
+                        "\\((H,*)\\)&nbsp;sous-groupe de&nbsp;\\((G,*)\\)&nbsp;ssi<br>\\(\\left\\{ H \\neq \\emptyset \\atop \\forall (x,y) \\in H^2, x * y^{-1} \\in H  \\right.\\)"
+                    ],
+                    "guid": "6ah=v9cFb",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une intersection de deux sous-groupes...",
+                        "Reste un sous-groupe"
+                    ],
+                    "guid": "K6C;jrCoC:",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'image (réciproque ou non) d'un sous-groupe par un morphisme...",
+                        "est un sous-groupe"
+                    ],
+                    "guid": "s{s!aU)_2x",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sous-groupes de&nbsp;\\((\\mathbb Z, +)\\)",
+                        "de la forme&nbsp;\\(n\\mathbb Z, n \\in \\mathbb N\\)"
+                    ],
+                    "guid": "skE*kyM6}I",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition de&nbsp;\\(\\mathbb Z / n \\mathbb Z\\)",
+                        "La relation de congruence modulo n est une relation d'équivalence, et on note&nbsp;\\(\\mathbb Z / n \\mathbb Z\\)&nbsp;l'ensemble de ses classes d'équivalence (ensemble-quotient)"
+                    ],
+                    "guid": "F7,nr,KF,3",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition sous-groupe engendré par une partie / partie génératrice",
+                        "A partie de G<br>Le sous-groupe engendré par A est le plus petit sous-groupe de G contenant A<br>Si ce sous-groupe est G, alors A est une partie génératrice de G"
+                    ],
+                    "guid": "xB58sQ=;|i",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définitions ordre d'un élément d'un groupe",
+                        "Si le sous-groupe engendré par un élément a est fini, l'ordre de a est son cardinal.<br>C'est aussi le plus petit élément de&nbsp;\\(\\{ p \\in \\mathbb N^*, a^p = e&nbsp;\\}\\)"
+                    ],
+                    "guid": "G);:Y8eL*U",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Tout groupe cyclique est isomorphe à ...<br>Tout groupe monogène infini est isomorphe à ...",
+                        "...un&nbsp;\\(\\mathbb Z / n \\mathbb Z\\)<br>...\\(\\mathbb Z\\)"
+                    ],
+                    "guid": "ljkVxJ;X5F",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "\\(\\mathbb Z / n \\mathbb Z\\)&nbsp;est un corps ssi...",
+                        "n est premier"
+                    ],
+                    "guid": "v%j4r]jpts",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème des restes chinois",
+                        "Si p et q sont premiers entre eux, les anneaux&nbsp;\\(\\mathbb Z / p \\mathbb Z \\times \\mathbb Z / q \\mathbb Z\\)&nbsp;et&nbsp;\\(\\mathbb Z / pq\\mathbb Z\\)&nbsp;sont isomorphes<br>(se généralise avec des produits plus grands, du moment que les entiers restent premiers entre eux 2 à 2)"
+                    ],
+                    "guid": "DQh2Jz?{|O",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deux classes d'éléments de&nbsp;\\(\\mathbb Z / n \\mathbb Z\\)",
+                        "- Les diviseurs de&nbsp;\\(\\overline 0\\), ie les&nbsp;\\(\\overline a\\)&nbsp;tq il existe&nbsp;\\(\\overline b \\neq \\overline 0\\)&nbsp;tq&nbsp;\\(\\overline a \\times \\overline b = \\overline 0\\)<br>- Les inversibles : a inversible ssi&nbsp;\\(a \\wedge n = 1\\), ce sont exactement les générateurs du groupe"
+                    ],
+                    "guid": "Bu5T;J)9qw",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si p est premier,&nbsp;\\(\\varphi (p) =\\)...<br>\\(p \\wedge q = 1 \\implies\\)...",
+                        "... p - 1<br>...&nbsp;\\(\\varphi (pq) = \\varphi(p) \\varphi(q)\\)"
+                    ],
+                    "guid": "O~HAzm-5ot",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression de&nbsp;\\(\\varphi(n)\\)&nbsp;comme un produit",
+                        "Si&nbsp;\\(n = \\prod_{i = 1}^{k} p_i^{\\alpha_i}\\)&nbsp;:<br><br>\\(\\varphi(n) = n \\prod_{i = 1}^{k} \\left( 1 - \\dfrac{1}{p_i} \\right)\\)"
+                    ],
+                    "guid": "et?`DMAfZc",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème d'Euler, petit théorème de Fermat",
+                        "\\(a \\wedge n = 1 \\implies a^{\\varphi (n)} \\equiv 1 [n]\\)<br><br>Conséquence : petit théorème de Fermat :<br>\\(p \\in \\mathcal P \\wedge a \\notin p \\mathbb Z \\implies a^{p-1} \\equiv 1 [p]\\)"
+                    ],
+                    "guid": "e!~<:NY@QB",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Déf idéal d'un anneau commutatif",
+                        "A anneau commutatif<br>I une partie de A est un idéal ssi :<br>- (I, +) est un sous-groupe additif de (A, +)<br>-&nbsp;\\(\\forall x \\in I, \\forall a \\in A, ax \\in I\\)"
+                    ],
+                    "guid": "P}k@@M@ndJ",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition idéal principal et anneau principal",
+                        "\\(a \\in A, aA\\)&nbsp;est l'idéal engendré par a (plus petit idéal de A contenant a), dit principal<br>Si tous les idéaux de A sont principaux et si A est intègre alors A est un anneau principal"
+                    ],
+                    "guid": "j^1IONjhC5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "La somme, l'intersection de deux idéaux...",
+                        "sont des idéaux"
+                    ],
+                    "guid": "zSA)1F`<ZF",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition pgcd et ppcm",
+                        "pgcd :<br>c tq&nbsp;\\(aA + bA = cA\\)<br><br>ppcm :<br>c tq&nbsp;\\(aA \\cap bA = cA\\)"
+                    ],
+                    "guid": "AFmp?vF3Z}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorèmes de Bézout et Gauss",
+                        "Dans tout anneau principal :<br><br>Bézout :<br>\\(a \\wedge b = 1 \\Leftrightarrow \\exists (u,v) \\in \\mathbb Z ^2, au + bv = 1\\)&nbsp;(le couple n'est pas unique)<br><br>Gauss :<br>\\(\\forall (a,b,c) \\in \\mathbb Z^3, {\\left\\{&nbsp;a \\mid bc \\atop a \\wedge c = 1 \\right.} \\implies a \\mid b\\)"
+                    ],
+                    "guid": "AGN0d0v=~H",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Relations coefficients-racines",
+                        "\\(\\sigma_p = (-1)^p \\dfrac{a_{n-p}}{a_n}\\)<br><br>avec&nbsp;\\(\\sigma_p = \\sum_{1 \\leq i_1 &lt; ... &lt; i_p \\leq n} x_{i_1}...x_{i_p}\\), les x_i les racines du polynôme et les a_i ses coefficients (a_n est le coefficient dominant)"
+                    ],
+                    "guid": "m@dr;o/pB5",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "37c61368-11af-11f1-8790-1d0dfbec596e",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Convergence dominée et intégrales à paramètres",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de convergence dominée",
+                        "I intervalle,&nbsp;\\((f_n)\\)&nbsp;suite de fonctions cpm sur I à valeurs réelles ou complexes<br>On sq&nbsp;\\((f_n)\\)&nbsp;cvs vers f cpm et qu'il existe&nbsp;\\(\\varphi\\)&nbsp;cpm positive et intégrable sur I tq&nbsp;\\(\\forall n \\in \\mathbb N, | f_n | \\leq \\varphi\\)&nbsp;(hypothèse de domination)<br>Alors les&nbsp;\\(f_n\\)&nbsp;sont intégrables sur I et&nbsp;\\(\\int_I f_n \\rightarrow_{n \\rightarrow + \\infty} \\int_I f\\)&nbsp;(ie&nbsp;\\(\\lim_{n \\rightarrow + \\infty} \\int_I f_n = \\int_I \\lim_{n \\rightarrow + \\infty} f_n\\))"
+                    ],
+                    "guid": "p=`}>U9A?+",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Généralisation du TCD",
+                        "I,J intervalles<br>\\(a \\in \\overline J, (f_\\lambda)_{\\lambda \\in J}\\)&nbsp;familles de fonctions cpm sur I à valeurs réelles ou complexes tq&nbsp;\\(\\forall t \\in I, \\lim_{\\lambda \\rightarrow a} f_\\lambda (t) = f (t)\\)<br>où f est cpm<br>On suppose qu'il existe une fonction cpm, intégrable, positive&nbsp;\\(\\varphi\\)&nbsp;tq&nbsp;\\(\\forall(\\lambda, t) \\in J \\times I, | f_\\lambda (t) | \\leq \\varphi(t)\\)<br>Alors les&nbsp;\\(f_\\lambda\\)&nbsp;et f sont cpm sont intégrables sur I et&nbsp;\\(\\lim_{\\lambda \\rightarrow a} \\int_I f_\\lambda = \\int_I f\\)"
+                    ],
+                    "guid": "C)QBm%h1>z",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Intégration terme à terme pour une série de fonctions positives",
+                        "\\(\\sum f_n\\)&nbsp;une série de fonctions positives cpm, sur I intervalle, qui cvs vers une fonction positive cpm<br>Alors, dans&nbsp;\\(\\mathbb R \\cup \\{+ \\infty\\} = [ 0; + \\infty]\\), on a<br>\\(\\sum_{n = 0}^{+\\infty} \\int_I f_n = \\int_I f\\)"
+                    ],
+                    "guid": "h>6*ak%85j",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Intégration terme à terme avec hypothèse sur la série des valeurs absolues (je vois pas de meilleur manière de décrire ce théorème)",
+                        "\\((f_n)\\)&nbsp;suite de fonctions cpm sur I à valeurs réelles ou complexes tq&nbsp;\\(\\sum f_n\\)&nbsp;cvs vers f cpm sur I<br>On sq&nbsp;\\(\\sum \\int_I | f_n | &lt; + \\infty\\)<br>Alors f intégrable sur I et&nbsp;\\(\\int_I f = \\sum_{n = 0}^{+\\infty} \\int_I f_n\\)"
+                    ],
+                    "guid": "uh@Yx8YqH!",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de continuité pour une intégrale dépendant d'un paramètre",
+                        "A, I intervalles<br>On suppose que :<br>-&nbsp;\\(\\forall t \\in I, f(.,t) : x \\mapsto f(x,t)\\)&nbsp;est continue sur A<br>-&nbsp;\\(\\forall x \\in A, f(x,.) : t \\mapsto f(x,t)\\)&nbsp;est cpm sur I<br>- Hypothèse de domination avec une fonction ne dépendant que de t<br>Alors&nbsp;\\(g : \\left\\{ A \\rightarrow \\mathbb K \\atop x \\mapsto \\int_I f(x,t)dt \\right.\\)&nbsp;est continue sur A"
+                    ],
+                    "guid": "q+@c;{fVD}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème des jésuites (DÉNOMINATION LOCALE)",
+                        "On peut utiliser une hyptohèse de domination locale<br>Voilà<br>Je voulais juste dire ça"
+                    ],
+                    "guid": "Pmx.{u/Q8:",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de dérivation pour une intégrale dépendant d'un paramètre (formule de Leibniz)<br>(la carte est longue)",
+                        "\\(f : A \\times I \\rightarrow \\mathbb K\\)<br>\\(g : \\left\\{ A \\rightarrow \\mathbb K \\atop x \\mapsto \\int_I f(x,t)d\\right.\\)<br>On suppose que :<br>-&nbsp;\\(\\forall x \\in A, f(x,.)\\)&nbsp;est cpm et intégrable sur I<br>- f admet une dérivée partielle selon la première variable vérifiant les hypothèses du théorème de continuité<br>ie&nbsp;\\(\\dfrac{\\partial f}{\\partial x} (x,.)\\)&nbsp;cpm pour tout x,&nbsp;\\(\\dfrac{\\partial f}{\\partial x} (., t)\\)&nbsp;continue pout tout t, et hypothèse de domination ne dépendant que de t<br><br>Alors g est de classe&nbsp;\\(\\mathcal C^1\\)&nbsp;sur a et&nbsp;\\(\\forall x \\in A, g'(x) = \\int_I \\dfrac{\\partial f}{\\partial x} (x,t) dt\\)&nbsp;Généralisation à la classe&nbsp;\\(\\mathcal C^k\\)&nbsp;si f admet des dérivées partielles par rapport à la première variable en tout point jusqu'à l'ordre k, si les dérivées partielles jusqu'à l'ordre k-1 sont intégrables et si la dérivée partielle k-ième vérifie le théorème de continuité"
+                    ],
+                    "guid": "p=ww=K6Z98",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Fubini (chapitre TCD, celui avec les intégrales)",
+                        "\\(f : [a,b] \\times [c,d] \\rightarrow \\mathbb R\\)&nbsp;continue<br>Alors&nbsp;\\(\\int_a^b \\left( \\int_c^d f(x,y)dy \\right)dx = \\int_c^d \\left( \\int_a^b f(x,y)dx \\right)dy\\)"
+                    ],
+                    "guid": "lsyxuX|4j6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Propriétés de la fonction&nbsp;\\(\\Gamma\\)&nbsp;(chapitre TCD)",
+                        "- Toutes les propriétés vues avant :)<br>-&nbsp;\\(\\mathcal C^\\infty\\)<br>- Convexe<br>-&nbsp;\\(\\forall k \\in \\mathbb N^*, \\forall x \\in \\mathbb R_+^*, \\Gamma^{(k)}(x) = \\int_0^{+ \\infty} (\\ln t)^k t^{x - 1}e^{-t}dt\\)"
+                    ],
+                    "guid": "P#D4Vr;/KY",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "3becb55c-ae9d-11f0-afd2-3f294cbe5f47",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
@@ -1480,6 +1806,294 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "37c8a7ea-11af-11f1-8790-1d0dfbec596e",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Réduction",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition sous-espace stable",
+                        "Un sev F est stable par u ssi&nbsp;\\(u(F) \\subset F\\)"
+                    ],
+                    "guid": "m?9>]S^[T.",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si u et v commutent, ... (sous-espaces stables)",
+                        "Ker u et Im u sont stables par v"
+                    ],
+                    "guid": "O4+|Y],+4E",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si v et u commutent, tous les sous-espaces propres de u...",
+                        "sont stables par v"
+                    ],
+                    "guid": "vgQ8:uI3cA",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une famille de vecteurs propres associés à des valeurs propres distinctes est...",
+                        "libre"
+                    ],
+                    "guid": "o@S8ur!a^h",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pour tout polynôme P, les sous-espaces Im P(u) et Ker P(u) sont...",
+                        "stables par u"
+                    ],
+                    "guid": "zyUPH^J(|z",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Notation ensemble des polynômes de l'endomorphisme u<br>Définition de l'idéal annulateur d'un endomorphisme<br>Définition du polynôme minimal",
+                        "\\(\\mathbb K [u]\\)<br>L'idéal annulateur d'un endomorphisme u est&nbsp;\\(\\ker (P \\mapsto P(u))\\)<br>C'est un idéal, l'unique polynôme unitaire qui l'engnedre est le polynôme minimal de u, noté&nbsp;\\(\\mu_u\\)"
+                    ],
+                    "guid": "PRmX]6qHo7",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si E est de dim finie et u est un endomorphisme de E,&nbsp;\\(\\dim \\mathbb K[u] =\\)...",
+                        "\\(d° \\mu_u\\)"
+                    ],
+                    "guid": "fc)7?-d9q)",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de décomposition des noyaux",
+                        "\\(u \\in \\mathcal L(E), P = P_1P_2 \\in \\mathbb K[X]\\)&nbsp;avec&nbsp;\\(P_1 \\wedge P_2 = 1\\)<br>Alors&nbsp;\\(\\ker P(u) = \\ker P_1 (u) \\oplus \\ker P_2 (u)\\)<br>Se généralise à plus de polynômes premiers entre eux 2 à 2"
+                    ],
+                    "guid": "t(E7kU8-y4",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def polynôme caractéristique",
+                        "\\(\\chi_u = \\det (XId_E - u)\\)"
+                    ],
+                    "guid": "K^z)}^d#7|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Valeurs propres d'un endomorphisme en fonction de son polynôme caractéristique",
+                        "Les valeurs propres d'un endomorphisme sont exactement les racines de son polynôme caractéristique"
+                    ],
+                    "guid": "D=|l|O!7bw",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ordre de multiplicité d'une valeur propre",
+                        "Sa multiplicité en tant que racine du polynôme caractéristique"
+                    ],
+                    "guid": "HTD5e+qWS1",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si F est un sev stable par u, le polynôme caractéristique de&nbsp;\\(u_F\\)...",
+                        "...divise celui de u"
+                    ],
+                    "guid": "riP`9Kysq_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Inégalité entre dimension du sous-espace propre et multiplicité de la racine",
+                        "\\(1 \\leq \\dim E_\\lambda \\leq m(\\lambda) \\)"
+                    ],
+                    "guid": "Mtwln_KY(X",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de Cayley-Hamilton",
+                        "\\(\\chi_A\\)&nbsp;est un polynôme annulateur de A, ie&nbsp;\\(\\mu_A \\mid \\chi_A\\)"
+                    ],
+                    "guid": "iwXzFeN]V#",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L'indice de nilpotence d'un endomorphisme de E est majoré par...",
+                        "la dimension de E"
+                    ],
+                    "guid": "wHq{xznDqK",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "CNS de diagonalisabilité (polynôme caractéristique + autre chose)",
+                        "u diagonalisable ssi son polynôme caractéristique est scindé et pour toute valeur propre de u, la dimension du sous-espace propre associé est égale à l'ordre de multiplicité de cette valeur propre"
+                    ],
+                    "guid": "b|CNL)zC1$",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "si u admet n valeurs propres distinctes (avec n = dim E)...",
+                        "u est diagonalisable<br><br>RÉCIPROQUE FAUSSE"
+                    ],
+                    "guid": "Joxa]tqk6}",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "u diagonalisable ssi u annule...",
+                        "...un polynôme scindé à racines simples<br>Corollaire :<br>... le polynôme&nbsp;\\(\\prod_{\\lambda \\in Sp(u)} (X - \\lambda)\\)&nbsp;qui est alors son polynôme minimal"
+                    ],
+                    "guid": "M~sv&[m!C2",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def endomorphisme trigonalisable",
+                        "Comme diagonalisable mais avec une matrice traingulaire au lieu de diagonale"
+                    ],
+                    "guid": "M9rmG[aP&v",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "CNS de trigonalisabilité (avec polynôme caractéristique)",
+                        "\\(A \\in \\mathcal M_n (\\mathbb K)\\)&nbsp;trigonalisable ssi son polynôme caractéristique est scindé sur&nbsp;\\(\\mathbb K\\)"
+                    ],
+                    "guid": "sx#GBQ4pnd",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Toute matrice de&nbsp;\\(\\mathcal M_n (\\mathbb C)\\)... (réduction)",
+                        "est trigonalisable"
+                    ],
+                    "guid": "H;|^7namc[",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "un endomorphisme est nilpotent ssi ... (trigonalisabilité)",
+                        "u est trigonalisable avec pour seule valeur propre 0"
+                    ],
+                    "guid": "tC4Si.A(}>",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "La somme des valeurs propres de A vaut ...<br>Le produit des valeurs propres de A vaut ...<br>(AVEC MULTIPLICITÉ)",
+                        "... tr A<br>... det A"
+                    ],
+                    "guid": "y./LvOhS@N",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si u admet un polynôme annulateur scindé, alors E est somme directe...",
+                        "de sous-espaces stables par u sur chacun desquels u induit la somme d'une homothétie et d'un endomorphisme nilpotent<br><br>(à tes souhaits)"
+                    ],
+                    "guid": "ON;WqN=5yR",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "F sev stable par u<br>Différence entre endomorphisme engendré par F&nbsp;\\(u_F\\)&nbsp;et&nbsp;\\(u|_{F}\\)&nbsp;:)",
+                        "pas le même espace d'arrivée :) :) :) :) :) :) :) :) :) :) :) :) :) :)"
+                    ],
+                    "guid": "i^#rg9E@2Q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def sous-espaces caractéristiques",
+                        "u endomorphisme d'un ev de dim finie E,&nbsp;\\(\\lambda \\in Sp(u)\\)&nbsp;de multiplicité&nbsp;\\(m_\\lambda\\)<br>Sous-espace caractéristique associé :&nbsp;\\(\\ker (u - \\lambda Id_E)^{m_\\lambda}\\)"
+                    ],
+                    "guid": "H&7`W5?-_Q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Si&nbsp;\\(\\chi_u\\)&nbsp;est scindé, dimension des sous-espaces caractéristiques et propriété sur E",
+                        "E est la somme directe des sous-espaces caractéristiques<br>Leur dimension est la multiplicité de la racine associée"
+                    ],
+                    "guid": "HkwlvM4P);",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "92a661b8-10d1-11f1-996c-232dab6f890c",
             "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
             "desc": "",
@@ -1837,6 +2451,244 @@
                         "Séries à termes positifs<br>On sq que&nbsp;\\(\\sum a_n\\)&nbsp;dv<br><br>Si&nbsp;\\(b_k = O (a_n)\\)&nbsp;alors&nbsp;\\(\\sum_{k = 0}^{n} b_k = O(\\sum_{k = 0}^{n} a_k)\\)&nbsp;(marche aussi avec les autres relations)<br>(preuve plus longue donc flemme)"
                     ],
                     "guid": "J:omv8YW8q",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "37c9a316-11af-11f1-8790-1d0dfbec596e",
+            "deck_config_uuid": "48464447-0c00-11f0-a2c6-505a65e9873c",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Séries entières",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemme d'Abel",
+                        "\\(\\sum_{n \\geq 0} a_n z^n\\)&nbsp;série entière,&nbsp;\\(\\rho \\in \\mathbb R_+^*\\)&nbsp;tq&nbsp;\\((a_n\\rho^n)\\)&nbsp;soit bornée.<br>\\(\\forall z_0 \\in \\mathbb C, | z_0 | &lt; \\rho \\implies |a_n z_0^n| = O\\left(\\left|\\dfrac{z_0}{\\rho}\\right|^n\\right)\\)<br>En particulier,&nbsp;\\(\\sum a_n z_0^n\\)&nbsp;est absolument convergente"
+                    ],
+                    "guid": "r/ri8J^r!h",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème et définition rayon de convergence",
+                        "\\(R = \\sup \\{ \\rho \\in \\mathbb R_+^*, (a_n \\rho^n)_{n \\in \\mathbb N} \\text{ bornée}\\} \\in [0; + \\infty]\\). Alors :<br>-&nbsp;\\(\\forall z \\in \\mathbb C, |z| &lt; R \\implies \\sum a_n z^n\\)&nbsp;absolument convergente<br>-&nbsp;\\(\\forall z \\in \\mathbb C, |z| &gt; R, \\sum a_n z^n\\)&nbsp;grossièrement divergente"
+                    ],
+                    "guid": "B52+PcW_N3",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def disque de convergence et comportement de la série",
+                        "En posant R le rayon de convergence de la série, c'est l'ensemble&nbsp;\\(\\{z \\in \\mathbb C, |z| &lt; R \\}\\)<br>La série converge absolument en tout point du disque ouvert, diverge grossièrement à l'extérieur du disque fermé et on ne peut rien dire sur le cercle de rayon R"
+                    ],
+                    "guid": "lPU{Mt&L#,",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Une série entière converge normalement sur...",
+                        "tout COMPACT inclus dans son disque ouvert de convergence"
+                    ],
+                    "guid": "7~4%fq/*p",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comparaison de rayons de convergence",
+                        "\\(\\sum a_n z^n\\)&nbsp;et&nbsp;\\(\\sum b_n z^n\\)&nbsp;séries entières de rayons de convergences respectifs&nbsp;\\(R_a, R_b\\)<br><br>On sq APCR&nbsp;\\(|a_n| \\leq |b_n|\\)&nbsp;ou&nbsp;\\(a_n = O (b_n)\\)<br>Alors&nbsp;\\(R_a \\geq R_b\\)<br><br>Si&nbsp;\\(|a_n| \\sim_{+\\infty} |b_n|\\), alors&nbsp;\\(R_a = R_b\\)"
+                    ],
+                    "guid": "jlGC<nsD6@",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Rayon de convergence de la \"somme\" de deux séries entières",
+                        "\\(\\sum a_n z^n, \\sum b_n z^n\\)&nbsp;séries entières de rayons de convergence respectifs&nbsp;\\(R_a, R_b\\)<br>Le rayon de convergence R de la série&nbsp;\\(\\sum(a_n + b_n)z^n\\)&nbsp;vérifie&nbsp;\\(R \\geq \\min (R_a,R_b)\\)&nbsp;avec égalité si&nbsp;\\(R_a \\neq R_b\\)"
+                    ],
+                    "guid": "lis`YI%}=h",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Rayon de convergence du produit de Cauchy de deux séries entières&nbsp;",
+                        "\\(\\sum a_n z^n, \\sum b_n z^n\\)&nbsp;séries entières de rayons de convergence respectifs&nbsp;\\(R_a, R_b\\)<br><br>Le rayon de convergence R de leur produit de Cauchy&nbsp;\\(\\sum c_n z^n, c_n = \\sum_{k = 0}^n a_k b_{n-k}\\)&nbsp;vérifie&nbsp;\\(R \\geq \\min(R_a,R_b)\\)<br><br>On a donc&nbsp;\\(|z| &lt; \\min(R_a,R_b) \\implies \\left( \\sum_{n = 0}^{+ \\infty} a_n z^n \\right) \\left( \\sum_{n = 0}^{+ \\infty} b_n z^n \\right) = \\sum_{n = 0}^{+ \\infty} c_n z^n\\)"
+                    ],
+                    "guid": "jCbyNc7Q`M",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Classe de continuité d'une fonction somme d'une série entière d'une variable réelle",
+                        "\\(f : x \\in \\mathbb R \\mapsto \\sum_{n = 0}^{+ \\infty} b_n x^n\\)&nbsp;une série entière de rayon de convergence non nul<br>Alors elle est de classe&nbsp;\\(\\mathcal C^\\infty\\)&nbsp;sur ]-R,R["
+                    ],
+                    "guid": "h0.%@pUrG8",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Théorème de convergence radiale d'Abel",
+                        "Si la série entière&nbsp;\\(\\sum a_n x^n\\)&nbsp;a un rayon de convergence R non nul, et si la série numérique&nbsp;\\(\\sum a_n R^n\\)&nbsp;converge, alors&nbsp;\\(\\lim_{x \\rightarrow R^-} \\sum_{n = 0}^{+ \\infty} a_n x^n = \\sum_{n = 0}^{+ \\infty} a_n R^n\\)<br>(la convergence en R ou -R implique la continuité de la somme de la série entière en ce point)"
+                    ],
+                    "guid": "Q{Y1<_VV>j",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Les dérivées d'une fonction somme d'une série entière d'une variable réelle s'obtiennent...",
+                        "en dérivant terme à terme"
+                    ],
+                    "guid": "E^Po/#-6~;",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Effet de la dérivation et de l'intégration sur le rayon de convergence",
+                        "y'en a pas lol"
+                    ],
+                    "guid": "p9#e2@v0P6",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Expression de la série de Taylor de f",
+                        "Si f est de classe&nbsp;\\(\\mathcal C^\\infty\\)&nbsp;au voisinage de 0 :&nbsp;\\(\\sum\\dfrac{f^{(n)}(0)}{n!}x^n\\)"
+                    ],
+                    "guid": "w(QJp/DER=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp;\\(x \\mapsto e^x\\)",
+                        "\\(e^x = \\sum_{n = 0}^{+ \\infty} \\dfrac{x^n}{n!}\\)<br>\\(R = +\\infty\\)<br>Domaine de validité :&nbsp;\\(\\mathbb R\\)"
+                    ],
+                    "guid": "y>LG;Y%E20",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp; \\(x \\mapsto \\text{ch} x\\)",
+                        "\\(\\text{ch} x = \\sum_{n = 0}^{+\\infty} \\dfrac{x^{2n}}{(2n)!}\\)<br>\\(R = +\\infty\\)<br>Domaine de validité :&nbsp;\\(\\mathbb R\\)"
+                    ],
+                    "guid": "AJcFw^I_0J",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp; \\(x \\mapsto \\text{sh} x\\)",
+                        "\\(\\text{sh}x = \\sum_{n = 0}^{+ \\infty}\\dfrac{x^{2n + 1}}{(2n + 1)!}\\)<br>\\(R = +\\infty\\)<br>Domaine de validité :&nbsp;\\(\\mathbb R\\)"
+                    ],
+                    "guid": "tVG%{.{U7=",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de cos",
+                        "\\(\\cos x = \\sum_{n = 0}^{+ \\infty}(-1)^n \\dfrac{x^{2n}}{(2n)!}\\)<br>\\(R = +\\infty\\)<br>Domaine de validité :&nbsp;\\(\\mathbb R\\)"
+                    ],
+                    "guid": "KtF0#Y^1kg",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de sin",
+                        "\\(\\sin x = \\sum_{n = 0}^{+ \\infty} (-1)^n \\dfrac{x^{2n+1}}{(2n+1)!}\\)<br>\\(R = + \\infty\\)<br>Domaine de validité :&nbsp;\\(\\mathbb R\\)"
+                    ],
+                    "guid": "Qx@HNqH=@|",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp; \\(x \\mapsto (1+x)^\\alpha\\)",
+                        "\\((1 + x)^\\alpha = 1 + \\sum_{n = 1}^{+\\infty}\\dfrac{\\alpha(\\alpha - 1)...(\\alpha - n + 1)}{n!}x^n\\)<br>\\(R = \\left\\{1 \\text{ si } \\alpha \\in \\mathbb R \\backslash \\mathbb N \\atop + \\infty \\text { si } \\alpha \\in \\mathbb N\\right.\\)<br>Domaine de validité :&nbsp;\\(]-1,1[ \\text{ si } \\alpha \\in \\mathbb R \\backslash \\mathbb N \\atop \\mathbb R \\text{ si } \\alpha \\in \\mathbb N\\)"
+                    ],
+                    "guid": "Q/2@Uq2uSD",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp; \\(x \\mapsto \\dfrac{1}{1 + x}\\)",
+                        "\\(\\dfrac{1}{1 + x} = \\sum_{n = 0}^{+ \\infty} (-1)^n x^n\\)<br>\\(R = 1\\)<br>Domaine de validité :&nbsp;\\(]-1,1[\\)"
+                    ],
+                    "guid": "oT%^zZ8gm_",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp; \\(x \\mapsto \\dfrac{1}{1-x}\\)",
+                        "\\(\\dfrac{1}{1 - x} = \\sum_{n = 0}^{+ \\infty}x^n\\)<br>\\(R = 1\\)<br>Domaine de validité :&nbsp;\\(]-1,1[\\)"
+                    ],
+                    "guid": "k&Zszb][7G",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de&nbsp; \\(x \\mapsto \\ln(1 + x)\\)",
+                        "\\(\\ln (1 + x) = \\sum_{n = 1}^{+ \\infty} \\dfrac{(-1)^{n-1}}{n}x^n\\)<br>\\(R = 1\\)<br>Domaine de validité :&nbsp;\\(]-1,1]\\)"
+                    ],
+                    "guid": "ll~|G)4Kw1",
+                    "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "DSE, rayon de convergence, domaine de validité de Arctan",
+                        "\\(\\arctan x = \\sum_{n = 0}^{+\\infty}(-1)^n \\dfrac{x^{2n + 1}}{2n + 1}\\)<br>\\(R = 1\\)<br>Domaine de validité :&nbsp;\\([-1,1]\\)"
+                    ],
+                    "guid": "F#,9G.4BI-",
                     "note_model_uuid": "12ec7e48-251e-11f0-93e7-00163ec6fa00",
                     "tags": []
                 }
